@@ -1,0 +1,1651 @@
+{
+    "aca-fmt/2": {
+        "name": "Microsoft Word Markup",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "aca-fmt/3": {
+        "name": "Microsoft Excel Markup",
+        "master_converter": "copy",
+        "master_format": [
+            null
+        ]
+    },
+    
+    "fmt/3": {
+        "name": "Graphics Interchange Format 87a",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/4": {
+        "name": "Graphics Interchange Format 89a",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/5": {
+        "name": "Audio/Video Interleaved Format",
+        "master_converter": "video",
+        "master_format": [
+            "mp4"
+        ]
+    },
+    
+    "fmt/11": {
+        "name": "Portable Network Graphics 1.0",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/12": {
+        "name": "Portable Network Graphics 1.1",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ]
+    },
+
+    "fmt/13": {
+        "name": "Portable Network Graphics 1.2",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/14": {
+        "name": "Acrobat PDF 1.0 - Portable Document Format",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/15": {
+        "name": "Acrobat PDF 1.1 - Portable Document Format",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/16": {
+        "name": "Acrobat PDF 1.2 - Portable Document Format",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/17": {
+        "name": "Acrobat PDF 1.3 - Portable Document Format",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/18": {
+        "name": "Acrobat PDF 1.4 - Portable Document Format",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/19": {
+        "name": "Acrobat PDF 1.5 - Portable Document Format",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/20": {
+        "name": "Acrobat PDF 1.6 - Portable Document Format",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/36": {
+        "name": "AutoCAD Drawing 2004-2005",
+        "master_converter": "cad",
+        "master_format": [
+            "dwg",
+            "pdf"
+        ]
+    },
+    
+    "fmt/37": {
+        "name": "Microsoft Word for Windows Document 1.0",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ]
+    },
+    
+    "fmt/38": {
+        "name": "Microsoft Word for Windows Document 2.0",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ]
+    },
+    
+    "fmt/39": {
+        "name": "Microsoft Word Document 95",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ]
+    },
+    
+    "fmt/40": {
+        "name": "Microsoft Word Document 97-2003",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ]
+    },
+    
+    "fmt/41": {
+        "name": "Raw JPEG Stream",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/42": {
+        "name": "JPEG File Interchange Format 1.00",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/43": {
+        "name": "JPEG File Interchange Format 1.01",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/44": {
+        "name": "JPEG File Interchange Format 1.02",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/45": {
+        "name": "Rich Text Format 1.0-1.4",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "fmt/50": {
+        "name": "Rich Text Format 1.5-1.6",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "fmt/52": {
+        "name": "Rich Text Format 1.7",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "fmt/53": {
+        "name": "Rich Text Format 1.8",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ],
+        "statutory_converter": null,
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/55": {
+        "name": "Microsoft Excel 2.x Worksheet (xls)",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/56": {
+        "name": "Microsoft Excel 3.0 Worksheet (xls)",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/57": {
+        "name": "Microsoft Excel 4.0 Worksheet (xls) 4S",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/58": {
+        "name": "Microsoft Excel 4.0 Workbook (xls) 4W",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/59": {
+        "name": "Microsoft Excel 5.0/95 Workbook (xls)",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/61": {
+        "name": "Microsoft Excel 97 Workbook (xls) 8",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/81": {
+        "name": "Drawing Interchange File Format (Binary) R11/12",
+        "master_converter": "cad",
+        "master_format": [
+            "dxf",
+            "pdf"
+        ]
+    },
+    
+    "fmt/90": {
+        "name": "PCX 5",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/95": {
+        "name": "Acrobat PDF/A - Portable Document Format 1a",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/96": {
+        "name": "Hypertext Markup Language",
+        "master_converter": "browser",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/98": {
+        "name": "Hypertext Markup Language 3.2",
+        "master_converter": "browser",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/99": {
+        "name": "Hypertext Markup Language 4.0",
+        "master_converter": "browser",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/100": {
+        "name": "Hypertext Markup Language 4.01",
+        "master_converter": "browser",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/101": {
+        "name": "Extensible Markup Language 1.0",
+        "master_converter": "copy",
+        "master_format": [
+            "xml"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/102": {
+        "name": "Extensible Hypertext Markup Language 1.0",
+        "master_converter": "browser",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/111": {
+        "name": "OLE2 Compound Document Format",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/115": {
+        "name": "Windows Bitmap 2.0",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/116": {
+        "name": "Windows Bitmap 3.0",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/117": {
+        "name": "Windows Bitmap 3.0 NT",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/122": {
+        "name": "Encapsulated PostScript File Format 1.2",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ]
+    },
+    
+    "fmt/124": {
+        "name": "Encapsulated PostScript File Format 3",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ]
+    },
+    
+    "fmt/125": {
+        "name": "Microsoft Powerpoint Presentation 95",
+        "master_converter": "libre",
+        "master_format": [
+            "odp",
+            "pdf"
+        ]
+    },
+    
+    "fmt/126": {
+        "name": "Microsoft Powerpoint Presentation 97-2003",
+        "master_converter": "libre",
+        "master_format": [
+            "odp",
+            "pdf"
+        ]
+    },
+    
+    "fmt/132": {
+        "name": "Windows Media Audio",
+        "master_converter": "video",
+        "master_format": [
+            "mp4"
+        ]
+    },
+    
+    "fmt/133": {
+        "name": "Windows Media Video",
+        "master_converter": "video",
+        "master_format": [
+            "mp4"
+        ]
+    },
+    
+    "fmt/134": {
+        "name": "MPEG 1/2 Audio Layer 3",
+        "master_converter": "audio",
+        "master_format": [
+            "flac"
+        ]
+    },
+    
+    "fmt/136": {
+        "name": "OpenDocument Text 1.0",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ],
+        "statutory_converter": null,
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/137": {
+        "name": "OpenDocument Spreadsheet 1.0",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/141": {
+        "name": "Waveform Audio (PCMWAVEFORMAT)",
+        "master_converter": "audio",
+        "master_format": [
+            "flac"
+        ]
+    },
+    
+    "fmt/142": {
+        "name": "Waveform Audio (WAVEFORMATEX)",
+        "master_converter": "audio",
+        "master_format": [
+            "flac"
+        ]
+    },
+    
+    "fmt/146": {
+        "name": "Acrobat PDF/X - Portable Document Format - Exchange 1a:2003",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/157": {
+        "name": "Acrobat PDF/X - Portable Document Format - Exchange 1a:2001",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/158": {
+        "name": "Acrobat PDF/X - Portable Document Format - Exchange 3:2002",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/163": {
+        "name": "Microsoft Works Word Processor 1-3 for DOS and 2 for Windows",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "fmt/199": {
+        "name": "MPEG-4 Media File",
+        "master_converter": "video",
+        "master_format": [
+            "mp4"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "mp4"
+        ]
+    },
+    
+    "fmt/206": {
+        "name": "Structured Query Language Data",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/212": {
+        "name": "Information or Setup File",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/214": {
+        "name": "Microsoft Excel for Windows 2007 onwards",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/215": {
+        "name": "Microsoft Powerpoint for Windows 2007 onwards",
+        "master_converter": "libre",
+        "master_format": [
+            "odp",
+            "pdf"
+        ]
+    },
+    
+    "fmt/233": {
+        "name": "Microsoft Works Word Processor 3-4 for Windows",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "fmt/258": {
+        "name": "Microsoft Works Word Processor 5-6",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "fmt/276": {
+        "name": "Acrobat PDF 1.7 - Portable Document Format 1.7",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+
+    "fmt/279": {
+        "name": "FLAC (Free Lossless Audio Codec)",
+        "master_converter": "audio",
+        "master_format": [
+            "flac"
+        ],
+        "statutory_converter": "audio",
+        "statutory_format": [
+            "mp3"
+        ]
+    },
+
+    "fmt/290": {
+        "name": "OpenDocument Text 1.1",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ],
+        "statutory_converter": null,
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/291": {
+        "name": "OpenDocument Text 1.2",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ],
+        "statutory_converter": null,
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/292":{
+        "name": "OpenDocument Presentation 1.1",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ],
+        "statutory_converter": null,
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/294": {
+        "name": "OpenDocument Spreadsheet 1.1",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/295": {
+        "name": "OpenDocument Spreadsheet 1.2",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+
+    "fmt/296": {
+        "name": "OpenDocument Graphics",
+        "master_converter": "libre",
+        "master_format": [
+            "svg",
+            "pdf"
+        ]
+    },
+    
+    "fmt/297": {
+        "name": "OpenDocument Graphics",
+        "master_converter": "libre",
+        "master_format": [
+            "svg",
+            "pdf"
+        ]
+    },
+    
+    "fmt/345": {
+        "name": "Microsoft Windows Enhanced Metafile 3.0",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/353": {
+        "name": "Tagged Image File Format",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/354": {
+        "name": "Acrobat PDF/A - Portable Document Format 1b",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/355": {
+        "name": "Rich Text Format 1.9",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "fmt/356": {
+        "name": "Adaptive Multi-Rate Audio",
+        "master_converter": "audio",
+        "master_format": [
+            "flac"
+        ]
+    },
+    
+    "fmt/357": {
+        "name": "3GPP Audio/Video File",
+        "master_converter": "video",
+        "master_format": [
+            "mp4"
+        ]
+    },
+    
+    "fmt/388": {
+        "name": "Internet Calendar and Scheduling format",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/412": {
+        "name": "Microsoft Word for Windows 2007 onwards",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "fmt/414": {
+        "name": "Audio Interchange File Format",
+        "master_converter": "audio",
+        "master_format": [
+            "flac"
+        ]
+    },
+    
+    "fmt/422": {
+        "name": "Adobe Illustrator 6.0",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/428": {
+        "name": "CorelDraw Drawing",
+        "master_converter": "libre",
+        "master_format": [
+            "svg",
+            "pdf"
+        ]
+    },
+    
+    "fmt/440": {
+        "name": "Microsoft Project 2007",
+        "master_converter": "project",
+        "master_format": [
+            "xml"
+        ]
+    },
+    
+    "fmt/442": {
+        "name": "Microsoft Visio (generic)",
+        "master_converter": "libre",
+        "master_format": [
+            "svg",
+            "pdf"
+        ]
+    },
+    
+    "fmt/443": {
+        "name": "Microsoft Visio Drawing 2003-2010",
+        "master_converter": "libre",
+        "master_format": [
+            "svg",
+            "pdf"
+        ]
+    },
+    
+    "fmt/445": {
+        "name": "Microsoft Excel Macro-Enabled 2007",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/471": {
+        "name": "Hypertext Markup Language 5",
+        "master_converter": "browser",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/476": {
+        "name": "Acrobat PDF/A - Portable Document Format 2a",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/477": {
+        "name": "Acrobat PDF/A - Portable Document Format",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/480": {
+        "name": "Acrobat PDF/A - Portable Document Format 3b",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/487": {
+        "name": "Macro Enabled Microsoft Powerpoint 2007 Onwards",
+        "master_converter": "libre",
+        "master_format": [
+            "odp",
+            "pdf"
+        ]
+    },
+    
+    "fmt/488": {
+        "name": "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/493": {
+        "name": "Acrobat PDF/E - Portable Document Format for Engineering PDF/E-1",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/523": {
+        "name": "Macro enabled Microsoft Word Document OOXML 2007 Onwards",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "fmt/557": {
+        "name": "Adobe Illustrator 8.0",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/558": {
+        "name": "Adobe Illustrator 9.0",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/559": {
+        "name": "Adobe Illustrator 10.0",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/560": {
+        "name": "Adobe Illustrator 11.0",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/561": {
+        "name": "Adobe Illustrator 12.0",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/562": {
+        "name": "Adobe Illustrator 13.0",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/563": {
+        "name": "Adobe Illustrator 14.0",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/564": {
+        "name": "Adobe Illustrator 15.0",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/583": {
+        "name": "Vector Markup Language",
+        "master_converter": "browser",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": null,
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/584": {
+        "name": "Windows Media Metafile",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/595": {
+        "name": "Microsoft Excel Non-XML Binary Workbook 2007 onwards",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/597": {
+        "name": "Microsoft Word Template 2007 onwards",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "fmt/598": {
+        "name": "Microsoft Excel Template 2007 onwards",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/609": {
+        "name": "Microsoft Word (Generic) 6.0-2003",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "fmt/629": {
+        "name": "Microsoft PowerPoint Show 2007",
+        "master_converter": "libre",
+        "master_format": [
+            "odp",
+            "pdf"
+        ]
+    },
+    
+    "fmt/631": {
+        "name": "Microsoft PowerPoint Template 2007",
+        "master_converter": "libre",
+        "master_format": [
+            "odp",
+            "pdf"
+        ]
+    },
+    
+    "fmt/645": {
+        "name": "Exchangeable Image File Format (Compressed) 2.2.1",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/670": {
+        "name": "PKCS #7 Crytographic Message File",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/725": {
+        "name": "Microsoft Project 2010",
+        "master_converter": "project",
+        "master_format": [
+            "xml"
+        ]
+    },
+    
+    "fmt/744": {
+        "name": "ClarisWorks/AppleWorks Word Processor 5",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "fmt/881": {
+        "name": "Microsoft Document Imaging File Format",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/901": {
+        "name": "Microsoft Works Spreadsheet 6-9",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "fmt/950": {
+        "name": "MIME Email 1.0",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/1047": {
+        "name": "Geography Markup Language",
+        "master_converter": null,
+        "master_format": null,
+        "statutory_converter": "copy",
+        "statutory_format": "GML3"
+    },
+    
+    "fmt/1089": {
+        "name": "VBScript (VBS) File",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/1369": {
+        "name": "Error File",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "fmt/1439": {
+        "name": "Apple iWork Pages 09",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "x-fmt/13": {
+        "name": "Tab-separated values",
+        "master_converter": "gis",
+        "master_format": [
+            "GML3"
+        ]
+    },
+    
+    "x-fmt/17": {
+        "name": "Microsoft Excel Template 97-2003",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    
+    "x-fmt/18": {
+        "name": "Comma Separated Values",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/44": {
+        "name": "WordPerfect for MS-DOS/Windows Document 6.0",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "x-fmt/45": {
+        "name": "Microsoft Word Document Template 97-2003",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "x-fmt/49": {
+        "name": "AutoCAD Design Web Format 6.0",
+        "master_converter": "cad",
+        "master_format": [
+            "pdf"
+        ]
+    },
+    
+    "x-fmt/62": {
+        "name": "Log File",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/64": {
+        "name": "Microsoft Word for Macintosh Document",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "x-fmt/90": {
+        "name": "Microsoft Print File",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/111": {
+        "name": "Plain Text File",
+        "master_converter": "copy",
+        "master_format": [
+            "txt"
+        ],
+        "statutory_converter": "text",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+
+    "x-fmt/119": {
+        "name": "Windows Metafile Image",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/224": {
+        "name": "Cascading Style Sheet",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/231": {
+        "name": "ESRI MapInfo Export File",
+        "master_converter": "gis",
+        "master_format": [
+            "GML3"
+        ]
+    },
+    
+    "x-fmt/235": {
+        "name": "ESRI Arc/View ShapeFile",
+        "master_converter": "gis",
+        "master_format": [
+            "GML3"
+        ]
+    },
+    
+    "x-fmt/245": {
+        "name": "Microsoft Project 98",
+        "master_converter": "project",
+        "master_format": [
+            "xml"
+        ]
+    },
+    
+    "x-fmt/247": {
+        "name": "Microsoft Project 2000-2003",
+        "master_converter": "project",
+        "master_format": [
+            "xml"
+        ]
+    },
+    
+    "x-fmt/257": {
+        "name": "Microsoft Publisher 2002",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ]
+    },
+    
+    "x-fmt/258": {
+        "name": "Microsoft Visio Drawing 2000",
+        "master_converter": "libre",
+        "master_format": [
+            "svg",
+            "pdf"
+        ]
+    },
+    
+    "x-fmt/315": {
+        "name": "Document Type Definition",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/375": {
+        "name": "CorelDraw Drawing",
+        "master_converter": "libre",
+        "master_format": [
+            "svg",
+            "pdf"
+        ]
+    },
+    
+    "x-fmt/384": {
+        "name": "Quicktime",
+        "master_converter": "video",
+        "master_format": [
+            "mp4"
+        ]
+    },
+    
+    "x-fmt/385": {
+        "name": "MPEG-1 Program Stream",
+        "master_converter": "video",
+        "master_format": [
+            "mp4"
+        ]
+    },
+    
+    "x-fmt/386": {
+        "name": "MPEG-2 Program Stream",
+        "master_converter": "video",
+        "master_format": [
+            "mp4"
+        ]
+    },
+    
+    "x-fmt/388": {
+        "name": "Exchangeable Image File Format (Uncompressed) 2.1",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/390": {
+        "name": "Exchangeable Image File Format (Compressed) 2.1",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/391": {
+        "name": "Exchangeable Image File Format (Compressed) 2.2",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/392": {
+        "name": "JP2 (JPEG 2000 part 1)",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/394": {
+        "name": "WordPerfect for MS-DOS/Windows Document 5.1",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
+    
+    "x-fmt/398": {
+        "name": "Exchangeable Image File Format (Compressed) 2.0",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/413": {
+        "name": "Batch file (executable)",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/421": {
+        "name": "Text Configuration file",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/426": {
+        "name": "License file",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tiff"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+    
+    "x-fmt/429": {
+        "name": "MHTML",
+        "master_converter": "browser",
+        "master_format": [
+            "pdf"
+        ]
+    }
+}
