@@ -1,14 +1,14 @@
 {
     "aca-fmt/1": {
-        "name": "ods",
+        "name": "ods"
     },
     "fmt/340": {
-        "name": "odt",
+        "name": "odt"
     },
     "fmt/1216": {
-        "name": "odp",
+        "name": "odp"
     },
     "x-fmt/340": {
-        "name": "odt",
+        "name": "odt"
     }
 }
