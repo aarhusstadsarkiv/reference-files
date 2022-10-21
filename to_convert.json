@@ -1317,7 +1317,25 @@
             "pdf"
         ]
     },
-    
+
+    "fmt/1452": {
+        "name": "Lotus 1-2-3 Worksheet (97)",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+
+    "fmt/1453": {
+        "name": "Lotus 1-2-3 Worksheet (9.8 Millennium)",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+
     "x-fmt/13": {
         "name": "Tab-separated values",
         "master_converter": "gis",
