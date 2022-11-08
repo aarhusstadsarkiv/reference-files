@@ -1,4 +1,13 @@
 {
+    "aca-fmt/1": {
+        "name": "Lotus 1-2-3 Worksheet",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+
     "aca-fmt/2": {
         "name": "Microsoft Word Markup",
         "master_converter": "libre",
@@ -10,9 +19,10 @@
     
     "aca-fmt/3": {
         "name": "Microsoft Excel Markup",
-        "master_converter": "copy",
+        "master_converter": "libre",
         "master_format": [
-            null
+            "odt",
+            "pdf"
         ]
     },
     
@@ -147,7 +157,52 @@
             "tiff"
         ]
     },
+
+    "fmt/31": {
+        "name": "AutoCAD Drawing R10",
+        "master_converter": "cad",
+        "master_format": [
+            "dwg",
+            "pdf"
+        ]
+    },
     
+    "fmt/32": {
+        "name": "AutoCAD Drawing R11/12",
+        "master_converter": "cad",
+        "master_format": [
+            "dwg",
+            "pdf"
+        ]
+    },
+    
+    "fmt/33": {
+        "name": "AutoCAD Drawing R13",
+        "master_converter": "cad",
+        "master_format": [
+            "dwg",
+            "pdf"
+        ]
+    },
+    
+    "fmt/34": {
+        "name": "AutoCAD Drawing R14",
+        "master_converter": "cad",
+        "master_format": [
+            "dwg",
+            "pdf"
+        ]
+    },
+    
+    "fmt/35": {
+        "name": "AutoCAD Drawing 2000-2002",
+        "master_converter": "cad",
+        "master_format": [
+            "dwg",
+            "pdf"
+        ]
+    },
+        
     "fmt/36": {
         "name": "AutoCAD Drawing 2004-2005",
         "master_converter": "cad",
@@ -270,10 +325,6 @@
         "master_format": [
             "odt",
             "pdf"
-        ],
-        "statutory_converter": null,
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -327,6 +378,69 @@
         "master_converter": "libre",
         "master_format": [
             "ods",
+            "pdf"
+        ]
+    },
+
+    "fmt/63": {
+        "name": "Drawing Interchange File Format (ASCII) Generic",
+        "master_converter": "cad",
+        "master_format": [
+            "dxf",
+            "pdf"
+        ]
+    },
+    
+    "fmt/72": {
+        "name": "Drawing Interchange File Format (ASCII) 2.6",
+        "master_converter": "cad",
+        "master_format": [
+            "dxf",
+            "pdf"
+        ]
+    },
+    
+    "fmt/74": {
+        "name": "Drawing Interchange File Format (ASCII) R10",
+        "master_converter": "cad",
+        "master_format": [
+            "dxf",
+            "pdf"
+        ]
+    },
+    
+    "fmt/75": {
+        "name": "Drawing Interchange File Format (ASCII) R11/12",
+        "master_converter": "cad",
+        "master_format": [
+            "dxf",
+            "pdf"
+        ]
+    },
+    
+    "fmt/77": {
+        "name": "Drawing Interchange File Format (ASCII) R14",
+        "master_converter": "cad",
+        "master_format": [
+            "dxf",
+            "pdf"
+        ]
+    },
+    
+    "fmt/78": {
+        "name": "Drawing Interchange File Format (ASCII) 2000-2002",
+        "master_converter": "cad",
+        "master_format": [
+            "dxf",
+            "pdf"
+        ]
+    },
+    
+    "fmt/79": {
+        "name": "Drawing Interchange File Format (ASCII) 2004/2005/2006",
+        "master_converter": "cad",
+        "master_format": [
+            "dxf",
             "pdf"
         ]
     },
@@ -545,10 +659,6 @@
         "master_format": [
             "odt",
             "pdf"
-        ],
-        "statutory_converter": null,
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -588,7 +698,15 @@
             "tiff"
         ]
     },
-    
+
+    "fmt/155": {
+        "name": "Geographic Tagged Image File Format (GeoTIFF)",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ]
+    },
+        
     "fmt/157": {
         "name": "Acrobat PDF/X - Portable Document Format - Exchange 1a:2001",
         "master_converter": "pdf",
@@ -724,10 +842,6 @@
         "master_format": [
             "odt",
             "pdf"
-        ],
-        "statutory_converter": null,
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -737,10 +851,6 @@
         "master_format": [
             "odt",
             "pdf"
-        ],
-        "statutory_converter": null,
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -750,10 +860,6 @@
         "master_format": [
             "odt",
             "pdf"
-        ],
-        "statutory_converter": null,
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -903,6 +1009,24 @@
             "pdf"
         ]
     },
+
+    "fmt/433": {
+        "name": "Drawing Interchange File Format (ASCII) 2007/2008/2009",
+        "master_converter": "cad",
+        "master_format": [
+            "dxf",
+            "pdf"
+        ]
+    },
+    
+    "fmt/434": {
+        "name": "AutoCAD Drawing 2010/2011/2012",
+        "master_converter": "cad",
+        "master_format": [
+            "dwg",
+            "pdf"
+        ]
+    },
     
     "fmt/440": {
         "name": "Microsoft Project 2007",
@@ -1028,6 +1152,15 @@
             "pdf"
         ]
     },
+
+    "fmt/531": {
+        "name": "AutoCAD Drawing 2013/2014",
+        "master_converter": "cad",
+        "master_format": [
+            "dwg",
+            "pdf"
+        ]
+    },
     
     "fmt/557": {
         "name": "Adobe Illustrator 8.0",
@@ -1130,10 +1263,6 @@
         "master_converter": "browser",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": null,
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -1244,7 +1373,16 @@
         ]
     },
     
-    "fmt/881": {
+    "fmt/817": {
+        "name": "JSON Data Interchange Format",
+        "master_converter": "copy",
+        "statutory_converter": "plaintext",
+        "statutory_format": [
+            "tiff"
+        ]
+    },
+        
+	"fmt/881": {
         "name": "Microsoft Document Imaging File Format",
         "master_converter": "image",
         "master_format": [
@@ -1270,43 +1408,13 @@
         "master_converter": "plaintext",
         "master_format": [
             "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
     "fmt/1047": {
         "name": "Geography Markup Language",
-        "master_converter": null,
-        "master_format": null,
-        "statutory_converter": "copy",
-        "statutory_format": "GML3"
-    },
-    
-    "fmt/1089": {
-        "name": "VBScript (VBS) File",
-        "master_converter": "plaintext",
-        "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
-        ]
-    },
-    
-    "fmt/1369": {
-        "name": "Error File",
-        "master_converter": "plaintext",
-        "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
-        ]
+        "master_converter": "copy",
+        "statutory_converter": "copy"
     },
     
     "fmt/1439": {
@@ -1317,8 +1425,16 @@
             "pdf"
         ]
     },
-
-    "fmt/1452": {
+    
+    "fmt/1451": {
+        "name": "PDF Portfolio 1.7",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ]
+    },
+    	
+	"fmt/1452": {
         "name": "Lotus 1-2-3 Worksheet (97)",
         "master_converter": "libre",
         "master_format": [
@@ -1326,17 +1442,25 @@
             "pdf"
         ]
     },
-
-    "fmt/1453": {
+  
+	"fmt/1453": {
         "name": "Lotus 1-2-3 Worksheet (9.8 Millennium)",
         "master_converter": "libre",
         "master_format": [
             "ods",
             "pdf"
         ]
+    },    
+  
+  "fmt/1507": {
+        "name": "Exchangeable Image File Format (Compressed) 2.3.x",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ]
     },
-
-    "x-fmt/13": {
+	
+	"x-fmt/13": {
         "name": "Tab-separated values",
         "master_converter": "gis",
         "master_format": [
@@ -1423,6 +1547,15 @@
             "tiff"
         ]
     },
+
+    "x-fmt/92": {
+        "name": "Adobe Photoshop",
+        "master_converter": "libre",
+        "master_format": [
+            "svg",
+		    "pdf"
+        ]
+    },
     
     "x-fmt/111": {
         "name": "Plain Text File",
@@ -1447,6 +1580,15 @@
             "tiff"
         ]
     },
+
+    "xfmt/157": {
+        "name": "Microsoft Windows Enhanced Metafile 1.0",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
+        ]
+    },
+      
     
     "x-fmt/224": {
         "name": "Cascading Style Sheet",
@@ -1529,6 +1671,14 @@
             "pdf"
         ]
     },
+
+    "x-fmt/382": {
+        "name": "Macromedia FLV 1",
+        "master_converter": "video",
+        "master_format": [
+            "mp4"
+        ]
+    },
     
     "x-fmt/384": {
         "name": "Quicktime",
@@ -1551,6 +1701,14 @@
         "master_converter": "video",
         "master_format": [
             "mp4"
+        ]
+    },
+
+    "x-fmt/387": {
+        "name": "Exchangeable Image File Format (Uncompressed) 2.2",
+        "master_converter": "image",
+        "master_format": [
+            "tiff"
         ]
     },
     
@@ -1665,5 +1823,14 @@
         "master_format": [
             "pdf"
         ]
+    },
+    
+    "x-fmt/455": {
+        "name": "AutoCAD Drawing 2007-2008",
+        "master_converter": "cad",
+        "master_format": [
+            "dwg",
+            "pdf"
+        ]
     }
-}
+}    
