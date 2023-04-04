@@ -37,6 +37,12 @@
         "extensions": "id",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/212": {
+        "name": "Information or Setup File",
+        "description": "unknown",
+        "extensions": "unknown",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/331": {
         "name": "Autorun Configuration File",
         "description": "A Windows file usually found on CDs or DVDs or Blurays, telling the OS what executable to run when the disc is played",
@@ -241,10 +247,22 @@
         "extensions": "jar",
         "reasoning": "Not preservation-worthy"
     },
+    "x-fmt/413": {
+        "name": "Batch file (executable)",
+        "description": "An executable non-binary .bat-file",
+        "extensions": "bat",
+        "reasoning": "Not preservation-worthy"
+    },
     "x-fmt/415": {
         "name": "Java Compiled Object Code",
         "description": "Java byte code - not human readable",
         "extensions": "class",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/421": {
+        "name": "Text Configuration file",
+        "description": "A text config file",
+        "extensions": "unknown",
         "reasoning": "Not preservation-worthy"
     },
     "x-fmt/428": {

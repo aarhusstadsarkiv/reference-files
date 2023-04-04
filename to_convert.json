@@ -30,7 +30,7 @@
         "name": "Graphics Interchange Format 87a",
         "master_converter": "image",
         "master_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -38,7 +38,7 @@
         "name": "Graphics Interchange Format 89a",
         "master_converter": "image",
         "master_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -54,7 +54,7 @@
         "name": "Portable Network Graphics 1.0",
         "master_converter": "image",
         "master_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -62,7 +62,7 @@
         "name": "Portable Network Graphics 1.1",
         "master_converter": "image",
         "master_format": [
-            "tiff"
+            "tif"
         ]
     },
 
@@ -70,7 +70,7 @@
         "name": "Portable Network Graphics 1.2",
         "master_converter": "image",
         "master_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -82,7 +82,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -94,7 +94,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -106,7 +106,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -118,7 +118,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -130,7 +130,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -142,7 +142,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -154,7 +154,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
 
@@ -248,11 +248,7 @@
         "name": "Raw JPEG Stream",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -260,11 +256,7 @@
         "name": "JPEG File Interchange Format 1.00",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -272,11 +264,7 @@
         "name": "JPEG File Interchange Format 1.01",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -284,11 +272,7 @@
         "name": "JPEG File Interchange Format 1.02",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -296,7 +280,6 @@
         "name": "Rich Text Format 1.0-1.4",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -305,7 +288,6 @@
         "name": "Rich Text Format 1.5-1.6",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -314,7 +296,6 @@
         "name": "Rich Text Format 1.7",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -323,7 +304,6 @@
         "name": "Rich Text Format 1.8",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -458,11 +438,7 @@
         "name": "PCX 5",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -474,7 +450,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -483,10 +459,6 @@
         "master_converter": "browser",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -495,10 +467,6 @@
         "master_converter": "browser",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -507,10 +475,6 @@
         "master_converter": "browser",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -519,22 +483,15 @@
         "master_converter": "browser",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
     "fmt/101": {
         "name": "Extensible Markup Language 1.0",
         "master_converter": "copy",
-        "master_format": [
-            "xml"
-        ],
-        "statutory_converter": "copy",
+        "statutory_converter": "text",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -544,10 +501,7 @@
         "master_format": [
             "pdf"
         ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
-        ]
+        "statutory_converter": "copy"
     },
     
     "fmt/111": {
@@ -563,11 +517,7 @@
         "name": "Windows Bitmap 2.0",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -575,11 +525,7 @@
         "name": "Windows Bitmap 3.0",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -587,11 +533,7 @@
         "name": "Windows Bitmap 3.0 NT",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -631,9 +573,9 @@
     
     "fmt/132": {
         "name": "Windows Media Audio",
-        "master_converter": "video",
+        "master_converter": "audio",
         "master_format": [
-            "mp4"
+            "flac"
         ]
     },
     
@@ -657,7 +599,6 @@
         "name": "OpenDocument Text 1.0",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -695,7 +636,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
 
@@ -703,7 +644,7 @@
         "name": "Geographic Tagged Image File Format (GeoTIFF)",
         "master_converter": "image",
         "master_format": [
-            "tiff"
+            "tif"
         ]
     },
         
@@ -715,7 +656,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -727,7 +668,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -735,7 +676,6 @@
         "name": "Microsoft Works Word Processor 1-3 for DOS and 2 for Windows",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -746,33 +686,15 @@
         "master_format": [
             "mp4"
         ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "mp4"
-        ]
+        "statutory_converter": "copy"
     },
     
     "fmt/206": {
         "name": "Structured Query Language Data",
-        "master_converter": "plaintext",
-        "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
+        "master_converter": "copy",
+        "statutory_converter": "text",
         "statutory_format": [
-            "tiff"
-        ]
-    },
-    
-    "fmt/212": {
-        "name": "Information or Setup File",
-        "master_converter": "plaintext",
-        "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -798,7 +720,6 @@
         "name": "Microsoft Works Word Processor 3-4 for Windows",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -807,7 +728,6 @@
         "name": "Microsoft Works Word Processor 5-6",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -820,7 +740,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
 
@@ -849,7 +769,6 @@
         "name": "OpenDocument Text 1.2",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -903,11 +822,7 @@
         "name": "Microsoft Windows Enhanced Metafile 3.0",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -915,11 +830,11 @@
         "name": "Tagged Image File Format",
         "master_converter": "image",
         "master_format": [
-            "tiff"
+            "tif"
         ],
         "statutory_converter": "copy",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -931,7 +846,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -939,7 +854,6 @@
         "name": "Rich Text Format 1.9",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -962,13 +876,9 @@
     
     "fmt/388": {
         "name": "Internet Calendar and Scheduling format",
-        "master_converter": "plaintext",
+        "master_converter": "text",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -976,7 +886,6 @@
         "name": "Microsoft Word for Windows 2007 onwards",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -994,10 +903,6 @@
         "master_converter": "pdf",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "gs",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -1068,10 +973,6 @@
         "master_converter": "browser",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -1083,7 +984,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1095,7 +996,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1107,7 +1008,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1128,7 +1029,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1140,7 +1041,7 @@
         ],
         "statutory_converter": "gs",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1148,7 +1049,6 @@
         "name": "Macro enabled Microsoft Word Document OOXML 2007 Onwards",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -1167,10 +1067,6 @@
         "master_converter": "pdf",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "gs",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -1179,10 +1075,6 @@
         "master_converter": "pdf",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "gs",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -1191,10 +1083,6 @@
         "master_converter": "pdf",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "gs",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -1203,10 +1091,6 @@
         "master_converter": "pdf",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "gs",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -1215,10 +1099,6 @@
         "master_converter": "pdf",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "gs",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -1227,10 +1107,6 @@
         "master_converter": "pdf",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "gs",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -1239,10 +1115,6 @@
         "master_converter": "pdf",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "gs",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -1251,10 +1123,6 @@
         "master_converter": "pdf",
         "master_format": [
             "pdf"
-        ],
-        "statutory_converter": "gs",
-        "statutory_format": [
-            "tiff"
         ]
     },
     
@@ -1268,13 +1136,9 @@
     
     "fmt/584": {
         "name": "Windows Media Metafile",
-        "master_converter": "plaintext",
+        "master_converter": "text",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1291,7 +1155,6 @@
         "name": "Microsoft Word Template 2007 onwards",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -1309,7 +1172,6 @@
         "name": "Microsoft Word (Generic) 6.0-2003",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -1336,23 +1198,15 @@
         "name": "Exchangeable Image File Format (Compressed) 2.2.1",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
     "fmt/670": {
         "name": "PKCS #7 Crytographic Message File",
-        "master_converter": "plaintext",
+        "master_converter": "text",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1368,7 +1222,6 @@
         "name": "ClarisWorks/AppleWorks Word Processor 5",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -1376,9 +1229,9 @@
     "fmt/817": {
         "name": "JSON Data Interchange Format",
         "master_converter": "copy",
-        "statutory_converter": "plaintext",
+        "statutory_converter": "text",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
         
@@ -1386,11 +1239,7 @@
         "name": "Microsoft Document Imaging File Format",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1405,15 +1254,18 @@
     
     "fmt/950": {
         "name": "MIME Email 1.0",
-        "master_converter": "plaintext",
+        "master_converter": "text",
         "master_format": [
-            "tiff"
+            "tif"
         ]
     },
     
     "fmt/1047": {
         "name": "Geography Markup Language",
-        "master_converter": "copy",
+        "master_converter": "gis",
+        "master_format": [
+            "gml3"
+        ],
         "statutory_converter": "copy"
     },
     
@@ -1431,6 +1283,10 @@
         "master_converter": "pdf",
         "master_format": [
             "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tif"
         ]
     },
     	
@@ -1456,15 +1312,16 @@
         "name": "Exchangeable Image File Format (Compressed) 2.3.x",
         "master_converter": "image",
         "master_format": [
-            "tiff"
+            "tif"
         ]
     },
 	
 	"x-fmt/13": {
         "name": "Tab-separated values",
-        "master_converter": "gis",
-        "master_format": [
-            "GML3"
+        "master_converter": "copy",
+        "statutory_converter": "text",
+        "statutory_format": [
+            "tif"
         ]
     },
     
@@ -1479,13 +1336,10 @@
     
     "x-fmt/18": {
         "name": "Comma Separated Values",
-        "master_converter": "plaintext",
-        "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
+        "master_converter": "copy",
+        "statutory_converter": "text",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1493,7 +1347,6 @@
         "name": "WordPerfect for MS-DOS/Windows Document 6.0",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -1502,7 +1355,6 @@
         "name": "Microsoft Word Document Template 97-2003",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -1517,13 +1369,10 @@
     
     "x-fmt/62": {
         "name": "Log File",
-        "master_converter": "plaintext",
-        "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
+        "master_converter": "copy",
+        "statutory_converter": "text",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1531,20 +1380,16 @@
         "name": "Microsoft Word for Macintosh Document",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
     
     "x-fmt/90": {
         "name": "Microsoft Print File",
-        "master_converter": "plaintext",
-        "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
+        "master_converter": "copy",
+        "statutory_converter": "text",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
 
@@ -1560,12 +1405,9 @@
     "x-fmt/111": {
         "name": "Plain Text File",
         "master_converter": "copy",
-        "master_format": [
-            "txt"
-        ],
         "statutory_converter": "text",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
 
@@ -1573,11 +1415,7 @@
         "name": "Windows Metafile Image",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
 
@@ -1585,20 +1423,17 @@
         "name": "Microsoft Windows Enhanced Metafile 1.0",
         "master_converter": "image",
         "master_format": [
-            "tiff"
+            "tif"
         ]
     },
       
     
     "x-fmt/224": {
         "name": "Cascading Style Sheet",
-        "master_converter": "plaintext",
-        "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
+        "master_converter": "copy",
+        "statutory_converter": "text",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1653,13 +1488,10 @@
     
     "x-fmt/315": {
         "name": "Document Type Definition",
-        "master_converter": "plaintext",
-        "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
+        "master_converter": "copy",
+        "statutory_converter": "text",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1708,7 +1540,7 @@
         "name": "Exchangeable Image File Format (Uncompressed) 2.2",
         "master_converter": "image",
         "master_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1716,11 +1548,7 @@
         "name": "Exchangeable Image File Format (Uncompressed) 2.1",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1728,11 +1556,7 @@
         "name": "Exchangeable Image File Format (Compressed) 2.1",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1740,11 +1564,7 @@
         "name": "Exchangeable Image File Format (Compressed) 2.2",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1752,11 +1572,7 @@
         "name": "JP2 (JPEG 2000 part 1)",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
@@ -1764,7 +1580,6 @@
         "name": "WordPerfect for MS-DOS/Windows Document 5.1",
         "master_converter": "libre",
         "master_format": [
-            "odt",
             "pdf"
         ]
     },
@@ -1773,47 +1588,16 @@
         "name": "Exchangeable Image File Format (Compressed) 2.0",
         "master_converter": "image",
         "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
-        ]
-    },
-    
-    "x-fmt/413": {
-        "name": "Batch file (executable)",
-        "master_converter": "plaintext",
-        "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
-        ]
-    },
-    
-    "x-fmt/421": {
-        "name": "Text Configuration file",
-        "master_converter": "plaintext",
-        "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
     "x-fmt/426": {
         "name": "License file",
-        "master_converter": "plaintext",
-        "master_format": [
-            "tiff"
-        ],
-        "statutory_converter": "copy",
+        "master_converter": "copy",
+        "statutory_converter": "text",
         "statutory_format": [
-            "tiff"
+            "tif"
         ]
     },
     
