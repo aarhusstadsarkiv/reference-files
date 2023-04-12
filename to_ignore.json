@@ -71,6 +71,12 @@
         "extensions": "msc",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/494": {
+        "name": "Microsoft Office Encrypted Document (2007 Onwards)",
+        "description": "A password protected office document",
+        "extensions": "*",
+        "reasoning":"Password protected"
+    },
     "fmt/500": {
         "name": "Internet Explorer for Mac cache file",
         "description": "An Internet Explorer cache file",
