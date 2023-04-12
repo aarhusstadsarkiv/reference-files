@@ -11,7 +11,6 @@
         "extensions": "*",
         "reasoning": "Not preservation-worthy"
     },
-
     "aca-fmt/4":{
         "name": "MindManager Mind Map",
         "description": "Proprietary mind map file",
@@ -288,7 +287,6 @@
         "extensions": "url",
         "reasoning": "Not preservation-worthy"
     },
-
     "fmt/1369": {
         "name": "Error File",
         "description": "An error log file.",
