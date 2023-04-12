@@ -39,3 +39,6 @@ For example:
 - 'statutory_converter' is only present, if the format is one of those used by `statutory_converter` to convert to the statutory archival formats.
 - 'statutory_format' determines the file format that `statutory_converter` will save to (tif, wav, gml...). It is a list, but for now it only contains one format.
 - It as not always that Ghostscript (`convertool's pdf_converter`) is able to convert the many different pdf formats to PDF/A. But as it converts ALL pdf formats to tif, all pdf-entries contains a `statutory_`-keys that signals to the `statutory_converter` that it should convert the format.
+
+### to_convert_unarchiver.json
+This file is not currently used. Unarchiver keeps its own list of "unarchivable" formats in "constants.py"
