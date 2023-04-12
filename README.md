@@ -2,7 +2,7 @@
 Generic json-files used by more than one repository.
 
 ### to_convert_unarchiver.json
-This file is not currently used. Unarchiver keeps its own list of "unarchivable" formats in "constants.py"
+This file will soon be used. Unarchiver curently keeps its own list of "unarchivable" formats in "constants.py"
 
 ### to_convert.json
 This file lists all Pronom-identified file formats that we can and wish to convert to an archival master format. Each entry has the following structure:

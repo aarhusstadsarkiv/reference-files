@@ -18,7 +18,6 @@
         "extensions": "mmap",
         "reasoning": "Not preservation-worthy"
     },
-
     "aca-fmt/5": {
         "name": "Lotus Notes Template",
         "description": "A database template",

@@ -977,7 +977,7 @@
     },
     
     "fmt/476": {
-        "name": "Acrobat PDF/A - Portable Document Format 2a",
+        "name": "Acrobat PDF/A - Portable Document Format (2a)",
         "master_converter": "pdf",
         "master_format": [
             "pdf"
@@ -999,9 +999,33 @@
             "tif"
         ]
     },
+
+    "fmt/478": {
+        "name": "Acrobat PDF/A - Portable Document Format (2u)",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tif"
+        ]
+    },
+
+    "fmt/479": {
+        "name": "Acrobat PDF/A - Portable Document Format (3a)",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tif"
+        ]
+    },
     
     "fmt/480": {
-        "name": "Acrobat PDF/A - Portable Document Format 3b",
+        "name": "Acrobat PDF/A - Portable Document Format (3b)",
         "master_converter": "pdf",
         "master_format": [
             "pdf"
@@ -1268,7 +1292,19 @@
         ],
         "statutory_converter": "copy"
     },
-    
+
+    "fmt/1129": {
+        "name": "PDF 2.0 - Portable Document Format",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tif"
+        ]
+    },
+
     "fmt/1439": {
         "name": "Apple iWork Pages 09",
         "master_converter": "libre",
