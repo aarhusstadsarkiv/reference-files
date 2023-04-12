@@ -33,7 +33,7 @@ For example:
     ]
 }
 ```
-### Notes
+#### Notes
 - 'master_converter' is the name of the converter that `convertool` should use to convert to the requested 'master_format'.
 - 'master_format' can contain more than one format. This usually happens if `convertool's` `statutory-converter` needs a different format from the primary master format to perform its conversion job.
 - 'statutory_converter' is only present, if the format is one of those used by `statutory_converter` to convert to the statutory archival formats.
