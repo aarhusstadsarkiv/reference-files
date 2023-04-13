@@ -1,8 +1,11 @@
 ## reference files
 Generic json-files used by more than one repository.
 
-### to_convert_unarchiver.json
-This file will soon be used. Unarchiver curently keeps its own list of "unarchivable" formats in "constants.py"
+### to_extract.json
+This file lists all Pronom- and custom-identified file formats that `unarchiver`can extract.
+
+### to_ignore.json
+This file lists all Pronom- and custom-identified file formats that we currently ignore. Usually due to the format not being worthy of preservation.
 
 ### to_convert.json
 This file lists all Pronom-identified file formats that we can and wish to convert to an archival master format. Each entry has the following structure:
