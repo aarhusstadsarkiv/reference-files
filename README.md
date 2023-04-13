@@ -1,6 +1,12 @@
 ## reference files
 Generic json-files used by more than one repository.
 
+### to_reidentify.json
+This file lists all Pronom-identification formats that we regard as misplaced. Usually due to matching on extension only. All files identified as one of these formats, are to reidentified against our own identifiers in custom_signatures.json.
+
+### custom_signatures.json
+This file lists all our own custom-identifiers. These are additions or corrections to the identifiers in the Pronom Registry.
+
 ### to_extract.json
 This file lists all Pronom- and custom-identified file formats that `unarchiver`can extract.
 
