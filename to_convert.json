@@ -1249,6 +1249,16 @@
             "pdf"
         ]
     },
+
+    "fmt/749": {
+        "name": "AppleWorks Word Processor 6",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ],
+        "extensions": "cwk"
+    },
     
     "fmt/817": {
         "name": "JSON Data Interchange Format",
@@ -1257,6 +1267,17 @@
         "statutory_format": [
             "tif"
         ]
+    },
+
+    "fmt/835": {
+        "name": "Quattro Pro Spreadsheet for Windows 6",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ],
+        "extensions": "wb2",
+        "noters": "Problems with encoding"
     },
         
 	"fmt/881": {
@@ -1445,6 +1466,39 @@
         "statutory_format": [
             "tif"
         ]
+    },
+
+    "x-fmt/114": {
+        "name": "Lotus 1-2-3 Worksheet",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ],
+        "extensions": "wk1",
+        "noters": "Problems with encoding"
+    },
+
+    "x-fmt/115": {
+        "name": "Lotus 1-2-3 Worksheet",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ],
+        "extensions": "wk1 wk3",
+        "noters": "Problems with encoding"
+    },
+
+    "x-fmt/116": {
+        "name": "Lotus 1-2-3 Worksheet",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ],
+        "extensions": "wk1 wk3 wk4",
+        "noters": "Problems with encoding"
     },
 
     "x-fmt/119": {
