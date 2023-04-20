@@ -59,6 +59,12 @@
         "extensions": "vcf",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/440": {
+        "name": "Microsoft Project 2007",
+        "description": "Project files",
+        "extensions": "mmp",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/473": {
         "name": "Microsoft Office Owner File",
         "description": "A temporary file created by Windows Office when a document is open, containing account logon info",
@@ -143,6 +149,12 @@
         "extensions": "db",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/725": {
+        "name": "Microsoft Project 2010",
+        "description": "Project files",
+        "extensions": "mmp",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/754": {
         "name": "Microsoft Word Document (Password Protected) 97-2003",
         "description": "A password protected word document",
@@ -225,6 +237,18 @@
         "name": "PHP Script Page",
         "description": "A script in PHP",
         "extensions": "php",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/245": {
+        "name": "Microsoft Project 98",
+        "description": "Project files",
+        "extensions": "mmp",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/247": {
+        "name": "Microsoft Project 2000-2003",
+        "description": "Project files",
+        "extensions": "mmp",
         "reasoning": "Not preservation-worthy"
     },
     "x-fmt/280": {

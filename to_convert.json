@@ -933,14 +933,6 @@
         ]
     },
     
-    "fmt/440": {
-        "name": "Microsoft Project 2007",
-        "master_converter": "project",
-        "master_format": [
-            "xml"
-        ]
-    },
-    
     "fmt/442": {
         "name": "Microsoft Visio (generic)",
         "master_converter": "libre",
@@ -1234,14 +1226,6 @@
         ]
     },
     
-    "fmt/725": {
-        "name": "Microsoft Project 2010",
-        "master_converter": "project",
-        "master_format": [
-            "xml"
-        ]
-    },
-    
     "fmt/744": {
         "name": "ClarisWorks/AppleWorks Word Processor 5",
         "master_converter": "libre",
@@ -1488,23 +1472,7 @@
             "GML3"
         ]
     },
-    
-    "x-fmt/245": {
-        "name": "Microsoft Project 98",
-        "master_converter": "project",
-        "master_format": [
-            "xml"
-        ]
-    },
-    
-    "x-fmt/247": {
-        "name": "Microsoft Project 2000-2003",
-        "master_converter": "project",
-        "master_format": [
-            "xml"
-        ]
-    },
-    
+
     "x-fmt/257": {
         "name": "Microsoft Publisher 2002",
         "master_converter": "libre",
