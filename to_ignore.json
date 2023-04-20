@@ -35,6 +35,18 @@
         "extensions": "id",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/109": {
+        "name": "Macromedia Flash 6",
+        "description": "Flash is no longer supported, and it is in a very messy format - The file can be a image, video or interactive game",
+        "extensions": "swf",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
+    },
+    "fmt/110": {
+        "name": "Macromedia Flash 7",
+        "description": "Flash is no longer supported, and it is in a very messy format - The file can be a image, video or interactive game",
+        "extensions": "swf",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
+    },
     "fmt/212": {
         "name": "Information or Setup File",
         "description": "unknown",
@@ -89,6 +101,18 @@
         "extensions": "_*",
         "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
     },
+    "fmt/505": {
+        "name": "Adobe Flash 8",
+        "description": "Flash is no longer supported, and it is in a very messy format - The file can be a image, video or interactive game",
+        "extensions": "swf",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
+    },
+    "fmt/507": {
+        "name": "Adobe Flash 10",
+        "description": "Flash is no longer supported, and it is in a very messy format - The file can be a image, video or interactive game",
+        "extensions": "swf",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
+    },
     "fmt/509": {
         "name": "Adobe PostScript Font Metrics file",
         "description": "Part of the PostScript Type 1 font format family. On Windows, Type 1 fonts consist of a PostScript Font Binary (.PFB) file, plus a corresponding PostScript Font Metrics (.PFM) file. (Some very old Type 1 fonts may ship with a .PFB, .AFM, and .INF file. Installing such fonts will create a .PFM file from the .AFM and .INF files.)",
@@ -137,6 +161,12 @@
         "extensions": "xltm",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/634": {
+        "name": "Microsoft Compiled HTML Help",
+        "description": "Microsoft Compiled HTML Help is often used for software documentation",
+        "extensions": "chm",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/682": {
         "name": "Thumbs DB File XP",
         "description": "Windows OS file, contains folder metadata",
@@ -148,6 +178,12 @@
         "description": "A password protected word document",
         "extensions": "doc, wbk",
         "reasoning": "Password protected"
+    },
+    "fmt/761": {
+        "name": "Adobe Flash 15",
+        "description": "Flash is no longer supported, and it is in a very messy format - The file can be a image, video or interactive game",
+        "extensions": "swf",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
     },
     "fmt/870": {
         "name": "Perl Script",
@@ -177,6 +213,12 @@
         "name": "Python Script File",
         "description": "A script in Python",
         "extensions": "py",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/1079": {
+        "name": "Microsoft Program Database 7.00",
+        "description": "A Program Database File stores debugging information about a compiled executable, usually created at compile-time.",
+        "extensions": "pdb",
         "reasoning": "Not preservation-worthy"
     },
     "fmt/1082": {
