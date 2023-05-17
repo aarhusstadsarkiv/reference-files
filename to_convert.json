@@ -7,7 +7,6 @@
             "pdf"
         ]
     },
-
     "aca-fmt/2": {
         "name": "Microsoft Word Markup",
         "master_converter": "libre",
@@ -16,7 +15,6 @@
             "pdf"
         ]
     },
-    
     "aca-fmt/3": {
         "name": "Microsoft Excel Markup",
         "master_converter": "libre",
@@ -25,7 +23,6 @@
             "pdf"
         ]
     },
-    
     "fmt/3": {
         "name": "Graphics Interchange Format 87a",
         "master_converter": "image",
@@ -33,7 +30,6 @@
             "tif"
         ]
     },
-    
     "fmt/4": {
         "name": "Graphics Interchange Format 89a",
         "master_converter": "image",
@@ -41,7 +37,6 @@
             "tif"
         ]
     },
-    
     "fmt/5": {
         "name": "Audio/Video Interleaved Format",
         "master_converter": "video",
@@ -49,7 +44,6 @@
             "mp4"
         ]
     },
-    
     "fmt/11": {
         "name": "Portable Network Graphics 1.0",
         "master_converter": "image",
@@ -57,7 +51,6 @@
             "tif"
         ]
     },
-    
     "fmt/12": {
         "name": "Portable Network Graphics 1.1",
         "master_converter": "image",
@@ -65,7 +58,6 @@
             "tif"
         ]
     },
-
     "fmt/13": {
         "name": "Portable Network Graphics 1.2",
         "master_converter": "image",
@@ -73,7 +65,6 @@
             "tif"
         ]
     },
-    
     "fmt/14": {
         "name": "Acrobat PDF 1.0 - Portable Document Format",
         "master_converter": "pdf",
@@ -85,7 +76,6 @@
             "tif"
         ]
     },
-    
     "fmt/15": {
         "name": "Acrobat PDF 1.1 - Portable Document Format",
         "master_converter": "pdf",
@@ -97,7 +87,6 @@
             "tif"
         ]
     },
-    
     "fmt/16": {
         "name": "Acrobat PDF 1.2 - Portable Document Format",
         "master_converter": "pdf",
@@ -109,7 +98,6 @@
             "tif"
         ]
     },
-    
     "fmt/17": {
         "name": "Acrobat PDF 1.3 - Portable Document Format",
         "master_converter": "pdf",
@@ -121,7 +109,6 @@
             "tif"
         ]
     },
-    
     "fmt/18": {
         "name": "Acrobat PDF 1.4 - Portable Document Format",
         "master_converter": "pdf",
@@ -133,7 +120,6 @@
             "tif"
         ]
     },
-    
     "fmt/19": {
         "name": "Acrobat PDF 1.5 - Portable Document Format",
         "master_converter": "pdf",
@@ -145,7 +131,6 @@
             "tif"
         ]
     },
-    
     "fmt/20": {
         "name": "Acrobat PDF 1.6 - Portable Document Format",
         "master_converter": "pdf",
@@ -157,7 +142,6 @@
             "tif"
         ]
     },
-
     "fmt/31": {
         "name": "AutoCAD Drawing R10",
         "master_converter": "cad",
@@ -166,7 +150,6 @@
             "pdf"
         ]
     },
-    
     "fmt/32": {
         "name": "AutoCAD Drawing R11/12",
         "master_converter": "cad",
@@ -175,7 +158,6 @@
             "pdf"
         ]
     },
-    
     "fmt/33": {
         "name": "AutoCAD Drawing R13",
         "master_converter": "cad",
@@ -184,7 +166,6 @@
             "pdf"
         ]
     },
-    
     "fmt/34": {
         "name": "AutoCAD Drawing R14",
         "master_converter": "cad",
@@ -193,7 +174,6 @@
             "pdf"
         ]
     },
-    
     "fmt/35": {
         "name": "AutoCAD Drawing 2000-2002",
         "master_converter": "cad",
@@ -202,7 +182,6 @@
             "pdf"
         ]
     },
-        
     "fmt/36": {
         "name": "AutoCAD Drawing 2004-2005",
         "master_converter": "cad",
@@ -211,7 +190,6 @@
             "pdf"
         ]
     },
-    
     "fmt/37": {
         "name": "Microsoft Word for Windows Document 1.0",
         "master_converter": "libre",
@@ -219,7 +197,6 @@
             "pdf"
         ]
     },
-    
     "fmt/38": {
         "name": "Microsoft Word for Windows Document 2.0",
         "master_converter": "libre",
@@ -227,7 +204,6 @@
             "pdf"
         ]
     },
-    
     "fmt/39": {
         "name": "Microsoft Word Document 95",
         "master_converter": "libre",
@@ -235,7 +211,6 @@
             "pdf"
         ]
     },
-    
     "fmt/40": {
         "name": "Microsoft Word Document 97-2003",
         "master_converter": "libre",
@@ -243,7 +218,6 @@
             "pdf"
         ]
     },
-    
     "fmt/41": {
         "name": "Raw JPEG Stream",
         "master_converter": "image",
@@ -251,7 +225,6 @@
             "tif"
         ]
     },
-    
     "fmt/42": {
         "name": "JPEG File Interchange Format 1.00",
         "master_converter": "image",
@@ -259,7 +232,6 @@
             "tif"
         ]
     },
-    
     "fmt/43": {
         "name": "JPEG File Interchange Format 1.01",
         "master_converter": "image",
@@ -267,7 +239,6 @@
             "tif"
         ]
     },
-    
     "fmt/44": {
         "name": "JPEG File Interchange Format 1.02",
         "master_converter": "image",
@@ -275,7 +246,6 @@
             "tif"
         ]
     },
-    
     "fmt/45": {
         "name": "Rich Text Format 1.0-1.4",
         "master_converter": "libre",
@@ -283,7 +253,6 @@
             "pdf"
         ]
     },
-    
     "fmt/50": {
         "name": "Rich Text Format 1.5-1.6",
         "master_converter": "libre",
@@ -291,7 +260,6 @@
             "pdf"
         ]
     },
-    
     "fmt/52": {
         "name": "Rich Text Format 1.7",
         "master_converter": "libre",
@@ -299,7 +267,6 @@
             "pdf"
         ]
     },
-    
     "fmt/53": {
         "name": "Rich Text Format 1.8",
         "master_converter": "libre",
@@ -307,7 +274,6 @@
             "pdf"
         ]
     },
-    
     "fmt/55": {
         "name": "Microsoft Excel 2.x Worksheet (xls)",
         "master_converter": "libre",
@@ -316,7 +282,6 @@
             "pdf"
         ]
     },
-    
     "fmt/56": {
         "name": "Microsoft Excel 3.0 Worksheet (xls)",
         "master_converter": "libre",
@@ -325,7 +290,6 @@
             "pdf"
         ]
     },
-    
     "fmt/57": {
         "name": "Microsoft Excel 4.0 Worksheet (xls) 4S",
         "master_converter": "libre",
@@ -334,7 +298,6 @@
             "pdf"
         ]
     },
-    
     "fmt/58": {
         "name": "Microsoft Excel 4.0 Workbook (xls) 4W",
         "master_converter": "libre",
@@ -343,7 +306,6 @@
             "pdf"
         ]
     },
-    
     "fmt/59": {
         "name": "Microsoft Excel 5.0/95 Workbook (xls)",
         "master_converter": "libre",
@@ -352,7 +314,6 @@
             "pdf"
         ]
     },
-    
     "fmt/61": {
         "name": "Microsoft Excel 97 Workbook (xls) 8",
         "master_converter": "libre",
@@ -361,7 +322,6 @@
             "pdf"
         ]
     },
-
     "fmt/63": {
         "name": "Drawing Interchange File Format (ASCII) Generic",
         "master_converter": "cad",
@@ -370,7 +330,6 @@
             "pdf"
         ]
     },
-    
     "fmt/72": {
         "name": "Drawing Interchange File Format (ASCII) 2.6",
         "master_converter": "cad",
@@ -379,7 +338,6 @@
             "pdf"
         ]
     },
-    
     "fmt/74": {
         "name": "Drawing Interchange File Format (ASCII) R10",
         "master_converter": "cad",
@@ -388,7 +346,6 @@
             "pdf"
         ]
     },
-    
     "fmt/75": {
         "name": "Drawing Interchange File Format (ASCII) R11/12",
         "master_converter": "cad",
@@ -397,7 +354,6 @@
             "pdf"
         ]
     },
-    
     "fmt/77": {
         "name": "Drawing Interchange File Format (ASCII) R14",
         "master_converter": "cad",
@@ -406,7 +362,6 @@
             "pdf"
         ]
     },
-    
     "fmt/78": {
         "name": "Drawing Interchange File Format (ASCII) 2000-2002",
         "master_converter": "cad",
@@ -415,7 +370,6 @@
             "pdf"
         ]
     },
-    
     "fmt/79": {
         "name": "Drawing Interchange File Format (ASCII) 2004/2005/2006",
         "master_converter": "cad",
@@ -424,7 +378,6 @@
             "pdf"
         ]
     },
-    
     "fmt/81": {
         "name": "Drawing Interchange File Format (Binary) R11/12",
         "master_converter": "cad",
@@ -433,7 +386,6 @@
             "pdf"
         ]
     },
-    
     "fmt/90": {
         "name": "PCX 5",
         "master_converter": "image",
@@ -441,7 +393,6 @@
             "tif"
         ]
     },
-    
     "fmt/95": {
         "name": "Acrobat PDF/A - Portable Document Format 1a",
         "master_converter": "pdf",
@@ -453,7 +404,6 @@
             "tif"
         ]
     },
-    
     "fmt/96": {
         "name": "Hypertext Markup Language",
         "master_converter": "browser",
@@ -461,7 +411,6 @@
             "pdf"
         ]
     },
-    
     "fmt/98": {
         "name": "Hypertext Markup Language 3.2",
         "master_converter": "browser",
@@ -469,7 +418,6 @@
             "pdf"
         ]
     },
-    
     "fmt/99": {
         "name": "Hypertext Markup Language 4.0",
         "master_converter": "browser",
@@ -477,7 +425,6 @@
             "pdf"
         ]
     },
-    
     "fmt/100": {
         "name": "Hypertext Markup Language 4.01",
         "master_converter": "browser",
@@ -485,7 +432,6 @@
             "pdf"
         ]
     },
-    
     "fmt/101": {
         "name": "Extensible Markup Language 1.0",
         "master_converter": "copy",
@@ -494,7 +440,6 @@
             "tif"
         ]
     },
-    
     "fmt/102": {
         "name": "Extensible Hypertext Markup Language 1.0",
         "master_converter": "browser",
@@ -503,7 +448,6 @@
         ],
         "statutory_converter": "copy"
     },
-    
     "fmt/111": {
         "name": "OLE2 Compound Document Format",
         "master_converter": "libre",
@@ -512,7 +456,6 @@
             "pdf"
         ]
     },
-    
     "fmt/115": {
         "name": "Windows Bitmap 2.0",
         "master_converter": "image",
@@ -520,7 +463,6 @@
             "tif"
         ]
     },
-    
     "fmt/116": {
         "name": "Windows Bitmap 3.0",
         "master_converter": "image",
@@ -528,7 +470,6 @@
             "tif"
         ]
     },
-    
     "fmt/117": {
         "name": "Windows Bitmap 3.0 NT",
         "master_converter": "image",
@@ -536,7 +477,6 @@
             "tif"
         ]
     },
-    
     "fmt/122": {
         "name": "Encapsulated PostScript File Format 1.2",
         "master_converter": "libre",
@@ -544,7 +484,6 @@
             "pdf"
         ]
     },
-    
     "fmt/124": {
         "name": "Encapsulated PostScript File Format 3",
         "master_converter": "libre",
@@ -552,7 +491,6 @@
             "pdf"
         ]
     },
-    
     "fmt/125": {
         "name": "Microsoft Powerpoint Presentation 95",
         "master_converter": "libre",
@@ -561,7 +499,6 @@
             "pdf"
         ]
     },
-    
     "fmt/126": {
         "name": "Microsoft Powerpoint Presentation 97-2003",
         "master_converter": "libre",
@@ -570,7 +507,6 @@
             "pdf"
         ]
     },
-    
     "fmt/132": {
         "name": "Windows Media Audio",
         "master_converter": "audio",
@@ -578,7 +514,6 @@
             "flac"
         ]
     },
-    
     "fmt/133": {
         "name": "Windows Media Video",
         "master_converter": "video",
@@ -586,7 +521,6 @@
             "mp4"
         ]
     },
-    
     "fmt/134": {
         "name": "MPEG 1/2 Audio Layer 3",
         "master_converter": "audio",
@@ -594,7 +528,6 @@
             "flac"
         ]
     },
-    
     "fmt/136": {
         "name": "OpenDocument Text 1.0",
         "master_converter": "libre",
@@ -602,7 +535,6 @@
             "pdf"
         ]
     },
-    
     "fmt/137": {
         "name": "OpenDocument Spreadsheet 1.0",
         "master_converter": "libre",
@@ -611,7 +543,6 @@
             "pdf"
         ]
     },
-    
     "fmt/141": {
         "name": "Waveform Audio (PCMWAVEFORMAT)",
         "master_converter": "audio",
@@ -619,7 +550,6 @@
             "flac"
         ]
     },
-    
     "fmt/142": {
         "name": "Waveform Audio (WAVEFORMATEX)",
         "master_converter": "audio",
@@ -627,7 +557,6 @@
             "flac"
         ]
     },
-    
     "fmt/146": {
         "name": "Acrobat PDF/X - Portable Document Format - Exchange 1a:2003",
         "master_converter": "pdf",
@@ -639,7 +568,6 @@
             "tif"
         ]
     },
-
     "fmt/155": {
         "name": "Geographic Tagged Image File Format (GeoTIFF)",
         "master_converter": "image",
@@ -647,7 +575,6 @@
             "tif"
         ]
     },
-        
     "fmt/157": {
         "name": "Acrobat PDF/X - Portable Document Format - Exchange 1a:2001",
         "master_converter": "pdf",
@@ -659,7 +586,6 @@
             "tif"
         ]
     },
-    
     "fmt/158": {
         "name": "Acrobat PDF/X - Portable Document Format - Exchange 3:2002",
         "master_converter": "pdf",
@@ -671,7 +597,6 @@
             "tif"
         ]
     },
-    
     "fmt/163": {
         "name": "Microsoft Works Word Processor 1-3 for DOS and 2 for Windows",
         "master_converter": "libre",
@@ -679,7 +604,6 @@
             "pdf"
         ]
     },
-    
     "fmt/199": {
         "name": "MPEG-4 Media File",
         "master_converter": "video",
@@ -688,7 +612,6 @@
         ],
         "statutory_converter": "copy"
     },
-    
     "fmt/206": {
         "name": "Structured Query Language Data",
         "master_converter": "copy",
@@ -697,7 +620,17 @@
             "tif"
         ]
     },
-    
+    "fmt/212": {
+        "name": "Information or Setup File",
+        "master_converter": "plaintext",
+        "master_format": [
+            "tif"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tif"
+        ]
+    },
     "fmt/214": {
         "name": "Microsoft Excel for Windows 2007 onwards",
         "master_converter": "libre",
@@ -706,7 +639,6 @@
             "pdf"
         ]
     },
-    
     "fmt/215": {
         "name": "Microsoft Powerpoint for Windows 2007 onwards",
         "master_converter": "libre",
@@ -715,7 +647,6 @@
             "pdf"
         ]
     },
-    
     "fmt/233": {
         "name": "Microsoft Works Word Processor 3-4 for Windows",
         "master_converter": "libre",
@@ -723,7 +654,6 @@
             "pdf"
         ]
     },
-    
     "fmt/258": {
         "name": "Microsoft Works Word Processor 5-6",
         "master_converter": "libre",
@@ -731,7 +661,6 @@
             "pdf"
         ]
     },
-    
     "fmt/276": {
         "name": "Acrobat PDF 1.7 - Portable Document Format 1.7",
         "master_converter": "pdf",
@@ -743,7 +672,6 @@
             "tif"
         ]
     },
-
     "fmt/279": {
         "name": "FLAC (Free Lossless Audio Codec)",
         "master_converter": "audio",
@@ -755,7 +683,6 @@
             "mp3"
         ]
     },
-
     "fmt/290": {
         "name": "OpenDocument Text 1.1",
         "master_converter": "libre",
@@ -764,7 +691,6 @@
             "pdf"
         ]
     },
-    
     "fmt/291": {
         "name": "OpenDocument Text 1.2",
         "master_converter": "libre",
@@ -772,8 +698,7 @@
             "pdf"
         ]
     },
-    
-    "fmt/292":{
+    "fmt/292": {
         "name": "OpenDocument Presentation 1.1",
         "master_converter": "libre",
         "master_format": [
@@ -781,7 +706,6 @@
             "pdf"
         ]
     },
-    
     "fmt/294": {
         "name": "OpenDocument Spreadsheet 1.1",
         "master_converter": "libre",
@@ -790,7 +714,6 @@
             "pdf"
         ]
     },
-    
     "fmt/295": {
         "name": "OpenDocument Spreadsheet 1.2",
         "master_converter": "libre",
@@ -799,7 +722,6 @@
             "pdf"
         ]
     },
-
     "fmt/296": {
         "name": "OpenDocument Graphics",
         "master_converter": "libre",
@@ -808,7 +730,6 @@
             "pdf"
         ]
     },
-    
     "fmt/297": {
         "name": "OpenDocument Graphics",
         "master_converter": "libre",
@@ -817,7 +738,6 @@
             "pdf"
         ]
     },
-    
     "fmt/345": {
         "name": "Microsoft Windows Enhanced Metafile 3.0",
         "master_converter": "image",
@@ -825,7 +745,6 @@
             "tif"
         ]
     },
-    
     "fmt/353": {
         "name": "Tagged Image File Format",
         "master_converter": "image",
@@ -837,7 +756,6 @@
             "tif"
         ]
     },
-    
     "fmt/354": {
         "name": "Acrobat PDF/A - Portable Document Format 1b",
         "master_converter": "pdf",
@@ -849,7 +767,6 @@
             "tif"
         ]
     },
-    
     "fmt/355": {
         "name": "Rich Text Format 1.9",
         "master_converter": "libre",
@@ -857,7 +774,6 @@
             "pdf"
         ]
     },
-    
     "fmt/356": {
         "name": "Adaptive Multi-Rate Audio",
         "master_converter": "audio",
@@ -865,7 +781,6 @@
             "flac"
         ]
     },
-    
     "fmt/357": {
         "name": "3GPP Audio/Video File",
         "master_converter": "video",
@@ -873,7 +788,6 @@
             "mp4"
         ]
     },
-    
     "fmt/388": {
         "name": "Internet Calendar and Scheduling format",
         "master_converter": "text",
@@ -881,7 +795,6 @@
             "tif"
         ]
     },
-    
     "fmt/412": {
         "name": "Microsoft Word for Windows 2007 onwards",
         "master_converter": "libre",
@@ -889,7 +802,6 @@
             "pdf"
         ]
     },
-    
     "fmt/414": {
         "name": "Audio Interchange File Format",
         "master_converter": "audio",
@@ -897,7 +809,6 @@
             "flac"
         ]
     },
-    
     "fmt/422": {
         "name": "Adobe Illustrator 6.0",
         "master_converter": "pdf",
@@ -905,7 +816,6 @@
             "pdf"
         ]
     },
-    
     "fmt/428": {
         "name": "CorelDraw Drawing",
         "master_converter": "libre",
@@ -914,7 +824,6 @@
             "pdf"
         ]
     },
-
     "fmt/433": {
         "name": "Drawing Interchange File Format (ASCII) 2007/2008/2009",
         "master_converter": "cad",
@@ -923,7 +832,6 @@
             "pdf"
         ]
     },
-    
     "fmt/434": {
         "name": "AutoCAD Drawing 2010/2011/2012",
         "master_converter": "cad",
@@ -932,7 +840,6 @@
             "pdf"
         ]
     },
-    
     "fmt/442": {
         "name": "Microsoft Visio (generic)",
         "master_converter": "libre",
@@ -941,7 +848,6 @@
             "pdf"
         ]
     },
-    
     "fmt/443": {
         "name": "Microsoft Visio Drawing 2003-2010",
         "master_converter": "libre",
@@ -950,7 +856,6 @@
             "pdf"
         ]
     },
-    
     "fmt/445": {
         "name": "Microsoft Excel Macro-Enabled 2007",
         "master_converter": "libre",
@@ -959,7 +864,6 @@
             "pdf"
         ]
     },
-    
     "fmt/471": {
         "name": "Hypertext Markup Language 5",
         "master_converter": "browser",
@@ -967,7 +871,6 @@
             "pdf"
         ]
     },
-    
     "fmt/476": {
         "name": "Acrobat PDF/A - Portable Document Format (2a)",
         "master_converter": "pdf",
@@ -979,7 +882,6 @@
             "tif"
         ]
     },
-    
     "fmt/477": {
         "name": "Acrobat PDF/A - Portable Document Format",
         "master_converter": "pdf",
@@ -991,7 +893,6 @@
             "tif"
         ]
     },
-
     "fmt/478": {
         "name": "Acrobat PDF/A - Portable Document Format (2u)",
         "master_converter": "pdf",
@@ -1003,7 +904,6 @@
             "tif"
         ]
     },
-
     "fmt/479": {
         "name": "Acrobat PDF/A - Portable Document Format (3a)",
         "master_converter": "pdf",
@@ -1015,7 +915,6 @@
             "tif"
         ]
     },
-    
     "fmt/480": {
         "name": "Acrobat PDF/A - Portable Document Format (3b)",
         "master_converter": "pdf",
@@ -1027,7 +926,6 @@
             "tif"
         ]
     },
-    
     "fmt/487": {
         "name": "Macro Enabled Microsoft Powerpoint 2007 Onwards",
         "master_converter": "libre",
@@ -1036,7 +934,6 @@
             "pdf"
         ]
     },
-    
     "fmt/488": {
         "name": "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4",
         "master_converter": "pdf",
@@ -1048,7 +945,6 @@
             "tif"
         ]
     },
-    
     "fmt/493": {
         "name": "Acrobat PDF/E - Portable Document Format for Engineering PDF/E-1",
         "master_converter": "pdf",
@@ -1060,7 +956,6 @@
             "tif"
         ]
     },
-    
     "fmt/523": {
         "name": "Macro enabled Microsoft Word Document OOXML 2007 Onwards",
         "master_converter": "libre",
@@ -1068,7 +963,6 @@
             "pdf"
         ]
     },
-
     "fmt/531": {
         "name": "AutoCAD Drawing 2013/2014",
         "master_converter": "cad",
@@ -1077,7 +971,6 @@
             "pdf"
         ]
     },
-    
     "fmt/557": {
         "name": "Adobe Illustrator 8.0",
         "master_converter": "pdf",
@@ -1085,7 +978,6 @@
             "pdf"
         ]
     },
-    
     "fmt/558": {
         "name": "Adobe Illustrator 9.0",
         "master_converter": "pdf",
@@ -1093,7 +985,6 @@
             "pdf"
         ]
     },
-    
     "fmt/559": {
         "name": "Adobe Illustrator 10.0",
         "master_converter": "pdf",
@@ -1101,7 +992,6 @@
             "pdf"
         ]
     },
-    
     "fmt/560": {
         "name": "Adobe Illustrator 11.0",
         "master_converter": "pdf",
@@ -1109,7 +999,6 @@
             "pdf"
         ]
     },
-    
     "fmt/561": {
         "name": "Adobe Illustrator 12.0",
         "master_converter": "pdf",
@@ -1117,7 +1006,6 @@
             "pdf"
         ]
     },
-    
     "fmt/562": {
         "name": "Adobe Illustrator 13.0",
         "master_converter": "pdf",
@@ -1125,7 +1013,6 @@
             "pdf"
         ]
     },
-    
     "fmt/563": {
         "name": "Adobe Illustrator 14.0",
         "master_converter": "pdf",
@@ -1133,7 +1020,6 @@
             "pdf"
         ]
     },
-    
     "fmt/564": {
         "name": "Adobe Illustrator 15.0",
         "master_converter": "pdf",
@@ -1141,7 +1027,6 @@
             "pdf"
         ]
     },
-    
     "fmt/583": {
         "name": "Vector Markup Language",
         "master_converter": "browser",
@@ -1149,7 +1034,6 @@
             "pdf"
         ]
     },
-    
     "fmt/584": {
         "name": "Windows Media Metafile",
         "master_converter": "text",
@@ -1157,7 +1041,6 @@
             "tif"
         ]
     },
-    
     "fmt/595": {
         "name": "Microsoft Excel Non-XML Binary Workbook 2007 onwards",
         "master_converter": "libre",
@@ -1166,7 +1049,6 @@
             "pdf"
         ]
     },
-    
     "fmt/597": {
         "name": "Microsoft Word Template 2007 onwards",
         "master_converter": "libre",
@@ -1174,7 +1056,6 @@
             "pdf"
         ]
     },
-    
     "fmt/598": {
         "name": "Microsoft Excel Template 2007 onwards",
         "master_converter": "libre",
@@ -1183,7 +1064,6 @@
             "pdf"
         ]
     },
-    
     "fmt/609": {
         "name": "Microsoft Word (Generic) 6.0-2003",
         "master_converter": "libre",
@@ -1191,7 +1071,6 @@
             "pdf"
         ]
     },
-    
     "fmt/629": {
         "name": "Microsoft PowerPoint Show 2007",
         "master_converter": "libre",
@@ -1200,7 +1079,6 @@
             "pdf"
         ]
     },
-    
     "fmt/631": {
         "name": "Microsoft PowerPoint Template 2007",
         "master_converter": "libre",
@@ -1209,7 +1087,6 @@
             "pdf"
         ]
     },
-    
     "fmt/645": {
         "name": "Exchangeable Image File Format (Compressed) 2.2.1",
         "master_converter": "image",
@@ -1217,15 +1094,24 @@
             "tif"
         ]
     },
-    
     "fmt/670": {
         "name": "PKCS #7 Crytographic Message File",
         "master_converter": "text",
         "master_format": [
             "tif"
+        ],
+        "statutory_converter": "copy",
+        "statutory_format": [
+            "tif"
         ]
     },
-    
+    "fmt/725": {
+        "name": "Microsoft Project 2010",
+        "master_converter": "project",
+        "master_format": [
+            "xml"
+        ]
+    },
     "fmt/744": {
         "name": "ClarisWorks/AppleWorks Word Processor 5",
         "master_converter": "libre",
@@ -1233,7 +1119,6 @@
             "pdf"
         ]
     },
-    
     "fmt/817": {
         "name": "JSON Data Interchange Format",
         "master_converter": "copy",
@@ -1242,15 +1127,13 @@
             "tif"
         ]
     },
-        
-	"fmt/881": {
+    "fmt/881": {
         "name": "Microsoft Document Imaging File Format",
         "master_converter": "image",
         "master_format": [
             "tif"
         ]
     },
-    
     "fmt/901": {
         "name": "Microsoft Works Spreadsheet 6-9",
         "master_converter": "libre",
@@ -1259,7 +1142,6 @@
             "pdf"
         ]
     },
-    
     "fmt/950": {
         "name": "MIME Email 1.0",
         "master_converter": "text",
@@ -1267,7 +1149,6 @@
             "tif"
         ]
     },
-    
     "fmt/1047": {
         "name": "Geography Markup Language",
         "master_converter": "gis",
@@ -1276,19 +1157,6 @@
         ],
         "statutory_converter": "copy"
     },
-
-    "fmt/1129": {
-        "name": "PDF 2.0 - Portable Document Format",
-        "master_converter": "pdf",
-        "master_format": [
-            "pdf"
-        ],
-        "statutory_converter": "gs",
-        "statutory_format": [
-            "tif"
-        ]
-    },
-
     "fmt/1439": {
         "name": "Apple iWork Pages 09",
         "master_converter": "libre",
@@ -1297,7 +1165,6 @@
             "pdf"
         ]
     },
-    
     "fmt/1451": {
         "name": "PDF Portfolio 1.7",
         "master_converter": "pdf",
@@ -1309,8 +1176,7 @@
             "tif"
         ]
     },
-    	
-	"fmt/1452": {
+    "fmt/1452": {
         "name": "Lotus 1-2-3 Worksheet (97)",
         "master_converter": "libre",
         "master_format": [
@@ -1318,25 +1184,70 @@
             "pdf"
         ]
     },
-  
-	"fmt/1453": {
+    "fmt/1453": {
         "name": "Lotus 1-2-3 Worksheet (9.8 Millennium)",
         "master_converter": "libre",
         "master_format": [
             "ods",
             "pdf"
         ]
-    },    
-  
-  "fmt/1507": {
+    },
+    "fmt/1507": {
         "name": "Exchangeable Image File Format (Compressed) 2.3.x",
         "master_converter": "image",
         "master_format": [
             "tif"
         ]
     },
-	
-	"x-fmt/13": {
+    "fmt/1511": {
+        "name": "Microsoft Publisher 1",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ],
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okey, since most files are not preservation worthy, and there are no other alternatives to convert them."
+    },
+    "fmt/1512": {
+        "name": "Microsoft Publisher 2003",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ],
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okey, since most files are not preservation worthy, and there are no other alternatives to convert them."
+    },
+    "fmt/1513": {
+        "name": "Microsoft Publisher 2007",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ],
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okey, since most files are not preservation worthy, and there are no other alternatives to convert them."
+    },
+    "fmt/1514": {
+        "name": "Microsoft Publisher 2010",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ],
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okey, since most files are not preservation worthy, and there are no other alternatives to convert them."
+    },
+    "fmt/1515": {
+        "name": "Microsoft Publisher 2013",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ],
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okey, since most files are not preservation worthy, and there are no other alternatives to convert them."
+    },
+    "fmt/1516": {
+        "name": "Microsoft Publisher 2016-2019",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ],
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okey, since most files are not preservation worthy, and there are no other alternatives to convert them."
+    },
+    "x-fmt/13": {
         "name": "Tab-separated values",
         "master_converter": "copy",
         "statutory_converter": "text",
@@ -1344,7 +1255,6 @@
             "tif"
         ]
     },
-    
     "x-fmt/17": {
         "name": "Microsoft Excel Template 97-2003",
         "master_converter": "libre",
@@ -1353,7 +1263,6 @@
             "pdf"
         ]
     },
-    
     "x-fmt/18": {
         "name": "Comma Separated Values",
         "master_converter": "copy",
@@ -1362,7 +1271,6 @@
             "tif"
         ]
     },
-    
     "x-fmt/44": {
         "name": "WordPerfect for MS-DOS/Windows Document 6.0",
         "master_converter": "libre",
@@ -1370,7 +1278,6 @@
             "pdf"
         ]
     },
-    
     "x-fmt/45": {
         "name": "Microsoft Word Document Template 97-2003",
         "master_converter": "libre",
@@ -1378,7 +1285,6 @@
             "pdf"
         ]
     },
-    
     "x-fmt/49": {
         "name": "AutoCAD Design Web Format 6.0",
         "master_converter": "cad",
@@ -1386,7 +1292,6 @@
             "pdf"
         ]
     },
-    
     "x-fmt/62": {
         "name": "Log File",
         "master_converter": "copy",
@@ -1395,7 +1300,6 @@
             "tif"
         ]
     },
-    
     "x-fmt/64": {
         "name": "Microsoft Word for Macintosh Document",
         "master_converter": "libre",
@@ -1403,7 +1307,6 @@
             "pdf"
         ]
     },
-    
     "x-fmt/90": {
         "name": "Microsoft Print File",
         "master_converter": "copy",
@@ -1412,16 +1315,14 @@
             "tif"
         ]
     },
-
     "x-fmt/92": {
         "name": "Adobe Photoshop",
         "master_converter": "libre",
         "master_format": [
             "svg",
-		    "pdf"
+            "pdf"
         ]
     },
-    
     "x-fmt/111": {
         "name": "Plain Text File",
         "master_converter": "copy",
@@ -1430,7 +1331,6 @@
             "tif"
         ]
     },
-
     "x-fmt/119": {
         "name": "Windows Metafile Image",
         "master_converter": "image",
@@ -1438,7 +1338,6 @@
             "tif"
         ]
     },
-
     "xfmt/157": {
         "name": "Microsoft Windows Enhanced Metafile 1.0",
         "master_converter": "image",
@@ -1446,8 +1345,6 @@
             "tif"
         ]
     },
-      
-    
     "x-fmt/224": {
         "name": "Cascading Style Sheet",
         "master_converter": "copy",
@@ -1456,7 +1353,6 @@
             "tif"
         ]
     },
-    
     "x-fmt/231": {
         "name": "ESRI MapInfo Export File",
         "master_converter": "gis",
@@ -1464,7 +1360,6 @@
             "GML3"
         ]
     },
-    
     "x-fmt/235": {
         "name": "ESRI Arc/View ShapeFile",
         "master_converter": "gis",
@@ -1472,15 +1367,6 @@
             "GML3"
         ]
     },
-
-    "x-fmt/257": {
-        "name": "Microsoft Publisher 2002",
-        "master_converter": "libre",
-        "master_format": [
-            "pdf"
-        ]
-    },
-    
     "x-fmt/258": {
         "name": "Microsoft Visio Drawing 2000",
         "master_converter": "libre",
@@ -1489,7 +1375,6 @@
             "pdf"
         ]
     },
-    
     "x-fmt/315": {
         "name": "Document Type Definition",
         "master_converter": "copy",
@@ -1498,7 +1383,6 @@
             "tif"
         ]
     },
-    
     "x-fmt/375": {
         "name": "CorelDraw Drawing",
         "master_converter": "libre",
@@ -1507,7 +1391,6 @@
             "pdf"
         ]
     },
-
     "x-fmt/382": {
         "name": "Macromedia FLV 1",
         "master_converter": "video",
@@ -1515,7 +1398,6 @@
             "mp4"
         ]
     },
-    
     "x-fmt/384": {
         "name": "Quicktime",
         "master_converter": "video",
@@ -1523,7 +1405,6 @@
             "mp4"
         ]
     },
-    
     "x-fmt/385": {
         "name": "MPEG-1 Program Stream",
         "master_converter": "video",
@@ -1531,7 +1412,6 @@
             "mp4"
         ]
     },
-    
     "x-fmt/386": {
         "name": "MPEG-2 Program Stream",
         "master_converter": "video",
@@ -1539,7 +1419,6 @@
             "mp4"
         ]
     },
-
     "x-fmt/387": {
         "name": "Exchangeable Image File Format (Uncompressed) 2.2",
         "master_converter": "image",
@@ -1547,7 +1426,6 @@
             "tif"
         ]
     },
-    
     "x-fmt/388": {
         "name": "Exchangeable Image File Format (Uncompressed) 2.1",
         "master_converter": "image",
@@ -1555,7 +1433,6 @@
             "tif"
         ]
     },
-    
     "x-fmt/390": {
         "name": "Exchangeable Image File Format (Compressed) 2.1",
         "master_converter": "image",
@@ -1563,7 +1440,6 @@
             "tif"
         ]
     },
-    
     "x-fmt/391": {
         "name": "Exchangeable Image File Format (Compressed) 2.2",
         "master_converter": "image",
@@ -1571,7 +1447,6 @@
             "tif"
         ]
     },
-    
     "x-fmt/392": {
         "name": "JP2 (JPEG 2000 part 1)",
         "master_converter": "image",
@@ -1579,7 +1454,6 @@
             "tif"
         ]
     },
-    
     "x-fmt/394": {
         "name": "WordPerfect for MS-DOS/Windows Document 5.1",
         "master_converter": "libre",
@@ -1587,7 +1461,6 @@
             "pdf"
         ]
     },
-    
     "x-fmt/398": {
         "name": "Exchangeable Image File Format (Compressed) 2.0",
         "master_converter": "image",
@@ -1595,7 +1468,6 @@
             "tif"
         ]
     },
-    
     "x-fmt/426": {
         "name": "License file",
         "master_converter": "copy",
@@ -1604,7 +1476,6 @@
             "tif"
         ]
     },
-    
     "x-fmt/429": {
         "name": "MHTML",
         "master_converter": "browser",
@@ -1612,7 +1483,6 @@
             "pdf"
         ]
     },
-    
     "x-fmt/455": {
         "name": "AutoCAD Drawing 2007-2008",
         "master_converter": "cad",
@@ -1621,4 +1491,4 @@
             "pdf"
         ]
     }
-}    
+}
