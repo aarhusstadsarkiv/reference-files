@@ -11,7 +11,7 @@
         "extensions": "*",
         "reasoning": "Not preservation-worthy"
     },
-    "aca-fmt/4":{
+    "aca-fmt/4": {
         "name": "MindManager Mind Map",
         "description": "Proprietary mind map file",
         "extensions": "mmap",
@@ -81,7 +81,7 @@
         "name": "Microsoft Office Encrypted Document (2007 Onwards)",
         "description": "A password protected office document",
         "extensions": "*",
-        "reasoning":"Password protected"
+        "reasoning": "Password protected"
     },
     "fmt/500": {
         "name": "Internet Explorer for Mac cache file",
@@ -141,6 +141,12 @@
         "name": "Microsoft Excel Macro-Enabled Template 2007",
         "description": "A Microsoft Excel template file with macros enabled",
         "extensions": "xltm",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/670": {
+        "name": "PKCS #7 Crytographic Message File",
+        "description": "Cryptographic message file which follows email files",
+        "extensions": "Unknown",
         "reasoning": "Not preservation-worthy"
     },
     "fmt/682": {
