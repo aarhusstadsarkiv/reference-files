@@ -1,0 +1,19 @@
+{
+    "fmt/1756": {
+        "name": "Opendocument Text 1.3",
+        "ext": ".odt",
+        "reasoning": "Identified by ext only. Prone to error"
+    },
+    "fmt/111": {
+        "reasoning": "why do we re-run these?"
+    },
+    "x-fmt/111": {
+        "reasoning": ".TAB-files related to GIS is sometimes identified as plaintext"
+    },
+    "fmt/1600": {
+        "reasoning": "Identifies .dat-files as mapinfo-files by extension only. They are sometimes winmail.dat"
+    },
+    "fmt/1730": {
+        "reasoning": "Identifies .dat-files as mapinfo-files by extension only. They are sometimes winmail.dat"
+    }
+}

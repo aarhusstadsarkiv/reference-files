@@ -11,14 +11,12 @@
         "extensions": "*",
         "reasoning": "Not preservation-worthy"
     },
-
     "aca-fmt/4":{
         "name": "MindManager Mind Map",
         "description": "Proprietary mind map file",
         "extensions": "mmap",
         "reasoning": "Not preservation-worthy"
     },
-
     "aca-fmt/5": {
         "name": "Lotus Notes Template",
         "description": "A database template",
@@ -35,6 +33,12 @@
         "name": "ID File",
         "description": "User ID files",
         "extensions": "id",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/212": {
+        "name": "Information or Setup File",
+        "description": "unknown",
+        "extensions": "unknown",
         "reasoning": "Not preservation-worthy"
     },
     "fmt/331": {
@@ -55,6 +59,12 @@
         "extensions": "vcf",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/440": {
+        "name": "Microsoft Project 2007",
+        "description": "Project files",
+        "extensions": "mmp",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/473": {
         "name": "Microsoft Office Owner File",
         "description": "A temporary file created by Windows Office when a document is open, containing account logon info",
@@ -66,6 +76,12 @@
         "description": "Related to Microsoft administrative file control",
         "extensions": "msc",
         "reasoning": "Not preservation-worthy"
+    },
+    "fmt/494": {
+        "name": "Microsoft Office Encrypted Document (2007 Onwards)",
+        "description": "A password protected office document",
+        "extensions": "*",
+        "reasoning":"Password protected"
     },
     "fmt/500": {
         "name": "Internet Explorer for Mac cache file",
@@ -131,6 +147,12 @@
         "name": "Thumbs DB File XP",
         "description": "Windows OS file, contains folder metadata",
         "extensions": "db",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/725": {
+        "name": "Microsoft Project 2010",
+        "description": "Project files",
+        "extensions": "mmp",
         "reasoning": "Not preservation-worthy"
     },
     "fmt/754": {
@@ -217,6 +239,18 @@
         "extensions": "php",
         "reasoning": "Not preservation-worthy"
     },
+    "x-fmt/245": {
+        "name": "Microsoft Project 98",
+        "description": "Project files",
+        "extensions": "mmp",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/247": {
+        "name": "Microsoft Project 2000-2003",
+        "description": "Project files",
+        "extensions": "mmp",
+        "reasoning": "Not preservation-worthy"
+    },
     "x-fmt/280": {
         "name": "XML Schema Definition",
         "description": "A prescriptive XML template, for validating XML files with",
@@ -241,10 +275,22 @@
         "extensions": "jar",
         "reasoning": "Not preservation-worthy"
     },
+    "x-fmt/413": {
+        "name": "Batch file (executable)",
+        "description": "An executable non-binary .bat-file",
+        "extensions": "bat",
+        "reasoning": "Not preservation-worthy"
+    },
     "x-fmt/415": {
         "name": "Java Compiled Object Code",
         "description": "Java byte code - not human readable",
         "extensions": "class",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/421": {
+        "name": "Text Configuration file",
+        "description": "A text config file",
+        "extensions": "unknown",
         "reasoning": "Not preservation-worthy"
     },
     "x-fmt/428": {
@@ -271,7 +317,6 @@
         "extensions": "url",
         "reasoning": "Not preservation-worthy"
     },
-
     "fmt/1369": {
         "name": "Error File",
         "description": "An error log file.",
