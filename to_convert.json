@@ -620,17 +620,6 @@
             "tif"
         ]
     },
-    "fmt/212": {
-        "name": "Information or Setup File",
-        "master_converter": "plaintext",
-        "master_format": [
-            "tif"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tif"
-        ]
-    },
     "fmt/214": {
         "name": "Microsoft Excel for Windows 2007 onwards",
         "master_converter": "libre",
@@ -1094,24 +1083,6 @@
             "tif"
         ]
     },
-    "fmt/670": {
-        "name": "PKCS #7 Crytographic Message File",
-        "master_converter": "text",
-        "master_format": [
-            "tif"
-        ],
-        "statutory_converter": "copy",
-        "statutory_format": [
-            "tif"
-        ]
-    },
-    "fmt/725": {
-        "name": "Microsoft Project 2010",
-        "master_converter": "project",
-        "master_format": [
-            "xml"
-        ]
-    },
     "fmt/744": {
         "name": "ClarisWorks/AppleWorks Word Processor 5",
         "master_converter": "libre",
@@ -1156,6 +1127,17 @@
             "gml3"
         ],
         "statutory_converter": "copy"
+    },
+    "fmt/1129": {
+        "name": "PDF 2.0 - Portable Document Format",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ],
+        "statutory_converter": "gs",
+        "statutory_format": [
+            "tif"
+        ]
     },
     "fmt/1439": {
         "name": "Apple iWork Pages 09",
@@ -1205,7 +1187,7 @@
         "master_format": [
             "pdf"
         ],
-        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okey, since most files are not preservation worthy, and there are no other alternatives to convert them."
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okay, since most files are not preservation worthy, and there are no other alternatives to convert them."
     },
     "fmt/1512": {
         "name": "Microsoft Publisher 2003",
@@ -1213,7 +1195,7 @@
         "master_format": [
             "pdf"
         ],
-        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okey, since most files are not preservation worthy, and there are no other alternatives to convert them."
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okay, since most files are not preservation worthy, and there are no other alternatives to convert them."
     },
     "fmt/1513": {
         "name": "Microsoft Publisher 2007",
@@ -1221,7 +1203,7 @@
         "master_format": [
             "pdf"
         ],
-        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okey, since most files are not preservation worthy, and there are no other alternatives to convert them."
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okay, since most files are not preservation worthy, and there are no other alternatives to convert them."
     },
     "fmt/1514": {
         "name": "Microsoft Publisher 2010",
@@ -1229,7 +1211,7 @@
         "master_format": [
             "pdf"
         ],
-        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okey, since most files are not preservation worthy, and there are no other alternatives to convert them."
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okay, since most files are not preservation worthy, and there are no other alternatives to convert them."
     },
     "fmt/1515": {
         "name": "Microsoft Publisher 2013",
@@ -1237,7 +1219,7 @@
         "master_format": [
             "pdf"
         ],
-        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okey, since most files are not preservation worthy, and there are no other alternatives to convert them."
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okay, since most files are not preservation worthy, and there are no other alternatives to convert them."
     },
     "fmt/1516": {
         "name": "Microsoft Publisher 2016-2019",
@@ -1245,7 +1227,7 @@
         "master_format": [
             "pdf"
         ],
-        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okey, since most files are not preservation worthy, and there are no other alternatives to convert them."
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okay, since most files are not preservation worthy, and there are no other alternatives to convert them."
     },
     "x-fmt/13": {
         "name": "Tab-separated values",
@@ -1366,6 +1348,54 @@
         "master_format": [
             "GML3"
         ]
+    },
+    "x-fmt/252": {
+        "name": "Microsoft Publisher 2.0",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ],
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okay, since most files are not preservation worthy, and there are no other alternatives to convert them."
+    },
+    "x-fmt/253": {
+        "name": "Microsoft Publisher 95",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ],
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okay, since most files are not preservation worthy, and there are no other alternatives to convert them."
+    },
+    "x-fmt/254": {
+        "name": "Microsoft Publisher 97",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ],
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okay, since most files are not preservation worthy, and there are no other alternatives to convert them."
+    },
+    "x-fmt/255": {
+        "name": "Microsoft Publisher 98",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ],
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okay, since most files are not preservation worthy, and there are no other alternatives to convert them."
+    },
+    "x-fmt/256": {
+        "name": "Microsoft Publisher 2000",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ],
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okay, since most files are not preservation worthy, and there are no other alternatives to convert them."
+    },
+    "x-fmt/257": {
+        "name": "Microsoft Publisher 2002",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ],
+        "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okay, since most files are not preservation worthy, and there are no other alternatives to convert them."
     },
     "x-fmt/258": {
         "name": "Microsoft Visio Drawing 2000",
