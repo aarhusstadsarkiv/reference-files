@@ -143,6 +143,12 @@
         "extensions": "xltm",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/634": {
+        "name": "Microsoft Compiled HTML Help",
+        "description": "A Microsoft Compiled HTML Help file",
+        "extensions": "chm, chw",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/670": {
         "name": "PKCS #7 Crytographic Message File",
         "description": "Cryptographic message file which follows email files",
@@ -291,6 +297,12 @@
         "name": "Java Compiled Object Code",
         "description": "Java byte code - not human readable",
         "extensions": "class",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/420": {
+        "name": " Windows Setup File",
+        "description": "Windows Setup File or Installer Script",
+        "extensions": "inf",
         "reasoning": "Not preservation-worthy"
     },
     "x-fmt/421": {
