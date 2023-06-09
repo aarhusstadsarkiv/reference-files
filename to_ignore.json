@@ -251,6 +251,12 @@
         "extensions": "php",
         "reasoning": "Not preservation-worthy"
     },
+    "x-fmt/225": {
+        "name": "ESRI MapInfo Data File",
+        "description": "A helper file for .mid GIS files",
+        "extensions": "mid"
+        "reasoning": "Will be picked up by the gis-processor"
+    },
     "x-fmt/245": {
         "name": "Microsoft Project 98",
         "description": "Project files",
