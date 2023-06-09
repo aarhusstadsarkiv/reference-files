@@ -1313,6 +1313,13 @@
             "tif"
         ]
     },
+    "x-fmt/114": {
+        "name": "Lotus 1-2-3 Worksheet (2.0)",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ]
+    },
     "x-fmt/119": {
         "name": "Windows Metafile Image",
         "master_converter": "image",
