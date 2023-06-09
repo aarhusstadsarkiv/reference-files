@@ -1498,6 +1498,13 @@
             "tif"
         ]
     },
+    "x-fmt/418": {
+        "name": "Icon file format",
+        "master_converter": "image",
+        "master_format": [
+            "tif"
+        ]
+    },
     "x-fmt/426": {
         "name": "License file",
         "master_converter": "copy",
