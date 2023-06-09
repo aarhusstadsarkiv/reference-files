@@ -604,6 +604,13 @@
             "pdf"
         ]
     },
+    "fmt/163": {
+        "name": "Microsoft Works Word Processor 1-3 for DOS and 2 for Windows",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ]
+    },
     "fmt/199": {
         "name": "MPEG-4 Media File",
         "master_converter": "video",
