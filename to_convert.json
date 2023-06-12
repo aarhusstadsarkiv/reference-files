@@ -23,6 +23,13 @@
             "pdf"
         ]
     },
+    "aca-fmt/20": {
+        "name": "MapInfo TAB file"
+        "master_converter": "gis"
+        "master_format": [
+            "tab"
+        ]
+    },
     "fmt/3": {
         "name": "Graphics Interchange Format 87a",
         "master_converter": "image",
