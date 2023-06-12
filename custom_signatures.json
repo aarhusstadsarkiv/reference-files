@@ -138,5 +138,17 @@
         "puid": "aca-fmt/18",
         "signature": "OpenDocument Text (unspecified version)",
         "extension": ".odt"
+    },
+        {
+        "bof": "(?i)41007000700072006F0061006300680044006F006300",
+        "puid": "aca-fmt/19",
+        "signature": "Lotus Approach View File",
+        "extension": ".apr"
+    },
+    {
+        "bof": "(?i)^217461626C650D0A2176657273696F6E.{20,512}446566696E6974696F6E205461626C65",
+        "puid": "aca-fmt/20",
+        "signature": "MapInfo TAB file",
+        "extension": ".tab"
     }
 ]
