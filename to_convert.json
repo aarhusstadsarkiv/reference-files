@@ -1331,6 +1331,31 @@
         "name": "Lotus 1-2-3 Worksheet (2.0)",
         "master_converter": "libre",
         "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    "x-fmt/115": {
+        "name": " Lotus 1-2-3 Worksheet (3.0)",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    "x-fmt/116": {
+        "name": "Lotus 1-2-3 Worksheet (4-5)",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"
+        ]
+    },
+    "x-fmt/117": {
+        "name": "Lotus 1-2-3 Worksheet (1.0)",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
             "pdf"
         ]
     },
