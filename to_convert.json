@@ -24,8 +24,8 @@
         ]
     },
     "aca-fmt/20": {
-        "name": "MapInfo TAB file"
-        "master_converter": "gis"
+        "name": "MapInfo TAB file",
+        "master_converter": "gis",
         "master_format": [
             "tab"
         ]
@@ -602,13 +602,6 @@
         "statutory_converter": "gs",
         "statutory_format": [
             "tif"
-        ]
-    },
-    "fmt/163": {
-        "name": "Microsoft Works Word Processor 1-3 for DOS and 2 for Windows",
-        "master_converter": "libre",
-        "master_format": [
-            "pdf"
         ]
     },
     "fmt/163": {
