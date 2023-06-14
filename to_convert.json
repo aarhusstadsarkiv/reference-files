@@ -1023,6 +1023,13 @@
             "pdf"
         ]
     },
+    "fmt/573": {
+        "name": "WebM video",
+        "master_converter": "video",
+        "master_format": [
+            "mp4"
+        ]
+    },
     "fmt/583": {
         "name": "Vector Markup Language",
         "master_converter": "browser",
