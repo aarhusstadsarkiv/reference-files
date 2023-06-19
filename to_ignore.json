@@ -53,6 +53,12 @@
         "extensions": "sbn, sbx",
         "reasoning": "Picked up and used by the GIS-procesor"
     },
+    "fmt/320": {
+        "name": "ESRI Shapefile Projection (Well-Known Text) Format",
+        "description": "Projections Definition file; stores coordinate system information.",
+        "extensions": "prj",
+        "reasoning": "Picked up and used by the GIS-procesor"
+    },
     "fmt/331": {
         "name": "Autorun Configuration File",
         "description": "A Windows file usually found on CDs or DVDs or Blurays, telling the OS what executable to run when the disc is played",
