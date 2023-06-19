@@ -41,6 +41,12 @@
         "extensions": "unknown",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/319": {
+        "name": "ESRI Arc/View Shapefile Index",
+        "description": "Index file for gis project",
+        "extensions": "shx",
+        "reasoning": "Picked up and used by the GIS-procesor"
+    },
         "fmt/319": {
         "name": "ESRI Spatial Index File",
         "description": "A 2 part indexing file for spatial data",
