@@ -41,6 +41,12 @@
         "extensions": "unknown",
         "reasoning": "Not preservation-worthy"
     },
+        "fmt/319": {
+        "name": "ESRI Spatial Index File",
+        "description": "A 2 part indexing file for spatial data",
+        "extensions": "sbn, sbx",
+        "reasoning": "Picked up and used by the GIS-procesor"
+    },
     "fmt/331": {
         "name": "Autorun Configuration File",
         "description": "A Windows file usually found on CDs or DVDs or Blurays, telling the OS what executable to run when the disc is played",
