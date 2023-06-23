@@ -1097,6 +1097,20 @@
             "tif"
         ]
     },
+        "fmt/645": {
+        "name": "Exchangeable Image File Format (Compressed) 2.2.1",
+        "master_converter": "image",
+        "master_format": [
+            "tif"
+        ]
+    },   
+        "fmt/645": {
+        "name": "Open XML Paper Specification",
+        "master_converter": "xps",
+        "master_format": [
+            "pdf"
+        ]
+    },
     "fmt/744": {
         "name": "ClarisWorks/AppleWorks Word Processor 5",
         "master_converter": "libre",
