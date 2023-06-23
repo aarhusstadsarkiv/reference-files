@@ -1262,7 +1262,7 @@
         "master_converter": "gis",
         "master_format": [
             "GML3"
-        ],
+        ]
     },
     "x-fmt/13": {
         "name": "Tab-separated values",
