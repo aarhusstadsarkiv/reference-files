@@ -1257,6 +1257,13 @@
         ],
         "comment": "Libre converts publisher files with some errors, especially for multipage files. This is okay, since most files are not preservation worthy, and there are no other alternatives to convert them."
     },
+    "fmt/1729": {
+        "name": "Esri Shapefile Geospatial Metadata File",
+        "master_converter": "gis",
+        "master_format": [
+            "GML3"
+        ],
+    },
     "x-fmt/13": {
         "name": "Tab-separated values",
         "master_converter": "copy",
