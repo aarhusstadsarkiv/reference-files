@@ -650,6 +650,13 @@
             "pdf"
         ]
     },
+    "fmt/244": {
+        "name": "Keyhole Markup Language (XML)",
+        "master_converter": "gis",
+        "master_format": [
+            "GML3"
+        ]
+    },
     "fmt/258": {
         "name": "Microsoft Works Word Processor 5-6",
         "master_converter": "libre",
