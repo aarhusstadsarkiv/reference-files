@@ -1,7 +1,7 @@
 ## reference files
 Generic json-files used by more than one repository.
 
-**DO NOT** edit the json-files directly in the browser. Syntax errors are bound to happen.
+**DO NOT** edit the json-files directly in the browser. Syntax errors are bound to occur.
 
 ### to_reidentify.json
 This file lists all Pronom-identification formats that we regard as misplaced. Usually due to matching on extension only. All files identified as one of these formats, are to reidentified against our own identifiers in custom_signatures.json.
