@@ -1,0 +1,7 @@
+{
+    "x-fmt/181": {
+        "name": "PageMaker PC document (6.5-7.0)",
+        "reasoning": "The format is no longer supported by adobe and there exists no proper thrid party tools to handle it",
+        "process": "Open the file on the test machine and open it in pagmaker 7.0. From there, you can export it as an HTML document. Note that it might take several tries to open the file."
+    },
+}
