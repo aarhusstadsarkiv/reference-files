@@ -263,6 +263,12 @@
         "extensions": "shs",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/1482": {
+        "name": "Access Report Snapshot",
+        "description": "An export of a microsoft access database as a report, was supporten until 2010. Can be viewed using an proprietary viewer",
+        "extensions": "snp",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/1768": {
         "name": "C Source Code file",
         "description": "Source code written in C",
