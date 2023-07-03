@@ -1103,7 +1103,7 @@
         "master_format": [
             "tif"
         ]
-    },  
+    },
     "fmt/657": {
         "name": "Open XML Paper Specification",
         "master_converter": "xps",
@@ -1152,7 +1152,7 @@
         "name": "Geography Markup Language",
         "master_converter": "gis",
         "master_format": [
-            "gml3"
+            "GML3"
         ],
         "statutory_converter": "copy"
     },
@@ -1400,6 +1400,13 @@
         "statutory_converter": "text",
         "statutory_format": [
             "tif"
+        ]
+    },
+    "x-fmt/227": {
+        "name": "Geography Markup Language",
+        "master_converter": "gis",
+        "master_format": [
+            "GML3"
         ]
     },
     "x-fmt/231": {
