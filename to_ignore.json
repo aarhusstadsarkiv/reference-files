@@ -65,6 +65,12 @@
         "extensions": "inf",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/332": {
+        "name": "ESRI Arc/View Project (3.x)",
+        "description": "An ESRI GIS project file",
+        "extensions": "avl,apr",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/394": {
         "name": "DS_store file (MAC)",
         "description": "A macOS file used by the operating system to store folder metadata, like icon position and bg image",
@@ -167,6 +173,12 @@
         "extensions": "chm, chw",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/637": {
+        "name": "Microsoft Onenote",
+        "description": "An Onenote note file",
+        "extensions": "one",
+        "reasoning": "Not preservation-worthy / not convertable"
+    },
     "fmt/670": {
         "name": "PKCS #7 Crytographic Message File",
         "description": "Cryptographic message file which follows email files",
@@ -245,16 +257,46 @@
         "extensions": "mdw",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/1303": {
+        "name": "Microsoft Shell Scrap Object File",
+        "description": "Documents created by dragging objects from an Office document to a file folder, unsupported as of 2007",
+        "extensions": "shs",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/1768": {
+        "name": "C Source Code file",
+        "description": "Source code written in C",
+        "extensions": "c",
+        "reasoning": "Not preservation-worthy"
+    },
     "x-fmt/37": {
         "name": "AutoCAD Colour-Dependant Plot Style Table",
         "description": "Contains plotting settings",
         "extensions": "ctb",
         "reasoning": "Not preservation-worthy"
     },
+    "x-fmt/54": {
+        "name": "AutoCAD Font Mapping Table",
+        "description": "Contains info for fonts used while desingning",
+        "extensions": "fmp",
+        "reasoning": "Not preservation-worthy"
+    },
     "x-fmt/58": {
         "name": "Microsoft Excel Web Query",
         "description": "An Excel web server query, which can be used in an Excel file to retrieve data from a web server",
         "extensions": "iqy",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/78": {
+        "name": "AutoCAD Plot Configuration File (2000)",
+        "description": "An configuration file for AutoCAD",
+        "extensions": "dxf",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/107": {
+        "name": "AutoCAD name plot style table",
+        "description": "An configuration file for AutoCAD used while designing",
+        "extensions": "stb",
         "reasoning": "Not preservation-worthy"
     },
     "x-fmt/128": {
@@ -275,7 +317,7 @@
         "extensions": "php",
         "reasoning": "Not preservation-worthy"
     },
-        "x-fmt/191": {
+    "x-fmt/191": {
         "name": "AMI Professional Document",
         "description": "A file from the AMI wordprocessor",
         "extensions": "sam",
