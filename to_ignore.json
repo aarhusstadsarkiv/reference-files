@@ -149,6 +149,12 @@
         "extensions": "lst",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/550": {
+        "name": "Adobe InDesign Document CS4",
+        "description": "File used by adobe software for image editing and manipulation",
+        "extensions": "ind, indd, indt",
+        "reasoning": "Not preservable, we are unable to open and convert this format without and photoshop license. The files also rarely if ever contains presevable info."
+    },
     "fmt/551": {
         "name": "Adobe InDesign Document CS5",
         "description": "File used by adobe software for image editing and manipulation",
