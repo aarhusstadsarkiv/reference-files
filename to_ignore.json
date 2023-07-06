@@ -287,6 +287,12 @@
         "extensions": "c",
         "reasoning": "Not preservation-worthy"
     },
+    "x-fmt/9": {
+        "name": "dBASE Database (III)",
+        "description": "A dBASE database for microcomputer",
+        "extensions": "dbf",
+        "reasoning": "Not preservable, we are unable to convert it to a format we can handle as of now"
+    },
     "x-fmt/37": {
         "name": "AutoCAD Colour-Dependant Plot Style Table",
         "description": "Contains plotting settings",
