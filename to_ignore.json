@@ -149,6 +149,18 @@
         "extensions": "lst",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/550": {
+        "name": "Adobe InDesign Document CS4",
+        "description": "File used by adobe software for image editing and manipulation",
+        "extensions": "ind, indd, indt",
+        "reasoning": "Not preservable, we are unable to open and convert this format without and photoshop license. The files also rarely if ever contains presevable info."
+    },
+    "fmt/551": {
+        "name": "Adobe InDesign Document CS5",
+        "description": "File used by adobe software for image editing and manipulation",
+        "extensions": "ind, indd, indt",
+        "reasoning": "Not preservable, we are unable to open and convert this format without and photoshop license. The files also rarely if ever contains presevable info."
+    },
     "fmt/589": {
         "name": "Windows Media Playlist",
         "description": "A structured, XML-like file containing a sequence of music files that makes up a given playlist",
@@ -275,6 +287,12 @@
         "extensions": "c",
         "reasoning": "Not preservation-worthy"
     },
+    "x-fmt/9": {
+        "name": "dBASE Database (III)",
+        "description": "A dBASE database for microcomputer",
+        "extensions": "dbf",
+        "reasoning": "Not preservable, we are unable to convert it to a format we can handle as of now"
+    },
     "x-fmt/37": {
         "name": "AutoCAD Colour-Dependant Plot Style Table",
         "description": "Contains plotting settings",
@@ -335,6 +353,12 @@
         "extensions": "mid",
         "reasoning": "Will be picked up by the gis-processor"
     },
+    "x-fmt/240": {
+        "name": "Microstoft Acces Database File (2000)",
+        "description": "A microsoft access database",
+        "extensions": "mdb",
+        "reasoning": "Not preservable, we are unable to convert it to a format we can handle as of now"
+    },
     "x-fmt/245": {
         "name": "Microsoft Project 98",
         "description": "Project files",
@@ -352,6 +376,12 @@
         "description": "A prescriptive XML template, for validating XML files with",
         "extensions": "xsd",
         "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/328": {
+        "name": "InterBase Database file",
+        "description": "A Databse fil in the interbase format",
+        "extensions": "gdb",
+        "reasoning": "Not preservable, we are unable to convert it to a format we can handle as of now"
     },
     "x-fmt/332": {
         "name": "Lotus 1-2-3 Spreadsheet Formatting File 3.0",
