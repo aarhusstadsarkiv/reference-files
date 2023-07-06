@@ -365,6 +365,12 @@
         "extensions": "xsd",
         "reasoning": "Not preservation-worthy"
     },
+    "x-fmt/328": {
+        "name": "InterBase Database file",
+        "description": "A Databse fil in the interbase format",
+        "extensions": "gdb",
+        "reasoning": "Not preservable, we are unable to convert it to a format we can handle as of now"
+    },
     "x-fmt/332": {
         "name": "Lotus 1-2-3 Spreadsheet Formatting File 3.0",
         "description": "It's a file containing formatting information for Lotus spreadsheets",
