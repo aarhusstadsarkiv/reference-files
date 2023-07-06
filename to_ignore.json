@@ -347,6 +347,12 @@
         "extensions": "mid",
         "reasoning": "Will be picked up by the gis-processor"
     },
+    "x-fmt/240": {
+        "name": "Microstoft Acces Database File (2000)",
+        "description": "A microsoft access database",
+        "extensions": "mdb",
+        "reasoning": "Not preservable, we are unable to convert it to a format we can handle as of now"
+    },
     "x-fmt/245": {
         "name": "Microsoft Project 98",
         "description": "Project files",
