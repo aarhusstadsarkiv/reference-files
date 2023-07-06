@@ -377,6 +377,12 @@
         "extensions": "xsd",
         "reasoning": "Not preservation-worthy"
     },
+    "x-fmt/295": {
+        "name": "Micrografx Draw",
+        "description": "A drawing made in Micrografx Draw & Designer software. Should be Vector based",
+        "extensions": "drw,drt",
+        "reasoning": "Not preservable. We have only encountered one file in this format, which we where unable to open with our current tools (Inkscape, ABViewer, Libre or our current version of the image_converter in convertool)"
+    },
     "x-fmt/328": {
         "name": "InterBase Database file",
         "description": "A Databse fil in the interbase format",
