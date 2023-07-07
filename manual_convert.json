@@ -2,6 +2,12 @@
     "x-fmt/181": {
         "name": "PageMaker PC document (6.5-7.0)",
         "reasoning": "The format is no longer supported by adobe and there exists no proper thrid party tools to handle it",
-        "process": "Open the file on the test machine and open it in pagmaker 7.0. From there, you can export it as an HTML document. Note that it might take several tries to open the file."
+        "process": "On the test machine, open the file in pagemaker 7.0. From there, you can export it as an HTML document. Note that it might take several tries to open the file."
+    },
+    "x-fmt/346": {
+        "name": "Microstation CAD Drawing (95)",
+        "Reasoning": "A file format by Bentley software, which is proprietary and not easily convertable. Might be able to be opened by AutoCAD software, but can be opened in Beltey Viewer",
+        "process": "Bentley supplies a free viewer online which can be downloaded and used to open the files. When opened, the file can then be printed to pdf. Note that it might require some tinkering to get the format and the resolution right. I recommend trying to get the file to print on as large a paper as possible (A0), as it is easier to scale down from that than to scale op afterwards.",
+        "notes": "Some files might be of the V7 format instead of the newer V8 format. The Bentley viewer will tell you and ask you to change some setting in order to open the file. These setting can only be accessed by opening a V8 file and finding them through the UI (the path is specified in a help message when opening v7 files"
     }
 }
