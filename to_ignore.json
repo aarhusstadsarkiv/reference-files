@@ -413,6 +413,12 @@
         "extensions": "bat",
         "reasoning": "Not preservation-worthy"
     },
+    "x-fmt/414": {
+        "name": "Windows Cabinet File",
+        "description": "A zipped windows file, used often for temporary file storage and executables",
+        "extensions": "cab",
+        "reasoning": "Not preservation-worthy, as they often contains temp files and executables."
+    },
     "x-fmt/415": {
         "name": "Java Compiled Object Code",
         "description": "Java byte code - not human readable",
