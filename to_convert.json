@@ -613,13 +613,6 @@
                 "pdf"
             ]
         },
-        "fmt/189": {
-            "name": "Microsoft Office Open XML (2007 onwards)",
-            "master_converter": "xps",
-            "master_format": [
-                "pdf"
-            ]
-        },
         "fmt/199": {
             "name": "MPEG-4 Media File",
             "master_converter": "video",
