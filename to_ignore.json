@@ -334,10 +334,5 @@
         "description": "A link to a website",
         "extensions": "url",
         "reasoning": "Not preservation-worthy"
-    },
-    "fmt/1369": {
-        "name": "Error File",
-        "description": "An error log file.",
-        "reasoning": "Not preservation-worthy"
     }
 }

@@ -1277,7 +1277,18 @@
             "pdf"
         ],
         "extensions": "wb2",
-        "noters": "Problems with encoding"
+        "notes": "Problems with encoding"
+    },
+
+    "fmt/836": {
+        "name": "Quattro Pro Spreadsheet for Windows 7-8",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ],
+        "extensions": "wb3",
+        "notes": "Problems with encoding"
     },
         
 	"fmt/881": {
@@ -1476,7 +1487,7 @@
             "pdf"
         ],
         "extensions": "wk1",
-        "noters": "Problems with encoding"
+        "notes": "Problems with encoding"
     },
 
     "x-fmt/115": {
@@ -1487,7 +1498,7 @@
             "pdf"
         ],
         "extensions": "wk1 wk3",
-        "noters": "Problems with encoding"
+        "notes": "Problems with encoding"
     },
 
     "x-fmt/116": {
@@ -1498,7 +1509,7 @@
             "pdf"
         ],
         "extensions": "wk1 wk3 wk4",
-        "noters": "Problems with encoding"
+        "notes": "Problems with encoding"
     },
 
     "x-fmt/119": {
@@ -1665,13 +1676,23 @@
             "tif"
         ]
     },
+
+    "x-fmt/393": {
+        "name": "WordPerfect for MS-DOS Document 5.0",
+        "master_converter": "libre",
+        "master_format": [
+            "tif"
+        ]
+    },
     
     "x-fmt/394": {
         "name": "WordPerfect for MS-DOS/Windows Document 5.1",
         "master_converter": "libre",
         "master_format": [
+            "odt",
             "pdf"
-        ]
+        ],
+        "notes": "Problems with the header"
     },
     
     "x-fmt/398": {
