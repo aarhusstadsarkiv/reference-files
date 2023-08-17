@@ -1,4 +1,10 @@
 {
+    "aca-fmt/9": {
+        "description": "Transport Neutral Encapsulation Format (TNEF)/Microsoft email attachments archive (winmail)",
+        "tool": "tnefparse",
+        "ext": ".dat",
+        "dir_suffix": ".mail_extraction"
+    },
     "fmt/411": {
         "description": "RAR Archive version 2.9",
         "tool": "patool",
@@ -16,6 +22,12 @@
         "tool": "patool",
         "ext": ".rar",
         "dir_suffix": ".archive_extraction"
+    },
+    "fmt/724": {
+        "description": "Keyhole Markup Language (Container)",
+        "tool": "kmz",
+        "ext": ".kmz",
+        "dir_suffix": ".kmz_extraction"
     },
     "x-fmt/263": {
         "description": "ZIP Format",
@@ -45,12 +57,6 @@
         "description": "MSG file",
         "tool": "msg",
         "ext": ".msg",
-        "dir_suffix": ".mail_extraction"
-    },
-    "aca-fmt/9": {
-        "description": "Transport Neutral Encapsulation Format (TNEF)/Microsoft email attachments archive (winmail)",
-        "tool": "tnefparse",
-        "ext": ".dat",
         "dir_suffix": ".mail_extraction"
     }
 }
