@@ -491,6 +491,13 @@
             "pdf"
         ]
     },
+    "fmt/123": {
+        "name": "EEncapsulated PostScript File Format 2.0",
+        "master_converter": "pdf",
+        "master_format": [
+            "pdf"
+        ]
+    },
     "fmt/124": {
         "name": "Encapsulated PostScript File Format 3",
         "master_converter": "libre",
@@ -1276,6 +1283,26 @@
             "GML3"
         ]
     },
+    "x-fmt/9": {
+        "name": "dBASE Database III",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"  
+        ],
+        "extensions": "wb2",
+        "notes": "Problems with encoding"
+    },
+    "x-fmt/10": {
+        "name": "dBASE Database IV",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"  
+        ],
+        "extensions": "wb2",
+        "notes": "Problems with encoding"
+    },
     "x-fmt/13": {
         "name": "Tab-separated values",
         "master_converter": "copy",
@@ -1499,6 +1526,16 @@
             "tif"
         ]
     },
+    "x-fmt/345": {
+        "name": "Microsoft Works Document",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"  
+        ],
+        "extensions": "bps",
+        "notes": ""
+    },
     "x-fmt/375": {
         "name": "CorelDraw Drawing",
         "master_converter": "libre",
@@ -1624,6 +1661,5 @@
             "dwg",
             "pdf"
         ]
-    }
     }
 }
