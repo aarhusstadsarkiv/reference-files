@@ -1,472 +1,457 @@
 {
-    "version": "23-07-10",
-    "data": {
-        "aca-error/1": {
-            "name": "Empty File",
-            "decription": "It's an empty file!",
-            "extensions": "*",
-            "reasoning": "Not preservation-worthy"
-        },
-        "aca-error/2": {
-            "name": "Corrupt file",
-            "description": "It's a corrupt file!",
-            "extensions": "*",
-            "reasoning": "Not preservation-worthy"
-        },
-        "aca-fmt/4": {
-            "name": "MindManager Mind Map",
-            "description": "Proprietary mind map file",
-            "extensions": "mmap",
-            "reasoning": "Not preservation-worthy"
-        },
-        "aca-fmt/5": {
-            "name": "Lotus Notes Template",
-            "description": "A database template",
-            "extensions": "ntf",
-            "reasoning": "Not preservation-worthy"
-        },
-        "aca-fmt/6": {
-            "name": "Lotus Approach Index File",
-            "description": "A file exclusively containing database indexing",
-            "extensions": "adx",
-            "reasoning": "Not preservation-worthy"
-        },
-        "aca-fmt/7": {
-            "name": "ID File",
-            "description": "User ID files",
-            "extensions": "id",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/212": {
-            "name": "Information or Setup File",
-            "description": "unknown",
-            "extensions": "unknown",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/277": {
-            "name": "ESRI Arc/View Shapefile Index",
-            "description": "Index file for gis project",
-            "extensions": "shx",
-            "reasoning": "Picked up and used by the GIS-procesor"
-        },
-        "fmt/319": {
-            "name": "ESRI Spatial Index File",
-            "description": "A 2 part indexing file for spatial data",
-            "extensions": "sbn, sbx",
-            "reasoning": "Picked up and used by the GIS-procesor"
-        },
-        "fmt/320": {
-            "name": "ESRI Shapefile Projection (Well-Known Text) Format",
-            "description": "Projections Definition file; stores coordinate system information.",
-            "extensions": "prj",
-            "reasoning": "Picked up and used by the GIS-procesor"
-        },
-        "fmt/331": {
-            "name": "Autorun Configuration File",
-            "description": "A Windows file usually found on CDs or DVDs or Blurays, telling the OS what executable to run when the disc is played",
-            "extensions": "inf",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/332": {
-            "name": "ESRI Arc/View Project (3.x)",
-            "description": "An ESRI GIS project file",
-            "extensions": "avl,apr",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/394": {
-            "name": "DS_store file (MAC)",
-            "description": "A macOS file used by the operating system to store folder metadata, like icon position and bg image",
-            "extensions": "ds_store",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/395": {
-            "name": "vCard",
-            "description": "Windows native contact files",
-            "extensions": "vcf",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/440": {
-            "name": "Microsoft Project 2007",
-            "description": "Project files",
-            "extensions": "mmp",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/473": {
-            "name": "Microsoft Office Owner File",
-            "description": "A temporary file created by Windows Office when a document is open, containing account logon info",
-            "extensions": "doc, docx",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/475": {
-            "name": "Microsoft Management Console Snap-in Control file",
-            "description": "Related to Microsoft administrative file control",
-            "extensions": "msc",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/494": {
-            "name": "Microsoft Office Encrypted Document (2007 Onwards)",
-            "description": "A password protected office document",
-            "extensions": "*",
-            "reasoning": "Password protected"
-        },
-        "fmt/500": {
-            "name": "Internet Explorer for Mac cache file",
-            "description": "An Internet Explorer cache file",
-            "extensions": "waf",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/503": {
-            "name": "AppleDouble Resource Fork 2",
-            "description": "The resource fork is a construct of the Mac OS operating system used to store structured data in a file, alongside unstructured data stored within the data fork. The format specification is available here: http://support.apple.com/kb/TA32537?viewlocale=en_US The format lacks an extension, and is instead represented by a file name consisting of ._<filename resource fork belongs to>",
-            "extensions": "_*",
-            "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
-        },
-        "fmt/509": {
-            "name": "Adobe PostScript Font Metrics file",
-            "description": "Part of the PostScript Type 1 font format family. On Windows, Type 1 fonts consist of a PostScript Font Binary (.PFB) file, plus a corresponding PostScript Font Metrics (.PFM) file. (Some very old Type 1 fonts may ship with a .PFB, .AFM, and .INF file. Installing such fonts will create a .PFM file from the .AFM and .INF files.)",
-            "extensions": "pfm",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/520": {
-            "name": "OpenType Font File",
-            "description": "A font file",
-            "extensions": "otf",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/524": {
-            "name": "Microsoft Office Theme",
-            "description": "Exclusively contains font, color, layout, etc. template settings for a Microsoft Office document",
-            "extensions": "thmx",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/525": {
-            "name": "Adobe Printer Font Binary",
-            "description": "Part of the PostScript Type 1 font format family. On Windows, Type 1 fonts consist of a PostScript Font Binary (.PFB) file, plus a corresponding PostScript Font Metrics (.PFM) file. (Some very old Type 1 fonts may ship with a .PFB, .AFM, and .INF file. Installing such fonts will create a .PFM file from the .AFM and .INF files.)",
-            "extensions": "pfb",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/526": {
-            "name": "Adobe Font List",
-            "description": "A cache of font files installed for Adobe products, createed by the programs themselves",
-            "extensions": "lst",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/550": {
-            "name": "Adobe InDesign Document CS4",
-            "description": "File used by adobe software for image editing and manipulation",
-            "extensions": "ind, indd, indt",
-            "reasoning": "Not preservable, we are unable to open and convert this format without and photoshop license. The files also rarely if ever contains presevable info."
-        },
-        "fmt/551": {
-            "name": "Adobe InDesign Document CS5",
-            "description": "File used by adobe software for image editing and manipulation",
-            "extensions": "ind, indd, indt",
-            "reasoning": "Not preservable, we are unable to open and convert this format without and photoshop license. The files also rarely if ever contains presevable info."
-        },
-        "fmt/589": {
-            "name": "Windows Media Playlist",
-            "description": "A structured, XML-like file containing a sequence of music files that makes up a given playlist",
-            "extensions": "wpl",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/599": {
-            "name": "Microsoft Word Macro-Enabled Document Template 2007 onwards",
-            "description": "A template document file",
-            "extensions": "dotm",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/627": {
-            "name": "Microsoft Excel Macro-Enabled Template 2007",
-            "description": "A Microsoft Excel template file with macros enabled",
-            "extensions": "xltm",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/634": {
-            "name": "Microsoft Compiled HTML Help",
-            "description": "A Microsoft Compiled HTML Help file",
-            "extensions": "chm, chw",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/637": {
-            "name": "Microsoft Onenote",
-            "description": "An Onenote note file",
-            "extensions": "one",
-            "reasoning": "Not preservation-worthy / not convertable"
-        },
-        "fmt/670": {
-            "name": "PKCS #7 Crytographic Message File",
-            "description": "Cryptographic message file which follows email files",
-            "extensions": "Unknown",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/682": {
-            "name": "Thumbs DB File XP",
-            "description": "Windows OS file, contains folder metadata",
-            "extensions": "db",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/725": {
-            "name": "Microsoft Project 2010",
-            "description": "Project files",
-            "extensions": "mmp",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/754": {
-            "name": "Microsoft Word Document (Password Protected) 97-2003",
-            "description": "A password protected word document",
-            "extensions": "doc, wbk",
-            "reasoning": "Password protected"
-        },
-        "fmt/870": {
-            "name": "Perl Script",
-            "description": "A script in Perl",
-            "extensions": "pl",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/886": {
-            "name": "HTML Components",
-            "description": "A web script file, usually Javascript, meant to be integrated with other HTML files",
-            "extensions": "htc",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/899": {
-            "name": "Windows Portable Executable 32 bit",
-            "description": "A Windows executable file",
-            "extensions": "dll, exe, sys",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/900": {
-            "name": "Windows Portable Executable 64 bit",
-            "description": "A Windows executable file",
-            "extensions": "dll, exe, sys",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/938": {
-            "name": "Python Script File",
-            "description": "A script in Python",
-            "extensions": "py",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/1082": {
-            "name": "ASP WebService Directive File",
-            "description": "Defines XML Web service attributes for Active Server Pages",
-            "extensions": "asmx",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/1132": {
-            "name": "Netscape Bookmark File Format",
-            "description": "A bookmark in the Netscape web browser",
-            "extensions": "htm",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/1256": {
-            "name": "Workspace file for ESRI GIS-project",
-            "description": "File containing all commands necessary for reloading a ESRI project for editing",
-            "extensions": "TBD",
-            "reasoning": "Not Preservation-worthy"
-        },
-        "fmt/1258": {
-            "name": "Microsoft Access Workgroup Information File",
-            "description": "A file containing usernames and passwords for users and groups that require access to a specific Microsoft Access database",
-            "extensions": "mdw",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/1303": {
-            "name": "Microsoft Shell Scrap Object File",
-            "description": "Documents created by dragging objects from an Office document to a file folder, unsupported as of 2007",
-            "extensions": "shs",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/1482": {
-            "name": "Access Report Snapshot",
-            "description": "An export of a microsoft access database as a report, was supporten until 2010. Can be viewed using an proprietary viewer",
-            "extensions": "snp",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/1768": {
-            "name": "C Source Code file",
-            "description": "Source code written in C",
-            "extensions": "c",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/9": {
-            "name": "dBASE Database (III)",
-            "description": "A dBASE database for microcomputer",
-            "extensions": "dbf",
-            "reasoning": "Not preservable, we are unable to convert it to a format we can handle as of now"
-        },
-        "x-fmt/37": {
-            "name": "AutoCAD Colour-Dependant Plot Style Table",
-            "description": "Contains plotting settings",
-            "extensions": "ctb",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/54": {
-            "name": "AutoCAD Font Mapping Table",
-            "description": "Contains info for fonts used while desingning",
-            "extensions": "fmp",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/58": {
-            "name": "Microsoft Excel Web Query",
-            "description": "An Excel web server query, which can be used in an Excel file to retrieve data from a web server",
-            "extensions": "iqy",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/78": {
-            "name": "AutoCAD Plot Configuration File (2000)",
-            "description": "An configuration file for AutoCAD",
-            "extensions": "dxf",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/107": {
-            "name": "AutoCAD name plot style table",
-            "description": "An configuration file for AutoCAD used while designing",
-            "extensions": "stb",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/128": {
-            "name": "Microsoft Excel Workspace",
-            "description": "Contains context information for workbook projects, such as which ones are part of the project, the position of the window, etc.",
-            "extensions": "xlw",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/138": {
-            "name": "Active Server Page",
-            "description": "A website / server code file",
-            "extensions": "asp",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/169": {
-            "name": "PHP Script Page",
-            "description": "A script in PHP",
-            "extensions": "php",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/191": {
-            "name": "AMI Professional Document",
-            "description": "A file from the AMI wordprocessor",
-            "extensions": "sam",
-            "reasoning": "Not preservation-worthy / not convertable"
-        },
-        "x-fmt/225": {
-            "name": "ESRI MapInfo Data File",
-            "description": "A helper file for .mid GIS files",
-            "extensions": "mid",
-            "reasoning": "Will be picked up by the gis-processor"
-        },
-        "x-fmt/240": {
-            "name": "Microstoft Acces Database File (2000)",
-            "description": "A microsoft access database",
-            "extensions": "mdb",
-            "reasoning": "Not preservable, we are unable to convert it to a format we can handle as of now"
-        },
-        "x-fmt/245": {
-            "name": "Microsoft Project 98",
-            "description": "Project files",
-            "extensions": "mmp",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/247": {
-            "name": "Microsoft Project 2000-2003",
-            "description": "Project files",
-            "extensions": "mmp",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/280": {
-            "name": "XML Schema Definition",
-            "description": "A prescriptive XML template, for validating XML files with",
-            "extensions": "xsd",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/295": {
-            "name": "Micrografx Draw",
-            "description": "A drawing made in Micrografx Draw & Designer software. Should be Vector based",
-            "extensions": "drw,drt",
-            "reasoning": "Not preservable. We have only encountered one file in this format, which we where unable to open with our current tools (Inkscape, ABViewer, Libre or our current version of the image_converter in convertool)"
-        },
-        "x-fmt/328": {
-            "name": "InterBase Database file",
-            "description": "A Databse fil in the interbase format",
-            "extensions": "gdb",
-            "reasoning": "Not preservable, we are unable to convert it to a format we can handle as of now"
-        },
-        "x-fmt/332": {
-            "name": "Lotus 1-2-3 Spreadsheet Formatting File 3.0",
-            "description": "It's a file containing formatting information for Lotus spreadsheets",
-            "extensions": "FM3",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/411": {
-            "name": "Windows Portable Executable",
-            "description": "A Windows executable file",
-            "extensions": "dll, exe, sys",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/412": {
-            "name": "Java Archive Format",
-            "description": "A Java archive file containing a Java project",
-            "extensions": "jar",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/413": {
-            "name": "Batch file (executable)",
-            "description": "An executable non-binary .bat-file",
-            "extensions": "bat",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/414": {
-            "name": "Windows Cabinet File",
-            "description": "A zipped windows file, used often for temporary file storage and executables",
-            "extensions": "cab",
-            "reasoning": "Not preservation-worthy, as they often contains temp files and executables."
-        },
-        "x-fmt/415": {
-            "name": "Java Compiled Object Code",
-            "description": "Java byte code - not human readable",
-            "extensions": "class",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/420": {
-            "name": " Windows Setup File",
-            "description": "Windows Setup File or Installer Script",
-            "extensions": "inf",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/421": {
-            "name": "Text Configuration file",
-            "description": "A text config file",
-            "extensions": "unknown",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/428": {
-            "name": "Microsoft Windows Shortcut",
-            "description": "A pointer to a different file",
-            "extensions": "lnk",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/441": {
-            "name": "AutoCAD Database File Locking Information",
-            "description": "A temporary file created by AutoCAD when a file is opened for editing, detailing when and by who the file was edited",
-            "extensions": "dwl",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/453": {
-            "name": "TrueType Font",
-            "description": "A font file",
-            "extensions": "ttf",
-            "reasoning": "Not preservation-worthy"
-        },
-        "x-fmt/454": {
-            "name": "Microsoft Internet Shortcut",
-            "description": "A link to a website",
-            "extensions": "url",
-            "reasoning": "Not preservation-worthy"
-        },
-        "fmt/1369": {
-            "name": "Error File",
-            "description": "An error log file.",
-            "reasoning": "Not preservation-worthy"
-        }
+    "aca-error/1": {
+        "name": "Empty File",
+        "decription": "It's an empty file!",
+        "extensions": "*",
+        "reasoning": "Not preservation-worthy"
+    },
+    "aca-error/2": {
+        "name": "Corrupt file",
+        "description": "It's a corrupt file!",
+        "extensions": "*",
+        "reasoning": "Not preservation-worthy"
+    },
+    "aca-fmt/4": {
+        "name": "MindManager Mind Map",
+        "description": "Proprietary mind map file",
+        "extensions": "mmap",
+        "reasoning": "Not preservation-worthy"
+    },
+    "aca-fmt/5": {
+        "name": "Lotus Notes Template",
+        "description": "A database template",
+        "extensions": "ntf",
+        "reasoning": "Not preservation-worthy"
+    },
+    "aca-fmt/6": {
+        "name": "Lotus Approach Index File",
+        "description": "A file exclusively containing database indexing",
+        "extensions": "adx",
+        "reasoning": "Not preservation-worthy"
+    },
+    "aca-fmt/7": {
+        "name": "ID File",
+        "description": "User ID files",
+        "extensions": "id",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/212": {
+        "name": "Information or Setup File",
+        "description": "unknown",
+        "extensions": "unknown",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/277": {
+        "name": "ESRI Arc/View Shapefile Index",
+        "description": "Index file for gis project",
+        "extensions": "shx",
+        "reasoning": "Picked up and used by the GIS-procesor"
+    },
+    "fmt/319": {
+        "name": "ESRI Spatial Index File",
+        "description": "A 2 part indexing file for spatial data",
+        "extensions": "sbn, sbx",
+        "reasoning": "Picked up and used by the GIS-procesor"
+    },
+    "fmt/320": {
+        "name": "ESRI Shapefile Projection (Well-Known Text) Format",
+        "description": "Projections Definition file; stores coordinate system information.",
+        "extensions": "prj",
+        "reasoning": "Picked up and used by the GIS-procesor"
+    },
+    "fmt/331": {
+        "name": "Autorun Configuration File",
+        "description": "A Windows file usually found on CDs or DVDs or Blurays, telling the OS what executable to run when the disc is played",
+        "extensions": "inf",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/332": {
+        "name": "ESRI Arc/View Project (3.x)",
+        "description": "An ESRI GIS project file",
+        "extensions": "avl,apr",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/394": {
+        "name": "DS_store file (MAC)",
+        "description": "A macOS file used by the operating system to store folder metadata, like icon position and bg image",
+        "extensions": "ds_store",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/395": {
+        "name": "vCard",
+        "description": "Windows native contact files",
+        "extensions": "vcf",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/440": {
+        "name": "Microsoft Project 2007",
+        "description": "Project files",
+        "extensions": "mmp",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/473": {
+        "name": "Microsoft Office Owner File",
+        "description": "A temporary file created by Windows Office when a document is open, containing account logon info",
+        "extensions": "doc, docx",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/475": {
+        "name": "Microsoft Management Console Snap-in Control file",
+        "description": "Related to Microsoft administrative file control",
+        "extensions": "msc",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/494": {
+        "name": "Microsoft Office Encrypted Document (2007 Onwards)",
+        "description": "A password protected office document",
+        "extensions": "*",
+        "reasoning": "Password protected"
+    },
+    "fmt/500": {
+        "name": "Internet Explorer for Mac cache file",
+        "description": "An Internet Explorer cache file",
+        "extensions": "waf",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/503": {
+        "name": "AppleDouble Resource Fork 2",
+        "description": "The resource fork is a construct of the Mac OS operating system used to store structured data in a file, alongside unstructured data stored within the data fork. The format specification is available here: http://support.apple.com/kb/TA32537?viewlocale=en_US The format lacks an extension, and is instead represented by a file name consisting of ._<filename resource fork belongs to>",
+        "extensions": "_*",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
+    },
+    "fmt/509": {
+        "name": "Adobe PostScript Font Metrics file",
+        "description": "Part of the PostScript Type 1 font format family. On Windows, Type 1 fonts consist of a PostScript Font Binary (.PFB) file, plus a corresponding PostScript Font Metrics (.PFM) file. (Some very old Type 1 fonts may ship with a .PFB, .AFM, and .INF file. Installing such fonts will create a .PFM file from the .AFM and .INF files.)",
+        "extensions": "pfm",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/520": {
+        "name": "OpenType Font File",
+        "description": "A font file",
+        "extensions": "otf",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/524": {
+        "name": "Microsoft Office Theme",
+        "description": "Exclusively contains font, color, layout, etc. template settings for a Microsoft Office document",
+        "extensions": "thmx",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/525": {
+        "name": "Adobe Printer Font Binary",
+        "description": "Part of the PostScript Type 1 font format family. On Windows, Type 1 fonts consist of a PostScript Font Binary (.PFB) file, plus a corresponding PostScript Font Metrics (.PFM) file. (Some very old Type 1 fonts may ship with a .PFB, .AFM, and .INF file. Installing such fonts will create a .PFM file from the .AFM and .INF files.)",
+        "extensions": "pfb",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/526": {
+        "name": "Adobe Font List",
+        "description": "A cache of font files installed for Adobe products, createed by the programs themselves",
+        "extensions": "lst",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/550": {
+        "name": "Adobe InDesign Document CS4",
+        "description": "File used by adobe software for image editing and manipulation",
+        "extensions": "ind, indd, indt",
+        "reasoning": "Not preservable, we are unable to open and convert this format without and photoshop license. The files also rarely if ever contains presevable info."
+    },
+    "fmt/551": {
+        "name": "Adobe InDesign Document CS5",
+        "description": "File used by adobe software for image editing and manipulation",
+        "extensions": "ind, indd, indt",
+        "reasoning": "Not preservable, we are unable to open and convert this format without and photoshop license. The files also rarely if ever contains presevable info."
+    },
+    "fmt/589": {
+        "name": "Windows Media Playlist",
+        "description": "A structured, XML-like file containing a sequence of music files that makes up a given playlist",
+        "extensions": "wpl",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/599": {
+        "name": "Microsoft Word Macro-Enabled Document Template 2007 onwards",
+        "description": "A template document file",
+        "extensions": "dotm",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/627": {
+        "name": "Microsoft Excel Macro-Enabled Template 2007",
+        "description": "A Microsoft Excel template file with macros enabled",
+        "extensions": "xltm",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/634": {
+        "name": "Microsoft Compiled HTML Help",
+        "description": "A Microsoft Compiled HTML Help file",
+        "extensions": "chm, chw",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/637": {
+        "name": "Microsoft Onenote",
+        "description": "An Onenote note file",
+        "extensions": "one",
+        "reasoning": "Not preservation-worthy / not convertable"
+    },
+    "fmt/670": {
+        "name": "PKCS #7 Crytographic Message File",
+        "description": "Cryptographic message file which follows email files",
+        "extensions": "Unknown",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/682": {
+        "name": "Thumbs DB File XP",
+        "description": "Windows OS file, contains folder metadata",
+        "extensions": "db",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/725": {
+        "name": "Microsoft Project 2010",
+        "description": "Project files",
+        "extensions": "mmp",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/754": {
+        "name": "Microsoft Word Document (Password Protected) 97-2003",
+        "description": "A password protected word document",
+        "extensions": "doc, wbk",
+        "reasoning": "Password protected"
+    },
+    "fmt/870": {
+        "name": "Perl Script",
+        "description": "A script in Perl",
+        "extensions": "pl",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/886": {
+        "name": "HTML Components",
+        "description": "A web script file, usually Javascript, meant to be integrated with other HTML files",
+        "extensions": "htc",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/899": {
+        "name": "Windows Portable Executable 32 bit",
+        "description": "A Windows executable file",
+        "extensions": "dll, exe, sys",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/900": {
+        "name": "Windows Portable Executable 64 bit",
+        "description": "A Windows executable file",
+        "extensions": "dll, exe, sys",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/938": {
+        "name": "Python Script File",
+        "description": "A script in Python",
+        "extensions": "py",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/1082": {
+        "name": "ASP WebService Directive File",
+        "description": "Defines XML Web service attributes for Active Server Pages",
+        "extensions": "asmx",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/1132": {
+        "name": "Netscape Bookmark File Format",
+        "description": "A bookmark in the Netscape web browser",
+        "extensions": "htm",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/1256": {
+        "name": "Workspace file for ESRI GIS-project",
+        "description": "File containing all commands necessary for reloading a ESRI project for editing",
+        "extensions": "TBD",
+        "reasoning": "Not Preservation-worthy"
+    },
+    "fmt/1258": {
+        "name": "Microsoft Access Workgroup Information File",
+        "description": "A file containing usernames and passwords for users and groups that require access to a specific Microsoft Access database",
+        "extensions": "mdw",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/1303": {
+        "name": "Microsoft Shell Scrap Object File",
+        "description": "Documents created by dragging objects from an Office document to a file folder, unsupported as of 2007",
+        "extensions": "shs",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/1482": {
+        "name": "Access Report Snapshot",
+        "description": "An export of a microsoft access database as a report, was supporten until 2010. Can be viewed using an proprietary viewer",
+        "extensions": "snp",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/1768": {
+        "name": "C Source Code file",
+        "description": "Source code written in C",
+        "extensions": "c",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/9": {
+        "name": "dBASE Database (III)",
+        "description": "A dBASE database for microcomputer",
+        "extensions": "dbf",
+        "reasoning": "Not preservable, we are unable to convert it to a format we can handle as of now"
+    },
+    "x-fmt/37": {
+        "name": "AutoCAD Colour-Dependant Plot Style Table",
+        "description": "Contains plotting settings",
+        "extensions": "ctb",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/54": {
+        "name": "AutoCAD Font Mapping Table",
+        "description": "Contains info for fonts used while desingning",
+        "extensions": "fmp",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/58": {
+        "name": "Microsoft Excel Web Query",
+        "description": "An Excel web server query, which can be used in an Excel file to retrieve data from a web server",
+        "extensions": "iqy",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/78": {
+        "name": "AutoCAD Plot Configuration File (2000)",
+        "description": "An configuration file for AutoCAD",
+        "extensions": "dxf",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/107": {
+        "name": "AutoCAD name plot style table",
+        "description": "An configuration file for AutoCAD used while designing",
+        "extensions": "stb",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/128": {
+        "name": "Microsoft Excel Workspace",
+        "description": "Contains context information for workbook projects, such as which ones are part of the project, the position of the window, etc.",
+        "extensions": "xlw",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/138": {
+        "name": "Active Server Page",
+        "description": "A website / server code file",
+        "extensions": "asp",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/169": {
+        "name": "PHP Script Page",
+        "description": "A script in PHP",
+        "extensions": "php",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/191": {
+        "name": "AMI Professional Document",
+        "description": "A file from the AMI wordprocessor",
+        "extensions": "sam",
+        "reasoning": "Not preservation-worthy / not convertable"
+    },
+    "x-fmt/225": {
+        "name": "ESRI MapInfo Data File",
+        "description": "A helper file for .mid GIS files",
+        "extensions": "mid",
+        "reasoning": "Will be picked up by the gis-processor"
+    },
+    "x-fmt/240": {
+        "name": "Microstoft Acces Database File (2000)",
+        "description": "A microsoft access database",
+        "extensions": "mdb",
+        "reasoning": "Not preservable, we are unable to convert it to a format we can handle as of now"
+    },
+    "x-fmt/245": {
+        "name": "Microsoft Project 98",
+        "description": "Project files",
+        "extensions": "mmp",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/247": {
+        "name": "Microsoft Project 2000-2003",
+        "description": "Project files",
+        "extensions": "mmp",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/280": {
+        "name": "XML Schema Definition",
+        "description": "A prescriptive XML template, for validating XML files with",
+        "extensions": "xsd",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/328": {
+        "name": "InterBase Database file",
+        "description": "A Databse fil in the interbase format",
+        "extensions": "gdb",
+        "reasoning": "Not preservable, we are unable to convert it to a format we can handle as of now"
+    },
+    "x-fmt/332": {
+        "name": "Lotus 1-2-3 Spreadsheet Formatting File 3.0",
+        "description": "It's a file containing formatting information for Lotus spreadsheets",
+        "extensions": "FM3",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/411": {
+        "name": "Windows Portable Executable",
+        "description": "A Windows executable file",
+        "extensions": "dll, exe, sys",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/412": {
+        "name": "Java Archive Format",
+        "description": "A Java archive file containing a Java project",
+        "extensions": "jar",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/413": {
+        "name": "Batch file (executable)",
+        "description": "An executable non-binary .bat-file",
+        "extensions": "bat",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/415": {
+        "name": "Java Compiled Object Code",
+        "description": "Java byte code - not human readable",
+        "extensions": "class",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/420": {
+        "name": " Windows Setup File",
+        "description": "Windows Setup File or Installer Script",
+        "extensions": "inf",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/421": {
+        "name": "Text Configuration file",
+        "description": "A text config file",
+        "extensions": "unknown",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/428": {
+        "name": "Microsoft Windows Shortcut",
+        "description": "A pointer to a different file",
+        "extensions": "lnk",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/441": {
+        "name": "AutoCAD Database File Locking Information",
+        "description": "A temporary file created by AutoCAD when a file is opened for editing, detailing when and by who the file was edited",
+        "extensions": "dwl",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/453": {
+        "name": "TrueType Font",
+        "description": "A font file",
+        "extensions": "ttf",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/454": {
+        "name": "Microsoft Internet Shortcut",
+        "description": "A link to a website",
+        "extensions": "url",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/1369": {
+        "name": "Error File",
+        "description": "An error log file.",
+        "reasoning": "Not preservation-worthy"
     }
 }
