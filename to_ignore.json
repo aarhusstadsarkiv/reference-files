@@ -222,6 +222,24 @@
         "extensions": "xltm",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/634": {
+        "name": "Microsoft Compiled HTML Help",
+        "description": "A Microsoft Compiled HTML Help file",
+        "extensions": "chm, chw",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/637": {
+        "name": "Microsoft Onenote",
+        "description": "An Onenote note file",
+        "extensions": "one",
+        "reasoning": "Not preservation-worthy / not convertable"
+    },
+    "fmt/670": {
+        "name": "PKCS #7 Crytographic Message File",
+        "description": "Cryptographic message file which follows email files",
+        "extensions": "Unknown",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/682": {
         "name": "Thumbs DB File XP",
         "description": "Windows OS file, contains folder metadata",
@@ -283,10 +301,16 @@
         "reasoning": "Not preservation-worthy",
         "notes": "Identified on extension alone"
     },
+    "fmt/997": {
+        "name": "SPSS Portable File",
+        "description": "ASCII text data file created by SPSS, a statistics processing application; stores exported data from the software in a plain text format, which is easily readable by other applications; used for sharing data between programs and computer systems.",
+        "extensions": "por",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/1045": {
         "name": "Q&A Word Processor Document",
         "description": "Q&A was a database and word processing software program for IBM PC-compatible computers published by Symantec and partners from 1985 to 1998. Due to their age, Q&A files may lack an extension.",
-        "extensions": "?",
+        "extensions": "fil",
         "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
     },
     "fmt/1079": {
@@ -341,7 +365,7 @@
     "fmt/1369": {
         "name": "Error File",
         "description": "An error log file.",
-        "extensions": "?",
+        "extensions": "err",
         "reasoning": "Not preservation-worthy"
     },
     "fmt/1482": {
@@ -499,7 +523,7 @@
     "x-fmt/416": {
         "name": "BinHex Binary Text",
         "description": "BinHex, originally short for 'binary-to-hexadecimal', is a binary-to-text encoding system that was used on the classic Mac OS for sending binary files through e-mail.",
-        "extensions": "?",
+        "extensions": "hqx",
         "reasoning": "Not preservation-worthy"
     },
     "x-fmt/418": {
@@ -509,7 +533,7 @@
         "reasoning": "Not preservation-worthy"
     },
     "x-fmt/420": {
-        "name": " Windows Setup File",
+        "name": "Windows Setup File",
         "description": "Windows Setup File or Installer Script",
         "extensions": "inf",
         "reasoning": "Not preservation-worthy"
@@ -542,12 +566,6 @@
         "name": "Microsoft Internet Shortcut",
         "description": "A link to a website",
         "extensions": "url",
-        "reasoning": "Not preservation-worthy"
-    },
-    "fmt/997": {
-        "name": " AutoCAD Design Web Format(DWFx)",
-        "description": "DWFx is based on the XML Paper Specification (XPS). DWF and DWFx are compressed file formats which can be suitable for distributing over the Internet for review.",
-        "extensions": "dwfx",
         "reasoning": "Not preservation-worthy"
     }
 }

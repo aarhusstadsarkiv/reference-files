@@ -492,8 +492,8 @@
         ]
     },
     "fmt/123": {
-        "name": "EEncapsulated PostScript File Format 2.0",
-        "master_converter": "pdf",
+        "name": "Encapsulated PostScript File Format 2.0",
+        "master_converter": "libre",
         "master_format": [
             "pdf"
         ]
@@ -1530,7 +1530,7 @@
         "name": "Microsoft Works Document",
         "master_converter": "libre",
         "master_format": [
-            "ods",
+            "odt",
             "pdf"  
         ],
         "extensions": "bps",
@@ -1612,7 +1612,8 @@
         "name": "WordPerfect for MS-DOS Document 5.0",
         "master_converter": "libre",
         "master_format": [
-            "tif"
+            "odt",
+            "pdf"
         ]
     },
     
