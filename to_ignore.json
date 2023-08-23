@@ -518,7 +518,8 @@
         "name": "BinHex Binary Text",
         "description": "BinHex, originally short for 'binary-to-hexadecimal', is a binary-to-text encoding system that was used on the classic Mac OS for sending binary files through e-mail.",
         "extensions": "hqx",
-        "reasoning": "Not preservation-worthy"
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it",
+        "notes": "If there in the furture comes more of this file type, then we might need to find a solution."
     },
     "x-fmt/418": {
         "name": "Icon file format",
