@@ -491,6 +491,13 @@
             "pdf"
         ]
     },
+    "fmt/123": {
+        "name": "Encapsulated PostScript File Format 2.0",
+        "master_converter": "libre",
+        "master_format": [
+            "pdf"
+        ]
+    },
     "fmt/124": {
         "name": "Encapsulated PostScript File Format 3",
         "master_converter": "libre",
@@ -1118,6 +1125,15 @@
             "pdf"
         ]
     },
+    "fmt/749": {
+        "name": "AppleWorks Word Processor 6",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ],
+        "extensions": "cwk"
+    },
     "fmt/817": {
         "name": "JSON Data Interchange Format",
         "master_converter": "copy",
@@ -1126,7 +1142,7 @@
             "tif"
         ]
     },
-    "fmt/881": {
+	"fmt/881": {
         "name": "Microsoft Document Imaging File Format",
         "master_converter": "image",
         "master_format": [
@@ -1263,6 +1279,26 @@
         "master_format": [
             "GML3"
         ]
+    },
+    "x-fmt/9": {
+        "name": "dBASE Database III",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"  
+        ],
+        "extensions": "wb2",
+        "notes": "Problems with encoding"
+    },
+    "x-fmt/10": {
+        "name": "dBASE Database IV",
+        "master_converter": "libre",
+        "master_format": [
+            "ods",
+            "pdf"  
+        ],
+        "extensions": "wb2",
+        "notes": "Problems with encoding"
     },
     "x-fmt/13": {
         "name": "Tab-separated values",
@@ -1487,6 +1523,16 @@
             "tif"
         ]
     },
+    "x-fmt/345": {
+        "name": "Microsoft Works Document",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"  
+        ],
+        "extensions": "bps",
+        "notes": ""
+    },
     "x-fmt/375": {
         "name": "CorelDraw Drawing",
         "master_converter": "libre",
@@ -1558,12 +1604,23 @@
             "tif"
         ]
     },
+
+    "x-fmt/393": {
+        "name": "WordPerfect for MS-DOS Document 5.0",
+        "master_converter": "libre",
+        "master_format": [
+            "odt",
+            "pdf"
+        ]
+    },
     "x-fmt/394": {
         "name": "WordPerfect for MS-DOS/Windows Document 5.1",
         "master_converter": "libre",
         "master_format": [
+            "odt",
             "pdf"
-        ]
+        ],
+        "notes": "Problems with the header"
     },
     "x-fmt/398": {
         "name": "Exchangeable Image File Format (Compressed) 2.0",

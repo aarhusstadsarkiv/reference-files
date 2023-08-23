@@ -35,10 +35,35 @@
         "extensions": "id",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/109": {
+        "name": "Macromedia Flash 6",
+        "description": "Flash is no longer supported, and it is in a very messy format - The file can be a image, video or interactive game",
+        "extensions": "swf",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
+    },
+    "fmt/110": {
+        "name": "Macromedia Flash 7",
+        "description": "Flash is no longer supported, and it is in a very messy format - The file can be a image, video or interactive game",
+        "extensions": "swf",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
+    },
+    "fmt/208": {
+        "name": "Binary File",
+        "description": "Binary File",
+        "extensions": "bin",
+        "notes": "Identified on extension alone",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/212": {
         "name": "Information or Setup File",
         "description": "unknown",
         "extensions": "unknown",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/217": {
+        "name": "PaintShop Pro Browser Cache File",
+        "description": "PaintShop Pro Browser Cache is a thumbnail image format associated with PaintShop Pro",
+        "extensions": "jbf",
         "reasoning": "Not preservation-worthy"
     },
     "fmt/277": {
@@ -95,6 +120,12 @@
         "extensions": "doc, docx",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/474": {
+        "name": "Windows Help File",
+        "description": "Microsoft WinHelp is a proprietary format for online help files that can be displayed by the Microsoft Help browse",
+        "extensions": "hlp",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/475": {
         "name": "Microsoft Management Console Snap-in Control file",
         "description": "Related to Microsoft administrative file control",
@@ -117,6 +148,18 @@
         "name": "AppleDouble Resource Fork 2",
         "description": "The resource fork is a construct of the Mac OS operating system used to store structured data in a file, alongside unstructured data stored within the data fork. The format specification is available here: http://support.apple.com/kb/TA32537?viewlocale=en_US The format lacks an extension, and is instead represented by a file name consisting of ._<filename resource fork belongs to>",
         "extensions": "_*",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
+    },
+    "fmt/505": {
+        "name": "Adobe Flash 8",
+        "description": "Flash is no longer supported, and it is in a very messy format - The file can be a image, video or interactive game",
+        "extensions": "swf",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
+    },
+    "fmt/507": {
+        "name": "Adobe Flash 10",
+        "description": "Flash is no longer supported, and it is in a very messy format - The file can be a image, video or interactive game",
+        "extensions": "swf",
         "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
     },
     "fmt/509": {
@@ -215,6 +258,12 @@
         "extensions": "doc, wbk",
         "reasoning": "Password protected"
     },
+    "fmt/761": {
+        "name": "Adobe Flash 15",
+        "description": "Flash is no longer supported, and it is in a very messy format - The file can be a image, video or interactive game",
+        "extensions": "swf",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
+    },
     "fmt/870": {
         "name": "Perl Script",
         "description": "A script in Perl",
@@ -245,10 +294,48 @@
         "extensions": "py",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/941": {
+        "name": "Back Up File",
+        "description": "Back Up File. As the name suggests then bak files are produced by various programs",
+        "extensions": "bak",
+        "reasoning": "Not preservation-worthy",
+        "notes": "Identified on extension alone"
+    },
+    "fmt/997": {
+        "name": "SPSS Portable File",
+        "description": "ASCII text data file created by SPSS, a statistics processing application; stores exported data from the software in a plain text format, which is easily readable by other applications; used for sharing data between programs and computer systems.",
+        "extensions": "por",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/1045": {
+        "name": "Q&A Word Processor Document",
+        "description": "Q&A was a database and word processing software program for IBM PC-compatible computers published by Symantec and partners from 1985 to 1998. Due to their age, Q&A files may lack an extension.",
+        "extensions": "fil",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
+    },
+    "fmt/1079": {
+        "name": "Microsoft Program Database 7.00",
+        "description": "A Program Database File stores debugging information about a compiled executable, usually created at compile-time.",
+        "extensions": "pdb",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/1082": {
         "name": "ASP WebService Directive File",
         "description": "Defines XML Web service attributes for Active Server Pages",
         "extensions": "asmx",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/1089": {
+        "name": "VBScript (VBS) File",
+        "description": "A VBScript file contains code",
+        "extensions": "vbs",
+        "reasoning": "Not preservation-worthy"
+    },
+    "fmt/1103": {
+        "name": "AutoCAD Hatch Pattern",
+        "description": "Add texture to object. A hatch pattern consists of a repeating pattern of lines, dashes, and dots, and is used within AutoCAD to represent materials to be used within the manufacture of the object defined in the CAD drawing",
+        "extensions": "pat",
+        "notes": "This is a support file. Contains user defined information about 'Hatch Pattern'",
         "reasoning": "Not preservation-worthy"
     },
     "fmt/1132": {
@@ -258,10 +345,10 @@
         "reasoning": "Not preservation-worthy"
     },
     "fmt/1256": {
-        "name": "Workspace file for ESRI GIS-project",
-        "description": "File containing all commands necessary for reloading a ESRI project for editing",
-        "extensions": "TBD",
-        "reasoning": "Not Preservation-worthy"
+        "name": "MapInfo Workspace File",
+        "description": "MapInfo Workspace files, produced by MapInfo GIS software, are text files containing the MapInfo commands required to re-create a MapInfo session",
+        "extensions": "wor",
+        "reasoning": "Not preservation-worthy"
     },
     "fmt/1258": {
         "name": "Microsoft Access Workgroup Information File",
@@ -275,6 +362,12 @@
         "extensions": "shs",
         "reasoning": "Not preservation-worthy"
     },
+    "fmt/1369": {
+        "name": "Error File",
+        "description": "An error log file.",
+        "extensions": "err",
+        "reasoning": "Not preservation-worthy"
+    },
     "fmt/1482": {
         "name": "Access Report Snapshot",
         "description": "An export of a microsoft access database as a report, was supporten until 2010. Can be viewed using an proprietary viewer",
@@ -286,12 +379,6 @@
         "description": "Source code written in C",
         "extensions": "c",
         "reasoning": "Not preservation-worthy"
-    },
-    "x-fmt/9": {
-        "name": "dBASE Database (III)",
-        "description": "A dBASE database for microcomputer",
-        "extensions": "dbf",
-        "reasoning": "Not preservable, we are unable to convert it to a format we can handle as of now"
     },
     "x-fmt/37": {
         "name": "AutoCAD Colour-Dependant Plot Style Table",
@@ -314,13 +401,21 @@
     "x-fmt/78": {
         "name": "AutoCAD Plot Configuration File (2000)",
         "description": "An configuration file for AutoCAD",
-        "extensions": "dxf",
+        "extensions": "pc3",
+        "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/103": {
+        "name": "AutoCAD Compiled Shape/Font File",
+        "description": "An SHX file contains a shape or font compiled by Autodesk AutoCAD from an .SHP shape file or .PFB font file. It stores shape definitions, as well as font definitions for displaying custom text. Compiled shapes enable users to save smaller building blocks and fonts that are frequently inserted in drawings. This allows users to save time and not have to re-create often-used shapes and fonts.",
+        "extensions": "shx",
+        "notes": "This is a support file. shx can contain either a font or a little drawing. This will save time for the user when needed to place many objects",
         "reasoning": "Not preservation-worthy"
     },
     "x-fmt/107": {
         "name": "AutoCAD name plot style table",
         "description": "An configuration file for AutoCAD used while designing",
         "extensions": "stb",
+        "notes": "This is a support file. stb contain user defined information for plots or layers such as color, dither etc. This will save time for the user when needed to apply to many plots or layers",
         "reasoning": "Not preservation-worthy"
     },
     "x-fmt/128": {
@@ -334,6 +429,12 @@
         "description": "A website / server code file",
         "extensions": "asp",
         "reasoning": "Not preservation-worthy"
+    },
+    "x-fmt/148": {
+        "name": "IBM DisplayWrite DCA Text File",
+        "description": "Text document created by DisplayWrite, an old word processor for IBM PCs that has been discontinued; saves document text and basic formatting; can be converted to more recent word processing formats using WordPort.",
+        "extensions": "dca",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it"
     },
     "x-fmt/169": {
         "name": "PHP Script Page",
@@ -413,8 +514,21 @@
         "extensions": "class",
         "reasoning": "Not preservation-worthy"
     },
+    "x-fmt/416": {
+        "name": "BinHex Binary Text",
+        "description": "BinHex, originally short for 'binary-to-hexadecimal', is a binary-to-text encoding system that was used on the classic Mac OS for sending binary files through e-mail.",
+        "extensions": "hqx",
+        "reasoning": "It might not be preservation-worthy, but either way we don't know how to handle it",
+        "notes": "If there in the furture comes more of this file type, then we might need to find a solution."
+    },
+    "x-fmt/418": {
+        "name": "Icon file format",
+        "description": "An ICO file contains an icon, which is typically used to represent a Windows program, file, or folder.",
+        "extensions": "ico",
+        "reasoning": "Not preservation-worthy"
+    },
     "x-fmt/420": {
-        "name": " Windows Setup File",
+        "name": "Windows Setup File",
         "description": "Windows Setup File or Installer Script",
         "extensions": "inf",
         "reasoning": "Not preservation-worthy"
@@ -447,11 +561,6 @@
         "name": "Microsoft Internet Shortcut",
         "description": "A link to a website",
         "extensions": "url",
-        "reasoning": "Not preservation-worthy"
-    },
-    "fmt/1369": {
-        "name": "Error File",
-        "description": "An error log file.",
         "reasoning": "Not preservation-worthy"
     }
 }
