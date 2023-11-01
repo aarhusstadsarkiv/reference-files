@@ -2764,7 +2764,7 @@ x-fmt/416:
       know how to handle it
 x-fmt/418:
   name: Icon file format
-  action: convert
+  action: ignore
   convert:
     - converter: image
       converter_type: master
