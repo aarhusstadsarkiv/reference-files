@@ -2237,14 +2237,19 @@ x-fmt/10:
         - pdf
 x-fmt/13:
   name: Tab-separated values
-  action: convert
+  action: reidentify
   convert:
+    - converter: copy
+      converter_type: master
+      outputs:
+        - tab
     - converter: text
       converter_type: statutory
       outputs:
         - tif
   reidentify:
     reasoning: .TAB-files related to GIS is sometimes identified as plaintext
+    onfail: convert
 x-fmt/17:
   name: Microsoft Excel Template 97-2003
   action: convert
@@ -2357,14 +2362,19 @@ x-fmt/107:
     reasoning: An configuration file for AutoCAD used while designing. Not preservation-worthy
 x-fmt/111:
   name: Plain Text File
-  action: convert
+  action: reidentify
   convert:
+    - converter: copy
+      converter_type: master
+      outputs:
+        - tab
     - converter: text
       converter_type: statutory
       outputs:
         - tif
   reidentify:
     reasoning: .TAB-files related to GIS is sometimes identified as plaintext
+    onfail: convert
 x-fmt/114:
   name: Lotus 1-2-3 Worksheet (2.0)
   action: convert
