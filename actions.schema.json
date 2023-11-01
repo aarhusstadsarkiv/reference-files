@@ -86,9 +86,21 @@
         },
         "reidentify": {
           "type": "object",
+          "required": [
+            "reasoning"
+          ],
           "properties": {
             "reasoning": {
               "type": "string"
+            },
+            "onfail": {
+              "type": "string",
+              "enum": [
+                "convert",
+                "extract",
+                "manual",
+                "ignore"
+              ]
             }
           }
         },
