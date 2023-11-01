@@ -1,14 +1,38 @@
 {
-    "aca-fmt/1": {
-        "name": "ods"
-    },
-    "fmt/340": {
-        "name": "odt"
-    },
-    "fmt/1216": {
-        "name": "odp"
-    },
-    "x-fmt/340": {
-        "name": "odt"
+  "aca-fmt/1": [
+    {
+      "converter": "symphovert",
+      "converter_type": "master",
+      "outputs": [
+        "ods"
+      ]
     }
+  ],
+  "fmt/340": [
+    {
+      "converter": "symphovert",
+      "converter_type": "master",
+      "outputs": [
+        "odt"
+      ]
+    }
+  ],
+  "fmt/1216": [
+    {
+      "converter": "symphovert",
+      "converter_type": "master",
+      "outputs": [
+        "odp"
+      ]
+    }
+  ],
+  "x-fmt/340": [
+    {
+      "converter": "symphovert",
+      "converter_type": "master",
+      "outputs": [
+        "odt"
+      ]
+    }
+  ]
 }
