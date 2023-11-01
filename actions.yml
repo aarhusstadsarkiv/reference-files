@@ -831,7 +831,7 @@ fmt/110:
       but either way we don't know how to handle it
 fmt/111:
   name: OLE2 Compound Document Format
-  action: convert
+  action: reidentify
   convert:
     - converter: libre
       converter_type: master
