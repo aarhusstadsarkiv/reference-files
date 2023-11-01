@@ -4,13 +4,26 @@ on:
   push:
     paths:
       - '**.json'
+      - '**.yml'
+      - '**.yaml'
+
+env:
+  PYTHON_VERSION: 3.10
 
 jobs:
-  json-check:
+  check-schemata:
+    name: Check Schemata
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: json-syntax-check
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Install dependencies
+        run: python -m pip install jsonschema pyyaml
+      - name: Check JSON Syntax
         uses: limitusus/json-syntax-check@v2
         with:
           pattern: "\\.json$"
+      - name: Check Actions Schema
+        run: python -c 'import yaml,json,jsonschema,sys;jsonschema.validate(yaml.load(open(sys.argv[1]), yaml.Loader), json.load(open(sys.argv[2])))' actions.yml actions.schema.json
