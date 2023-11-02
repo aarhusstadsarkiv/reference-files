@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "actions",
+  "type": "object",
+  "patternProperties": {
+    ".*": {
+      "type": "object",
+      "required": [
+        "name",
+        "action"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "convert",
+            "extract",
+            "manual",
+            "rename",
+            "ignore",
+            "reidentify"
+          ]
+        },
+        "convert": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "converter",
+              "converter_type",
+              "outputs"
+            ],
+            "properties": {
+              "converter": {
+                "type": "string"
+              },
+              "converter_type": {
+                "type": "string",
+                "enum": [
+                  "master",
+                  "statutory",
+                  "access"
+                ]
+              },
+              "outputs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              }
+            }
+          }
+        },
+        "extract": {
+          "type": "object",
+          "required": [
+            "tool",
+            "extension",
+            "dir_suffix"
+          ],
+          "properties": {
+            "tool": {
+              "type": "string"
+            },
+            "extension": {
+              "type": "string"
+            },
+            "dir_suffix": {
+              "type": "string"
+            }
+          }
+        },
+        "manual": {
+          "type": "object",
+          "properties": {
+            "reasoning": {
+              "type": "string"
+            },
+            "process": {
+              "type": "string"
+            }
+          }
+        },
+        "rename": {
+          "type": "object",
+          "properties": {
+            "new_name": {
+              "type": "string"
+            }
+          }
+        },
+        "reidentify": {
+          "type": "object",
+          "required": [
+            "reasoning"
+          ],
+          "properties": {
+            "reasoning": {
+              "type": "string"
+            },
+            "onfail": {
+              "type": "string",
+              "enum": [
+                "convert",
+                "extract",
+                "manual",
+                "rename",
+                "ignore"
+              ]
+            }
+          }
+        },
+        "ignore": {
+          "type": "object",
+          "properties": {
+            "reasoning": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
