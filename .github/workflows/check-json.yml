@@ -26,4 +26,4 @@ jobs:
         with:
           pattern: "\\.json$"
       - name: Check Actions Schema
-        run: python -c 'import yaml,json,jsonschema,sys;jsonschema.validate(yaml.load(open(sys.argv[1]), yaml.Loader), json.load(open(sys.argv[2])))' actions.yml actions.schema.json
+        run: python -c 'import yaml,json,jsonschema,sys;jsonschema.validate(yaml.load(open(sys.argv[1]), yaml.Loader), json.load(open(sys.argv[2])))' fileformats.yml fileformats.schema.json
