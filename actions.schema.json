@@ -20,8 +20,8 @@
             "extract",
             "manual",
             "rename",
-            "reidentify",
-            "ignore"
+            "ignore",
+            "reidentify"
           ]
         },
         "convert": {
