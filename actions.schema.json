@@ -19,8 +19,9 @@
             "convert",
             "extract",
             "manual",
-            "ignore",
-            "reidentify"
+            "rename",
+            "reidentify",
+            "ignore"
           ]
         },
         "convert": {
@@ -84,6 +85,14 @@
             }
           }
         },
+        "rename": {
+          "type": "object",
+          "properties": {
+            "new_name": {
+              "type": "string"
+            }
+          }
+        },
         "reidentify": {
           "type": "object",
           "required": [
@@ -99,6 +108,7 @@
                 "convert",
                 "extract",
                 "manual",
+                "rename",
                 "ignore"
               ]
             }
