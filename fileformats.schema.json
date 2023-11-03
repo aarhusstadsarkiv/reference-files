@@ -2,8 +2,9 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "actions",
   "type": "object",
+  "additionalProperties": false,
   "patternProperties": {
-    ".*": {
+    ".+": {
       "type": "object",
       "required": [
         "name",
