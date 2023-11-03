@@ -28,12 +28,16 @@ jobs:
       - name: Check JSON Schemata
         run: |
           for schema in *.schema.json; do
-            [[ -f "${schema%.schema.json}.json" ]] && python3 -c 'import json,jsonschema,sys;jsonschema.validate(json.load(open(sys.argv[1])), json.load(open(sys.argv[2])))' "${schema%.schema.json}.json" "$schema";
+            if [[ -f "${schema%.schema.json}.json" ]]; then
+              python3 -c 'import json,jsonschema,sys;jsonschema.validate(json.load(open(sys.argv[1])), json.load(open(sys.argv[2])))' "${schema%.schema.json}.json" "$schema";
+            fi;
           done
       - name: Check YAML Schemata
         run: |
           for schema in *.schema.json; do
             for ext in "yaml" "yml"; do
-              [[ -f "${schema%.schema.json}.$ext" ]] && python3 -c 'import yaml,json,jsonschema,sys;jsonschema.validate(yaml.load(open(sys.argv[1]), yaml.Loader), json.load(open(sys.argv[2])))' "${schema%.schema.json}.$ext" "$schema";
+              if [[ -f "${schema%.schema.json}.$ext" ]]; then
+                python3 -c 'import yaml,json,jsonschema,sys;jsonschema.validate(yaml.load(open(sys.argv[1]), yaml.Loader), json.load(open(sys.argv[2])))' "${schema%.schema.json}.$ext" "$schema";
+              fi;
             done
           done
