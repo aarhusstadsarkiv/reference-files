@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "actions",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "dependencies": {
+      "operator": [
+        "bof",
+        "eof"
+      ]
+    },
+    "if": {
+      "required": [
+        "bof",
+        "eof"
+      ]
+    },
+    "then": {
+      "required": [
+        "operator"
+      ]
+    },
+    "properties": {
+      "bof": {
+        "type": "string"
+      },
+      "eof": {
+        "type": "string"
+      },
+      "operator": {
+        "type": "string",
+        "enum": [
+          "AND",
+          "OR",
+          "XOR"
+        ]
+      },
+      "puid": {
+        "type": "string"
+      },
+      "signature": {
+        "type": "string"
+      },
+      "extension": {
+        "type": "string"
+      }
+    }
+  }
+}

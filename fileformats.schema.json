@@ -2,12 +2,75 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "actions",
   "type": "object",
+  "additionalProperties": false,
   "patternProperties": {
-    ".*": {
+    "^[a-zA-Z0-9_/-]+$": {
       "type": "object",
       "required": [
         "name",
         "action"
+      ],
+      "oneOf": [
+        {
+          "properties": {
+            "action": {
+              "const": "convert"
+            }
+          },
+          "required": [
+            "convert"
+          ]
+        },
+        {
+          "properties": {
+            "action": {
+              "const": "extract"
+            }
+          },
+          "required": [
+            "extract"
+          ]
+        },
+        {
+          "properties": {
+            "action": {
+              "const": "manual"
+            }
+          },
+          "required": [
+            "manual"
+          ]
+        },
+        {
+          "properties": {
+            "action": {
+              "const": "rename"
+            }
+          },
+          "required": [
+            "rename"
+          ]
+        },
+        {
+          "properties": {
+            "action": {
+              "const": "ignore"
+            }
+          },
+          "required": [
+            "ignore"
+          ]
+        },
+        {
+          "properties": {
+            "action": {
+              "const": "reidentify"
+            }
+          },
+          "required": [
+            "reidentify"
+          ]
+        }
       ],
       "properties": {
         "name": {
