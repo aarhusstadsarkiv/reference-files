@@ -83,6 +83,9 @@ fmt/3:
       converter_type: master
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 fmt/4:
   name: Graphics Interchange Format 89a
   action: convert
@@ -91,6 +94,9 @@ fmt/4:
       converter_type: master
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 fmt/5:
   name: Audio/Video Interleaved Format
   action: convert
@@ -107,6 +113,9 @@ fmt/11:
       converter_type: master
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 fmt/12:
   name: Portable Network Graphics 1.1
   action: convert
@@ -123,6 +132,9 @@ fmt/13:
       converter_type: master
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 fmt/14:
   name: Acrobat PDF 1.0 - Portable Document Format
   action: convert
@@ -407,6 +419,9 @@ fmt/41:
       converter_type: master
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 fmt/42:
   name: JPEG File Interchange Format 1.00
   action: convert
@@ -415,6 +430,9 @@ fmt/42:
       converter_type: master
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 fmt/43:
   name: JPEG File Interchange Format 1.01
   action: convert
@@ -423,6 +441,9 @@ fmt/43:
       converter_type: master
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 fmt/44:
   name: JPEG File Interchange Format 1.02
   action: convert
@@ -431,6 +452,9 @@ fmt/44:
       converter_type: master
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 fmt/45:
   name: Rich Text Format 1.0-1.4
   action: convert
@@ -848,6 +872,9 @@ fmt/115:
       converter_type: master
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 fmt/116:
   name: Windows Bitmap 3.0
   action: convert
@@ -856,6 +883,9 @@ fmt/116:
       converter_type: master
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 fmt/117:
   name: Windows Bitmap 3.0 NT
   action: convert
@@ -888,6 +918,9 @@ fmt/124:
       converter_type: master
       outputs:
         - pdf
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 fmt/125:
   name: Microsoft Powerpoint Presentation 95
   action: convert
@@ -1231,6 +1264,9 @@ fmt/353:
       converter_type: statutory
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 fmt/354:
   name: Acrobat PDF/A - Portable Document Format 1b
   action: convert
@@ -1805,6 +1841,9 @@ fmt/645:
       converter_type: master
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 fmt/657:
   name: Open XML Paper Specification
   action: convert
@@ -2702,6 +2741,9 @@ x-fmt/390:
       converter_type: master
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 x-fmt/391:
   name: Exchangeable Image File Format (Compressed) 2.2
   action: convert
@@ -2710,6 +2752,9 @@ x-fmt/391:
       converter_type: master
       outputs:
         - tif
+  ignore:
+    ignore_if:
+      - pixel_total: 20000
 x-fmt/392:
   name: JP2 (JPEG 2000 part 1)
   action: convert
