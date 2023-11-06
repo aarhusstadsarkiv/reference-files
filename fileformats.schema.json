@@ -185,6 +185,37 @@
           "properties": {
             "reasoning": {
               "type": "string"
+            },
+            "ignore_if": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "pixel_total": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "pixel_width": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "pixel_height": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "size": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "binary_size": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "reasoning": {
+                    "type": "string"
+                  }
+                }
+              }
             }
           }
         }
