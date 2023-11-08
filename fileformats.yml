@@ -84,6 +84,7 @@ fmt/3:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 fmt/4:
@@ -95,6 +96,7 @@ fmt/4:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 fmt/5:
@@ -114,6 +116,7 @@ fmt/11:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 fmt/12:
@@ -133,6 +136,7 @@ fmt/13:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 fmt/14:
@@ -420,6 +424,7 @@ fmt/41:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 fmt/42:
@@ -431,6 +436,7 @@ fmt/42:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 fmt/43:
@@ -442,6 +448,7 @@ fmt/43:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 fmt/44:
@@ -453,6 +460,7 @@ fmt/44:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 fmt/45:
@@ -873,6 +881,7 @@ fmt/115:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 fmt/116:
@@ -884,6 +893,7 @@ fmt/116:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 fmt/117:
@@ -919,6 +929,7 @@ fmt/124:
       outputs:
         - pdf
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 fmt/125:
@@ -1269,6 +1280,7 @@ fmt/353:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 fmt/354:
@@ -1846,6 +1858,7 @@ fmt/645:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 fmt/657:
@@ -2746,6 +2759,7 @@ x-fmt/390:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 x-fmt/391:
@@ -2757,6 +2771,7 @@ x-fmt/391:
       outputs:
         - tif
   ignore:
+    reasoning: ''
     ignore_if:
       - pixel_total: 20000
 x-fmt/392:
