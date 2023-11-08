@@ -5,6 +5,7 @@
   "additionalProperties": false,
   "patternProperties": {
     "^[a-zA-Z0-9_/-]+$": {
+      "description": "An Action object.",
       "type": "object",
       "required": [
         "name",
@@ -84,12 +85,15 @@
       ],
       "properties": {
         "name": {
+          "description": "The long name of the file format.",
           "type": "string"
         },
         "description": {
+          "description": "A description of the file format.",
           "type": "string"
         },
         "action": {
+          "description": "The default action to undertake.",
           "type": "string",
           "enum": [
             "convert",
@@ -102,6 +106,7 @@
           ]
         },
         "convert": {
+          "description": "Instructions to convert the file.",
           "type": "array",
           "items": {
             "type": "object",
@@ -112,9 +117,11 @@
             ],
             "properties": {
               "converter": {
+                "description": "The converter tool to use.",
                 "type": "string"
               },
               "converter_type": {
+                "description": "The type of the conversion.",
                 "type": "string",
                 "enum": [
                   "master",
@@ -123,6 +130,7 @@
                 ]
               },
               "outputs": {
+                "description": "A list of extension targets for the converter.",
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -133,6 +141,7 @@
           }
         },
         "extract": {
+          "description": "Instructions to extract an archive file.",
           "type": "object",
           "required": [
             "tool",
@@ -141,69 +150,84 @@
           ],
           "properties": {
             "tool": {
+              "description": "The extraction tool to use.",
               "type": "string"
             },
             "extension": {
+              "description": "The extension the file must have for the tool to process it.",
               "type": "string"
             },
             "dir_suffix": {
+              "description": "The suffix to be used for the file",
               "type": "string"
             }
           }
         },
         "replace": {
+          "description": "Instructions to replace a file with a template.",
           "type": "object",
           "required": [
             "template"
           ],
           "properties": {
             "template": {
+              "description": "The text content of the template.",
               "type": "string"
             }
           }
         },
         "manual": {
+          "description": "Instructions to manually process a file.",
           "type": "object",
           "required": [
             "reasoning"
           ],
           "properties": {
             "reasoning": {
+              "description": "The reason why the file should be manually processed.",
               "type": "string"
             },
             "process": {
+              "description": "The steps to take to manually process the file.",
               "type": "string"
             }
           }
         },
         "rename": {
+          "description": "Instructions to change the extension of a file.",
           "type": "object",
           "required": [
             "extension"
           ],
           "properties": {
             "extension": {
+              "description": "The new file extension.",
               "type": "string",
               "pattern": "^(\\.[^.]+)+$"
             },
             "append": {
+              "description": "Whether to append the new extension to existing ones.",
               "type": "boolean"
             },
             "on_extension_mismatch": {
+              "description": "Whether to only apply the action if the file has an extension mismatch warning.",
               "type": "boolean"
             }
           }
         },
         "reidentify": {
+          "description": "Instructions to re-identify a file format using custom signatures.",
           "type": "object",
           "required": [
             "reasoning"
           ],
           "properties": {
             "reasoning": {
+              "description": "The reason why the file should be re-identified.",
               "type": "string"
             },
             "onfail": {
+              "description": "The action to take if no new signature can be found.",
               "type": "string",
               "enum": [
                 "convert",
@@ -217,40 +241,49 @@
           }
         },
         "ignore": {
+          "description": "Instructions to ignore a file format.",
           "type": "object",
           "required": [
             "reasoning"
           ],
           "properties": {
             "reasoning": {
+              "description": "The reason why the file should be ignore.",
               "type": "string"
             },
             "ignore_if": {
+              "description": "The conditions that need to apply in order to ignore the file.",
               "type": "array",
               "items": {
                 "type": "object",
                 "properties": {
                   "pixel_total": {
+                    "description": "The minimum total size of the image in pixels (width * height). Only applies to image files.",
                     "type": "integer",
                     "minimum": 1
                   },
                   "pixel_width": {
+                    "description": "The minimum width of the image in pixels. Only applies to image files.",
                     "type": "integer",
                     "minimum": 1
                   },
                   "pixel_height": {
+                    "description": "The minimum height of the image in pixels. Only applies to image files.",
                     "type": "integer",
                     "minimum": 1
                   },
                   "size": {
+                    "description": "The minimum size of the file in bytes.",
                     "type": "integer",
                     "minimum": 1
                   },
                   "binary_size": {
+                    "description": "The minimum size of the file in bytes. Only applies to binary files.",
                     "type": "integer",
                     "minimum": 1
                   },
                   "reasoning": {
+                    "description": "The reason why the file should be ignore, specific to a condition.",
                     "type": "string"
                   }
                 }
