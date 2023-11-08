@@ -164,6 +164,9 @@
         },
         "manual": {
           "type": "object",
+          "required": [
+            "reasoning"
+          ],
           "properties": {
             "reasoning": {
               "type": "string"
@@ -215,6 +218,9 @@
         },
         "ignore": {
           "type": "object",
+          "required": [
+            "reasoning"
+          ],
           "properties": {
             "reasoning": {
               "type": "string"
