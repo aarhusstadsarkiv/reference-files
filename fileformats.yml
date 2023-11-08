@@ -1058,6 +1058,7 @@ fmt/199:
         - mp4
   rename:
     extension: ".mp4"
+    append: true
     on_extension_mismatch: true
 fmt/206:
   name: Structured Query Language Data
