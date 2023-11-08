@@ -22,6 +22,20 @@
         "operator"
       ]
     },
+    "else": {
+      "oneOf": [
+        {
+          "required": [
+            "bof"
+          ]
+        },
+        {
+          "required": [
+            "eof"
+          ]
+        }
+      ]
+    },
     "properties": {
       "bof": {
         "type": "string"
