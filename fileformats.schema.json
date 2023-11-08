@@ -154,12 +154,12 @@
         "rename": {
           "type": "object",
           "required": [
-            "new_name"
+            "extension"
           ],
           "properties": {
-            "new_name": {
+            "extension": {
               "type": "string",
-              "pattern": "^(\\{(name|stem|suffix)\\}|[^{}])+$"
+              "pattern": "^(\\.[^.]+)+$"
             },
             "on_extension_mismatch": {
               "type": "boolean"
