@@ -153,6 +153,9 @@
         },
         "rename": {
           "type": "object",
+          "required": [
+            "new_name"
+          ],
           "properties": {
             "new_name": {
               "type": "string",
