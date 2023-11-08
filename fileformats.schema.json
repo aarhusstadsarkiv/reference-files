@@ -157,6 +157,9 @@
             "new_name": {
               "type": "string",
               "pattern": "^(\\{(name|stem|suffix)\\}|[^{}])+$"
+            },
+            "on_extension_mismatch": {
+              "type": "boolean"
             }
           }
         },
