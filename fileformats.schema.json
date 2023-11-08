@@ -34,6 +34,16 @@
         {
           "properties": {
             "action": {
+              "const": "replace"
+            }
+          },
+          "required": [
+            "replace"
+          ]
+        },
+        {
+          "properties": {
+            "action": {
               "const": "manual"
             }
           },
@@ -84,6 +94,7 @@
           "enum": [
             "convert",
             "extract",
+            "replace",
             "manual",
             "rename",
             "ignore",
@@ -140,6 +151,17 @@
             }
           }
         },
+        "replace": {
+          "type": "object",
+          "required": [
+            "template"
+          ],
+          "properties": {
+            "template": {
+              "type": "string"
+            }
+          }
+        },
         "manual": {
           "type": "object",
           "properties": {
@@ -183,6 +205,7 @@
               "enum": [
                 "convert",
                 "extract",
+                "replace",
                 "manual",
                 "rename",
                 "ignore"
