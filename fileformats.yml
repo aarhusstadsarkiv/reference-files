@@ -87,6 +87,7 @@ fmt/3:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 fmt/4:
   name: Graphics Interchange Format 89a
   action: convert
@@ -99,6 +100,7 @@ fmt/4:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 fmt/5:
   name: Audio/Video Interleaved Format
   action: convert
@@ -119,6 +121,7 @@ fmt/11:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 fmt/12:
   name: Portable Network Graphics 1.1
   action: convert
@@ -139,6 +142,7 @@ fmt/13:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 fmt/14:
   name: Acrobat PDF 1.0 - Portable Document Format
   action: convert
@@ -427,6 +431,7 @@ fmt/41:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 fmt/42:
   name: JPEG File Interchange Format 1.00
   action: convert
@@ -439,6 +444,7 @@ fmt/42:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 fmt/43:
   name: JPEG File Interchange Format 1.01
   action: convert
@@ -451,6 +457,7 @@ fmt/43:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 fmt/44:
   name: JPEG File Interchange Format 1.02
   action: convert
@@ -463,6 +470,7 @@ fmt/44:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 fmt/45:
   name: Rich Text Format 1.0-1.4
   action: convert
@@ -884,6 +892,7 @@ fmt/115:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 fmt/116:
   name: Windows Bitmap 3.0
   action: convert
@@ -896,6 +905,7 @@ fmt/116:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 fmt/117:
   name: Windows Bitmap 3.0 NT
   action: convert
@@ -932,6 +942,7 @@ fmt/124:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 fmt/125:
   name: Microsoft Powerpoint Presentation 95
   action: convert
@@ -1283,6 +1294,7 @@ fmt/353:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 fmt/354:
   name: Acrobat PDF/A - Portable Document Format 1b
   action: convert
@@ -1861,6 +1873,7 @@ fmt/645:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 fmt/657:
   name: Open XML Paper Specification
   action: convert
@@ -2762,6 +2775,7 @@ x-fmt/390:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 x-fmt/391:
   name: Exchangeable Image File Format (Compressed) 2.2
   action: convert
@@ -2774,6 +2788,7 @@ x-fmt/391:
     reasoning: ''
     ignore_if:
       - pixel_total: 20000
+        reasoning: "Image is too small"
 x-fmt/392:
   name: JP2 (JPEG 2000 part 1)
   action: convert
