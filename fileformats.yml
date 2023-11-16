@@ -1883,7 +1883,7 @@ fmt/657:
       outputs:
         - pdf
 fmt/670:
-  name: 'PKCS #7 Crytographic Message File'
+  name: 'PKCS #7 Cryptographic Message File'
   action: ignore
   ignore:
     reasoning: Cryptographic message file which follows email files. Not preservation-worthy
