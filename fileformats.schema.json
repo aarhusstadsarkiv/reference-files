@@ -171,7 +171,19 @@
           ],
           "properties": {
             "template": {
-              "description": "The text content of the template.",
+              "description": "The replacement template.",
+              "type": "string",
+              "enum": [
+                "text",
+                "empty",
+                "password-protected",
+                "corrupted",
+                "not-preservable",
+                "not-convertable"
+              ]
+            },
+            "template_text": {
+              "description": "Text to use instead of the default template.",
               "type": "string"
             }
           }
