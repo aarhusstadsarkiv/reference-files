@@ -275,10 +275,10 @@
           "description": "Instructions to manually process a file.",
           "type": "object",
           "required": [
-            "reasoning"
+            "reason"
           ],
           "properties": {
-            "reasoning": {
+            "reason": {
               "description": "The reason why the file should be manually processed.",
               "type": "string"
             },
@@ -314,10 +314,10 @@
           "description": "Instructions to re-identify a file format using custom signatures.",
           "type": "object",
           "required": [
-            "reasoning"
+            "reason"
           ],
           "properties": {
-            "reasoning": {
+            "reason": {
               "description": "The reason why the file should be re-identified.",
               "type": "string"
             },
@@ -339,10 +339,10 @@
           "description": "Instructions to ignore a file format.",
           "type": "object",
           "required": [
-            "reasoning"
+            "reason"
           ],
           "properties": {
-            "reasoning": {
+            "reason": {
               "description": "The reason why the file should be ignore.",
               "type": "string"
             },
@@ -377,7 +377,7 @@
                     "type": "integer",
                     "minimum": 1
                   },
-                  "reasoning": {
+                  "reason": {
                     "description": "The reason why the file should be ignore, specific to a condition.",
                     "type": "string"
                   }
