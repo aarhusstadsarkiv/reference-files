@@ -1,3 +1,30 @@
+"!empty":
+  name: Empty files
+  action: replace
+  replace:
+    template: empty
+"!binary":
+  name: Binary files
+  action: manual
+  manual:
+    reason: "Unknown binary file"
+    process: "Identify file and assign it an action."
+  ignore:
+    reason: ""
+    ignore_if:
+      - binary_size: 1024
+        reason: "Binary file is too small"
+"!image (raster)":
+  name: Image files
+  action: manual
+  manual:
+    reason: "Unknown image file"
+    process: "Identify file and assign it an action."
+  ignore:
+    reason: ""
+    ignore_if:
+      - pixel_total: 20000
+        reason: "Image is too small"
 aca-error/1:
   name: Empty File
   action: ignore
