@@ -4,6 +4,10 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
+    "!empty": {
+      "description": "An Action object for empty files.",
+      "$ref": "#/definitions/action"
+    },
     "!binary": {
       "description": "An Action object for the file class 'binary'.",
       "$ref": "#/definitions/action"
