@@ -278,7 +278,8 @@
           "description": "Instructions to manually process a file.",
           "type": "object",
           "required": [
-            "reason"
+            "reason",
+            "process"
           ],
           "properties": {
             "reason": {
