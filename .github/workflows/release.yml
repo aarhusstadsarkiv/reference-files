@@ -16,12 +16,6 @@ jobs:
       - name: Get Tag
         id: tag
         run: echo "tag=$(git tag -l --sort=-version:refname | head -1)" >> "$GITHUB_OUTPUT"
-      - name: Rename Files
-        env:
-          VERSION: ${{ steps.tag.outputs.tag }}
-        run: |
-          mv fileformats.yml "fileformats-${VERSION// /_}.yml"
-          mv custom_signatures.json "custom_signatures-${VERSION// /_}.json"
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
@@ -29,5 +23,5 @@ jobs:
           tag_name: ${{ steps.tag.outputs.tag }}
           name: ${{ steps.tag.outputs.tag }}
           files: |
-            fileformats-*.yml
-            custom_signatures-*.json
+            fileformats.yml
+            custom_signatures.json
