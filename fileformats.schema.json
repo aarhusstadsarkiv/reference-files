@@ -4,6 +4,10 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
+    "*": {
+      "description": "An Action object that contains ground rules for all files.",
+      "$ref": "#/definitions/action"
+    },
     "!empty": {
       "description": "An Action object for empty files.",
       "$ref": "#/definitions/action"
