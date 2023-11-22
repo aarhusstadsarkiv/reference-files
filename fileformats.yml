@@ -24,16 +24,6 @@
     ignore_if:
       - pixel_total: 20000
         reason: "Image is too small"
-aca-error/1:
-  name: Empty File
-  action: ignore
-  ignore:
-    reason: It's an empty file! Not preservation-worthy
-aca-error/2:
-  name: Corrupt file
-  action: ignore
-  ignore:
-    reason: It's a corrupt file! Not preservation-worthy
 aca-fmt/1:
   name: Lotus 1-2-3 Worksheet
   action: convert
