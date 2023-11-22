@@ -1,3 +1,13 @@
+"*":
+  name: Ground rules
+  action: ignore
+  ignore:
+    reason: ""
+    ignore_if:
+      - binary_size: 1024
+        reason: "Binary file is too small"
+      - size: 32
+        reason: "File is too small"
 "!empty":
   name: Empty files
   action: replace
