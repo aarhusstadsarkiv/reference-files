@@ -13,12 +13,6 @@
   action: replace
   replace:
     template: empty
-"!binary":
-  name: Binary files
-  action: manual
-  manual:
-    reason: "Unknown binary file"
-    process: "Identify file and assign it an action."
 "!image (raster)":
   name: Image files
   action: manual
