@@ -19,11 +19,6 @@
   manual:
     reason: "Unknown binary file"
     process: "Identify file and assign it an action."
-  ignore:
-    reason: ""
-    ignore_if:
-      - binary_size: 1024
-        reason: "Binary file is too small"
 "!image (raster)":
   name: Image files
   action: manual
