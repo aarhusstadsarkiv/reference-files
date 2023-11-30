@@ -4,7 +4,7 @@
   ignore:
     reason: ""
     ignore_if:
-      - binary_size: 1024
+      - binary_size: 512
         reason: "Binary file is too small"
       - size: 32
         reason: "File is too small"
