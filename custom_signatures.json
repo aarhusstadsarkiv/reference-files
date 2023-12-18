@@ -156,6 +156,6 @@
         "puid": "aca-fmt/21",
         "signature": "OpenDocument Spreadsheet (unspecified version)",
         "extension": ".ods",
-        "decode bof": "mimetypeapplication/vnd.oasis.opendocument.spreadsheet"
+        "plain_bof": "mimetypeapplication/vnd.oasis.opendocument.spreadsheet"
     }
 ]
