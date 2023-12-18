@@ -9,6 +9,12 @@
       "operator": [
         "bof",
         "eof"
+      ],
+      "plain_bof": [
+        "bof"
+      ],
+      "plain_eof": [
+        "eof"
       ]
     },
     "if": {
@@ -40,7 +46,13 @@
       "bof": {
         "type": "string"
       },
+      "plain_bof": {
+        "type": "string"
+      },
       "eof": {
+        "type": "string"
+      },
+      "plain_eof": {
         "type": "string"
       },
       "operator": {
