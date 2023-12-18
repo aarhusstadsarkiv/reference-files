@@ -83,6 +83,14 @@ aca-fmt/9:
     tool: tnefparse
     extension: .dat
     dir_suffix: .mail_extraction
+aca-fmt/18:
+  name: OpenDocument Text (unspecified version)
+  action: convert
+  convert:
+    - converter: libre
+      converter_type: master
+      outputs:
+        - pdf
 aca-fmt/20:
   name: MapInfo TAB file
   action: convert
@@ -91,6 +99,14 @@ aca-fmt/20:
       converter_type: master
       outputs:
         - tab
+aca-fmt/21:
+  name: OpenDocument Spreadsheet (unspecified version)
+  action: convert
+  convert:
+    - converter: libre
+      converter_type: master
+      outputs:
+        - pdf
 fmt/3:
   name: Graphics Interchange Format 87a
   action: convert
