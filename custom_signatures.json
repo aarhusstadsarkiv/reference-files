@@ -150,5 +150,12 @@
         "puid": "aca-fmt/20",
         "signature": "MapInfo TAB file",
         "extension": ".tab"
+    },
+    {
+        "bof": "(?i)^bWltZXR5cGVhcHBsaWNhdGlvbi92bmQub2FzaXMub3BlbmRvY3VtZW50LnNwcmVhZHNoZWV0",
+        "puid": "aca-fmt/21",
+        "signature": "OpenDocument Spreadsheet (unspecified version)",
+        "extension": ".ods",
+        "plain_bof": "mimetypeapplication/vnd.oasis.opendocument.spreadsheet"
     }
 ]
