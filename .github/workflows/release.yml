@@ -24,4 +24,5 @@ jobs:
           name: ${{ steps.tag.outputs.tag }}
           files: |
             fileformats.yml
+            custom_signatures.yml
             custom_signatures.json
