@@ -266,7 +266,6 @@ fmt/21:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/22:
@@ -276,7 +275,6 @@ fmt/22:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/23:
@@ -286,7 +284,6 @@ fmt/23:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/24:
@@ -296,7 +293,6 @@ fmt/24:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/25:
@@ -306,7 +302,6 @@ fmt/25:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/26:
@@ -316,7 +311,6 @@ fmt/26:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/27:
@@ -326,7 +320,6 @@ fmt/27:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/28:
@@ -336,7 +329,6 @@ fmt/28:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/29:
@@ -346,7 +338,6 @@ fmt/29:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/30:
@@ -356,7 +347,6 @@ fmt/30:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/31:
@@ -366,7 +356,6 @@ fmt/31:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/32:
@@ -376,7 +365,6 @@ fmt/32:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/33:
@@ -386,7 +374,6 @@ fmt/33:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/34:
@@ -396,7 +383,6 @@ fmt/34:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/35:
@@ -406,7 +392,6 @@ fmt/35:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/36:
@@ -416,7 +401,6 @@ fmt/36:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/37:
@@ -596,7 +580,6 @@ fmt/63:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/64:
@@ -606,7 +589,6 @@ fmt/64:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/65:
@@ -616,7 +598,6 @@ fmt/65:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/66:
@@ -626,7 +607,6 @@ fmt/66:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/67:
@@ -636,7 +616,6 @@ fmt/67:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/68:
@@ -646,7 +625,6 @@ fmt/68:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/69:
@@ -656,7 +634,6 @@ fmt/69:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/70:
@@ -666,7 +643,6 @@ fmt/70:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/71:
@@ -676,7 +652,6 @@ fmt/71:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/72:
@@ -686,7 +661,6 @@ fmt/72:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dxf
         - pdf
         - svg
 fmt/73:
@@ -696,7 +670,6 @@ fmt/73:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/74:
@@ -706,7 +679,6 @@ fmt/74:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/75:
@@ -716,7 +688,6 @@ fmt/75:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/76:
@@ -726,7 +697,6 @@ fmt/76:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/77:
@@ -736,7 +706,6 @@ fmt/77:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/78:
@@ -746,7 +715,6 @@ fmt/78:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/79:
@@ -756,7 +724,6 @@ fmt/79:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/80:
@@ -766,7 +733,6 @@ fmt/80:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/81:
@@ -776,7 +742,6 @@ fmt/81:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/82:
@@ -786,7 +751,6 @@ fmt/82:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/83:
@@ -796,7 +760,6 @@ fmt/83:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/84:
@@ -806,7 +769,6 @@ fmt/84:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/85:
@@ -816,7 +778,6 @@ fmt/85:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/90:
@@ -1429,7 +1390,6 @@ fmt/433:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/434:
@@ -1439,7 +1399,6 @@ fmt/434:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/435:
@@ -1449,7 +1408,6 @@ fmt/435:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/440:
@@ -1693,7 +1651,6 @@ fmt/531:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/532:
@@ -1703,7 +1660,6 @@ fmt/532:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/550:
@@ -2134,7 +2090,6 @@ fmt/1389:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/1390:
@@ -2144,7 +2099,6 @@ fmt/1390:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/1391:
@@ -2154,7 +2108,6 @@ fmt/1391:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/1392:
@@ -2164,7 +2117,6 @@ fmt/1392:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/1393:
@@ -2174,7 +2126,6 @@ fmt/1393:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 fmt/1439:
@@ -2315,7 +2266,6 @@ fmt/1934:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 x-fmt/9:
@@ -2955,7 +2905,6 @@ x-fmt/455:
     - converter: cad2d
       converter_type: master
       outputs:
-        - dwg
         - pdf
         - svg
 xfmt/157:
