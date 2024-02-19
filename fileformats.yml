@@ -788,6 +788,22 @@ fmt/90:
       converter_type: master
       outputs:
         - tif
+fmt/91:
+  name: Scalable Vector Graphics 1.0
+  action: convert
+  convert:
+    - converter: browser
+      converter_type: master
+      outputs:
+        - pdf
+fmt/92:
+  name: Scalable Vector Graphics 1.1
+  action: convert
+  convert:
+    - converter: browser
+      converter_type: master
+      outputs:
+        - pdf
 fmt/95:
   name: Acrobat PDF/A - Portable Document Format 1a
   action: convert
@@ -1355,6 +1371,14 @@ fmt/412:
   action: convert
   convert:
     - converter: libre
+      converter_type: master
+      outputs:
+        - pdf
+fmt/413:
+  name: Scalable Vector Graphics Tiny 1.2
+  action: convert
+  convert:
+    - converter: browser
       converter_type: master
       outputs:
         - pdf
