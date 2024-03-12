@@ -2292,15 +2292,6 @@ fmt/1934:
       outputs:
         - pdf
         - svg
-x-fmt/9:
-  name: dBASE Database III
-  action: convert
-  convert:
-    - converter: libre
-      converter_type: master
-      outputs:
-        - ods
-        - pdf
 x-fmt/10:
   name: dBASE Database IV
   action: convert
