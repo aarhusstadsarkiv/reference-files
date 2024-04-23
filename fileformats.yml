@@ -2442,7 +2442,7 @@ x-fmt/111:
     - converter: copy
       converter_type: master
       outputs:
-        - tab
+        - txt
     - converter: text
       converter_type: statutory
       outputs:
@@ -2553,6 +2553,10 @@ x-fmt/227:
       converter_type: master
       outputs:
         - GML3
+    - converter: copy
+      converter_type: statutory
+      outputs:
+        - gml
 x-fmt/231:
   name: ESRI MapInfo Export File
   action: convert
@@ -2672,9 +2676,12 @@ x-fmt/266:
     dir_suffix: .archive_extraction
 x-fmt/280:
   name: XML Schema Definition
-  action: ignore
-  ignore:
-    reason: A prescriptive XML template, for validating XML files with. Not preservation-worthy
+  action: convert
+  convert:
+    - converter: copy
+      converter_type: statutory
+      outputs:
+        - xsd
 x-fmt/315:
   name: Document Type Definition
   action: convert
