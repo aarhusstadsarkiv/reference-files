@@ -2283,6 +2283,11 @@ fmt/1768:
   action: ignore
   ignore:
     reason: Source code written in C. Not preservation-worthy
+fmt/1879:
+  name: vCard
+  action: ignore
+  ignore:
+    reason: Contact information. Not preservation-worthy
 fmt/1934:
   name: Drawing Interchange Format (Binary)
   action: convert
