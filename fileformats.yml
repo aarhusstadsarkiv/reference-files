@@ -2285,9 +2285,11 @@ fmt/1768:
     reason: Source code written in C. Not preservation-worthy
 fmt/1879:
   name: vCard
+  description: Contact information file. vCards are often attached to e-mail messages, but can be exchanged in other
+    ways, such as on the internet or instant messaging.
   action: ignore
   ignore:
-    reason: Contact information. Not preservation-worthy
+    reason: Not preservation-worthy
 fmt/1934:
   name: Drawing Interchange Format (Binary)
   action: convert
