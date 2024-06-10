@@ -114,7 +114,7 @@ aca-fmt/22:
     - converter: copy
       converter_type: statutory
       outputs:
-        - *
+        - _
 fmt/3:
   name: Graphics Interchange Format 87a
   action: convert
@@ -1306,7 +1306,7 @@ fmt/353:
     - converter: copy
       converter_type: statutory
       outputs:
-        - *
+        - _
   ignore:
     reason: ''
     ignore_if:
@@ -2325,7 +2325,7 @@ x-fmt/13:
     - converter: copy
       converter_type: master
       outputs:
-        - *
+        - _
     - converter: text
       converter_type: statutory
       outputs:
@@ -2450,7 +2450,7 @@ x-fmt/111:
     - converter: copy
       converter_type: master
       outputs:
-        - *
+        - _
     - converter: text
       converter_type: statutory
       outputs:
@@ -2564,7 +2564,7 @@ x-fmt/227:
     - converter: copy
       converter_type: statutory
       outputs:
-        - *
+        - _
 x-fmt/231:
   name: ESRI MapInfo Export File
   action: convert
