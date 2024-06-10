@@ -1298,7 +1298,7 @@ fmt/353:
     - converter: copy
       converter_type: statutory
       outputs:
-        - tif
+        - *
   ignore:
     reason: ''
     ignore_if:
@@ -2317,7 +2317,7 @@ x-fmt/13:
     - converter: copy
       converter_type: master
       outputs:
-        - tab
+        - *
     - converter: text
       converter_type: statutory
       outputs:
@@ -2442,7 +2442,7 @@ x-fmt/111:
     - converter: copy
       converter_type: master
       outputs:
-        - txt
+        - *
     - converter: text
       converter_type: statutory
       outputs:
@@ -2556,7 +2556,7 @@ x-fmt/227:
     - converter: copy
       converter_type: statutory
       outputs:
-        - gml
+        - *
 x-fmt/231:
   name: ESRI MapInfo Export File
   action: convert
@@ -2681,7 +2681,7 @@ x-fmt/280:
     - converter: copy
       converter_type: statutory
       outputs:
-        - xsd
+        - *
 x-fmt/315:
   name: Document Type Definition
   action: convert
