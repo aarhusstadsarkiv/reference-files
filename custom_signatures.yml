@@ -106,3 +106,8 @@
   plain_bof: mimetypeapplication/vnd.oasis.opendocument.spreadsheet
   puid: aca-fmt/21
   signature: OpenDocument Spreadsheet (unspecified version)
+- bof: YWFycz0iaHR0cDovL3d3dy5hYXJzLmRrL2dtbC9hYXJzIg==
+  extension: .xsd
+  plain_bof: aars="http://www.aars.dk/gml/aars"
+  puid: aca-fmt/22
+  signature: XML Schema Definition (Custom XSD)
