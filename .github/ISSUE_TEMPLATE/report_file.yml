@@ -47,7 +47,8 @@ body:
     attributes:
       label: Action
       description: Decided what to do with the file(s)
-      render: shell
+    validations:
+      required: true      
   - type: textarea
     id: example
     attributes:
