@@ -1,0 +1,44 @@
+name: Report a new converter
+description: Report a converter for file format
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report a file format for missing converter
+  - type: input
+    id: puid
+    attributes:
+      label: puid
+      description: Specify the puid of the file
+    validations:
+      required: true
+  - type: input
+    id: keep
+    attributes:
+      label: Keep format?
+      description: Conserve this file format in archive
+    validations:
+      required: true
+  - type: textarea
+    id: Signature
+    attributes:
+      label: Signature
+      description: The signature column in files.db as given by Digiarch
+    validations:
+      required: true
+  - type: textarea
+    id: warning
+    attributes:
+      label: Warning
+      description: The warning column in files.db as given by Digiarch
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Pronom description
+      description: The file type description from Pronom.
+    validations:
+      required: true
