@@ -1,19 +1,29 @@
-name: Conservation assessment of file format
+name: Preservation assessment of file format
 description: Assess whether file format should be preserved.
-title: "[Bug]: "
-labels: ["bug"]
+title: "Assessment of file format {puid} {signature}"
+labels: ["file format assessment"]
 body:
   - type: markdown
     attributes:
       value: |
         Report a file with puid but no action
+  
   - type: input
     id: puid
     attributes:
-      label: puid
+      label: PUID of the file
       description: Specify the puid of the file
     validations:
       required: true
+
+  - type: input
+    id: signature
+    attributes:
+      label: Signature
+      description: The signature given by Digiarch
+    validations:
+      required: true
+
   - type: textarea
     id: extension
     attributes:
@@ -21,31 +31,27 @@ body:
       description: Specify the file extension
     validations:
       required: true
-  - type: textarea
-    id: Signature
-    attributes:
-      label: Signature
-      description: The signature given by Digiarch
-    validations:
-      required: true
+
   - type: textarea
     id: description
     attributes:
       label: Pronom description
-      description: The file type description from Pronom.
+      description: Copy paste the description from pronom
     validations:
       required: true
+  
+  - type: textarea
+    id: example
+    attributes:
+      label: Paths
+      description: Absolute paths to two or more examples.
+    validations:
+      required: true
+
   - type: textarea
     id: action
     attributes:
       label: Action
-      description: Decided what to do with the file(s)
-    validations:
-      required: true      
-  - type: textarea
-    id: example
-    attributes:
-      label: Path
-      description: Patho file example
+      description: Decided what to do with the file(s). Possible file converter?
     validations:
       required: true
