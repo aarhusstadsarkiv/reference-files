@@ -1,12 +1,12 @@
-name: Reindentify file format
-description: Reindentify file format
+name: Conservation assessment of file format
+description: Assess whether file format should be preserved.
 title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Report a file to reindentification
+        Report a file with puid but no action
   - type: input
     id: puid
     attributes:
@@ -14,25 +14,18 @@ body:
       description: Specify the puid of the file
     validations:
       required: true
-  - type: input
-    id: keep
-    attributes:
-      label: Keep format?
-      description: Conserve this file format in archive
-    validations:
-      required: true
   - type: textarea
     id: extension
     attributes:
-      label: Wrong file extension
-      description: The wrong file extension of the files
+      label: File extension
+      description: Specify the file extension
     validations:
       required: true
   - type: textarea
-    id: extension_correct
+    id: Signature
     attributes:
-      label: Correct extension
-      description: Specify the expected extension
+      label: Signature
+      description: The signature given by Digiarch
     validations:
       required: true
   - type: textarea
@@ -43,15 +36,16 @@ body:
     validations:
       required: true
   - type: textarea
-    id: digiarch_warning
+    id: action
     attributes:
-      label: Digiarch warning
-      description: The warning specified by digiarch
-      render: shell
+      label: Action
+      description: Decided what to do with the file(s)
+    validations:
+      required: true      
   - type: textarea
     id: example
     attributes:
       label: Path
-      description: Path to file example
+      description: Patho file example
     validations:
       required: true
