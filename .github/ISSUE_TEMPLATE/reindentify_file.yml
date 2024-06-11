@@ -1,12 +1,13 @@
 name: Reindentify file format
 description: Reindentify file format
-title: "[Bug]: "
-labels: ["bug"]
+title: "Reindentification of file format {puid} {signature}"
+labels: ["file format reidentification"]
 body:
   - type: markdown
     attributes:
       value: |
         Report a file to reindentification
+
   - type: input
     id: puid
     attributes:
@@ -14,20 +15,23 @@ body:
       description: Specify the puid of the file
     validations:
       required: true
+
   - type: input
-    id: keep
+    id: signature
     attributes:
-      label: Keep format?
-      description: Conserve this file format in archive
+      label: Signature
+      description: The signature given by Digiarch
     validations:
       required: true
+
   - type: textarea
     id: extension
     attributes:
-      label: Wrong file extension
-      description: The wrong file extension of the files
+      label: Problem
+      description: The wrong file extension of the file(s)?
     validations:
       required: true
+
   - type: textarea
     id: extension_correct
     attributes:
@@ -35,6 +39,7 @@ body:
       description: Specify the expected extension
     validations:
       required: true
+
   - type: textarea
     id: description
     attributes:
@@ -42,16 +47,18 @@ body:
       description: The file type description from Pronom.
     validations:
       required: true
+
   - type: textarea
     id: digiarch_warning
     attributes:
       label: Digiarch warning
       description: The warning specified by digiarch
       render: shell
+
   - type: textarea
     id: example
     attributes:
-      label: Path
-      description: Path to file example
+      label: Paths
+      description: Absolute paths to two or more examples.
     validations:
       required: true
