@@ -107,6 +107,14 @@ aca-fmt/21:
       converter_type: master
       outputs:
         - pdf
+aca-fmt/22:
+  name: XML Schema Definition (Custom XSD)
+  action: convert
+  convert:
+    - converter: copy
+      converter_type: statutory
+      outputs:
+        - _
 fmt/3:
   name: Graphics Interchange Format 87a
   action: convert
@@ -1298,7 +1306,7 @@ fmt/353:
     - converter: copy
       converter_type: statutory
       outputs:
-        - tif
+        - _
   ignore:
     reason: ''
     ignore_if:
@@ -2324,7 +2332,7 @@ x-fmt/13:
     - converter: copy
       converter_type: master
       outputs:
-        - tab
+        - _
     - converter: text
       converter_type: statutory
       outputs:
@@ -2449,7 +2457,7 @@ x-fmt/111:
     - converter: copy
       converter_type: master
       outputs:
-        - tab
+        - _
     - converter: text
       converter_type: statutory
       outputs:
@@ -2560,6 +2568,10 @@ x-fmt/227:
       converter_type: master
       outputs:
         - GML3
+    - converter: copy
+      converter_type: statutory
+      outputs:
+        - _
 x-fmt/231:
   name: ESRI MapInfo Export File
   action: convert
@@ -2679,9 +2691,11 @@ x-fmt/266:
     dir_suffix: .archive_extraction
 x-fmt/280:
   name: XML Schema Definition
-  action: ignore
+  action: reidentify
+  reidentify:
+    reason: If the XSD is not custom made, then we ignore the XSD file.
   ignore:
-    reason: A prescriptive XML template, for validating XML files with. Not preservation-worthy
+    reason: A prescriptive XML template, for validating XML files with. Not preservation-worthy if not with a GML file.
 x-fmt/315:
   name: Document Type Definition
   action: convert
@@ -2703,7 +2717,7 @@ x-fmt/332:
     reason: It's a file containing formatting information for Lotus spreadsheets.
       Not preservation-worthy
 x-fmt/340:
-  name: ''
+  name: 'Lotus WordPro Document'
   action: convert
   convert:
     - converter: symphovert
