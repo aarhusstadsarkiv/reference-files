@@ -2353,10 +2353,10 @@ x-fmt/18:
   name: Comma Separated Values
   action: convert
   convert:
-    - converter: text
-      converter_type: statutory
+    - converter: copy
+      converter_type: master
       outputs:
-        - tif
+        - _
 x-fmt/37:
   name: AutoCAD Colour-Dependant Plot Style Table
   action: ignore
