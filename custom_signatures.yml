@@ -108,6 +108,6 @@
   signature: OpenDocument Spreadsheet (unspecified version)
 - bof: (?i)^1F8B08
   extension: .emz
-  plain_bof: 
+  plain_bof: ""
   puid: aca-fmt/22
   signature: Windows Compressed Enhanced Metafile, usually image file
