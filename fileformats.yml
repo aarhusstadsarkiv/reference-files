@@ -107,6 +107,14 @@ aca-fmt/21:
       converter_type: master
       outputs:
         - pdf
+aca-fmt/22:
+  name: Windows Compressed Enhanced Metafile
+  action: convert
+  convert:
+    - converter: libre
+      converter_type: master
+      outputs:
+        - jpg
 fmt/3:
   name: Graphics Interchange Format 87a
   action: convert
