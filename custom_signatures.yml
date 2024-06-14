@@ -111,3 +111,4 @@
   plain_bof: ""
   puid: aca-fmt/22
   signature: Windows Compressed Enhanced Metafile, usually image file
+  description: a 10-byte header, containing a magic number (1f 8b), compression ID (08 for DEFLATE)
