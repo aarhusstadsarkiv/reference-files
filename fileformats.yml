@@ -107,6 +107,14 @@ aca-fmt/21:
       converter_type: master
       outputs:
         - pdf
+aca-fmt/22:
+  name: Windows Compressed Enhanced Metafile
+  action: convert
+  convert:
+    - converter: libre
+      converter_type: master
+      outputs:
+        - jpg
 fmt/3:
   name: Graphics Interchange Format 87a
   action: convert
@@ -2345,10 +2353,15 @@ x-fmt/18:
   name: Comma Separated Values
   action: convert
   convert:
+    - converter: copy
+      converter_type: master
+      outputs:
+        - _
     - converter: text
       converter_type: statutory
       outputs:
         - tif
+      
 x-fmt/37:
   name: AutoCAD Colour-Dependant Plot Style Table
   action: ignore
