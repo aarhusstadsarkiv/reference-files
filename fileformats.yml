@@ -2357,6 +2357,11 @@ x-fmt/18:
       converter_type: master
       outputs:
         - _
+    - converter: text
+      converter_type: statutory
+      outputs:
+        - tif
+      
 x-fmt/37:
   name: AutoCAD Colour-Dependant Plot Style Table
   action: ignore
