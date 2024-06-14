@@ -111,4 +111,4 @@
   plain_bof: ""
   puid: aca-fmt/22
   signature: Windows Compressed Enhanced Metafile, usually image file
-  description: a 10-byte header, containing a magic number (1f 8b), compression ID (08 for DEFLATE)
+  description: .emz files are actually .gz files, which are identified with a 10-byte header, containing a magic number (1f 8b), a compression ID (08 for DEFLATE which is normal), and a variety of timestamps and flags. .emz files are compressed image files that we can convert directly with libreoffice.
