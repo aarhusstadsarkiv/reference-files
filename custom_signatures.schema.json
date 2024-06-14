@@ -71,6 +71,9 @@
       },
       "extension": {
         "type": "string"
+      },
+      "description": {
+        "type": "string"
       }
     }
   }
