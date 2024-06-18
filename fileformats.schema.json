@@ -105,76 +105,104 @@
         "name",
         "action"
       ],
-      "oneOf": [
+      "allOf": [
         {
-          "properties": {
-            "action": {
-              "const": "convert"
+          "if": {
+            "properties": {
+              "action": {
+                "const": "convert"
+              }
             }
           },
-          "required": [
-            "convert"
-          ]
+          "then": {
+            "required": [
+              "convert"
+            ]
+          }
         },
         {
-          "properties": {
-            "action": {
-              "const": "extract"
+          "if": {
+            "properties": {
+              "action": {
+                "const": "extract"
+              }
             }
           },
-          "required": [
-            "extract"
-          ]
+          "then": {
+            "required": [
+              "extract"
+            ]
+          }
         },
         {
-          "properties": {
-            "action": {
-              "const": "replace"
+          "if": {
+            "properties": {
+              "action": {
+                "const": "replace"
+              }
             }
           },
-          "required": [
-            "replace"
-          ]
+          "then": {
+            "required": [
+              "replace"
+            ]
+          }
         },
         {
-          "properties": {
-            "action": {
-              "const": "manual"
+          "if": {
+            "properties": {
+              "action": {
+                "const": "manual"
+              }
             }
           },
-          "required": [
-            "manual"
-          ]
+          "then": {
+            "required": [
+              "manual"
+            ]
+          }
         },
         {
-          "properties": {
-            "action": {
-              "const": "rename"
+          "if": {
+            "properties": {
+              "action": {
+                "const": "rename"
+              }
             }
           },
-          "required": [
-            "rename"
-          ]
+          "then": {
+            "required": [
+              "rename"
+            ]
+          }
         },
         {
-          "properties": {
-            "action": {
-              "const": "ignore"
+          "if": {
+            "properties": {
+              "action": {
+                "const": "ignore"
+              }
             }
           },
-          "required": [
-            "ignore"
-          ]
+          "then": {
+            "required": [
+              "ignore"
+            ]
+          }
         },
         {
-          "properties": {
-            "action": {
-              "const": "reidentify"
+          "if": {
+            "properties": {
+              "action": {
+                "const": "reidentify"
+              }
             }
           },
-          "required": [
-            "reidentify"
-          ]
+          "then": {
+            "required": [
+              "reidentify"
+            ]
+          }
         }
       ],
       "properties": {
