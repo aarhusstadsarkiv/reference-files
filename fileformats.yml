@@ -1181,7 +1181,7 @@ fmt/277:
   name: ESRI Arc/View Shapefile Index
   action: ignore
   ignore:
-    reason: Index file for gis project. Picked up and used by the GIS-procesor
+    reason: Index file for gis project. Picked up and used by the GIS-processor
 fmt/279:
   name: FLAC (Free Lossless Audio Codec)
   action: convert
@@ -1261,18 +1261,18 @@ fmt/319:
   action: ignore
   ignore:
     reason: A 2 part indexing file for spatial data. Picked up and used by the
-      GIS-procesor
+      GIS-processor
 fmt/320:
   name: ESRI Shapefile Projection (Well-Known Text) Format
   action: ignore
   ignore:
     reason: Projections Definition file; stores coordinate system information..
-      Picked up and used by the GIS-procesor
+      Picked up and used by the GIS-processor
 fmt/331:
   name: Autorun Configuration File
   action: ignore
   ignore:
-    reason: A Windows file usually found on CDs or DVDs or Blurays, telling the
+    reason: A Windows file usually found on CDs or DVDs or Blu-rays, telling the
       OS what executable to run when the disc is played. Not preservation-worthy
 fmt/332:
   name: ESRI Arc/View Project (3.x)
@@ -1674,7 +1674,7 @@ fmt/526:
   name: Adobe Font List
   action: ignore
   ignore:
-    reason: A cache of font files installed for Adobe products, createed by the
+    reason: A cache of font files installed for Adobe products, created by the
       programs themselves. Not preservation-worthy
 fmt/531:
   name: AutoCAD Drawing 2013/2014
@@ -1700,14 +1700,14 @@ fmt/550:
   ignore:
     reason: File used by adobe software for image editing and manipulation. Not
       preservable, we are unable to open and convert this format without and photoshop
-      license. The files also rarely if ever contains presevable info.
+      license. The files also rarely if ever contains preservable info.
 fmt/551:
   name: Adobe InDesign Document CS5
   action: ignore
   ignore:
     reason: File used by adobe software for image editing and manipulation. Not
       preservable, we are unable to open and convert this format without and photoshop
-      license. The files also rarely if ever contains presevable info.
+      license. The files also rarely if ever contains preservable info.
 fmt/557:
   name: Adobe Illustrator 8.0
   action: convert
@@ -2394,7 +2394,7 @@ x-fmt/54:
   name: AutoCAD Font Mapping Table
   action: ignore
   ignore:
-    reason: Contains info for fonts used while desingning. Not preservation-worthy
+    reason: Contains info for fonts used while designing. Not preservation-worthy
 x-fmt/58:
   name: Microsoft Excel Web Query
   action: ignore
@@ -2589,7 +2589,7 @@ x-fmt/235:
       outputs:
         - gml3
 x-fmt/240:
-  name: Microstoft Acces Database File (2000)
+  name: Microsoft Acces Database File (2000)
   action: ignore
   ignore:
     reason: A microsoft access database. Not preservable, we are unable to convert
@@ -2706,7 +2706,7 @@ x-fmt/328:
   name: InterBase Database file
   action: ignore
   ignore:
-    reason: A Databse fil in the interbase format. Not preservable, we are unable
+    reason: A database file in the interbase format. Not preservable, we are unable
       to convert it to a format we can handle as of now
 x-fmt/332:
   name: Lotus 1-2-3 Spreadsheet Formatting File 3.0
