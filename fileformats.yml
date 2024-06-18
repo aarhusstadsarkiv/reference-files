@@ -2462,7 +2462,7 @@ x-fmt/111:
     - converter: copy
       converter_type: master
       outputs:
-        - tab
+        - *
     - converter: text
       converter_type: statutory
       outputs:
