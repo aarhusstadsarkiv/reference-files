@@ -397,6 +397,14 @@
               }
             }
           }
+        },
+        "ignore-warnings": {
+          "description": "Warnings to ignore",
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
         }
       }
     }
