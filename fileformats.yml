@@ -1156,7 +1156,7 @@ fmt/244:
     - converter: gis
       converter_type: master
       outputs:
-        - GML3
+        - gml3
 fmt/258:
   name: Microsoft Works Word Processor 5-6
   action: convert
@@ -2041,7 +2041,7 @@ fmt/1047:
     - converter: gis
       converter_type: master
       outputs:
-        - GML3
+        - gml3
 fmt/1079:
   name: Microsoft Program Database 7.00
   action: ignore
@@ -2274,7 +2274,7 @@ fmt/1729:
     - converter: gis
       converter_type: master
       outputs:
-        - GML3
+        - gml3
 fmt/1730:
   name: ''
   action: reidentify
@@ -2571,7 +2571,7 @@ x-fmt/227:
     - converter: gis
       converter_type: master
       outputs:
-        - GML3
+        - gml3
 x-fmt/231:
   name: ESRI MapInfo Export File
   action: convert
@@ -2579,7 +2579,7 @@ x-fmt/231:
     - converter: gis
       converter_type: master
       outputs:
-        - GML3
+        - gml3
 x-fmt/235:
   name: ESRI Arc/View ShapeFile
   action: convert
@@ -2587,7 +2587,7 @@ x-fmt/235:
     - converter: gis
       converter_type: master
       outputs:
-        - GML3
+        - gml3
 x-fmt/240:
   name: Microstoft Acces Database File (2000)
   action: ignore

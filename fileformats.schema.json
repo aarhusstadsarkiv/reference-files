@@ -255,7 +255,8 @@
                 "description": "A list of extension targets for the converter.",
                 "type": "array",
                 "items": {
-                  "type": "string"
+                  "type": "string",
+                  "pattern": "^(_|[a-z0-9]+)$"
                 },
                 "minItems": 1
               }
