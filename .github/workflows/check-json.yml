@@ -29,6 +29,7 @@ jobs:
         run: |
           for schema in *.schema.json; do
             if [[ -f "${schema%.schema.json}.json" ]]; then
+              echo "${schema%.schema.json}.json";
               python3 -c 'import json,jsonschema,sys;jsonschema.validate(json.load(open(sys.argv[1])), json.load(open(sys.argv[2])))' "${schema%.schema.json}.json" "$schema";
             fi;
           done
@@ -37,6 +38,7 @@ jobs:
           for schema in *.schema.json; do
             for ext in "yaml" "yml"; do
               if [[ -f "${schema%.schema.json}.$ext" ]]; then
+                echo "${schema%.schema.json}.$ext";
                 python3 -c 'import yaml,json,jsonschema,sys;jsonschema.validate(yaml.load(open(sys.argv[1]), yaml.Loader), json.load(open(sys.argv[2])))' "${schema%.schema.json}.$ext" "$schema";
               fi;
             done
