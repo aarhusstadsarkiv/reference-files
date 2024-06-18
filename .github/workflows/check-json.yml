@@ -30,6 +30,7 @@ jobs:
         with:
           file_or_dir: ./*.yml
           config_data: |
+            extends: default
             rules:
               line-length: disable
       - name: Check JSON Schemata
