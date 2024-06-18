@@ -28,7 +28,7 @@ jobs:
       - name: Check YAML Syntax
         uses: ibiqlik/action-yamllint@v3
         with:
-          file_or_dir: ./*.yaml
+          file_or_dir: ./*.yml
           config_data: |
             rules:
               line-length: disable
