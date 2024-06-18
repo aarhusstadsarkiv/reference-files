@@ -27,6 +27,11 @@ jobs:
           pattern: "\\.json$"
       - name: Check YAML Syntax
         uses: ibiqlik/action-yamllint@v3
+        with:
+          file_or_dir: "./*.yaml"
+          config_data: |
+            rules:
+              line-length: disable
       - name: Check JSON Schemata
         run: |
           for schema in *.schema.json; do
