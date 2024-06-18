@@ -25,6 +25,8 @@ jobs:
         uses: limitusus/json-syntax-check@v2
         with:
           pattern: "\\.json$"
+      - name: Check YAML Syntax
+        uses: ibiqlik/action-yamllint@v3
       - name: Check JSON Schemata
         run: |
           for schema in *.schema.json; do
