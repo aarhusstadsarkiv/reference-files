@@ -867,7 +867,7 @@ fmt/100:
         - pdf
 fmt/101:
   name: Extensible Markup Language 1.0
-  action: convert
+  action: reidentify
   convert:
     - converter: text
       converter_type: statutory
@@ -877,6 +877,9 @@ fmt/101:
       converter_type: master
       outputs:
         - _
+  reidentify:
+    reason: Some applications allow saving documents as XML and can re-open them
+    onfail: convert
 fmt/102:
   name: Extensible Hypertext Markup Language 1.0
   action: convert
