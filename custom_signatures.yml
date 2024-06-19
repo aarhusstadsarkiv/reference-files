@@ -112,3 +112,10 @@
   puid: aca-fmt/22
   signature: Windows Compressed Enhanced Metafile, usually image file
   description: .emz files are actually .gz files, which are identified with a 10-byte header, containing a magic number (1f 8b), a compression ID (08 for DEFLATE which is normal), and a variety of timestamps and flags. .emz files are compressed image files that we can convert directly with libreoffice.
+- bof: (?i)^3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0a3c3f6d736f2d6170706c69636174696f6e2070726f6769643d22576f72642e446f63756d656e74223f3e
+  plain_bof: |
+    <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <?mso-application progid="Word.Document"?>
+  puid: aca-fmt/23
+  signature: Microsoft Word XML Document
+  description: Microsoft Word allows exporting document as standalone XML files, which PRONOM incorrectly identifies as plain XML (fmt/101)
