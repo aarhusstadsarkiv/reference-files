@@ -864,6 +864,10 @@ fmt/101:
       converter_type: statutory
       outputs:
         - tif
+    - converter: copy
+      converter_type: master
+      outputs:
+        - _
 fmt/102:
   name: Extensible Hypertext Markup Language 1.0
   action: convert
