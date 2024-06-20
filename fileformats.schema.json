@@ -234,9 +234,24 @@
             "type": "object",
             "required": [
               "converter",
-              "converter_type",
-              "outputs"
+              "converter_type"
             ],
+            "if": {
+              "properties": {
+                "converter": {
+                  "not": {
+                    "enum": [
+                      "copy"
+                    ]
+                  }
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "outputs"
+              ]
+            },
             "properties": {
               "converter": {
                 "description": "The converter tool to use.",
