@@ -37,8 +37,12 @@ jobs:
         run: check-jsonschema --verbose --check-metaschema *.schema.json
       - name: Check Files
         run: |
+          status=0;
           for schema in *.schema.json; do
             for ext in "yaml" "yml" "json"; do
-              [[ -f "${schema%.schema.json}.$ext" ]] && check-jsonschema --verbose --schemafile "$schema" "${schema%.schema.json}.$ext"
-            done
-          done
+              if [[ -f "${schema%.schema.json}.$ext" ]]; then
+                check-jsonschema --verbose --schemafile "$schema" "${schema%.schema.json}.$ext" || status=$?;
+              fi;
+            done;
+          done;
+          exit $status
