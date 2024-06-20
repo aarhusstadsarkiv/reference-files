@@ -123,7 +123,7 @@ aca-fmt/23:
     - converter: libre
       converter_type: master
       outputs:
-        - pdf
+        - odt
 fmt/3:
   name: Graphics Interchange Format 87a
   action: convert
