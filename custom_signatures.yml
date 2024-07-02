@@ -106,7 +106,7 @@
   plain_bof: mimetypeapplication/vnd.oasis.opendocument.spreadsheet
   puid: aca-fmt/21
   signature: OpenDocument Spreadsheet (unspecified version)
-- bof: (?i).{0-250}YWFyaHVzc3RhZHNhcmtpdj0iaHR0cDovL3d3dy5hYXJodXNzdGFkc2Fya2l2LmRrL2dtbC9hYXJodXNzdGFkc2Fya2l2Ig==
+- bof: (?i).{0-250}aHR0cDovL3d3dy5hYXJodXNzdGFkc2Fya2l2LmRrL2dtbC9hYXJodXNzdGFkc2Fya2l2
   extension: .xsd
   plain_bof: aarhusstadsarkiv="http://www.aarhusstadsarkiv.dk/gml/aarhusstadsarkiv"
   puid: aca-fmt/22
