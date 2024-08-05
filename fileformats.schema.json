@@ -138,13 +138,13 @@
           "if": {
             "properties": {
               "action": {
-                "const": "replace"
+                "const": "template"
               }
             }
           },
           "then": {
             "required": [
-              "replace"
+              "template"
             ]
           }
         },
@@ -220,7 +220,7 @@
           "enum": [
             "convert",
             "extract",
-            "replace",
+            "template",
             "manual",
             "rename",
             "ignore",
@@ -301,7 +301,7 @@
             }
           }
         },
-        "replace": {
+        "template": {
           "description": "Instructions to replace a file with a template.",
           "type": "object",
           "required": [
@@ -383,7 +383,7 @@
               "enum": [
                 "convert",
                 "extract",
-                "replace",
+                "template",
                 "manual",
                 "rename",
                 "ignore"
