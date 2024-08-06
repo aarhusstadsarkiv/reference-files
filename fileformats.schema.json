@@ -214,6 +214,51 @@
           "description": "A description of the file format.",
           "type": "string"
         },
+        "alternatives": {
+          "description": "Alternative PUIDs based on the file's extension.",
+          "type": "object",
+          "minItems": 3,
+          "additionalProperties": false,
+          "patternProperties": {
+            "^(\\.[a-z0-9]+)+$": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-zA-Z0-9_/-]+$"
+                },
+                {
+                  "type": "string",
+                  "pattern": "^!ext=(\\.+)+$"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "!empty",
+                    "!binary",
+                    "!aggregate",
+                    "!audio",
+                    "!database",
+                    "!dataset",
+                    "!email",
+                    "!font",
+                    "!gis",
+                    "!image (raster)",
+                    "!image (vector)",
+                    "!model",
+                    "!page description",
+                    "!presentation",
+                    "!spreadsheet",
+                    "!text (mark-up)",
+                    "!text (structured)",
+                    "!text (unstructured)",
+                    "!video",
+                    "!word processor"
+                  ]
+                }
+              ]
+            }
+          }
+        },
         "action": {
           "description": "The default action to undertake.",
           "type": "string",
