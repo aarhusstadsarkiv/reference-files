@@ -221,8 +221,41 @@
           "additionalProperties": false,
           "patternProperties": {
             "^(\\.[a-z0-9]+)+$": {
-              "type": "string",
-              "pattern": "^[a-zA-Z0-9_/-]+$"
+              "oneOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-zA-Z0-9_/-]+$"
+                },
+                {
+                  "type": "string",
+                  "pattern": "^!ext=(\\.+)+$"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "!empty",
+                    "!binary",
+                    "!aggregate",
+                    "!audio",
+                    "!database",
+                    "!dataset",
+                    "!email",
+                    "!font",
+                    "!gis",
+                    "!image (raster)",
+                    "!image (vector)",
+                    "!model",
+                    "!page description",
+                    "!presentation",
+                    "!spreadsheet",
+                    "!text (mark-up)",
+                    "!text (structured)",
+                    "!text (unstructured)",
+                    "!video",
+                    "!word processor"
+                  ]
+                }
+              ]
             }
           }
         },
