@@ -214,6 +214,18 @@
           "description": "A description of the file format.",
           "type": "string"
         },
+        "alternatives": {
+          "description": "Alternative PUIDs based on the file's extension.",
+          "type": "object",
+          "minItems": 3,
+          "additionalProperties": false,
+          "patternProperties": {
+            "^(\\.[a-z0-9]+)+$": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_/-]+$"
+            }
+          }
+        },
         "action": {
           "description": "The default action to undertake.",
           "type": "string",
