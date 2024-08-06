@@ -2680,6 +2680,9 @@ x-fmt/258:
 x-fmt/263:
   name: ZIP Format
   action: extract
+  alternatives:
+    .xps: fmt/657
+    .oxps: fmt/657
   extract:
     tool: patool
     extension: .zip
