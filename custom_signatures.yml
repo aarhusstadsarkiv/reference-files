@@ -120,3 +120,13 @@
   puid: aca-fmt/23
   signature: Microsoft Word XML Document
   description: Microsoft Word allows exporting document as standalone XML files, which PRONOM incorrectly identifies as plain XML (fmt/101)
+- bof: (?i)424547494E3A5643415244.*454E443A5643415244
+  extension: .vcf
+  puid: aca-fmt/24
+  signature: vCard
+  description: Looks for BEGIN:VCARD and END:VCARD, as pronom incorrectly assumes version declaration must come directly after BEGIN:VCARD, which it does not.
+- bof: (?i)5B496E7465726E657453686F72746375745D0D0A55524C3D
+  extension: .url
+  puid: aca-fmt/25
+  signature: URL file
+  description: Internet shortcut file. Looks for the tag "[InternetShortcut]\nURL="
