@@ -128,7 +128,7 @@
   extension: .vcf
   puid: aca-fmt/24
   signature: vCard (Unspecified version)
-  description: Looks for BEGIN:VCARD and END:VCARD, as pronom assumes version declaration must come directly after BEGIN:VCARD.
+  description: Only looks for BEGIN:VCARD and END:VCARD, as Pronom assumes VERSION declaration must come directly after BEGIN:VCARD, which is not always the case in the wild.
 - bof: (?i)5B496E7465726E657453686F72746375745D0D0A55524C3D
   plain_bof: |
     [InternetShortcut]
