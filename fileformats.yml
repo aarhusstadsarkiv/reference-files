@@ -124,6 +124,16 @@ aca-fmt/23:
       converter_type: master
       outputs:
         - odt
+aca-fmt/24:
+  name: vCard
+  action: ignore
+  ignore:
+    reason: Virtual business card. Not preservation-worthy
+aca-fmt/25:
+  name: Microsoft Windows URL
+  action: ignore
+  ignore:
+    reason: Website shortcut file. Not preservation-worthy
 fmt/3:
   name: Graphics Interchange Format 87a
   action: convert
