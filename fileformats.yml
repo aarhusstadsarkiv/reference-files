@@ -134,6 +134,11 @@ aca-fmt/25:
   action: ignore
   ignore:
     reason: Website shortcut file. Not preservation-worthy
+aca-fmt/26:
+  name: Lotus Notes Doclink File
+  action: ignore
+  ignore:
+    reason: Used for sharing links to documents over email and in Web pages. Not preservation-worthy
 fmt/3:
   name: Graphics Interchange Format 87a
   action: convert

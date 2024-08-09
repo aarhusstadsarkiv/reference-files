@@ -137,3 +137,12 @@
   puid: aca-fmt/25
   signature: URL file
   description: Internet shortcut file. Looks for the tag "[InternetShortcut]\nURL="
+- bof: (?i)3c4e444c3e.*3c2f4e444c3e
+  plain_bof: |
+    <NDL>
+    *
+    </NDL>
+  extension: .ndl
+  puid: aca-fmt/26
+  signature: Lotus Notes Doclink File
+  description: Link file used by Lotus Notes, a business productivity and collaboration application suite; saved in an XML format and contains a reference to a Lotus Notes document; used for sharing links to documents over email and in Web pages.
