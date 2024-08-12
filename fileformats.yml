@@ -140,6 +140,12 @@ aca-fmt/25:
   action: template
   template:
     template: not-preservable
+aca-fmt/26:
+  name: Lotus Notes Doclink File
+  description: Used for sharing links to documents over email and in Web pages. Not preservation-worthy.
+  action: template
+  template:
+    template: not-preservable
 fmt/3:
   name: Graphics Interchange Format 87a
   action: convert
