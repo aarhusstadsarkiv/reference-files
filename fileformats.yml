@@ -1672,7 +1672,7 @@ fmt/503:
     the data fork. The format specification is available here: https://support.apple.com/kb/TA32537?viewlocale=en_US
     The format lacks an extension, and is instead represented by a file name consisting
     of ._<filename resource fork belongs to>. It might not be preservation-worthy,
-    but either way we don""t know how to handle it"
+    but either way we don't know how to handle it"
   action: template
   template:
     template: not-preservable
