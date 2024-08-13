@@ -2723,6 +2723,9 @@ x-fmt/266:
     tool: patool
     extension: .gz
     dir_suffix: .archive_extraction
+  alternatives:
+    .emz: aca-fmt/22
+    .emz.gz: aca-fmt/22
 x-fmt/280:
   name: XML Schema Definition
   action: ignore
