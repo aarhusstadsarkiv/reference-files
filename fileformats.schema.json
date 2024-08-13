@@ -101,6 +101,7 @@
     "action": {
       "description": "An Action object.",
       "type": "object",
+      "additionalProperties": false,
       "required": [
         "name",
         "action"
@@ -259,67 +260,85 @@
             }
           }
         },
+        "ignore_if": {
+          "description": "The conditions that need to apply in order to ignore the file.",
+          "type": "object",
+          "properties": {
+            "image_pixels_min": {
+              "description": "The minimum total size of the image in pixels (width * height). Only applies to image files.",
+              "type": "integer",
+              "minimum": 1
+            },
+            "image_width_min": {
+              "description": "The minimum width of the image in pixels. Only applies to image files.",
+              "type": "integer",
+              "minimum": 1
+            },
+            "image_height_min": {
+              "description": "The minimum height of the image in pixels. Only applies to image files.",
+              "type": "integer",
+              "minimum": 1
+            },
+            "size_min": {
+              "description": "The minimum size of the file in bytes.",
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
         "action": {
           "description": "The default action to undertake.",
-          "type": "string",
-          "enum": [
-            "convert",
-            "extract",
-            "template",
-            "manual",
-            "rename",
-            "ignore",
-            "reidentify"
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "enum": [
+                "convert",
+                "extract",
+                "template",
+                "manual",
+                "ignore"
+              ]
+            }
           ]
         },
         "convert": {
           "description": "Instructions to convert the file.",
-          "type": "array",
-          "items": {
-            "type": "object",
-            "required": [
-              "converter",
-              "converter_type"
-            ],
-            "if": {
-              "properties": {
-                "converter": {
-                  "not": {
-                    "enum": [
-                      "copy"
-                    ]
-                  }
-                }
-              }
-            },
-            "then": {
-              "required": [
-                "outputs"
-              ]
-            },
+          "type": "object",
+          "required": [
+            "tool"
+          ],
+          "if": {
             "properties": {
               "converter": {
-                "description": "The converter tool to use.",
-                "type": "string"
-              },
-              "converter_type": {
-                "description": "The type of the conversion.",
-                "type": "string",
-                "enum": [
-                  "master",
-                  "statutory",
-                  "access"
-                ]
-              },
-              "outputs": {
-                "description": "A list of extension targets for the converter.",
-                "type": "array",
-                "items": {
-                  "type": "string",
-                  "pattern": "^(_|[a-z0-9]+)$"
-                },
-                "minItems": 1
+                "not": {
+                  "enum": [
+                    "copy"
+                  ]
+                }
               }
+            }
+          },
+          "then": {
+            "required": [
+              "outputs"
+            ]
+          },
+          "properties": {
+            "tool": {
+              "description": "The converter tool to use.",
+              "type": "string"
+            },
+            "outputs": {
+              "description": "A list of extension targets for the converter.",
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^(_|[a-z0-9]+)$"
+              },
+              "minItems": 1
             }
           }
         },
@@ -328,8 +347,7 @@
           "type": "object",
           "required": [
             "tool",
-            "extension",
-            "dir_suffix"
+            "extension"
           ],
           "properties": {
             "tool": {
@@ -338,35 +356,6 @@
             },
             "extension": {
               "description": "The extension the file must have for the tool to process it.",
-              "type": "string"
-            },
-            "dir_suffix": {
-              "description": "The suffix to be used for the file",
-              "type": "string"
-            }
-          }
-        },
-        "template": {
-          "description": "Instructions to replace a file with a template.",
-          "type": "object",
-          "required": [
-            "template"
-          ],
-          "properties": {
-            "template": {
-              "description": "The replacement template.",
-              "type": "string",
-              "enum": [
-                "text",
-                "empty",
-                "password-protected",
-                "corrupted",
-                "not-preservable",
-                "not-convertable"
-              ]
-            },
-            "template_text": {
-              "description": "Text to use instead of the default template.",
               "type": "string"
             }
           }
@@ -422,68 +411,51 @@
               "description": "The reason why the file should be re-identified.",
               "type": "string"
             },
-            "onfail": {
+            "on_fail": {
               "description": "The action to take if no new signature can be found.",
               "type": "string",
               "enum": [
-                "convert",
-                "extract",
-                "template",
-                "manual",
-                "rename",
-                "ignore"
+                "action",
+                "null"
               ]
             }
           }
         },
         "ignore": {
-          "description": "Instructions to ignore a file format.",
+          "description": "Instructions to ignore a file format and replace it with a template",
           "type": "object",
           "required": [
-            "reason"
+            "template"
           ],
-          "properties": {
-            "reason": {
-              "description": "The reason why the file should be ignore.",
-              "type": "string"
-            },
-            "ignore_if": {
-              "description": "The conditions that need to apply in order to ignore the file.",
-              "type": "array",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "pixel_total": {
-                    "description": "The minimum total size of the image in pixels (width * height). Only applies to image files.",
-                    "type": "integer",
-                    "minimum": 1
-                  },
-                  "pixel_width": {
-                    "description": "The minimum width of the image in pixels. Only applies to image files.",
-                    "type": "integer",
-                    "minimum": 1
-                  },
-                  "pixel_height": {
-                    "description": "The minimum height of the image in pixels. Only applies to image files.",
-                    "type": "integer",
-                    "minimum": 1
-                  },
-                  "size": {
-                    "description": "The minimum size of the file in bytes.",
-                    "type": "integer",
-                    "minimum": 1
-                  },
-                  "binary_size": {
-                    "description": "The minimum size of the file in bytes. Only applies to binary files.",
-                    "type": "integer",
-                    "minimum": 1
-                  },
-                  "reason": {
-                    "description": "The reason why the file should be ignore, specific to a condition.",
-                    "type": "string"
-                  }
-                }
+          "if": {
+            "properties": {
+              "template": {
+                "const": "text"
               }
+            }
+          },
+          "then": {
+            "required": [
+              "template",
+              "reason"
+            ]
+          },
+          "properties": {
+            "template": {
+              "description": "The replacement template.",
+              "type": "string",
+              "enum": [
+                "text",
+                "empty",
+                "password-protected",
+                "corrupted",
+                "not-preservable",
+                "not-convertable"
+              ]
+            },
+            "reason": {
+              "description": "The reason why the file should be ignore, and the template text if template is set to 'text'.",
+              "type": "string"
             }
           }
         },
