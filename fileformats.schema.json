@@ -312,7 +312,7 @@
           ],
           "if": {
             "properties": {
-              "converter": {
+              "tool": {
                 "not": {
                   "enum": [
                     "copy"
