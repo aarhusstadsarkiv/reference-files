@@ -2718,12 +2718,14 @@ x-fmt/265:
     dir_suffix: .archive_extraction
 x-fmt/266:
   name: GZIP Format
-  action: convert
-  convert:
-    - converter: libre
-      converter_type: master
-      outputs:
-        - pdf
+  action: extract  
+  extract:
+    tool: patool
+    extension: .gz
+    dir_suffix: .archive_extraction
+  alternatives:
+    .emz: aca-fmt/22
+    .emz.gz: aca-fmt/22
 x-fmt/280:
   name: XML Schema Definition
   action: ignore
