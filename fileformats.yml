@@ -2063,8 +2063,6 @@ x-fmt/13:
   action: convert
   convert:
     tool: copy
-    outputs:
-      - tab
 x-fmt/17:
   name: Microsoft Excel Template 97-2003
   action: convert
@@ -2078,8 +2076,6 @@ x-fmt/18:
   action: convert
   convert:
     tool: copy
-    outputs:
-      - _
 x-fmt/37:
   name: AutoCAD Colour-Dependant Plot Style Table
   action: ignore
@@ -2179,8 +2175,6 @@ x-fmt/111:
   action: convert
   convert:
     tool: copy
-    outputs:
-      - _
 x-fmt/114:
   name: Lotus 1-2-3 Worksheet (2.0)
   action: convert
