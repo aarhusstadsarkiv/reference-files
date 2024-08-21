@@ -460,7 +460,9 @@
                 "password-protected",
                 "corrupted",
                 "not-preservable",
-                "not-convertable"
+                "not-convertable",
+                "extracted-archive",
+                "temporary-file"
               ]
             },
             "reason": {
