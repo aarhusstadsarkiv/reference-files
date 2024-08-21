@@ -357,6 +357,16 @@
             "extension": {
               "description": "The extension the file must have for the tool to process it.",
               "type": "string"
+            },
+            "on_success": {
+              "description": "The action to switch to once the file is extracted, defaults to ignore.",
+              "type": "string",
+              "enum": [
+                "convert",
+                "template",
+                "manual",
+                "ignore"
+              ]
             }
           }
         },
@@ -450,7 +460,9 @@
                 "password-protected",
                 "corrupted",
                 "not-preservable",
-                "not-convertable"
+                "not-convertable",
+                "extracted-archive",
+                "temporary-file"
               ]
             },
             "reason": {
