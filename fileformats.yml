@@ -157,6 +157,8 @@ fmt/11:
       - png
 fmt/12:
   name: Portable Network Graphics 1.1
+  ignore_if:
+    image_pixels_min: 20000
   action: convert
   convert:
     tool: image
@@ -672,6 +674,8 @@ fmt/85:
       - svg
 fmt/90:
   name: PCX 5
+  ignore_if:
+    image_pixels_min: 20000
   action: convert
   convert:
     tool: image
@@ -789,6 +793,8 @@ fmt/116:
       - png
 fmt/117:
   name: Windows Bitmap 3.0 NT
+  ignore_if:
+    image_pixels_min: 20000
   action: convert
   convert:
     tool: image
@@ -1102,6 +1108,8 @@ fmt/340:
       - odt
 fmt/345:
   name: Microsoft Windows Enhanced Metafile 3.0
+  ignore_if:
+    image_pixels_min: 20000
   action: convert
   convert:
     tool: image
@@ -1712,6 +1720,8 @@ fmt/870:
     reason: A script in Perl. Not preservation-worthy
 fmt/881:
   name: Microsoft Document Imaging File Format
+  ignore_if:
+    image_pixels_min: 20000
   action: convert
   convert:
     tool: image
@@ -1945,6 +1955,8 @@ fmt/1482:
       2010. Can be viewed using an proprietary viewer. Not preservation-worthy
 fmt/1507:
   name: Exchangeable Image File Format (Compressed) 2.3.x
+  ignore_if:
+    image_pixels_min: 20000
   action: convert
   convert:
     tool: image
@@ -2207,6 +2219,8 @@ x-fmt/117:
       - pdf
 x-fmt/119:
   name: Windows Metafile Image
+  ignore_if:
+    image_pixels_min: 20000
   action: convert
   convert:
     tool: image
@@ -2468,6 +2482,8 @@ x-fmt/386:
       - mp4
 x-fmt/387:
   name: Exchangeable Image File Format (Uncompressed) 2.2
+  ignore_if:
+    image_pixels_min: 20000
   action: convert
   convert:
     tool: image
@@ -2475,6 +2491,8 @@ x-fmt/387:
       - png
 x-fmt/388:
   name: Exchangeable Image File Format (Uncompressed) 2.1
+  ignore_if:
+    image_pixels_min: 20000
   action: convert
   convert:
     tool: image
@@ -2500,6 +2518,8 @@ x-fmt/391:
       - png
 x-fmt/392:
   name: JP2 (JPEG 2000 part 1)
+  ignore_if:
+    image_pixels_min: 20000
   action: convert
   convert:
     tool: image
@@ -2523,6 +2543,8 @@ x-fmt/394:
       - pdf
 x-fmt/398:
   name: Exchangeable Image File Format (Compressed) 2.0
+  ignore_if:
+    image_pixels_min: 20000
   action: convert
   convert:
     tool: image
@@ -2563,6 +2585,8 @@ x-fmt/416:
       know how to handle it
 x-fmt/418:
   name: Icon file format
+  ignore_if:
+    image_pixels_min: 20000
   action: ignore
   convert:
     tool: image
@@ -2644,6 +2668,8 @@ x-fmt/455:
       - svg
 xfmt/157:
   name: Microsoft Windows Enhanced Metafile 1.0
+  ignore_if:
+    image_pixels_min: 20000
   action: convert
   convert:
     tool: image
