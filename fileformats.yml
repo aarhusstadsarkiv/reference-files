@@ -2444,6 +2444,12 @@ x-fmt/345:
     outputs:
       - odt
       - pdf
+x-fmt/346:
+  name: Microstation CAD Drawing
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: At the moment the file can't be convertet with the current tools for CAD-files.
 x-fmt/375:
   name: CorelDraw Drawing
   action: convert
