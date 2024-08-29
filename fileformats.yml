@@ -121,6 +121,12 @@ aca-fmt/26:
   ignore:
     template: not-preservable
     reason: Used for sharing links to documents over email and in Web pages. Not preservation-worthy
+aca-fmt/27:
+  name: Windows Media Player Skin Package
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Pre-installed or custom skin that changes the appearance of the Windows Media Player interface. Not preservation-worthy
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
