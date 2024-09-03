@@ -706,30 +706,22 @@ fmt/96:
   name: Hypertext Markup Language
   action: convert
   convert:
-    tool: browser
-    outputs:
-      - pdf
+    tool: copy    
 fmt/98:
   name: Hypertext Markup Language 3.2
   action: convert
   convert:
-    tool: browser
-    outputs:
-      - pdf
+    tool: copy
 fmt/99:
   name: Hypertext Markup Language 4.0
   action: convert
   convert:
-    tool: browser
-    outputs:
-      - pdf
+    tool: copy
 fmt/100:
   name: Hypertext Markup Language 4.01
   action: convert
   convert:
-    tool: browser
-    outputs:
-      - pdf
+    tool: copy
 fmt/101:
   name: Extensible Markup Language 1.0
   reidentify:
@@ -744,9 +736,7 @@ fmt/102:
   name: Extensible Hypertext Markup Language 1.0
   action: convert
   convert:
-    tool: browser
-    outputs:
-      - pdf
+    tool: copy
 fmt/109:
   name: Macromedia Flash 6
   action: ignore
