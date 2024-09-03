@@ -2384,6 +2384,7 @@ x-fmt/263:
   alternatives:
     .xps: fmt/657
     .oxps: fmt/657
+    .kmz: fmt/724
   action: extract
   extract:
     tool: zip
