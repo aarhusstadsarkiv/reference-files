@@ -2182,6 +2182,7 @@ x-fmt/111:
   name: Plain Text File
   reidentify:
     reason: .TAB-files related to GIS is sometimes identified as plaintext
+    on_fail: "convert"
   action: convert
   convert:
     tool: copy
