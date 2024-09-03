@@ -121,6 +121,13 @@ aca-fmt/26:
   ignore:
     template: not-preservable
     reason: Used for sharing links to documents over email and in Web pages. Not preservation-worthy
+aca-fmt/27:
+  name: Windows Media Player Skin Package
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Pre-installed or custom skin that changes the appearance of the Windows Media Player interface. Not preservation-worthy
+  description: A WMZ file is a pre-installed or custom skin that changes the appearance of the Windows Media Player interface, often to match a certain theme. It contains a combination of graphics and JScript code that defines the look and behavior of each skin element. WMZ files are compressed using GZIP compression.
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
@@ -2368,6 +2375,7 @@ x-fmt/263:
   alternatives:
     .xps: fmt/657
     .oxps: fmt/657
+    .kmz: fmt/724
   action: extract
   extract:
     tool: zip
@@ -2393,6 +2401,7 @@ x-fmt/266:
   alternatives:
     .emz: aca-fmt/22
     .emz.gz: aca-fmt/22
+    .wmz: aca-fmt/27
 x-fmt/280:
   name: XML Schema Definition
   action: ignore
