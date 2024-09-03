@@ -706,7 +706,7 @@ fmt/96:
   name: Hypertext Markup Language
   action: convert
   convert:
-    tool: copy    
+    tool: copy
 fmt/98:
   name: Hypertext Markup Language 3.2
   action: convert
