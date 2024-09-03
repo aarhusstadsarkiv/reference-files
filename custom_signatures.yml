@@ -148,9 +148,3 @@
   puid: aca-fmt/26
   signature: Lotus Notes Doclink File
   description: Link file used by Lotus Notes, a business productivity and collaboration application suite; saved in an XML format and contains a reference to a Lotus Notes document; used for sharing links to documents over email and in Web pages.
-- bof: (?i)^1f8b08
-  plain_bof: ""
-  extension: .wmz
-  puid: aca-fmt/27
-  signature: Windows Media Player Skin Package
-  description: A WMZ file is a pre-installed or custom skin that changes the appearance of the Windows Media Player interface, often to match a certain theme. It contains a combination of graphics and JScript code that defines the look and behavior of each skin element. WMZ files are compressed using ZIP compression.
