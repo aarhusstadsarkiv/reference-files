@@ -128,6 +128,13 @@ aca-fmt/27:
     template: not-preservable
     reason: Pre-installed or custom skin that changes the appearance of the Windows Media Player interface. Not preservation-worthy
   description: A WMZ file is a pre-installed or custom skin that changes the appearance of the Windows Media Player interface, often to match a certain theme. It contains a combination of graphics and JScript code that defines the look and behavior of each skin element. WMZ files are compressed using GZIP compression.
+aca-fmt/28:
+  name: Bentley Microstation V7 File
+  description: Bentley CAD file. https://www.loc.gov/preservation/digital/formats/fdd/fdd000603.shtml
+  action: manual
+  manual:
+    reason: Unable to convert automatically.
+    process: Open in Bentley View, save as V8, open in AB Viewer and save as other formats.
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
