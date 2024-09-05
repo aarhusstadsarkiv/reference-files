@@ -2684,7 +2684,7 @@ xfmt/157:
       - png
 fmt/1549:
   name: Bentley Microstation Hidden Line File
-  action: manual  
+  action: manual
   reidentify:
     reason: Pronom sometimes wrongly identifies .dgn as .hln due to small byteheader definition
     on_fail: "action"
