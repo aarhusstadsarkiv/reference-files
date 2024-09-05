@@ -2682,3 +2682,12 @@ xfmt/157:
     tool: image
     outputs:
       - png
+fmt/1549:
+  name: Bentley Microstation Hidden Line File
+  action: manual  
+  reidentify:
+    reason: Pronom sometimes wrongly identifies .dgn as .hln due to small byteheader definition
+    on_fail: "action"
+  manual:
+    reason: Never able to find this type of file.
+    process: Try to open in Bentley View or AB Viewer.
