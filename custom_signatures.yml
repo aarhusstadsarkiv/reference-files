@@ -148,8 +148,8 @@
   puid: aca-fmt/26
   signature: Lotus Notes Doclink File
   description: Link file used by Lotus Notes, a business productivity and collaboration application suite; saved in an XML format and contains a reference to a Lotus Notes document; used for sharing links to documents over email and in Web pages.
-- bof: (?i)7CB2FFFFFFFFFFFFFFFFFEFFE9FEFFFF310F000000002100B42A190063B2000004008040000000000000000000000000000000000000000000008040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009A3A2640A9EC9825000000007CB2FFFFFFFFFFFFFFFFFFFF1BE1FFFFA3EB
+- bof: (?i)000000000000000000000000000000000000000000008040000000000000000000000000000000000000000000000000000000000000
   extension: .dgn
-  puid: aca-fmt/27
+  puid: aca-fmt/28
   signature: Bentley Microstation V7 File
   description: CAD file.
