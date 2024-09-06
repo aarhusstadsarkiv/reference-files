@@ -134,7 +134,7 @@ aca-fmt/28:
   action: manual
   manual:
     reason: Unable to convert automatically.
-    process: Open in Bentley View, save as V8, open in AB Viewer and save as other formats.
+    process: Open in Bentley View, save as pdf.
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
