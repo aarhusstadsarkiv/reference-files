@@ -2419,9 +2419,11 @@ x-fmt/266:
     .wmz: aca-fmt/27
 x-fmt/280:
   name: XML Schema Definition
+  action: ignore
   reidentify:
     reason: If the XSD is not custom made, then we ignore the XSD file.
   ignore:
+    template: not-preservable
     reason: A prescriptive XML template, for validating XML files with. Not preservation-worthy if not with a GML file.
 x-fmt/315:
   name: Document Type Definition
