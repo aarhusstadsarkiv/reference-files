@@ -2419,7 +2419,6 @@ x-fmt/266:
     .wmz: aca-fmt/27
 x-fmt/280:
   name: XML Schema Definition
-  action: reidentify
   reidentify:
     reason: If the XSD is not custom made, then we ignore the XSD file.
   ignore:
