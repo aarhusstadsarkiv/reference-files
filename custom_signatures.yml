@@ -153,3 +153,8 @@
   puid: aca-fmt/28
   signature: Bentley Microstation V7 File
   description: CAD file.
+- bof: (?i).{0-250}aHR0cDovL3d3dy5hYXJodXNzdGFkc2Fya2l2LmRrL2dtbC9hYXJodXNzdGFkc2Fya2l2
+  extension: .xsd
+  plain_bof: aarhusstadsarkiv="http://www.aarhusstadsarkiv.dk/gml/aarhusstadsarkiv"
+  puid: aca-fmt/29
+  signature: XML Schema Definition (Custom XSD)
