@@ -142,7 +142,7 @@ aca-fmt/29:
     - converter: copy
       converter_type: statutory
       outputs:
-        - _
+        - xsd
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
