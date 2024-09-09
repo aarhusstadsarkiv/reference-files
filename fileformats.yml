@@ -139,10 +139,7 @@ aca-fmt/29:
   name: XML Schema Definition (Custom XSD)
   action: convert
   convert:
-    - converter: copy
-      converter_type: statutory
-      outputs:
-        - xsd
+    tool: copy
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
