@@ -135,6 +135,11 @@ aca-fmt/28:
   manual:
     reason: Unable to convert automatically.
     process: Open in Bentley View, save as pdf.
+aca-fmt/29:
+  name: XML Schema Definition (Custom XSD)
+  action: convert
+  convert:
+    tool: copy
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
@@ -2412,9 +2417,12 @@ x-fmt/266:
 x-fmt/280:
   name: XML Schema Definition
   action: ignore
+  reidentify:
+    reason: If the XSD is not custom made, then we ignore the XSD file.
+    on_fail: "action"
   ignore:
     template: not-preservable
-    reason: A prescriptive XML template, for validating XML files with. Not preservation-worthy
+    reason: A prescriptive XML template, for validating XML files with. Not preservation-worthy if not with a GML file.
 x-fmt/315:
   name: Document Type Definition
   action: convert
@@ -2437,7 +2445,7 @@ x-fmt/332:
     reason: It's a file containing formatting information for Lotus spreadsheets.
       Not preservation-worthy
 x-fmt/340:
-  name: ''
+  name: 'Lotus WordPro Document'
   action: convert
   convert:
     tool: symphovert
@@ -2451,6 +2459,12 @@ x-fmt/345:
     outputs:
       - odt
       - pdf
+x-fmt/346:
+  name: Microstation CAD Drawing
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: At the moment the file can't be convertet with the current tools for CAD-files.
 x-fmt/375:
   name: CorelDraw Drawing
   action: convert
