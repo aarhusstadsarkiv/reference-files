@@ -25,7 +25,7 @@ aca-fmt/2:
   action: manual
   description: Microsoft Word Markup xml
   manual:
-    reason: Libre is now unable to open/convert xml saved in word.
+    reason: Libre often converts incorrectly xml saved in MS Word.
     process: Open in MS Word and save as pdf.
 aca-fmt/3:
   name: Microsoft Excel Markup
