@@ -22,12 +22,11 @@ aca-fmt/1:
       - ods
 aca-fmt/2:
   name: Microsoft Word Markup
-  action: convert
-  convert:
-    tool: libre
-    outputs:
-      - odt
-      - pdf
+  action: manual
+  description: Microsoft Word Markup xml
+  manual:
+    reason: Libre often converts incorrectly xml saved in MS Word.
+    process: Open in MS Word and save as pdf.
 aca-fmt/3:
   name: Microsoft Excel Markup
   action: convert
