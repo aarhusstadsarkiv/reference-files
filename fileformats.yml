@@ -2588,6 +2588,14 @@ x-fmt/413:
   ignore:
     template: not-preservable
     reason: An executable non-binary .bat-file. Not preservation-worthy
+x-fmt/414:
+  name: Windows Cabinet File
+  action: manual
+  manual:
+    reason: Cannot extract with digiarch
+    process: Find the dir where .cab file is located. Create a subdir in the same dir
+      as the .cab file with the uuid of the .cab file as name. Open the .cab file with
+      windows. Copy everything into the subdir.
 x-fmt/415:
   name: Java Compiled Object Code
   action: ignore
@@ -2621,13 +2629,19 @@ x-fmt/420:
   action: ignore
   ignore:
     template: not-preservable
-    reason: Windows Setup File or  Installer Script. Not preservation-worthy
+    reason: Windows Setup File or Installer Script. Not preservation-worthy
 x-fmt/421:
   name: Text Configuration file
   action: ignore
   ignore:
     template: not-preservable
     reason: A text config file. Not preservation-worthy
+x-fmt/423:
+  name: JavaScript file
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A script in JavaScript. Not preservation-worthy
 x-fmt/426:
   name: License file
   action: convert
