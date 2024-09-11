@@ -2590,10 +2590,12 @@ x-fmt/413:
     reason: An executable non-binary .bat-file. Not preservation-worthy
 x-fmt/414:
   name: Windows Cabinet File
-  action: ignore
-  ignore:
-    template: not-preservable
-    reason: CAB files contain Windows system or device driver updates. Not preservation-worthy
+  action: manual
+  manual:
+    reason: Cannot extract with digiarch
+    process: Find the dir where .cab file is located. Create a subdir in the same dir
+      as the .cab file with the uuid of the .cab file as name. Open the .cab file with
+      windows. Copy everything into the subdir.
 x-fmt/415:
   name: Java Compiled Object Code
   action: ignore
