@@ -59,6 +59,12 @@ aca-fmt/7:
   ignore:
     template: not-preservable
     reason: User ID files. Not preservation-worthy
+aca-fmt/8:
+  name: Lotus Notes Database
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Lotus Notes Database. Not preservation-worthy
 aca-fmt/9:
   name: Transport Neutral Encapsulation Format (TNEF)/Microsoft email attachments
     archive (winmail)
