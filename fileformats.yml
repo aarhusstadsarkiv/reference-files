@@ -2467,6 +2467,9 @@ x-fmt/345:
 x-fmt/346:
   name: Microstation CAD Drawing
   action: ignore
+  reidentify:
+    reason: Pronom identifies the format on extension alone
+    on_fail: "action"
   ignore:
     template: not-convertable
     reason: At the moment the file can't be convertet with the current tools for CAD-files.
