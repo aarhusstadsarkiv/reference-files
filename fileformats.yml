@@ -750,12 +750,10 @@ fmt/101:
   name: Extensible Markup Language 1.0
   reidentify:
     reason: Some applications allow saving documents as XML and can re-open them
-    on_fail: "null"
+    on_fail: "action"
   action: convert
   convert:
-    tool: text
-    outputs:
-      - tif
+    tool: copy
 fmt/102:
   name: Extensible Hypertext Markup Language 1.0
   action: convert
