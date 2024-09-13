@@ -421,6 +421,12 @@
               "description": "The reason why the file should be re-identified.",
               "type": "string"
             },
+            "chunk_size": {
+              "description": "Specify how many bytes should be used to search for the custom signature, defaults to 1024.",
+              "default": 1024,
+              "type": "integer",
+              "minimum": 1
+            },
             "on_fail": {
               "description": "The action to take if no new signature can be found.",
               "type": "string",
