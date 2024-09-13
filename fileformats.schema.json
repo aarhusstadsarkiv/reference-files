@@ -95,6 +95,12 @@
     },
     "!ext=(\\.\\w+)+": {
       "$ref": "#/definitions/action"
+    },
+    "!name=\\S+( +\\S+)*": {
+      "$ref": "#/definitions/action"
+    },
+    "!iname=([a-z]|[^a-zA-Z\\s])+( +([a-z]|[^a-zA-Z\\s])+)*": {
+      "$ref": "#/definitions/action"
     }
   },
   "definitions": {
