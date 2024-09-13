@@ -2469,10 +2469,11 @@ x-fmt/346:
   action: ignore
   reidentify:
     reason: Pronom identifies the format on extension alone
+    chunk_size: 2048
     on_fail: "action"
   ignore:
     template: not-convertable
-    reason: At the moment the file can't be convertet with the current tools for CAD-files.
+    reason: At the moment the file can't be converted with the current tools for CAD-files.
 x-fmt/375:
   name: CorelDraw Drawing
   action: convert
