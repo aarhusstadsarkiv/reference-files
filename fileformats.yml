@@ -2728,3 +2728,9 @@ fmt/1549:
   manual:
     reason: Never able to find this type of file.
     process: Try to open in Bentley View or AB Viewer.
+fmt/502:
+  name: Bentley V8 DGN
+  action: manual
+  manual:
+    reason: Unable to convert automatically.
+    process: Open in Bentley View, save as pdf.
