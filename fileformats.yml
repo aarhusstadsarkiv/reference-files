@@ -2054,6 +2054,14 @@ fmt/1879:
   ignore:
     template: not-preservable
     reason: Not preservation-worthy
+fmt/1915:
+  name: ActiveMime Object
+  description: ActiveMime Object, or mso, are attached to e-mail messages as a way for the
+    user to view the attached Office document as part of the e-mail itself.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Not preservation-worthy
 fmt/1934:
   name: Drawing Interchange Format (Binary)
   action: convert
