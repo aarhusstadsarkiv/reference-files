@@ -2627,7 +2627,8 @@ x-fmt/414:
     reason: Cannot extract with digiarch
     process: Find the dir where .cab file is located. Create a subdir in the same dir
       as the .cab file with the uuid of the .cab file as name. Open the .cab file with
-      windows. Copy everything into the subdir.
+      windows. Copy everything into the subdir. Make sure that it is just like
+      'digiarch extract'
 x-fmt/415:
   name: Java Compiled Object Code
   action: ignore
