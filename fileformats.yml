@@ -1609,6 +1609,14 @@ fmt/599:
   ignore:
     template: not-preservable
     reason: A template document file. Not preservation-worthy
+fmt/607:
+  name: Statistical Analysis System Data (Windows)
+  action: convert
+  convert:
+    tool: sas7bdat
+    outputs:
+      - ods
+      - pdf
 fmt/609:
   name: Microsoft Word (Generic) 6.0-2003
   action: convert
