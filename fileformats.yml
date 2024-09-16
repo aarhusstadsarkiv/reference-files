@@ -1286,8 +1286,8 @@ fmt/468:
   manual:
     reason: Cannot extract with digiarch
     process: Find the dir where .iso file is located. Create a subdir in the same dir
-      as the .iso file with the uuid of the .iso file as name. Open the .iso file with
-      windows. Copy everything into the subdir.
+      as the .iso file with the uuid of the .iso file as name. Open the .iso file. 
+      Copy everything into the subdir.
 fmt/471:
   name: Hypertext Markup Language 5
   action: convert
