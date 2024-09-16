@@ -1282,12 +1282,10 @@ fmt/445:
       - pdf
 fmt/468:
   name: ISO 9660 Disk Image File
-  action: manual
-  manual:
-    reason: Cannot extract with digiarch
-    process: Find the dir where .iso file is located. Create a subdir in the same dir
-      as the .iso file with the uuid of the .iso file as name. Open the .iso file.
-      Copy everything into the subdir.
+  action: extract
+  extract:
+    tool: iso
+    extension: .iso
 fmt/471:
   name: Hypertext Markup Language 5
   action: convert
