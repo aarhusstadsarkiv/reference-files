@@ -145,6 +145,13 @@ aca-fmt/29:
   action: convert
   convert:
     tool: copy
+aca-fmt/30:
+  name: PTV Visum Graphics Parameters file
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: Unable to convert. Unable to open in PTV Visum Student Edition.
+  description: Format used by PTV Visum traffic planning tool. Used by Cowi.
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
