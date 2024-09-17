@@ -943,6 +943,14 @@ fmt/163:
     tool: libre
     outputs:
       - pdf
+fmt/189:
+  name: Microsoft Office Open XML
+  action: convert
+  convert:
+    tool: libre
+    outputs:
+      - ods
+      - pdf
 fmt/199:
   name: MPEG-4 Media File
   rename:
