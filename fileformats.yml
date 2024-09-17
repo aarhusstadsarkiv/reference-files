@@ -1296,6 +1296,12 @@ fmt/445:
     outputs:
       - ods
       - pdf
+fmt/468:
+  name: ISO 9660 Disk Image File
+  action: extract
+  extract:
+    tool: iso
+    extension: .iso
 fmt/471:
   name: Hypertext Markup Language 5
   action: convert
@@ -1617,6 +1623,14 @@ fmt/599:
   ignore:
     template: not-preservable
     reason: A template document file. Not preservation-worthy
+fmt/607:
+  name: Statistical Analysis System Data (Windows)
+  action: convert
+  convert:
+    tool: sas7bdat
+    outputs:
+      - ods
+      - pdf
 fmt/609:
   name: Microsoft Word (Generic) 6.0-2003
   action: convert
@@ -2066,6 +2080,14 @@ fmt/1879:
   name: vCard
   description: Contact information file. vCards are often attached to e-mail messages,
     but can be exchanged in other ways, such as on the internet or instant messaging.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Not preservation-worthy
+fmt/1915:
+  name: ActiveMime Object
+  description: ActiveMime Object, or mso, are attached to e-mail messages as a way for the
+    user to view the attached Office document as part of the e-mail itself.
   action: ignore
   ignore:
     template: not-preservable
@@ -2619,7 +2641,8 @@ x-fmt/414:
     reason: Cannot extract with digiarch
     process: Find the dir where .cab file is located. Create a subdir in the same dir
       as the .cab file with the uuid of the .cab file as name. Open the .cab file with
-      windows. Copy everything into the subdir.
+      windows. Copy everything into the subdir. Make sure that it is just like
+      'digiarch extract'
 x-fmt/415:
   name: Java Compiled Object Code
   action: ignore
