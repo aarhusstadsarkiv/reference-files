@@ -946,6 +946,7 @@ fmt/163:
 fmt/189:
   name: Microsoft Office Open XML
   action: convert
+  description: Microsoft developed office Open XML (OOXML) in 2007. It is an XML based format representing a departure from previous Microsoft Office suites, which were binary file based. Starting with Microsoft Office 2007, the Office Open XML file formats have become the default file format of Microsoft Office.
   convert:
     tool: libre
     outputs:
