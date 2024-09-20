@@ -1274,6 +1274,7 @@ fmt/440:
     reason: Project files. Not preservation-worthy
 fmt/441:
   name: Windows Media Video
+  description: Windows Media Video 9 Advanced Profile or WVC1 is a fuly compliant Advanced Profile of the VC-1 codec standard.
   action: convert
   convert:
     tool: video
