@@ -1014,6 +1014,7 @@ fmt/233:
       - pdf
 fmt/244:
   name: Keyhole Markup Language (XML)
+  description: kml file
   action: convert
   convert:
     tool: gis
