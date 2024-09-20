@@ -61,10 +61,10 @@ aca-fmt/7:
     reason: User ID files. Not preservation-worthy
 aca-fmt/8:
   name: Lotus Notes Database
-  action: manual
-  manual:
-    reason: What to do? We dont know what we can do with Lotus Notes Database
-    process: Investigate what to do with Lotus Notes Database
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: No software available. Requires IBM Notes V9.0.
 aca-fmt/9:
   name: Transport Neutral Encapsulation Format (TNEF)/Microsoft email attachments
     archive (winmail)
@@ -1272,6 +1272,14 @@ fmt/440:
   ignore:
     template: not-preservable
     reason: Project files. Not preservation-worthy
+fmt/441:
+  name: Windows Media Video
+  description: Windows Media Video 9 Advanced Profile or WVC1 is a fuly compliant Advanced Profile of the VC-1 codec standard.
+  action: convert
+  convert:
+    tool: video
+    outputs:
+      - mp4
 fmt/442:
   name: Microsoft Visio (generic)
   action: convert
