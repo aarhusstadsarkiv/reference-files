@@ -1272,6 +1272,13 @@ fmt/440:
   ignore:
     template: not-preservable
     reason: Project files. Not preservation-worthy
+fmt/441:
+  name: Windows Media Video
+  action: convert
+  convert:
+    tool: video
+    outputs:
+      - mp4
 fmt/442:
   name: Microsoft Visio (generic)
   action: convert
