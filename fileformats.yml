@@ -1014,6 +1014,7 @@ fmt/233:
       - pdf
 fmt/244:
   name: Keyhole Markup Language (XML)
+  description: KML is an open standard officially named the OpenGIS® KML Encoding Standard (OGC KML). https://developers.google.com/kml/documentation/kmlreference
   action: convert
   convert:
     tool: gis
