@@ -2061,6 +2061,13 @@ fmt/1600:
     reason: Identifies .dat-files as mapinfo-files by extension only. They are sometimes
       winmail.dat
   action:
+fmt/1711:
+  name: Software602 Printer Configuration File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Binary format for configuration, containing paths to printers and/ or dictionaries,
+      used by Software602 programmes.
 fmt/1729:
   name: Esri Shapefile Geospatial Metadata File
   action: convert
