@@ -2089,6 +2089,7 @@ fmt/1756:
 fmt/1763:
   name: MacBinary
   action: manual
+  manual:
     reason: Not handled by Convertool yet.
     process: Open on Mac and save as pdf, or use macutils in Linux: ex. macunpack "input.bin" and rename output file to correct format and save as pdf. https://manpages.debian.org/buster/macutils/macutil.1.en.html
 fmt/1768:
