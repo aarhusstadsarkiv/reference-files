@@ -2088,10 +2088,10 @@ fmt/1756:
   action:
 fmt/1763:
   name: MacBinary
-  action: manual
+  action: manual  
   manual:
-    reason: Not handled by Convertool yet.
-    process: Open on Mac and save as pdf, or use macutils in Linux, ex. macunpack input.bin and rename output file to correct format and save as pdf. manpages.debian.org/buster/macutils/macutil.1.en.html
+    reason: Not handled by Digiarch Extract yet.
+    process: Open on Mac and save as pdf, rename to .bin file and use macutils in Linux, ex. macunpack input.bin and rename output file to correct format and save as pdf. manpages.debian.org/buster/macutils/macutil.1.en.html
 fmt/1768:
   name: C Source Code file
   action: ignore
