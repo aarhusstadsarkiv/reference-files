@@ -1763,6 +1763,13 @@ fmt/817:
     tool: text
     outputs:
       - tif
+fmt/866:
+  name: Apple Safari Webarchive
+  action: manual
+  description:
+  manual:
+    reason: tried github.com/gonejack/webarchive-to-singlefile but it failed this time. Maybe also try Webarchive.Extractor.x64.exe
+    process: see reason.
 fmt/870:
   name: Perl Script
   action: ignore
