@@ -1766,9 +1766,7 @@ fmt/817:
   name: JSON Data Interchange Format
   action: convert
   convert:
-    tool: text
-    outputs:
-      - tif
+    tool: copy
 fmt/866:
   name: Apple Safari Webarchive
   action: extract
