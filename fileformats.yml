@@ -1766,7 +1766,7 @@ fmt/817:
 fmt/866:
   name: Apple Safari Webarchive
   action: manual
-  description:
+  description: webarchive extension
   manual:
     reason: tried github.com/gonejack/webarchive-to-singlefile but it failed this time. Maybe also try Webarchive.Extractor.x64.exe
     process: see reason.
