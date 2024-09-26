@@ -164,6 +164,13 @@ aca-fmt/30:
     template: not-convertable
     reason: Unable to convert. Unable to open in PTV Visum Student Edition.
   description: Format used by PTV Visum traffic planning tool. Used by Cowi.
+aca-fmt/31:
+  name: eDrawings Assembly File
+  action: manual
+  manual:
+    reason: No cli for this format.
+    process: Open in eDrawings Viewer and save as pdf. www.edrawingsviewer.com/download-edrawings
+  description: An EASM file is a CAD drawing created by Dassault Systemes eDrawings Publisher, a plug-in used to export designs from CAD applications.
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
