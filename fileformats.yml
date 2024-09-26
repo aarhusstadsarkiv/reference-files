@@ -2362,9 +2362,7 @@ x-fmt/224:
   name: Cascading Style Sheet
   action: convert
   convert:
-    tool: text
-    outputs:
-      - tif
+    tool: copy
 x-fmt/225:
   name: ESRI MapInfo Data File
   action: ignore
