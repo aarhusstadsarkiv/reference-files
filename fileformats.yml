@@ -1601,9 +1601,7 @@ fmt/584:
   name: Windows Media Metafile
   action: convert
   convert:
-    tool: text
-    outputs:
-      - tif
+    tool: copy
 fmt/589:
   name: Windows Media Playlist
   action: ignore
