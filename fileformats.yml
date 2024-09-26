@@ -2218,9 +2218,7 @@ x-fmt/62:
   name: Log File
   action: convert
   convert:
-    tool: text
-    outputs:
-      - tif
+    tool: copy
 x-fmt/64:
   name: Microsoft Word for Macintosh Document
   action: convert
