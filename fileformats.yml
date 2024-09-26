@@ -1195,9 +1195,7 @@ fmt/388:
   name: Internet Calendar and Scheduling format
   action: convert
   convert:
-    tool: text
-    outputs:
-      - tif
+    tool: copy
 fmt/394:
   name: DS_store file (MAC)
   action: ignore
