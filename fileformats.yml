@@ -1842,6 +1842,15 @@ fmt/950:
     tool: text
     outputs:
       - tif
+fmt/979:
+  name: XML Property List
+  alternatives:
+    .webarchive: fmt/866
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A property list file is a a serialised storage file, usually used by programs to store configurations in a
+      more compact form. Not preservation-worthy
 fmt/997:
   name: SPSS Portable File
   action: ignore
