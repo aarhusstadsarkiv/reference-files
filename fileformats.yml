@@ -1831,9 +1831,7 @@ fmt/950:
   name: MIME Email 1.0
   action: convert
   convert:
-    tool: text
-    outputs:
-      - tif
+    tool: copy
 fmt/979:
   name: XML Property List
   alternatives:
