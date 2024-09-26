@@ -1642,7 +1642,7 @@ fmt/607:
   name: Statistical Analysis System Data (Windows)
   action: convert
   convert:
-    tool: sas7bdat
+    tool: sas
     outputs:
       - ods
       - pdf
