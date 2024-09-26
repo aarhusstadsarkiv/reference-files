@@ -2506,9 +2506,7 @@ x-fmt/315:
   name: Document Type Definition
   action: convert
   convert:
-    tool: text
-    outputs:
-      - tif
+    tool: copy
 x-fmt/328:
   name: InterBase Database file
   action: ignore
