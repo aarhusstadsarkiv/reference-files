@@ -1772,6 +1772,7 @@ fmt/866:
   action: extract
   extract:
     tool: webarchive
+    extension: .webarchive
 fmt/870:
   name: Perl Script
   action: ignore
