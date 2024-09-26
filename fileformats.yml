@@ -2731,9 +2731,7 @@ x-fmt/426:
   name: License file
   action: convert
   convert:
-    tool: text
-    outputs:
-      - tif
+    tool: copy
 x-fmt/428:
   name: Microsoft Windows Shortcut
   action: ignore
