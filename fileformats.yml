@@ -2238,9 +2238,7 @@ x-fmt/90:
   name: Microsoft Print File
   action: convert
   convert:
-    tool: text
-    outputs:
-      - tif
+    tool: copy
 x-fmt/92:
   name: Adobe Photoshop
   action: convert
