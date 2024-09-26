@@ -979,9 +979,7 @@ fmt/206:
   name: Structured Query Language Data
   action: convert
   convert:
-    tool: text
-    outputs:
-      - tif
+    tool: copy
 fmt/208:
   name: Binary File
   action: ignore
