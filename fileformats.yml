@@ -89,43 +89,43 @@ aca-fmt/10:
   action: manual
   manual:
     reason: Unable to convert automatically.
-    process: Open with Microsoft Access. For each tabel in the databse, then save the tabel save as .xlsx. Reidentify with digiarch.
+    process: Open with Microsoft Access. For each tabel in the database, then save the tabel save as .xlsx. Reidentify with digiarch.
 aca-fmt/11:
   name: MS Access 97
   action: manual
   manual:
     reason: Unable to convert automatically.
-    process: Open with Microsoft Access. For each tabel in the databse, then save the tabel save as .xlsx. Reidentify with digiarch.
+    process: Open with Microsoft Access. For each tabel in the database, then save the tabel save as .xlsx. Reidentify with digiarch.
 aca-fmt/12:
   name: MS Access 2000
   action: manual
   manual:
     reason: Unable to convert automatically.
-    process: Open with Microsoft Access. For each tabel in the databse, then save the tabel save as .xlsx. Reidentify with digiarch.
+    process: Open with Microsoft Access. For each tabel in the database, then save the tabel save as .xlsx. Reidentify with digiarch.
 aca-fmt/13:
   name: MS Access 2002/3
   action: manual
   manual:
     reason: Unable to convert automatically.
-    process: Open with Microsoft Access. For each tabel in the databse, then save the tabel save as .xlsx. Reidentify with digiarch.
+    process: Open with Microsoft Access. For each tabel in the database, then save the tabel save as .xlsx. Reidentify with digiarch.
 aca-fmt/14:
   name: MS Access database unspecified version (Jet 3 DB)
   action: manual
   manual:
     reason: Unable to convert automatically.
-    process: Open with Microsoft Access. For each tabel in the databse, then save the tabel save as .xlsx. Reidentify with digiarch.
+    process: Open with Microsoft Access. For each tabel in the database, then save the tabel save as .xlsx. Reidentify with digiarch.
 aca-fmt/15:
   name: MS Access database unspecified version (Jet 4 DB)
   action: manual
   manual:
     reason: Unable to convert automatically.
-    process: Open with Microsoft Access. For each tabel in the databse, then save the tabel save as .xlsx. Reidentify with digiarch.
+    process: Open with Microsoft Access. For each tabel in the database, then save the tabel save as .xlsx. Reidentify with digiarch.
 aca-fmt/16:
   name: MS Access database unspecified version (ACE DB)
   action: manual
   manual:
     reason: Unable to convert automatically.
-    process: Open with Microsoft Access. For each tabel in the databse, then save the tabel save as .xlsx. Reidentify with digiarch.
+    process: Open with Microsoft Access. For each tabel in the database, then save the tabel save as .xlsx. Reidentify with digiarch.
 aca-fmt/18:
   name: OpenDocument Text (unspecified version)
   action: convert
