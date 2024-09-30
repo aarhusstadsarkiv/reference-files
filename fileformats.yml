@@ -84,6 +84,12 @@ aca-fmt/9:
   extract:
     tool: tnef
     extension: .dat
+aca-fmt/15:
+  name: MS Access database unspecified version (Jet 4 DB)
+  action: manual
+  manual:
+    reason: Unable to convert automatically.
+    process: Open with Microsoft Access. Save as Excel. Identify with digiarch.
 aca-fmt/18:
   name: OpenDocument Text (unspecified version)
   action: convert
