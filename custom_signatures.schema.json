@@ -5,6 +5,10 @@
   "items": {
     "type": "object",
     "additionalProperties": false,
+    "required": [
+      "puid",
+      "signature"
+    ],
     "dependencies": {
       "operator": [
         "bof",
