@@ -808,7 +808,7 @@ fmt/111:
     on_fail: "action"
   action: manual
   manual:
-    reason: We don't know what to do with thie format.
+    reason: We don't know what to do with this format.
     process: Find out what we can do with this format.
 fmt/115:
   name: Windows Bitmap 2.0
@@ -2083,10 +2083,10 @@ fmt/1600:
   reidentify:
     reason: Identifies .dat-files as mapinfo-files by extension only. They are sometimes
       winmail.dat
-      on_fail: "action"
+    on_fail: "action"
   action: "manual"
   manual:
-    reason: We don't know what to do with thie format.
+    reason: We don't know what to do with this format.
     process: Find out what we can do with this format.
 fmt/1711:
   name: Software602 Printer Configuration File
@@ -2107,12 +2107,20 @@ fmt/1730:
   reidentify:
     reason: Identifies .dat-files as mapinfo-files by extension only. They are sometimes
       winmail.dat
-  action:
+    on_fail: "action"
+  action: "manual"
+  manual:
+    reason: We don't know what to do with this format.
+    process: Find out what we can do with this format.
 fmt/1756:
   name: Opendocument Text 1.3
   reidentify:
     reason: Identified by ext only. Prone to error
-  action:
+    on_fail: "action"
+  action: "manual"
+  manual:
+    reason: We don't know what to do with this format.
+    process: Find out what we can do with this format.
 fmt/1763:
   name: MacBinary
   action: manual
