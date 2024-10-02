@@ -2086,8 +2086,8 @@ fmt/1600:
     on_fail: "action"
   action: "manual"
   manual:
-    reason: We don't know what to do with this format.
-    process: Find out what we can do with this format.
+    reason: There was no bit-header which matches the file.
+    process: Find out what we can do with this format. Try to see if the bof is a mismatch.
 fmt/1711:
   name: Software602 Printer Configuration File
   action: ignore
@@ -2110,8 +2110,8 @@ fmt/1730:
     on_fail: "action"
   action: "manual"
   manual:
-    reason: We don't know what to do with this format.
-    process: Find out what we can do with this format.
+    reason: There was no bit-header which matches the file.
+    process: Find out what we can do with this format. Try to see if the bof is a mismatch.
 fmt/1756:
   name: Opendocument Text 1.3
   reidentify:
@@ -2119,8 +2119,8 @@ fmt/1756:
     on_fail: "action"
   action: "manual"
   manual:
-    reason: We don't know what to do with this format.
-    process: Find out what we can do with this format.
+    reason: There was no bit-header which matches the file.
+    process: Find out what we can do with this format. Try to see if the bof is a mismatch.
 fmt/1763:
   name: MacBinary
   action: manual
