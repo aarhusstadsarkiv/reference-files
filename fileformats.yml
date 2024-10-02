@@ -805,12 +805,11 @@ fmt/111:
   name: OLE2 Compound Document Format
   reidentify:
     reason: why do we re-run these?
-  action: convert
-  convert:
-    tool: document
-    outputs:
-      - ods
-      - pdf
+  on_fail: "action"
+  action: manual
+  manual:
+    reason: We don't know what to do with thie format.
+    process: Find out what we can do with this format.
 fmt/115:
   name: Windows Bitmap 2.0
   ignore_if:
