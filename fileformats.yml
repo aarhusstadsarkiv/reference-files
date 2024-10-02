@@ -2177,6 +2177,7 @@ x-fmt/13:
   name: Tab-separated values
   reidentify:
     reason: .TAB-files related to GIS is sometimes identified as plaintext
+    on_fail: "action"
   action: convert
   convert:
     tool: copy
@@ -2508,10 +2509,10 @@ x-fmt/266:
     .wmz: aca-fmt/27
 x-fmt/280:
   name: XML Schema Definition
-  action: ignore
   reidentify:
     reason: If the XSD is not custom made, then we ignore the XSD file.
     on_fail: "action"
+  action: ignore
   ignore:
     template: not-preservable
     reason: A prescriptive XML template, for validating XML files with. Not preservation-worthy if not with a GML file.
@@ -2551,11 +2552,11 @@ x-fmt/345:
       - pdf
 x-fmt/346:
   name: Microstation CAD Drawing
-  action: ignore
   reidentify:
     reason: Pronom identifies the format on extension alone
     chunk_size: 2048
     on_fail: "action"
+  action: ignore
   ignore:
     template: not-convertable
     reason: At the moment the file can't be converted with the current tools for CAD-files.
@@ -2805,10 +2806,10 @@ xfmt/157:
       - png
 fmt/1549:
   name: Bentley Microstation Hidden Line File
-  action: manual
   reidentify:
     reason: Pronom sometimes wrongly identifies .dgn as .hln due to small byteheader definition
     on_fail: "action"
+  action: manual
   manual:
     reason: Never able to find this type of file.
     process: Try to open in Bentley View or AB Viewer.
