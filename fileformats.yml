@@ -2087,7 +2087,7 @@ fmt/1600:
   action: "manual"
   manual:
     reason: There was no bit-header which matches the file.
-    process: Find out what we can do with this format. Try to see if the bof is a mismatch.
+    process: Find out what we can do with this format. You can try and see, if there is a mismatch between our bit-header and the bit-header for the fil with the repository "byteheader".
 fmt/1711:
   name: Software602 Printer Configuration File
   action: ignore
@@ -2111,7 +2111,7 @@ fmt/1730:
   action: "manual"
   manual:
     reason: There was no bit-header which matches the file.
-    process: Find out what we can do with this format. Try to see if the bof is a mismatch.
+    process: Find out what we can do with this format. You can try and see, if there is a mismatch between our bit-header and the bit-header for the fil with the repository "byteheader".
 fmt/1756:
   name: Opendocument Text 1.3
   reidentify:
@@ -2120,7 +2120,7 @@ fmt/1756:
   action: "manual"
   manual:
     reason: There was no bit-header which matches the file.
-    process: Find out what we can do with this format. Try to see if the bof is a mismatch.
+    process: Find out what we can do with this format. You can try and see, if there is a mismatch between our bit-header and the bit-header for the fil with the repository "byteheader".
 fmt/1763:
   name: MacBinary
   action: manual
