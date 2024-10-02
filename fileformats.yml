@@ -805,7 +805,7 @@ fmt/111:
   name: OLE2 Compound Document Format
   reidentify:
     reason: why do we re-run these?
-  on_fail: "action"
+    on_fail: "action"
   action: manual
   manual:
     reason: We don't know what to do with thie format.
@@ -2079,11 +2079,15 @@ fmt/1516:
     outputs:
       - pdf
 fmt/1600:
-  name: ''
+  name: 'ESRI ArcInfo DAT File (Internal)'
   reidentify:
     reason: Identifies .dat-files as mapinfo-files by extension only. They are sometimes
       winmail.dat
-  action:
+      on_fail: "action"
+  action: "manual"
+  manual:
+    reason: We don't know what to do with thie format.
+    process: Find out what we can do with this format.
 fmt/1711:
   name: Software602 Printer Configuration File
   action: ignore
