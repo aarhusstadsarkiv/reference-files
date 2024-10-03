@@ -224,6 +224,12 @@ aca-fmt/32:
   ignore:
     template: not-convertable
     reason: Unable for find converter or software for viewing file.
+aca-fmt/33:
+  name: PTV Visum File
+  action: manual
+  manual:
+    reason: Unable for find converter for .ver files.
+    process: Open in latest PTV Visum version and export to png. If open not possible, set ignore and template.
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
