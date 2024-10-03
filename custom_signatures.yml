@@ -168,3 +168,8 @@
   plain_bof: ;; HSF V
   puid: aca-fmt/31
   signature: eDrawings Assembly File
+- bof: (?i)^43616C63756C757820526F61642050726F6A6563742066696C65
+  extension: .CRO
+  plain_bof: Calculux Road Project file
+  puid: aca-fmt/32
+  signature: Calculux Road Project file
