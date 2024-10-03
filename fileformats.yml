@@ -2397,6 +2397,15 @@ x-fmt/148:
       that has been discontinued; saves document text and basic formatting; can be
       converted to more recent word processing formats using WordPort.. It might not
       be preservation-worthy, but either way we don't know how to handle it
+x-fmt/153:
+  name: Microsoft Windows Enhanced Metafile 1.0
+  ignore_if:
+    image_pixels_min: 20000
+  action: convert
+  convert:
+    tool: image
+    outputs:
+      - png
 x-fmt/169:
   name: PHP Script Page
   action: ignore
