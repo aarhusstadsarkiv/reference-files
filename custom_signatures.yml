@@ -173,3 +173,8 @@
   plain_bof: Calculux Road Project file
   puid: aca-fmt/32
   signature: Calculux Road Project file
+- bof: (?i)^50545653595354454D202020564953554D2020202020202056657273696F6E
+  extension: .ver
+  plain_bof: PTVSYSTEM   VISUM       Version
+  puid: aca-fmt/33
+  signature: PTV Visum File
