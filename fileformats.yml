@@ -84,6 +84,11 @@ aca-fmt/9:
   extract:
     tool: tnef
     extension: .dat
+    on_success: convert
+  convert:
+    tool: tnef
+    outputs:
+      - html
 aca-fmt/18:
   name: OpenDocument Text (unspecified version)
   action: convert
