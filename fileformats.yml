@@ -1771,10 +1771,11 @@ fmt/682:
     reason: Windows OS file, contains folder metadata. Not preservation-worthy
 fmt/724:
   name: Keyhole Markup Language (Container)
-  action: extract
-  extract:
-    tool: kmz
-    extension: .kmz
+  action: convert
+  convert:
+    tool: gis
+    outputs:
+      -gml  
 fmt/725:
   name: Microsoft Project 2010
   action: ignore
