@@ -218,6 +218,12 @@ aca-fmt/31:
     reason: No cli for this format.
     process: Open in eDrawings Viewer and save as pdf. www.edrawingsviewer.com/download-edrawings
   description: An EASM file is a CAD drawing created by Dassault Systemes eDrawings Publisher, a plug-in used to export designs from CAD applications.
+aca-fmt/32:
+  name: Calculux Road Project File
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: Unable for find converter or software for viewing file.
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
