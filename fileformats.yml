@@ -1771,6 +1771,7 @@ fmt/682:
     reason: Windows OS file, contains folder metadata. Not preservation-worthy
 fmt/724:
   name: Keyhole Markup Language (Container)
+  description: kmz file. There will be data loss if kmz file contains 3d model.
   action: convert
   convert:
     tool: gis
