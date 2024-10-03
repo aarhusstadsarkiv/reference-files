@@ -2000,7 +2000,7 @@ fmt/1258:
 fmt/1265:
   name: SketchUp Document
   action: manual
-  description: Google SketchUp 3d model.
+  description: Google SketchUp 3d model .skp file.
   manual:
     reason: gis conversion does not preserve 3d model in kmz file.
     process: Open in SketchUp 8.0.15158 as save as PDF.
