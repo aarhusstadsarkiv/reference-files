@@ -1775,7 +1775,7 @@ fmt/724:
   convert:
     tool: gis
     outputs:
-      -gml  
+      - gml3
 fmt/725:
   name: Microsoft Project 2010
   action: ignore
