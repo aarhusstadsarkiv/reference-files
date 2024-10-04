@@ -223,6 +223,18 @@ aca-fmt/31:
     process: Open in eDrawings Viewer and save as pdf. www.edrawingsviewer.com/download-edrawings
   description: An EASM file is a CAD drawing created by Dassault Systemes eDrawings
     Publisher, a plug-in used to export designs from CAD applications.
+aca-fmt/32:
+  name: Calculux Road Project File
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: Unable for find converter or software for viewing file.
+aca-fmt/33:
+  name: PTV Visum File
+  action: manual
+  manual:
+    reason: Unable for find converter for .ver files.
+    process: Open in latest PTV Visum version and export to png. If open not possible, set ignore and template.
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
@@ -1753,7 +1765,7 @@ fmt/1258:
 fmt/1265:
   name: SketchUp Document
   action: manual
-  description: Google SketchUp 3d model.
+  description: Google SketchUp 3d model .skp file.
   manual:
     reason: gis conversion does not preserve 3d model in kmz file.
     process: Open in SketchUp 8.0.15158 as save as PDF.
