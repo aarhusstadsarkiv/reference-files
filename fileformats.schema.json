@@ -329,7 +329,7 @@
           },
           "then": {
             "required": [
-              "outputs"
+              "output"
             ]
           },
           "properties": {
@@ -337,14 +337,10 @@
               "description": "The converter tool to use.",
               "type": "string"
             },
-            "outputs": {
-              "description": "A list of extension targets for the converter.",
-              "type": "array",
-              "items": {
-                "type": "string",
-                "pattern": "^(.[a-z0-9]+)+$"
-              },
-              "minItems": 1
+            "output": {
+              "description": "The output taget for the converter.",
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
             }
           }
         },
