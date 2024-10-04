@@ -30,8 +30,7 @@ aca-fmt/1:
   action: convert
   convert:
     tool: symphovert
-    outputs:
-    - ods
+    output: ods
 aca-fmt/2:
   name: Microsoft Word Markup
   action: manual
@@ -44,9 +43,7 @@ aca-fmt/3:
   action: convert
   convert:
     tool: document
-    outputs:
-    - odt
-    - pdf
+    output: odt
 aca-fmt/4:
   name: MindManager Mind Map
   action: ignore
@@ -87,8 +84,7 @@ aca-fmt/9:
     on_success: convert
   convert:
     tool: tnef
-    outputs:
-    - html
+    output: html
 aca-fmt/10:
   name: MS Access 95
   action: manual
@@ -143,37 +139,32 @@ aca-fmt/18:
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 aca-fmt/20:
   name: MapInfo TAB file
   action: convert
   convert:
     tool: gis
-    outputs:
-    - tab
+    output: tab
 aca-fmt/21:
   name: OpenDocument Spreadsheet (unspecified version)
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 aca-fmt/22:
   name: Windows Compressed Enhanced Metafile
   action: convert
   convert:
     tool: document
-    outputs:
-    - jpg
+    output: jpg
 aca-fmt/23:
   name: Microsoft Word XML Document
   description: A Microsoft Word document saved as a standalone XML file
   action: convert
   convert:
     tool: document
-    outputs:
-    - odt
+    output: odt
 aca-fmt/24:
   name: vCard
   action: ignore
@@ -237,8 +228,7 @@ fmt/3:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/4:
   name: Graphics Interchange Format 89a
   ignore_if:
@@ -246,15 +236,13 @@ fmt/4:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/5:
   name: Audio/Video Interleaved Format
   action: convert
   convert:
     tool: video
-    outputs:
-    - mp4
+    output: mp4
 fmt/11:
   name: Portable Network Graphics 1.0
   ignore_if:
@@ -262,8 +250,7 @@ fmt/11:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/12:
   name: Portable Network Graphics 1.1
   ignore_if:
@@ -271,8 +258,7 @@ fmt/12:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/13:
   name: Portable Network Graphics 1.2
   ignore_if:
@@ -285,206 +271,163 @@ fmt/14:
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/15:
   name: Acrobat PDF 1.1 - Portable Document Format
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/16:
   name: Acrobat PDF 1.2 - Portable Document Format
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/17:
   name: Acrobat PDF 1.3 - Portable Document Format
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/18:
   name: Acrobat PDF 1.4 - Portable Document Format
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/19:
   name: Acrobat PDF 1.5 - Portable Document Format
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/20:
   name: Acrobat PDF 1.6 - Portable Document Format
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/21:
   name: AutoCAD Drawing 1.0
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/22:
   name: AutoCAD Drawing 1.2
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/23:
   name: AutoCAD Drawing 1.3
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/24:
   name: AutoCAD Drawing 1.4
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/25:
   name: AutoCAD Drawing 2.0
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/26:
   name: AutoCAD Drawing 2.1
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/27:
   name: AutoCAD Drawing 2.2
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/28:
   name: AutoCAD Drawing 2.5
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/29:
   name: AutoCAD Drawing 2.6
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/30:
   name: AutoCAD Drawing R9
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/31:
   name: AutoCAD Drawing R10
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/32:
   name: AutoCAD Drawing R11/12
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/33:
   name: AutoCAD Drawing R13
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/34:
   name: AutoCAD Drawing R14
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/35:
   name: AutoCAD Drawing 2000-2002
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/36:
   name: AutoCAD Drawing 2004-2005
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/37:
   name: Microsoft Word for Windows Document 1.0
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/38:
   name: Microsoft Word for Windows Document 2.0
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/39:
   name: Microsoft Word Document 95
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/40:
   name: Microsoft Word Document 97-2003
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/41:
   name: Raw JPEG Stream
   ignore_if:
@@ -492,8 +435,7 @@ fmt/41:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/42:
   name: JPEG File Interchange Format 1.00
   ignore_if:
@@ -501,8 +443,7 @@ fmt/42:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/43:
   name: JPEG File Interchange Format 1.01
   ignore_if:
@@ -510,8 +451,7 @@ fmt/43:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/44:
   name: JPEG File Interchange Format 1.02
   ignore_if:
@@ -519,268 +459,205 @@ fmt/44:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/45:
   name: Rich Text Format 1.0-1.4
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/50:
   name: Rich Text Format 1.5-1.6
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/52:
   name: Rich Text Format 1.7
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/53:
   name: Rich Text Format 1.8
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/55:
   name: Microsoft Excel 2.x Worksheet (xls)
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/56:
   name: Microsoft Excel 3.0 Worksheet (xls)
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/57:
   name: Microsoft Excel 4.0 Worksheet (xls) 4S
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/58:
   name: Microsoft Excel 4.0 Workbook (xls) 4W
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/59:
   name: Microsoft Excel 5.0/95 Workbook (xls)
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/61:
   name: Microsoft Excel 97 Workbook (xls) 8
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/63:
   name: Drawing Interchange File Format (ASCII)
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/64:
   name: Drawing Interchange File Format (ASCII) 1.0
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/65:
   name: Drawing Interchange File Format (ASCII) 1.2
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/66:
   name: Drawing Interchange File Format (ASCII) 1.3
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/67:
   name: Drawing Interchange File Format (ASCII) 1.4
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/68:
   name: Drawing Interchange File Format (ASCII) 2.0
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/69:
   name: Drawing Interchange File Format (ASCII) 2.1
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/70:
   name: Drawing Interchange File Format (ASCII) 2.2
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/71:
   name: Drawing Interchange File Format (ASCII) 2.5
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/72:
   name: Drawing Interchange File Format (ASCII) 2.6
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/73:
   name: Drawing Interchange File Format (ASCII) R9
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/74:
   name: Drawing Interchange File Format (ASCII) R10
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/75:
   name: Drawing Interchange File Format (ASCII) R11/12
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/76:
   name: Drawing Interchange File Format (ASCII) R13
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/77:
   name: Drawing Interchange File Format (ASCII) R14
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/78:
   name: Drawing Interchange File Format (ASCII) 2000-2002
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/79:
   name: Drawing Interchange File Format (ASCII) 2004/2005/2006
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/80:
   name: Drawing Interchange File Format (Binary) R10
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/81:
   name: Drawing Interchange File Format (Binary) R11/12
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/82:
   name: Drawing Interchange File Format (Binary) R13
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/83:
   name: Drawing Interchange File Format (Binary) R14
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/84:
   name: Drawing Interchange File Format (Binary) 2000-2002
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/85:
   name: Drawing Interchange File Format (Binary) 2004-2006
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/90:
   name: PCX 5
   ignore_if:
@@ -788,29 +665,25 @@ fmt/90:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/91:
   name: Scalable Vector Graphics 1.0
   action: convert
   convert:
     tool: browser
-    outputs:
-    - pdf
+    output: pdf
 fmt/92:
   name: Scalable Vector Graphics 1.1
   action: convert
   convert:
     tool: browser
-    outputs:
-    - pdf
+    output: pdf
 fmt/95:
   name: Acrobat PDF/A - Portable Document Format 1a
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/96:
   name: Hypertext Markup Language
   action: convert
@@ -876,8 +749,7 @@ fmt/115:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/116:
   name: Windows Bitmap 3.0
   ignore_if:
@@ -885,8 +757,7 @@ fmt/116:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/117:
   name: Windows Bitmap 3.0 NT
   ignore_if:
@@ -894,22 +765,19 @@ fmt/117:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/122:
   name: Encapsulated PostScript File Format 1.2
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/123:
   name: Encapsulated PostScript File Format 2.0
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/124:
   name: Encapsulated PostScript File Format 3
   ignore_if:
@@ -917,45 +785,37 @@ fmt/124:
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/125:
   name: Microsoft Powerpoint Presentation 95
   action: convert
   convert:
     tool: presentation
-    outputs:
-    - odp
-    - pdf
+    output: odp
 fmt/126:
   name: Microsoft Powerpoint Presentation 97-2003
   action: convert
   convert:
     tool: presentation
-    outputs:
-    - odp
-    - pdf
+    output: odp
 fmt/132:
   name: Windows Media Audio
   action: convert
   convert:
     tool: audio
-    outputs:
-    - flac
+    output: flac
 fmt/133:
   name: Windows Media Video
   action: convert
   convert:
     tool: video
-    outputs:
-    - mp4
+    output: mp4
 fmt/134:
   name: MPEG 1/2 Audio Layer 3
   action: convert
   convert:
     tool: audio
-    outputs:
-    - flac
+    output: flac
 fmt/136:
   name: OpenDocument Text 1.0
   action: convert
@@ -971,50 +831,43 @@ fmt/141:
   action: convert
   convert:
     tool: audio
-    outputs:
-    - flac
+    output: flac
 fmt/142:
   name: Waveform Audio (WAVEFORMATEX)
   action: convert
   convert:
     tool: audio
-    outputs:
-    - flac
+    output: flac
 fmt/146:
   name: Acrobat PDF/X - Portable Document Format - Exchange 1a:2003
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/155:
   name: Geographic Tagged Image File Format (GeoTIFF)
   action: convert
   convert:
     tool: image
-    outputs:
-    - tif
+    output: tif
 fmt/157:
   name: Acrobat PDF/X - Portable Document Format - Exchange 1a:2001
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/158:
   name: Acrobat PDF/X - Portable Document Format - Exchange 3:2002
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/163:
   name: Microsoft Works Word Processor 1-3 for DOS and 2 for Windows
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/189:
   name: Microsoft Office Open XML
   action: convert
@@ -1024,9 +877,7 @@ fmt/189:
     formats have become the default file format of Microsoft Office.
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/199:
   name: MPEG-4 Media File
   rename:
@@ -1036,8 +887,7 @@ fmt/199:
   action: convert
   convert:
     tool: video
-    outputs:
-    - mp4
+    output: mp4
 fmt/206:
   name: Structured Query Language Data
   action: convert
@@ -1060,17 +910,13 @@ fmt/214:
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/215:
   name: Microsoft Powerpoint for Windows 2007 onwards
   action: convert
   convert:
     tool: presentation
-    outputs:
-    - odp
-    - pdf
+    output: odp
 fmt/217:
   name: PaintShop Pro Browser Cache File
   action: ignore
@@ -1083,8 +929,7 @@ fmt/233:
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/244:
   name: Keyhole Markup Language (XML)
   description: "KML is an open standard officially named the OpenGIS\xAE KML Encoding\
@@ -1092,22 +937,19 @@ fmt/244:
   action: convert
   convert:
     tool: gis
-    outputs:
-    - gml3
+    output: gml3
 fmt/258:
   name: Microsoft Works Word Processor 5-6
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/276:
   name: Acrobat PDF 1.7 - Portable Document Format 1.7
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/277:
   name: ESRI Arc/View Shapefile Index
   action: ignore
@@ -1119,31 +961,25 @@ fmt/279:
   action: convert
   convert:
     tool: audio
-    outputs:
-    - flac
+    output: flac
 fmt/290:
   name: OpenDocument Text 1.1
   action: convert
   convert:
     tool: document
-    outputs:
-    - odt
-    - pdf
+    output: odt
 fmt/291:
   name: OpenDocument Text 1.2
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/292:
   name: OpenDocument Presentation 1.1
   action: convert
   convert:
     tool: document
-    outputs:
-    - odt
-    - pdf
+    output: odt
 fmt/294:
   name: OpenDocument Spreadsheet 1.1
   action: convert
@@ -1159,17 +995,13 @@ fmt/296:
   action: convert
   convert:
     tool: document
-    outputs:
-    - svg
-    - pdf
+    output: svg
 fmt/297:
   name: OpenDocument Graphics
   action: convert
   convert:
     tool: document
-    outputs:
-    - svg
-    - pdf
+    output: svg
 fmt/319:
   name: ESRI Spatial Index File
   action: ignore
@@ -1201,8 +1033,7 @@ fmt/340:
   action: convert
   convert:
     tool: symphovert
-    outputs:
-    - odt
+    output: odt
 fmt/345:
   name: Microsoft Windows Enhanced Metafile 3.0
   ignore_if:
@@ -1210,8 +1041,7 @@ fmt/345:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/353:
   name: Tagged Image File Format
   ignore_if:
@@ -1219,36 +1049,31 @@ fmt/353:
   action: convert
   convert:
     tool: image
-    outputs:
-    - tif
+    output: tif
 fmt/354:
   name: Acrobat PDF/A - Portable Document Format 1b
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/355:
   name: Rich Text Format 1.9
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/356:
   name: Adaptive Multi-Rate Audio
   action: convert
   convert:
     tool: audio
-    outputs:
-    - flac
+    output: flac
 fmt/357:
   name: 3GPP Audio/Video File
   action: convert
   convert:
     tool: video
-    outputs:
-    - mp4
+    output: mp4
 fmt/388:
   name: Internet Calendar and Scheduling format
   action: convert
@@ -1278,61 +1103,49 @@ fmt/412:
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/413:
   name: Scalable Vector Graphics Tiny 1.2
   action: convert
   convert:
     tool: browser
-    outputs:
-    - pdf
+    output: pdf
 fmt/414:
   name: Audio Interchange File Format
   action: convert
   convert:
     tool: audio
-    outputs:
-    - flac
+    output: flac
 fmt/422:
   name: Adobe Illustrator 6.0
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/428:
   name: CorelDraw Drawing
   action: convert
   convert:
     tool: document
-    outputs:
-    - svg
-    - pdf
+    output: svg
 fmt/433:
   name: Drawing Interchange File Format (ASCII) 2007/2008/2009
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/434:
   name: AutoCAD Drawing 2010/2011/2012
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/435:
   name: Drawing Interchange File Format (ASCII) 2010/2012/2014
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/440:
   name: Microsoft Project 2007
   action: ignore
@@ -1346,32 +1159,25 @@ fmt/441:
   action: convert
   convert:
     tool: video
-    outputs:
-    - mp4
+    output: mp4
 fmt/442:
   name: Microsoft Visio (generic)
   action: convert
   convert:
     tool: document
-    outputs:
-    - svg
-    - pdf
+    output: svg
 fmt/443:
   name: Microsoft Visio Drawing 2003-2010
   action: convert
   convert:
     tool: document
-    outputs:
-    - svg
-    - pdf
+    output: svg
 fmt/445:
   name: Microsoft Excel Macro-Enabled 2007
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/468:
   name: ISO 9660 Disk Image File
   action: extract
@@ -1383,8 +1189,7 @@ fmt/471:
   action: convert
   convert:
     tool: browser
-    outputs:
-    - pdf
+    output: pdf
 fmt/473:
   name: Microsoft Office Owner File
   action: ignore
@@ -1410,36 +1215,31 @@ fmt/476:
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/477:
   name: Acrobat PDF/A - Portable Document Format
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/478:
   name: Acrobat PDF/A - Portable Document Format (2u)
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/479:
   name: Acrobat PDF/A - Portable Document Format (3a)
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/480:
   name: Acrobat PDF/A - Portable Document Format (3b)
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/484:
   name: 7Zip format
   action: extract
@@ -1451,23 +1251,19 @@ fmt/487:
   action: convert
   convert:
     tool: presentation
-    outputs:
-    - odp
-    - pdf
+    output: odp
 fmt/488:
   name: Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/493:
   name: Acrobat PDF/E - Portable Document Format for Engineering PDF/E-1
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/494:
   name: Microsoft Office Encrypted Document (2007 Onwards)
   action: ignore
@@ -1528,8 +1324,7 @@ fmt/523:
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/524:
   name: Microsoft Office Theme
   action: ignore
@@ -1559,17 +1354,13 @@ fmt/531:
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/532:
   name: Drawing Interchange File Format (ASCII) 2013/2014/2015/2016/2017
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/550:
   name: Adobe InDesign Document CS4
   action: ignore
@@ -1591,71 +1382,61 @@ fmt/557:
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/558:
   name: Adobe Illustrator 9.0
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/559:
   name: Adobe Illustrator 10.0
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/560:
   name: Adobe Illustrator 11.0
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/561:
   name: Adobe Illustrator 12.0
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/562:
   name: Adobe Illustrator 13.0
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/563:
   name: Adobe Illustrator 14.0
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/564:
   name: Adobe Illustrator 15.0
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/573:
   name: WebM video
   action: convert
   convert:
     tool: video
-    outputs:
-    - mp4
+    output: mp4
 fmt/583:
   name: Vector Markup Language
   action: convert
   convert:
     tool: browser
-    outputs:
-    - pdf
+    output: pdf
 fmt/584:
   name: Windows Media Metafile
   action: convert
@@ -1673,24 +1454,19 @@ fmt/595:
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/597:
   name: Microsoft Word Template 2007 onwards
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/598:
   name: Microsoft Excel Template 2007 onwards
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/599:
   name: Microsoft Word Macro-Enabled Document Template 2007 onwards
   action: ignore
@@ -1702,16 +1478,13 @@ fmt/607:
   action: convert
   convert:
     tool: sas
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/609:
   name: Microsoft Word (Generic) 6.0-2003
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/613:
   name: RAR Archive version 5
   action: extract
@@ -1729,17 +1502,13 @@ fmt/629:
   action: convert
   convert:
     tool: presentation
-    outputs:
-    - odp
-    - pdf
+    output: odp
 fmt/631:
   name: Microsoft PowerPoint Template 2007
   action: convert
   convert:
     tool: presentation
-    outputs:
-    - odp
-    - pdf
+    output: odp
 fmt/634:
   name: Microsoft Compiled HTML Help
   action: ignore
@@ -1759,15 +1528,13 @@ fmt/645:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/657:
   name: Open XML Paper Specification
   action: convert
   convert:
     tool: xps
-    outputs:
-    - pdf
+    output: pdf
 fmt/670:
   name: 'PKCS #7 Cryptographic Message File'
   action: ignore
@@ -1786,8 +1553,7 @@ fmt/724:
   action: convert
   convert:
     tool: gis
-    outputs:
-    - gml3
+    output: gml3
 fmt/725:
   name: Microsoft Project 2010
   action: ignore
@@ -1799,16 +1565,13 @@ fmt/744:
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/749:
   name: AppleWorks Word Processor 6
   action: convert
   convert:
     tool: document
-    outputs:
-    - odt
-    - pdf
+    output: odt
 fmt/754:
   name: Microsoft Word Document (Password Protected) 97-2003
   action: ignore
@@ -1847,8 +1610,7 @@ fmt/881:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/886:
   name: HTML Components
   action: ignore
@@ -1873,9 +1635,7 @@ fmt/901:
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/938:
   name: Python Script File
   action: ignore
@@ -1926,8 +1686,7 @@ fmt/1047:
   action: convert
   convert:
     tool: gis
-    outputs:
-    - gml3
+    output: gml3
 fmt/1079:
   name: Microsoft Program Database 7.00
   action: ignore
@@ -1961,8 +1720,7 @@ fmt/1129:
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/1132:
   name: Netscape Bookmark File Format
   action: ignore
@@ -1974,8 +1732,7 @@ fmt/1216:
   action: convert
   convert:
     tool: symphovert
-    outputs:
-    - odp
+    output: odp
 fmt/1256:
   name: MapInfo Workspace File
   action: ignore
@@ -2016,72 +1773,55 @@ fmt/1389:
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/1390:
   name: Drawing Interchange Format (Binary) 2007-2009
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/1391:
   name: Drawing Interchange Format (Binary) 2010-2012
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/1392:
   name: Drawing Interchange Format (Binary) 2013-2017
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/1393:
   name: Drawing Interchange Format (Binary) 2018-2021
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 fmt/1439:
   name: Apple iWork Pages 09
   action: convert
   convert:
     tool: document
-    outputs:
-    - odt
-    - pdf
+    output: odt
 fmt/1451:
   name: PDF Portfolio 1.7
   action: convert
   convert:
     tool: pdf
-    outputs:
-    - pdfa-3
+    output: pdfa-3
 fmt/1452:
   name: Lotus 1-2-3 Worksheet (97)
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/1453:
   name: Lotus 1-2-3 Worksheet (9.8 Millennium)
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 fmt/1482:
   name: Access Report Snapshot
   action: ignore
@@ -2096,50 +1836,43 @@ fmt/1507:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/1511:
   name: Microsoft Publisher 1
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/1512:
   name: Microsoft Publisher 2003
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/1513:
   name: Microsoft Publisher 2007
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/1514:
   name: Microsoft Publisher 2010
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/1515:
   name: Microsoft Publisher 2013
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/1516:
   name: Microsoft Publisher 2016-2019
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 fmt/1600:
   name: ESRI ArcInfo DAT File (Internal)
   reidentify:
@@ -2164,8 +1897,7 @@ fmt/1729:
   action: convert
   convert:
     tool: gis
-    outputs:
-    - gml3
+    output: gml3
 fmt/1730:
   name: ''
   reidentify:
@@ -2224,25 +1956,19 @@ fmt/1934:
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 x-fmt/9:
   name: dBASE Database III
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 x-fmt/10:
   name: dBASE Database IV
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 x-fmt/13:
   name: Tab-separated values
   reidentify:
@@ -2256,9 +1982,7 @@ x-fmt/17:
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 x-fmt/18:
   name: Comma Separated Values
   action: convert
@@ -2275,22 +1999,19 @@ x-fmt/44:
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 x-fmt/45:
   name: Microsoft Word Document Template 97-2003
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 x-fmt/49:
   name: AutoCAD Design Web Format 6.0
   action: convert
   convert:
     tool: cad
-    outputs:
-    - pdf
+    output: pdf
 x-fmt/54:
   name: AutoCAD Font Mapping Table
   action: ignore
@@ -2314,8 +2035,7 @@ x-fmt/64:
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 x-fmt/78:
   name: AutoCAD Plot Configuration File (2000)
   action: ignore
@@ -2332,9 +2052,7 @@ x-fmt/92:
   action: convert
   convert:
     tool: document
-    outputs:
-    - svg
-    - pdf
+    output: svg
 x-fmt/103:
   name: AutoCAD Compiled Shape/Font File
   action: ignore
@@ -2365,33 +2083,25 @@ x-fmt/114:
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 x-fmt/115:
   name: Lotus 1-2-3 Worksheet (3.0)
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 x-fmt/116:
   name: Lotus 1-2-3 Worksheet (4-5)
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 x-fmt/117:
   name: Lotus 1-2-3 Worksheet (1.0)
   action: convert
   convert:
     tool: spreadsheet
-    outputs:
-    - ods
-    - pdf
+    output: ods
 x-fmt/119:
   name: Windows Metafile Image
   ignore_if:
@@ -2399,8 +2109,7 @@ x-fmt/119:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 x-fmt/128:
   name: Microsoft Excel Workspace
   action: ignore
@@ -2430,8 +2139,7 @@ x-fmt/153:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 x-fmt/169:
   name: PHP Script Page
   action: ignore
@@ -2469,22 +2177,19 @@ x-fmt/227:
   action: convert
   convert:
     tool: gis
-    outputs:
-    - gml3
+    output: gml3
 x-fmt/231:
   name: ESRI MapInfo Export File
   action: convert
   convert:
     tool: gis
-    outputs:
-    - gml3
+    output: gml3
 x-fmt/235:
   name: ESRI Arc/View ShapeFile
   action: convert
   convert:
     tool: gis
-    outputs:
-    - gml3
+    output: gml3
 x-fmt/240:
   name: Microsoft Acces Database File (2000)
   action: ignore
@@ -2509,51 +2214,43 @@ x-fmt/252:
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 x-fmt/253:
   name: Microsoft Publisher 95
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 x-fmt/254:
   name: Microsoft Publisher 97
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 x-fmt/255:
   name: Microsoft Publisher 98
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 x-fmt/256:
   name: Microsoft Publisher 2000
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 x-fmt/257:
   name: Microsoft Publisher 2002
   action: convert
   convert:
     tool: document
-    outputs:
-    - pdf
+    output: pdf
 x-fmt/258:
   name: Microsoft Visio Drawing 2000
   action: convert
   convert:
     tool: document
-    outputs:
-    - svg
-    - pdf
+    output: svg
 x-fmt/263:
   name: ZIP Format
   alternatives:
@@ -2620,16 +2317,13 @@ x-fmt/340:
   action: convert
   convert:
     tool: symphovert
-    outputs:
-    - odt
+    output: odt
 x-fmt/345:
   name: Microsoft Works Document
   action: convert
   convert:
     tool: document
-    outputs:
-    - odt
-    - pdf
+    output: odt
 x-fmt/346:
   name: Microstation CAD Drawing
   reidentify:
@@ -2645,37 +2339,31 @@ x-fmt/375:
   action: convert
   convert:
     tool: document
-    outputs:
-    - svg
-    - pdf
+    output: svg
 x-fmt/382:
   name: Macromedia FLV 1
   action: convert
   convert:
     tool: video
-    outputs:
-    - mp4
+    output: mp4
 x-fmt/384:
   name: Quicktime
   action: convert
   convert:
     tool: video
-    outputs:
-    - mp4
+    output: mp4
 x-fmt/385:
   name: MPEG-1 Program Stream
   action: convert
   convert:
     tool: video
-    outputs:
-    - mp4
+    output: mp4
 x-fmt/386:
   name: MPEG-2 Program Stream
   action: convert
   convert:
     tool: video
-    outputs:
-    - mp4
+    output: mp4
 x-fmt/387:
   name: Exchangeable Image File Format (Uncompressed) 2.2
   ignore_if:
@@ -2683,8 +2371,7 @@ x-fmt/387:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 x-fmt/388:
   name: Exchangeable Image File Format (Uncompressed) 2.1
   ignore_if:
@@ -2692,8 +2379,7 @@ x-fmt/388:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 x-fmt/390:
   name: Exchangeable Image File Format (Compressed) 2.1
   ignore_if:
@@ -2701,8 +2387,7 @@ x-fmt/390:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 x-fmt/391:
   name: Exchangeable Image File Format (Compressed) 2.2
   ignore_if:
@@ -2710,8 +2395,7 @@ x-fmt/391:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 x-fmt/392:
   name: JP2 (JPEG 2000 part 1)
   ignore_if:
@@ -2719,24 +2403,19 @@ x-fmt/392:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 x-fmt/393:
   name: WordPerfect for MS-DOS Document 5.0
   action: convert
   convert:
     tool: document
-    outputs:
-    - odt
-    - pdf
+    output: odt
 x-fmt/394:
   name: WordPerfect for MS-DOS/Windows Document 5.1
   action: convert
   convert:
     tool: document
-    outputs:
-    - odt
-    - pdf
+    output: odt
 x-fmt/398:
   name: Exchangeable Image File Format (Compressed) 2.0
   ignore_if:
@@ -2744,8 +2423,7 @@ x-fmt/398:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 x-fmt/411:
   name: Windows Portable Executable
   action: ignore
@@ -2795,8 +2473,7 @@ x-fmt/418:
   action: ignore
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
   ignore:
     template: not-preservable
     reason: An ICO file contains an icon, which is typically used to represent a Windows
@@ -2835,8 +2512,7 @@ x-fmt/429:
   action: convert
   convert:
     tool: browser
-    outputs:
-    - pdf
+    output: pdf
 x-fmt/430:
   name: MSG file
   action: extract
@@ -2846,8 +2522,7 @@ x-fmt/430:
     on_success: convert
   convert:
     tool: msg
-    outputs:
-    - eml
+    output: eml
 x-fmt/441:
   name: AutoCAD Database File Locking Information
   action: ignore
@@ -2872,9 +2547,7 @@ x-fmt/455:
   action: convert
   convert:
     tool: cad2d
-    outputs:
-    - pdf
-    - svg
+    output: svg
 xfmt/157:
   name: Microsoft Windows Enhanced Metafile 1.0
   ignore_if:
@@ -2882,8 +2555,7 @@ xfmt/157:
   action: convert
   convert:
     tool: image
-    outputs:
-    - png
+    output: png
 fmt/1549:
   name: Bentley Microstation Hidden Line File
   reidentify:
