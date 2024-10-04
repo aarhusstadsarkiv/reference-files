@@ -274,49 +274,49 @@ fmt/14:
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/15:
   name: Acrobat PDF 1.1 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/16:
   name: Acrobat PDF 1.2 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/17:
   name: Acrobat PDF 1.3 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/18:
   name: Acrobat PDF 1.4 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/19:
   name: Acrobat PDF 1.5 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/20:
   name: Acrobat PDF 1.6 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/21:
   name: AutoCAD Drawing 1.0
   action: convert
@@ -798,7 +798,7 @@ fmt/95:
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/96:
   name: Hypertext Markup Language
   action: convert
@@ -979,7 +979,7 @@ fmt/146:
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/155:
   name: Geographic Tagged Image File Format (GeoTIFF)
   action: convert
@@ -993,14 +993,14 @@ fmt/157:
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/158:
   name: Acrobat PDF/X - Portable Document Format - Exchange 3:2002
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/163:
   name: Microsoft Works Word Processor 1-3 for DOS and 2 for Windows
   action: convert
@@ -1096,7 +1096,7 @@ fmt/276:
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/277:
   name: ESRI Arc/View Shapefile Index
   action: ignore
@@ -1222,7 +1222,7 @@ fmt/354:
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/355:
   name: Rich Text Format 1.9
   action: convert
@@ -1295,7 +1295,7 @@ fmt/422:
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/428:
   name: CorelDraw Drawing
   action: convert
@@ -1405,35 +1405,35 @@ fmt/476:
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/477:
   name: Acrobat PDF/A - Portable Document Format
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/478:
   name: Acrobat PDF/A - Portable Document Format (2u)
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/479:
   name: Acrobat PDF/A - Portable Document Format (3a)
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/480:
   name: Acrobat PDF/A - Portable Document Format (3b)
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/484:
   name: 7Zip format
   action: extract
@@ -1454,14 +1454,14 @@ fmt/488:
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/493:
   name: Acrobat PDF/E - Portable Document Format for Engineering PDF/E-1
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/494:
   name: Microsoft Office Encrypted Document (2007 Onwards)
   action: ignore
@@ -1586,56 +1586,56 @@ fmt/557:
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/558:
   name: Adobe Illustrator 9.0
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/559:
   name: Adobe Illustrator 10.0
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/560:
   name: Adobe Illustrator 11.0
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/561:
   name: Adobe Illustrator 12.0
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/562:
   name: Adobe Illustrator 13.0
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/563:
   name: Adobe Illustrator 14.0
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/564:
   name: Adobe Illustrator 15.0
   action: convert
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/573:
   name: WebM video
   action: convert
@@ -1956,7 +1956,7 @@ fmt/1129:
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/1132:
   name: Netscape Bookmark File Format
   action: ignore
@@ -2059,7 +2059,7 @@ fmt/1451:
   convert:
     tool: pdf
     outputs:
-      - pdf
+      - pdfa-3
 fmt/1452:
   name: Lotus 1-2-3 Worksheet (97)
   action: convert
