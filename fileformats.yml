@@ -40,10 +40,12 @@ aca-fmt/2:
     process: Open in MS Word and save as pdf.
 aca-fmt/3:
   name: Microsoft Excel Markup
-  action: convert
-  convert:
-    tool: document
-    output: odt
+  action: manual
+  manual:
+    reason: Cannot be recognized by LibreOffice.
+    process: |
+      1. Open with Microsoft Excel
+      2. Save as ODS
 aca-fmt/4:
   name: MindManager Mind Map
   action: ignore
