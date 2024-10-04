@@ -541,7 +541,7 @@ fmt/55:
   name: Microsoft Excel 2.x Worksheet (xls)
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -549,7 +549,7 @@ fmt/56:
   name: Microsoft Excel 3.0 Worksheet (xls)
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -557,7 +557,7 @@ fmt/57:
   name: Microsoft Excel 4.0 Worksheet (xls) 4S
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -565,7 +565,7 @@ fmt/58:
   name: Microsoft Excel 4.0 Workbook (xls) 4W
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -573,7 +573,7 @@ fmt/59:
   name: Microsoft Excel 5.0/95 Workbook (xls)
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -581,7 +581,7 @@ fmt/61:
   name: Microsoft Excel 97 Workbook (xls) 8
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -948,17 +948,12 @@ fmt/136:
   name: OpenDocument Text 1.0
   action: convert
   convert:
-    tool: document
-    outputs:
-      - pdf
+    tool: copy
 fmt/137:
   name: OpenDocument Spreadsheet 1.0
   action: convert
   convert:
-    tool: document
-    outputs:
-      - ods
-      - pdf
+    tool: copy
 fmt/141:
   name: Waveform Audio (PCMWAVEFORMAT)
   action: convert
@@ -1013,7 +1008,7 @@ fmt/189:
   action: convert
   description: Microsoft developed office Open XML (OOXML) in 2007. It is an XML based format representing a departure from previous Microsoft Office suites, which were binary file based. Starting with Microsoft Office 2007, the Office Open XML file formats have become the default file format of Microsoft Office.
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -1049,7 +1044,7 @@ fmt/214:
   name: Microsoft Excel for Windows 2007 onwards
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -1137,18 +1132,12 @@ fmt/294:
   name: OpenDocument Spreadsheet 1.1
   action: convert
   convert:
-    tool: document
-    outputs:
-      - ods
-      - pdf
+    tool: copy
 fmt/295:
   name: OpenDocument Spreadsheet 1.2
   action: convert
   convert:
-    tool: document
-    outputs:
-      - ods
-      - pdf
+    tool: copy
 fmt/296:
   name: OpenDocument Graphics
   action: convert
@@ -1362,7 +1351,7 @@ fmt/445:
   name: Microsoft Excel Macro-Enabled 2007
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -1666,7 +1655,7 @@ fmt/595:
   name: Microsoft Excel Non-XML Binary Workbook 2007 onwards
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -1681,7 +1670,7 @@ fmt/598:
   name: Microsoft Excel Template 2007 onwards
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -1866,7 +1855,7 @@ fmt/901:
   name: Microsoft Works Spreadsheet 6-9
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -2064,7 +2053,7 @@ fmt/1452:
   name: Lotus 1-2-3 Worksheet (97)
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -2072,7 +2061,7 @@ fmt/1453:
   name: Lotus 1-2-3 Worksheet (9.8 Millennium)
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -2217,7 +2206,7 @@ x-fmt/9:
   name: dBASE Database III
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -2225,7 +2214,7 @@ x-fmt/10:
   name: dBASE Database IV
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -2241,7 +2230,7 @@ x-fmt/17:
   name: Microsoft Excel Template 97-2003
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -2350,15 +2339,15 @@ x-fmt/114:
   name: Lotus 1-2-3 Worksheet (2.0)
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
 x-fmt/115:
-  name: ' Lotus 1-2-3 Worksheet (3.0)'
+  name: Lotus 1-2-3 Worksheet (3.0)
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -2366,7 +2355,7 @@ x-fmt/116:
   name: Lotus 1-2-3 Worksheet (4-5)
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
@@ -2374,7 +2363,7 @@ x-fmt/117:
   name: Lotus 1-2-3 Worksheet (1.0)
   action: convert
   convert:
-    tool: document
+    tool: spreadsheet
     outputs:
       - ods
       - pdf
