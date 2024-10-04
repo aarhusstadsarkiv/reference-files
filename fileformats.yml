@@ -911,7 +911,7 @@ fmt/125:
   name: Microsoft Powerpoint Presentation 95
   action: convert
   convert:
-    tool: document
+    tool: presentation
     outputs:
       - odp
       - pdf
@@ -919,7 +919,7 @@ fmt/126:
   name: Microsoft Powerpoint Presentation 97-2003
   action: convert
   convert:
-    tool: document
+    tool: presentation
     outputs:
       - odp
       - pdf
@@ -1057,7 +1057,7 @@ fmt/215:
   name: Microsoft Powerpoint for Windows 2007 onwards
   action: convert
   convert:
-    tool: document
+    tool: presentation
     outputs:
       - odp
       - pdf
@@ -1444,7 +1444,7 @@ fmt/487:
   name: Macro Enabled Microsoft Powerpoint 2007 Onwards
   action: convert
   convert:
-    tool: document
+    tool: presentation
     outputs:
       - odp
       - pdf
@@ -1722,7 +1722,7 @@ fmt/629:
   name: Microsoft PowerPoint Show 2007
   action: convert
   convert:
-    tool: document
+    tool: presentation
     outputs:
       - odp
       - pdf
@@ -1730,7 +1730,7 @@ fmt/631:
   name: Microsoft PowerPoint Template 2007
   action: convert
   convert:
-    tool: document
+    tool: presentation
     outputs:
       - odp
       - pdf
