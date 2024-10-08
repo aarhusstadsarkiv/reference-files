@@ -256,7 +256,7 @@ fmt/5:
   action: convert
   convert:
     tool: video
-    output: mp4
+    output: h265
 fmt/11:
   name: Portable Network Graphics 1.0
   ignore_if:
@@ -823,7 +823,7 @@ fmt/133:
   action: convert
   convert:
     tool: video
-    output: mp4
+    output: h265
 fmt/134:
   name: MPEG 1/2 Audio Layer 3
   action: convert
@@ -900,7 +900,7 @@ fmt/199:
   action: convert
   convert:
     tool: video
-    output: mp4
+    output: h265
 fmt/206:
   name: Structured Query Language Data
   action: convert
@@ -1085,7 +1085,7 @@ fmt/357:
   action: convert
   convert:
     tool: video
-    output: mp4
+    output: h265
 fmt/388:
   name: Internet Calendar and Scheduling format
   action: convert
@@ -1171,7 +1171,7 @@ fmt/441:
   action: convert
   convert:
     tool: video
-    output: mp4
+    output: h265
 fmt/442:
   name: Microsoft Visio (generic)
   action: convert
@@ -1442,7 +1442,7 @@ fmt/573:
   action: convert
   convert:
     tool: video
-    output: mp4
+    output: h265
 fmt/583:
   name: Vector Markup Language
   action: convert
@@ -2357,25 +2357,25 @@ x-fmt/382:
   action: convert
   convert:
     tool: video
-    output: mp4
+    output: h265
 x-fmt/384:
   name: Quicktime
   action: convert
   convert:
     tool: video
-    output: mp4
+    output: h265
 x-fmt/385:
   name: MPEG-1 Program Stream
   action: convert
   convert:
     tool: video
-    output: mp4
+    output: h265
 x-fmt/386:
   name: MPEG-2 Program Stream
   action: convert
   convert:
     tool: video
-    output: mp4
+    output: h265
 x-fmt/387:
   name: Exchangeable Image File Format (Uncompressed) 2.2
   ignore_if:
