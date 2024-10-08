@@ -862,8 +862,7 @@ fmt/155:
   name: Geographic Tagged Image File Format (GeoTIFF)
   action: convert
   convert:
-    tool: image
-    output: tif
+    tool: copy
 fmt/157:
   name: Acrobat PDF/X - Portable Document Format - Exchange 1a:2001
   action: convert
@@ -1062,8 +1061,7 @@ fmt/353:
     image_pixels_min: 20000
   action: convert
   convert:
-    tool: image
-    output: tif
+    tool: copy
 fmt/354:
   name: Acrobat PDF/A - Portable Document Format 1b
   action: convert
