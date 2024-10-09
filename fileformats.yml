@@ -1373,6 +1373,12 @@ fmt/532:
   convert:
     tool: cad2d
     output: svg
+fmt/549:
+  name: Adobe InDesign Document
+  action: manual
+  manual:
+    reason: We don't know what to do with this format.
+    process: Find out what we can do with this format.
 fmt/550:
   name: Adobe InDesign Document CS4
   action: ignore
@@ -1751,6 +1757,11 @@ fmt/1132:
   ignore:
     template: not-preservable
     reason: A bookmark in the Netscape web browser. Not preservation-worthy
+fmt/1134:
+  name: GPS Exchange Format
+  action: convert
+  convert:
+    tool: copy
 fmt/1216:
   name: ''
   action: convert
