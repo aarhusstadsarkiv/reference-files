@@ -1598,6 +1598,12 @@ fmt/761:
     reason: Flash is no longer supported, and it is in a very messy format - The file
       can be a image, video or interactive game. It might not be preservation-worthy,
       but either way we don't know how to handle it
+fmt/796:
+  name: Adobe After Effects
+  action: manual
+  manual:
+    reason: We don't know what to do with this format.
+    process: Find out what we can do with this format.
 fmt/817:
   name: JSON Data Interchange Format
   action: convert
