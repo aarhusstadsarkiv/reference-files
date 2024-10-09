@@ -1963,6 +1963,14 @@ fmt/1879:
   ignore:
     template: not-preservable
     reason: Not preservation-worthy
+fmt/1880:
+  name: vCard
+  description: Contact information file. vCards are often attached to e-mail messages,
+    but can be exchanged in other ways, such as on the internet or instant messaging.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Not preservation-worthy
 fmt/1915:
   name: ActiveMime Object
   description: ActiveMime Object, or mso, are attached to e-mail messages as a way
