@@ -1885,6 +1885,14 @@ fmt/1516:
   convert:
     tool: document
     output: pdf
+fmt/1566:
+  name: ColdFusion Markup Language
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: ColdFusion Markup Language, more commonly known as CFML, is a scripting language
+     for web development that runs on the Java virtual machine (JVM), the .NET framework,
+     and Google App Engine. Not preservation-worthy
 fmt/1600:
   name: ESRI ArcInfo DAT File (Internal)
   reidentify:
