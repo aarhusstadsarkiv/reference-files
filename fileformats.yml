@@ -943,6 +943,11 @@ fmt/233:
   convert:
     tool: document
     output: pdf
+fmt/243:
+  name: GPS Exchange Format
+  action: convert
+  convert:
+    tool: copy
 fmt/244:
   name: Keyhole Markup Language (XML)
   description: "KML is an open standard officially named the OpenGIS\xAE KML Encoding\
