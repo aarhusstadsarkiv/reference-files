@@ -1552,7 +1552,6 @@ fmt/637:
     reason: An Onenote note file. Not preservation-worthy / not convertable
 fmt/638:
   name: SPSS Data File
-  description: Extension is .sav
   action: manual
   manual:
     reason: Not converable.
