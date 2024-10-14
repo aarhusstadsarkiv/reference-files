@@ -944,7 +944,7 @@ fmt/233:
     tool: document
     output: pdf
 fmt/243:
-  name: GPS Exchange Format
+  name: GPS Exchange Format 1.0
   action: convert
   convert:
     tool: copy
@@ -1379,7 +1379,7 @@ fmt/532:
     tool: cad2d
     output: svg
 fmt/549:
-  name: Adobe InDesign Document
+  name: Adobe InDesign Document CS3
   action: manual
   manual:
     reason: We need to manual convert with a Adobe tool.
@@ -1763,7 +1763,7 @@ fmt/1132:
     template: not-preservable
     reason: A bookmark in the Netscape web browser. Not preservation-worthy
 fmt/1134:
-  name: GPS Exchange Format
+  name: GPS Exchange Format 1.1
   action: convert
   convert:
     tool: copy
@@ -1934,7 +1934,7 @@ fmt/1600:
       is a mismatch between our bit-header and the bit-header for the fil with the
       repository "byteheader".
 fmt/1628:
-  name: Adobe InDesign Document
+  name: Adobe InDesign Document 1.0
   action: manual
   manual:
     reason: We need to manual convert with a Adobe tool.
@@ -1990,7 +1990,7 @@ fmt/1768:
     template: not-preservable
     reason: Source code written in C. Not preservation-worthy
 fmt/1879:
-  name: vCard
+  name: vCard 2.1
   description: Contact information file. vCards are often attached to e-mail messages,
     but can be exchanged in other ways, such as on the internet or instant messaging.
   action: ignore
@@ -1998,7 +1998,7 @@ fmt/1879:
     template: not-preservable
     reason: Not preservation-worthy
 fmt/1880:
-  name: vCard
+  name: vCard 3
   description: Contact information file. vCards are often attached to e-mail messages,
     but can be exchanged in other ways, such as on the internet or instant messaging.
   action: ignore
