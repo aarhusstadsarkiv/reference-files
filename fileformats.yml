@@ -173,6 +173,7 @@ aca-fmt/24:
   ignore:
     template: not-preservable
     reason: Virtual business card. Not preservation-worthy
+  description: Extension is .vcf
 aca-fmt/25:
   name: Microsoft Windows URL
   action: ignore
@@ -948,6 +949,7 @@ fmt/243:
   action: convert
   convert:
     tool: copy
+  description: Extension is .pgx
 fmt/244:
   name: Keyhole Markup Language (XML)
   description: "KML is an open standard officially named the OpenGIS\xAE KML Encoding\
@@ -1109,6 +1111,7 @@ fmt/395:
   ignore:
     template: not-preservable
     reason: Windows native contact files. Not preservation-worthy
+  description: Extension is .vcf
 fmt/411:
   name: RAR Archive version 2.9
   action: extract
@@ -1384,6 +1387,7 @@ fmt/549:
   manual:
     reason: We need to manual convert with a Adobe tool.
     process: Used a Adobe tool. Ask Christian Brink Christensen for help. He has a subscription for Photoshop.
+  description: Extension is .indd
 fmt/550:
   name: Adobe InDesign Document CS4
   action: ignore
@@ -1550,6 +1554,7 @@ fmt/638:
   convert:
     tool: statistic
     output: ods
+  description: Extension is .sav
 fmt/645:
   name: Exchangeable Image File Format (Compressed) 2.2.1
   ignore_if:
@@ -1621,6 +1626,7 @@ fmt/796:
   manual:
     reason: We need to manual convert with a Adobe tool.
     process: Used a Adobe tool. Ask Christian Brink Christensen for help. He has a subscription for Photoshop.
+  description: Extension is .aep
 fmt/817:
   name: JSON Data Interchange Format
   action: convert
@@ -1767,6 +1773,7 @@ fmt/1134:
   action: convert
   convert:
     tool: copy
+  description: Extension is .gpx
 fmt/1216:
   name: ''
   action: convert
@@ -1921,6 +1928,7 @@ fmt/1566:
     reason: ColdFusion Markup Language, more commonly known as CFML, is a scripting language
      for web development that runs on the Java virtual machine (JVM), the .NET framework,
      and Google App Engine. Not preservation-worthy
+  description: Extension is .cfm
 fmt/1600:
   name: ESRI ArcInfo DAT File (Internal)
   reidentify:
@@ -1939,6 +1947,7 @@ fmt/1628:
   manual:
     reason: We need to manual convert with a Adobe tool.
     process: Used a Adobe tool. Ask Christian Brink Christensen for help. He has a subscription for Photoshop.
+  description: Extension is .indd
 fmt/1711:
   name: Software602 Printer Configuration File
   action: ignore
@@ -1997,6 +2006,7 @@ fmt/1879:
   ignore:
     template: not-preservable
     reason: Not preservation-worthy
+  description: Extension is .vcf
 fmt/1880:
   name: vCard 3
   description: Contact information file. vCards are often attached to e-mail messages,
@@ -2005,6 +2015,7 @@ fmt/1880:
   ignore:
     template: not-preservable
     reason: Not preservation-worthy
+  description: Extension is .vcf
 fmt/1915:
   name: ActiveMime Object
   description: ActiveMime Object, or mso, are attached to e-mail messages as a way
