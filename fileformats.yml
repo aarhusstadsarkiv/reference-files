@@ -1382,8 +1382,8 @@ fmt/549:
   name: Adobe InDesign Document
   action: manual
   manual:
-    reason: We don't know what to do with this format.
-    process: Find out what we can do with this format.
+    reason: We need to manual convert with a Adobe tool.
+    process: Used a Adobe tool. Ask Christian Brink Christensen for help. He has a subscription for Photoshop.
 fmt/550:
   name: Adobe InDesign Document CS4
   action: ignore
@@ -1619,8 +1619,8 @@ fmt/796:
   name: Adobe After Effects
   action: manual
   manual:
-    reason: We don't know what to do with this format.
-    process: Find out what we can do with this format.
+    reason: We need to manual convert with a Adobe tool.
+    process: Used a Adobe tool. Ask Christian Brink Christensen for help. He has a subscription for Photoshop.
 fmt/817:
   name: JSON Data Interchange Format
   action: convert
@@ -1937,8 +1937,8 @@ fmt/1628:
   name: Adobe InDesign Document
   action: manual
   manual:
-    reason: We don't know what to do with this format.
-    process: Find out what we can do with this format.
+    reason: We need to manual convert with a Adobe tool.
+    process: Used a Adobe tool. Ask Christian Brink Christensen for help. He has a subscription for Photoshop.
 fmt/1711:
   name: Software602 Printer Configuration File
   action: ignore
