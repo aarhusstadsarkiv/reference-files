@@ -1933,6 +1933,12 @@ fmt/1600:
     process: Find out what we can do with this format. You can try and see, if there
       is a mismatch between our bit-header and the bit-header for the fil with the
       repository "byteheader".
+fmt/1628:
+  name: Adobe InDesign Document
+  action: manual
+  manual:
+    reason: We don't know what to do with this format.
+    process: Find out what we can do with this format.
 fmt/1711:
   name: Software602 Printer Configuration File
   action: ignore
