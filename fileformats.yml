@@ -1552,11 +1552,11 @@ fmt/637:
     reason: An Onenote note file. Not preservation-worthy / not convertable
 fmt/638:
   name: SPSS Data File
-  action: convert
-  convert:
-    tool: statistic
-    output: ods
   description: Extension is .sav
+  action: manual
+  manual:
+    reason: Not converable.
+    process: Open in GNU PSPP. gnu.org/software/pspp/pspp.html. Export BOTH data and variables to csv.
 fmt/645:
   name: Exchangeable Image File Format (Compressed) 2.2.1
   ignore_if:
