@@ -1559,7 +1559,7 @@ fmt/637:
 fmt/638:
   name: SPSS Data File
   description: SPSS (Statistical Package for the Social Sciences) is a software package used for
-    statistical analysis in the social sciences. 
+    statistical analysis in the social sciences.
   action: manual
   manual:
     reason: Not converable.
