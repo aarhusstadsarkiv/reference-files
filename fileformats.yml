@@ -946,10 +946,11 @@ fmt/233:
     output: pdf
 fmt/243:
   name: GPS Exchange Format 1.0
+  description: GPX is an XML schema used by various software applications and websites to show and describe
+    GPS data such as routes, tracks, projecting GPS data onto maps and annotating maps. Extension is .pgx.
   action: convert
   convert:
     tool: copy
-  description: Extension is .pgx
 fmt/244:
   name: Keyhole Markup Language (XML)
   description: "KML is an open standard officially named the OpenGIS\xAE KML Encoding\
@@ -1383,7 +1384,8 @@ fmt/532:
     output: svg
 fmt/549:
   name: Adobe InDesign Document CS3
-  description: Extension is .indd
+  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
+    brochures, magazines, newspapers, presentations and books. Extension is .indd.
   action: ignore
   ignore:
     template: not-preservable
@@ -1392,6 +1394,8 @@ fmt/549:
       The files also rarely if ever contains preservable info.
 fmt/550:
   name: Adobe InDesign Document CS4
+  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
+    brochures, magazines, newspapers, presentations and books. Extension is .indd.
   action: ignore
   ignore:
     template: not-preservable
@@ -1400,6 +1404,8 @@ fmt/550:
       The files also rarely if ever contains preservable info.
 fmt/551:
   name: Adobe InDesign Document CS5
+  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
+    brochures, magazines, newspapers, presentations and books. Extension is .indd.
   action: ignore
   ignore:
     template: not-preservable
@@ -1552,6 +1558,8 @@ fmt/637:
     reason: An Onenote note file. Not preservation-worthy / not convertable
 fmt/638:
   name: SPSS Data File
+  description: SPSS (Statistical Package for the Social Sciences) is a software package used for
+    statistical analysis in the social sciences. 
   action: manual
   manual:
     reason: Not converable.
@@ -1623,11 +1631,13 @@ fmt/761:
       but either way we don't know how to handle it
 fmt/796:
   name: Adobe After Effects
+  description: Adobe After Effects is a digital visual effects, motion graphics, and compositing application developed
+    by Adobe Systems and used in the post-production process of filmmaking and television production. Among other things,
+    After Effects can be used for keying, tracking, rotoscoping, compositing and animation. Extension is .aep
   action: manual
   manual:
     reason: We need to manual convert with a Adobe tool.
     process: Used a Adobe tool. Ask Christian Brink Christensen for help. He has a subscription for Photoshop.
-  description: Extension is .aep
 fmt/817:
   name: JSON Data Interchange Format
   action: convert
@@ -1771,10 +1781,12 @@ fmt/1132:
     reason: A bookmark in the Netscape web browser. Not preservation-worthy
 fmt/1134:
   name: GPS Exchange Format 1.1
+  description: GPX is an XML schema used by various software applications and
+    websites to show and describe GPS data such as routes, tracks, projecting GPS
+    data onto maps and annotating maps. Extension is .gp
   action: convert
   convert:
     tool: copy
-  description: Extension is .gpx
 fmt/1216:
   name: ''
   action: convert
