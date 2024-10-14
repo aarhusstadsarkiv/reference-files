@@ -2002,20 +2002,20 @@ fmt/1879:
   name: vCard 2.1
   description: Contact information file. vCards are often attached to e-mail messages,
     but can be exchanged in other ways, such as on the internet or instant messaging.
+    Extension is .vcf
   action: ignore
   ignore:
     template: not-preservable
     reason: Not preservation-worthy
-  description: Extension is .vcf
 fmt/1880:
   name: vCard 3
   description: Contact information file. vCards are often attached to e-mail messages,
     but can be exchanged in other ways, such as on the internet or instant messaging.
+    Extension is .vcf
   action: ignore
   ignore:
     template: not-preservable
     reason: Not preservation-worthy
-  description: Extension is .vcf
 fmt/1915:
   name: ActiveMime Object
   description: ActiveMime Object, or mso, are attached to e-mail messages as a way
