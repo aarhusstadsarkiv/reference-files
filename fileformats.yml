@@ -1546,10 +1546,10 @@ fmt/637:
     reason: An Onenote note file. Not preservation-worthy / not convertable
 fmt/638:
   name: SPSS Data File
-  action: manual
-  manual:
-    reason: We don't know what to do with this format.
-    process: Find out what we can do with this format.
+  action: convert
+  convert:
+    tool: statistic
+    output: ods
 fmt/645:
   name: Exchangeable Image File Format (Compressed) 2.2.1
   ignore_if:
