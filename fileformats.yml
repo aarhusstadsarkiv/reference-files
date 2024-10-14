@@ -1383,11 +1383,13 @@ fmt/532:
     output: svg
 fmt/549:
   name: Adobe InDesign Document CS3
-  action: manual
-  manual:
-    reason: We need to manual convert with a Adobe tool.
-    process: Used a Adobe tool. Ask Christian Brink Christensen for help. He has a subscription for Photoshop.
   description: Extension is .indd
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
 fmt/550:
   name: Adobe InDesign Document CS4
   action: ignore
@@ -1943,11 +1945,13 @@ fmt/1600:
       repository "byteheader".
 fmt/1628:
   name: Adobe InDesign Document 1.0
-  action: manual
-  manual:
-    reason: We need to manual convert with a Adobe tool.
-    process: Used a Adobe tool. Ask Christian Brink Christensen for help. He has a subscription for Photoshop.
   description: Extension is .indd
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
 fmt/1711:
   name: Software602 Printer Configuration File
   action: ignore
