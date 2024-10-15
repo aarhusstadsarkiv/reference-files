@@ -1634,10 +1634,12 @@ fmt/796:
   description: Adobe After Effects is a digital visual effects, motion graphics, and compositing application developed
     by Adobe Systems and used in the post-production process of filmmaking and television production. Among other things,
     After Effects can be used for keying, tracking, rotoscoping, compositing and animation. Extension is .aep
-  action: manual
-  manual:
-    reason: We need to manual convert with a Adobe tool.
-    process: Used a Adobe tool. Ask Christian Brink Christensen for help. He has a subscription for Photoshop.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
 fmt/817:
   name: JSON Data Interchange Format
   action: convert
