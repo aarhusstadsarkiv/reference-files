@@ -173,6 +173,7 @@ aca-fmt/24:
   ignore:
     template: not-preservable
     reason: Virtual business card. Not preservation-worthy
+  description: Extension is .vcf
 aca-fmt/25:
   name: Microsoft Windows URL
   action: ignore
@@ -943,6 +944,13 @@ fmt/233:
   convert:
     tool: document
     output: pdf
+fmt/243:
+  name: GPS Exchange Format 1.0
+  description: GPX is an XML schema used by various software applications and websites to show and describe
+    GPS data such as routes, tracks, projecting GPS data onto maps and annotating maps. Extension is .pgx.
+  action: convert
+  convert:
+    tool: copy
 fmt/244:
   name: Keyhole Markup Language (XML)
   description: "KML is an open standard officially named the OpenGIS\xAE KML Encoding\
@@ -1104,6 +1112,7 @@ fmt/395:
   ignore:
     template: not-preservable
     reason: Windows native contact files. Not preservation-worthy
+  description: Extension is .vcf
 fmt/411:
   name: RAR Archive version 2.9
   action: extract
@@ -1373,8 +1382,20 @@ fmt/532:
   convert:
     tool: cad2d
     output: svg
+fmt/549:
+  name: Adobe InDesign Document CS3
+  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
+    brochures, magazines, newspapers, presentations and books. Extension is .indd.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
 fmt/550:
   name: Adobe InDesign Document CS4
+  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
+    brochures, magazines, newspapers, presentations and books. Extension is .indd.
   action: ignore
   ignore:
     template: not-preservable
@@ -1383,6 +1404,8 @@ fmt/550:
       The files also rarely if ever contains preservable info.
 fmt/551:
   name: Adobe InDesign Document CS5
+  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
+    brochures, magazines, newspapers, presentations and books. Extension is .indd.
   action: ignore
   ignore:
     template: not-preservable
@@ -1535,6 +1558,8 @@ fmt/637:
     reason: An Onenote note file. Not preservation-worthy / not convertable
 fmt/638:
   name: SPSS Data File
+  description: SPSS (Statistical Package for the Social Sciences) is a software package used for
+    statistical analysis in the social sciences.
   action: manual
   manual:
     reason: Not converable.
@@ -1604,6 +1629,17 @@ fmt/761:
     reason: Flash is no longer supported, and it is in a very messy format - The file
       can be a image, video or interactive game. It might not be preservation-worthy,
       but either way we don't know how to handle it
+fmt/796:
+  name: Adobe After Effects
+  description: Adobe After Effects is a digital visual effects, motion graphics, and compositing application developed
+    by Adobe Systems and used in the post-production process of filmmaking and television production. Among other things,
+    After Effects can be used for keying, tracking, rotoscoping, compositing and animation. Extension is .aep
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
 fmt/817:
   name: JSON Data Interchange Format
   action: convert
@@ -1745,6 +1781,14 @@ fmt/1132:
   ignore:
     template: not-preservable
     reason: A bookmark in the Netscape web browser. Not preservation-worthy
+fmt/1134:
+  name: GPS Exchange Format 1.1
+  description: GPX is an XML schema used by various software applications and
+    websites to show and describe GPS data such as routes, tracks, projecting GPS
+    data onto maps and annotating maps. Extension is .gp
+  action: convert
+  convert:
+    tool: copy
 fmt/1216:
   name: ''
   action: convert
@@ -1891,6 +1935,15 @@ fmt/1516:
   convert:
     tool: document
     output: pdf
+fmt/1566:
+  name: ColdFusion Markup Language
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: ColdFusion Markup Language, more commonly known as CFML, is a scripting language
+     for web development that runs on the Java virtual machine (JVM), the .NET framework,
+     and Google App Engine. Not preservation-worthy
+  description: Extension is .cfm
 fmt/1600:
   name: ESRI ArcInfo DAT File (Internal)
   reidentify:
@@ -1903,6 +1956,15 @@ fmt/1600:
     process: Find out what we can do with this format. You can try and see, if there
       is a mismatch between our bit-header and the bit-header for the fil with the
       repository "byteheader".
+fmt/1628:
+  name: Adobe InDesign Document 1.0
+  description: Extension is .indd
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
 fmt/1711:
   name: Software602 Printer Configuration File
   action: ignore
@@ -1957,14 +2019,16 @@ fmt/1879:
   name: vCard
   description: Contact information file. vCards are often attached to e-mail messages,
     but can be exchanged in other ways, such as on the internet or instant messaging.
+    Extension is .vcf
   action: ignore
   ignore:
     template: not-preservable
     reason: Not preservation-worthy
 fmt/1880:
-  name: vCard v. 3.0
+  name: vCard 3
   description: Contact information file. vCards are often attached to e-mail messages,
     but can be exchanged in other ways, such as on the internet or instant messaging.
+    Extension is .vcf
   action: ignore
   ignore:
     template: not-preservable
