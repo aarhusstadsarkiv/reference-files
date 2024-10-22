@@ -48,4 +48,4 @@ jobs:
           exit $status
       - name: Check Custom Signatures
         run: |
-          python -c "import yaml; cs = yaml.load(open('custom_signatures.yml'), yaml.Loader); fs = yaml.load(open('fileformats.yml'), yaml.Loader); ps = set(c['puid'] for c in cs) - set(fs.keys())); assert not ps, f'Some custom signatures PUIDs are not present in file formats file: {ps}'"
+          python -c "import yaml; cs = yaml.load(open('custom_signatures.yml'), yaml.Loader); fs = yaml.load(open('fileformats.yml'), yaml.Loader); ps = set(c['puid'] for c in cs) - set(fs.keys()); assert not ps, f'Some custom signatures PUIDs are not present in file formats file: {ps}'"
