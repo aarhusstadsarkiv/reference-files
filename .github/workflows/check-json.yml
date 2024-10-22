@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Install dependencies
-        run: python -m pip install check-jsonschema
+        run: python -m pip install check-jsonschema pyyaml
       - name: Check JSON Syntax
         uses: limitusus/json-syntax-check@v2
         with:
@@ -35,7 +35,7 @@ jobs:
               line-length: disable
       - name: Check JSON Schemata
         run: check-jsonschema --verbose --check-metaschema *.schema.json
-      - name: Check Files
+      - name: Check Files Schemata
         run: |
           status=0;
           for schema in *.schema.json; do
@@ -46,3 +46,6 @@ jobs:
             done;
           done;
           exit $status
+      - name: Check Custom Signatures
+        run: |
+          python -c "import yaml; cs = yaml.load(open('custom_signatures.yml'), yaml.Loader); fs = yaml.load(open('fileformats.yml'), yaml.Loader); assert all(c['puid'] in fs for c in cs), 'Some custom signatures PUIDs are not present in file formats file.'"
