@@ -136,12 +136,22 @@ aca-fmt/16:
     reason: Unable to convert automatically.
     process: Open with Microsoft Access. For each table in the database, save the
       table as .xlsx. Reidentify with digiarch.
+aca-fmt/17:
+  name: MapInfo MAP file
+  action: ignore
+  ignore:
+    template: temporary-file
 aca-fmt/18:
   name: OpenDocument Text (unspecified version)
   action: convert
   convert:
     tool: document
     output: pdf
+aca-fmt/19:
+  name: Lotus Approach View File
+  action: ignore
+  ignore:
+    template: not-preservable
 aca-fmt/20:
   name: MapInfo TAB file
   action: convert
