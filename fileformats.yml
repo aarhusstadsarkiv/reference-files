@@ -1945,6 +1945,12 @@ fmt/1516:
   convert:
     tool: document
     output: pdf
+fmt/1754:
+  name: OpenDocument Presentation 1.3
+  action: convert
+  convert:
+    tool: document
+    output: odt
 fmt/1755:
   name: OpenDocument Spreadsheet 1.3
   action: convert
