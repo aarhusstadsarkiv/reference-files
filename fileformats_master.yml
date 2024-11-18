@@ -5,21 +5,21 @@
     output: jpg
   statutory:
     tool: image
-    putput: tif
+    output: tif
 '!image (vector)':
   name: Svg files
   access:
     tool: copy
   statutory:
     tool: vector
-    putput: tif
+    output: tif
 '!page description':
   name: PDF files
   access:
     tool: copy
   statutory:
     tool: pdf-to-tif
-    putput: tif
+    output: tif
 '!word processor':
   name: odt
   access:
@@ -27,7 +27,7 @@
     output: pdf
   statutory:
     tool: document
-    putput: tif
+    output: tif
 '!spreadsheet':
   name: Open Document Spreadsheet
   access:
@@ -35,7 +35,7 @@
     output: html
   statutory:
     tool: document
-    putput: tif
+    output: tif
 '!audio':
   name: .mp3 and .wav files
   access:
