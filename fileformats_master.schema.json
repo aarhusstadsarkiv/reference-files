@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fileformats-master",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "*": {
+      "description": "An Action object that contains ground rules for all files.",
+      "$ref": "#/definitions/action"
+    },
+    "!empty": {
+      "description": "An Action object for empty files.",
+      "$ref": "#/definitions/action"
+    },
+    "!binary": {
+      "description": "An Action object for the file class 'binary'.",
+      "$ref": "#/definitions/action"
+    },
+    "!aggregate": {
+      "description": "An Action object for the file class 'aggregate'.",
+      "$ref": "#/definitions/action"
+    },
+    "!audio": {
+      "description": "An Action object for the file class 'audio'.",
+      "$ref": "#/definitions/action"
+    },
+    "!database": {
+      "description": "An Action object for the file class 'database'.",
+      "$ref": "#/definitions/action"
+    },
+    "!dataset": {
+      "description": "An Action object for the file class 'dataset'.",
+      "$ref": "#/definitions/action"
+    },
+    "!email": {
+      "description": "An Action object for the file class 'email'.",
+      "$ref": "#/definitions/action"
+    },
+    "!font": {
+      "description": "An Action object for the file class 'font'.",
+      "$ref": "#/definitions/action"
+    },
+    "!gis": {
+      "description": "An Action object for the file class 'gis'.",
+      "$ref": "#/definitions/action"
+    },
+    "!image (raster)": {
+      "description": "An Action object for the file class 'image (raster)'.",
+      "$ref": "#/definitions/action"
+    },
+    "!image (vector)": {
+      "description": "An Action object for the file class 'image (vector)'.",
+      "$ref": "#/definitions/action"
+    },
+    "!model": {
+      "description": "An Action object for the file class 'model'.",
+      "$ref": "#/definitions/action"
+    },
+    "!page description": {
+      "description": "An Action object for the file class 'page description'.",
+      "$ref": "#/definitions/action"
+    },
+    "!presentation": {
+      "description": "An Action object for the file class 'presentation'.",
+      "$ref": "#/definitions/action"
+    },
+    "!spreadsheet": {
+      "description": "An Action object for the file class 'spreadsheet'.",
+      "$ref": "#/definitions/action"
+    },
+    "!text (mark-up)": {
+      "description": "An Action object for the file class 'text (mark-up)'.",
+      "$ref": "#/definitions/action"
+    },
+    "!text (structured)": {
+      "description": "An Action object for the file class 'text (structured)'.",
+      "$ref": "#/definitions/action"
+    },
+    "!text (unstructured)": {
+      "description": "An Action object for the file class 'text (unstructured)'.",
+      "$ref": "#/definitions/action"
+    },
+    "!video": {
+      "description": "An Action object for the file class 'video'.",
+      "$ref": "#/definitions/action"
+    },
+    "!word processor": {
+      "description": "An Action object for the file class 'word processor'.",
+      "$ref": "#/definitions/action"
+    }
+  },
+  "patternProperties": {
+    "^[a-zA-Z0-9_/-]+$": {
+      "$ref": "#/definitions/action"
+    }
+  },
+  "definitions": {
+    "action": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["access", "statutory"],
+      "properties": {
+        "name": {
+          "description": "The long name of the file format.",
+          "type": "string"
+        },
+        "access": {
+          "description": "Instructions to convert file to access format.",
+          "$ref": "#/definitions/convert"
+        },
+        "statutory": {
+          "description": "Instructions to convert file to statutory format.",
+          "$ref": "#/definitions/convert"
+        }
+      }
+    },
+    "convert": {
+      "description": "Instructions to convert the file.",
+      "type": "object",
+      "required": [
+        "tool"
+      ],
+      "if": {
+        "properties": {
+          "tool": {
+            "not": {
+              "enum": [
+                "copy"
+              ]
+            }
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "output"
+        ]
+      },
+      "properties": {
+        "tool": {
+          "description": "The converter tool to use.",
+          "type": "string"
+        },
+        "output": {
+          "description": "The output taget for the converter.",
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        }
+      }
+    }
+  }
+}
