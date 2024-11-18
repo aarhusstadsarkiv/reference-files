@@ -18,7 +18,7 @@
   access:
     tool: copy
   statutory:
-    tool: pdf-to-tif
+    tool: pdf
     output: tif
 '!word processor':
   name: odt
@@ -107,7 +107,7 @@ fmt/353:
   name: Tagged Image File Format (tif)
   access:
     tool: image
-    output: jpg
+    output: pdf
   statutory:
     tool: image
     output: tif
