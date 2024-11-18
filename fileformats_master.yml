@@ -65,7 +65,7 @@
     output: tif
 '!gis':
   access:
-    output: copy # GeoJson - one day :)
+    tool: copy  # GeoJson - one day :)
   statutory:
     tool: copy
 '!model':
