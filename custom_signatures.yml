@@ -196,13 +196,13 @@
   plain_bof: PTVSYSTEM   VISUM       Version
   extension: .ver
 - puid: fmt/91
-  signature: SVG v1
+  signature: SVG v1.0
   description: SVG signature without starting XML tag ("<?xml...")
   bof: (?i)^(20|0A(0D)?)*3C737667(((20|0A(0D)?)+(3[^e]|[^3]e|[^3][^e])*)*76657273696F6E3D22312E3022)?((20|0A(0D)?)+(3[^e]|[^3]e|[^3][^e])*)*(20|0A(0D)?)*3e
   eof: (?i)3C2F7376673E(20|0A(0D)?)*$
   operator: AND
   plain_bof: ^<svg(( +[^>]+)*version="1.0")?( +[^>]+)*( )*>
-  plain_eof: </svg>( |\n|\r)*$
+  plain_eof: </svg>( |\n\r?)*$
 - puid: fmt/92
   signature: SVG v1.1
   description: SVG signature without starting XML tag ("<?xml...")
@@ -210,7 +210,7 @@
   eof: (?i)3C2F7376673E(20|0A(0D)?)*$
   operator: AND
   plain_bof: ^<svg( +[^>]+)*( )+version="1.1"( +[^>]+)*( )*>
-  plain_eof: </svg>( |\n|\r)*$
+  plain_eof: </svg>( |\n\r?)*$
 - puid: fmt/413
   signature: SVG v1.2
   description: SVG signature without starting XML tag ("<?xml...")
@@ -218,4 +218,4 @@
   eof: (?i)3C2F7376673E(20|0A(0D)?)*$
   operator: AND
   plain_bof: ^<svg( +[^>]+)*( )+version="1.2"( +[^>]+)*( )*>
-  plain_eof: </svg>( |\n|\r)*$
+  plain_eof: </svg>( |\n\r?)*$
