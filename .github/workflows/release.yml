@@ -26,6 +26,7 @@ jobs:
       - name: Generate JSON Files
         run: |
           python3 -c 'import yaml,json,sys;json.dump(yaml.load(open(sys.argv[1]), yaml.Loader), open(sys.argv[2], "w"))' fileformats.yml fileformats.json
+          python3 -c 'import yaml,json,sys;json.dump(yaml.load(open(sys.argv[1]), yaml.Loader), open(sys.argv[2], "w"))' fileformats_master.yml fileformats_master.json
           python3 -c 'import yaml,json,sys;json.dump(yaml.load(open(sys.argv[1]), yaml.Loader), open(sys.argv[2], "w"))' custom_signatures.yml custom_signatures.json
       - name: Create Release
         uses: softprops/action-gh-release@v1
@@ -35,6 +36,8 @@ jobs:
           name: ${{ steps.tag.outputs.tag }}
           files: |
             fileformats.yml
+            fileformats_master.yml
             custom_signatures.yml
             fileformats.json
+            fileformats_master.json
             custom_signatures.json
