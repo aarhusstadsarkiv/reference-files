@@ -390,28 +390,6 @@
             }
           }
         },
-        "rename": {
-          "description": "Instructions to change the extension of a file.",
-          "type": "object",
-          "required": [
-            "extension"
-          ],
-          "properties": {
-            "extension": {
-              "description": "The new file extension.",
-              "type": "string",
-              "pattern": "^(\\.[^.]+)+$"
-            },
-            "append": {
-              "description": "Whether to append the new extension to existing ones.",
-              "type": "boolean"
-            },
-            "on_extension_mismatch": {
-              "description": "Whether to only apply the action if the file has an extension mismatch warning.",
-              "type": "boolean"
-            }
-          }
-        },
         "reidentify": {
           "description": "Instructions to re-identify a file format using custom signatures.",
           "type": "object",
