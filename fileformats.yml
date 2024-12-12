@@ -1465,6 +1465,14 @@ fmt/564:
   convert:
     tool: pdf
     output: pdfa-3
+fmt/568:
+  name: webP
+  ignore_if:
+    image_pixels_min: 20000
+  action: convert
+  convert:
+    tool: image
+    output: png
 fmt/573:
   name: WebM video
   action: convert
