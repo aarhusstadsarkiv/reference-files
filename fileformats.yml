@@ -1713,6 +1713,12 @@ fmt/950:
   action: convert
   convert:
     tool: copy
+fmt/968:
+  name: AppleSingle 2.0
+  action: convert
+  convert:
+    tool: pdf
+    output: pdfa-3
 fmt/979:
   name: XML Property List
   alternatives:
