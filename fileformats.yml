@@ -2646,8 +2646,7 @@ x-fmt/430:
     extension: .msg
     on_success: convert
   convert:
-    tool: msg
-    output: eml
+    tool: copy
 x-fmt/441:
   name: AutoCAD Database File Locking Information
   action: ignore
