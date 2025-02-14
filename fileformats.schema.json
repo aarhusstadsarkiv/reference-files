@@ -221,6 +221,14 @@
           "description": "A description of the file format.",
           "type": "string"
         },
+        "extensions": {
+          "description": "Preferred extension(s).",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "\\.\\w+"
+          }
+        },
         "alternatives": {
           "description": "Alternative PUIDs based on the file's extension.",
           "type": "object",
