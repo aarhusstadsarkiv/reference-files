@@ -449,6 +449,8 @@ fmt/39:
     output: pdf
 fmt/40:
   name: Microsoft Word Document 97-2003
+  extensions:
+    - .doc
   action: convert
   convert:
     tool: document
@@ -693,12 +695,16 @@ fmt/90:
     output: png
 fmt/91:
   name: Scalable Vector Graphics 1.0
+  extensions:
+    - .svg
   action: convert
   convert:
     tool: browser
     output: pdf
 fmt/92:
   name: Scalable Vector Graphics 1.1
+  extensions:
+    - .svg
   action: convert
   convert:
     tool: browser
@@ -1212,6 +1218,8 @@ fmt/468:
     extension: .iso
 fmt/471:
   name: Hypertext Markup Language 5
+  extensions:
+    - .html
   action: convert
   convert:
     tool: browser
@@ -1481,6 +1489,9 @@ fmt/573:
     output: h265
 fmt/583:
   name: Vector Markup Language
+  extensions:
+    - .html
+    - .htm
   action: convert
   convert:
     tool: browser
@@ -2634,6 +2645,8 @@ x-fmt/428:
     reason: A pointer to a different file. Not preservation-worthy
 x-fmt/429:
   name: MHTML
+  extensions:
+    - .mhtml
   action: convert
   convert:
     tool: browser
