@@ -1896,6 +1896,12 @@ fmt/1439:
   convert:
     tool: document
     output: odt
+fmt/1441:
+  name: Apple iWork Pages 14
+  action: manual
+  manual:
+    process: Convert using Pages on a macOS device
+    reason: Libreoffice cannot open this format
 fmt/1451:
   name: PDF Portfolio 1.7
   action: convert
@@ -2393,6 +2399,7 @@ x-fmt/263:
     .xps: fmt/657
     .oxps: fmt/657
     .kmz: fmt/724
+    .pages: fmt/1441
   action: extract
   extract:
     tool: zip
