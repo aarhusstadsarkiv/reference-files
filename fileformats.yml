@@ -1006,6 +1006,11 @@ fmt/292:
   action: convert
   convert:
     tool: copy
+fmt/293:
+  name: OpenDocument Presentation 1.2
+  action: convert
+  convert:
+    tool: copy
 fmt/294:
   name: OpenDocument Spreadsheet 1.1
   action: convert
