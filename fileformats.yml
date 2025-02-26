@@ -2030,7 +2030,7 @@ fmt/1632:
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
 fmt/1633:
-  name: 		Adobe InDesign Document CC 2014
+  name: Adobe InDesign Document CC 2014
   description: Extension is .indd
   action: ignore
   ignore:
