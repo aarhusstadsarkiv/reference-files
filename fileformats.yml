@@ -2028,6 +2028,87 @@ fmt/1628:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+fmt/1631:
+  name: Adobe InDesign Document CS5.5
+  description: Extension is .indd
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
+fmt/1632:
+  name: Adobe InDesign Document CC
+  description: Extension is .indd
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
+fmt/1633:
+  name: Adobe InDesign Document CC 2014
+  description: Extension is .indd
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
+fmt/1634:
+  name: Adobe InDesign Document CC 2015
+  description: Extension is .indd
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
+fmt/1635:
+  name: Adobe InDesign Document CC 2017
+  description: Extension is .indd
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
+fmt/1636:
+  name: Adobe InDesign Document CC 2018
+  description: Extension is .indd
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
+fmt/1637:
+  name: Adobe InDesign Document CC 2019
+  description: Extension is .indd
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
+fmt/1638:
+  name: Adobe InDesign Document CC 2020
+  description: Extension is .indd
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
+fmt/1639:
+  name: Adobe InDesign Document CC 2021
+  description: Extension is .indd
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
 fmt/1711:
   name: Software602 Printer Configuration File
   action: ignore
