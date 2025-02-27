@@ -449,6 +449,8 @@ fmt/39:
     output: pdf
 fmt/40:
   name: Microsoft Word Document 97-2003
+  extensions:
+    - .doc
   action: convert
   convert:
     tool: document
@@ -693,12 +695,16 @@ fmt/90:
     output: png
 fmt/91:
   name: Scalable Vector Graphics 1.0
+  extensions:
+    - .svg
   action: convert
   convert:
     tool: browser
     output: pdf
 fmt/92:
   name: Scalable Vector Graphics 1.1
+  extensions:
+    - .svg
   action: convert
   convert:
     tool: browser
@@ -1223,6 +1229,8 @@ fmt/468:
     extension: .iso
 fmt/471:
   name: Hypertext Markup Language 5
+  extensions:
+    - .html
   action: convert
   convert:
     tool: browser
@@ -1492,6 +1500,9 @@ fmt/573:
     output: h265
 fmt/583:
   name: Vector Markup Language
+  extensions:
+    - .html
+    - .htm
   action: convert
   convert:
     tool: browser
@@ -1896,6 +1907,12 @@ fmt/1439:
   convert:
     tool: document
     output: odt
+fmt/1441:
+  name: Apple iWork Pages 14
+  action: manual
+  manual:
+    process: Convert using Pages on a macOS device
+    reason: Libreoffice cannot open this format
 fmt/1451:
   name: PDF Portfolio 1.7
   action: convert
@@ -2393,6 +2410,7 @@ x-fmt/263:
     .xps: fmt/657
     .oxps: fmt/657
     .kmz: fmt/724
+    .pages: fmt/1441
   action: extract
   extract:
     tool: zip
@@ -2645,6 +2663,8 @@ x-fmt/428:
     reason: A pointer to a different file. Not preservation-worthy
 x-fmt/429:
   name: MHTML
+  extensions:
+    - .mhtml
   action: convert
   convert:
     tool: browser
