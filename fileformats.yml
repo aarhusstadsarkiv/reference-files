@@ -1406,6 +1406,17 @@ fmt/532:
   convert:
     tool: cad2d
     output: svg
+
+fmt/548:
+  name: Adobe InDesign Document CS2
+  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
+    brochures, magazines, newspapers, presentations and books. Extension is .indd.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
 fmt/549:
   name: Adobe InDesign Document CS3
   description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
@@ -1428,6 +1439,16 @@ fmt/550:
       The files also rarely if ever contains preservable info.
 fmt/551:
   name: Adobe InDesign Document CS5
+  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
+    brochures, magazines, newspapers, presentations and books. Extension is .indd.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
+fmt/552:
+  name: Adobe InDesign Document CS6
   description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
     brochures, magazines, newspapers, presentations and books. Extension is .indd.
   action: ignore
@@ -2038,22 +2059,6 @@ fmt/1516:
   convert:
     tool: document
     output: pdf
-fmt/1753:
-  name: OpenDocument Graphics 1.3
-  action: convert
-  convert:
-    tool: document
-    output: svg
-fmt/1754:
-  name: OpenDocument Presentation 1.3
-  action: convert
-  convert:
-    tool: copy
-fmt/1755:
-  name: OpenDocument Spreadsheet 1.3
-  action: convert
-  convert:
-    tool: copy
 fmt/1566:
   name: ColdFusion Markup Language
   action: ignore
@@ -2165,6 +2170,16 @@ fmt/1639:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+fmt/1641:
+  name: Adobe InDesign Interchange Document
+  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
+    brochures, magazines, newspapers, presentations and books. Extension is .indd.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
 fmt/1711:
   name: Software602 Printer Configuration File
   action: ignore
@@ -2190,6 +2205,22 @@ fmt/1730:
     process: Find out what we can do with this format. You can try and see, if there
       is a mismatch between our bit-header and the bit-header for the fil with the
       repository "byteheader".
+fmt/1753:
+  name: OpenDocument Graphics 1.3
+  action: convert
+  convert:
+    tool: document
+    output: svg
+fmt/1754:
+  name: OpenDocument Presentation 1.3
+  action: convert
+  convert:
+    tool: copy
+fmt/1755:
+  name: OpenDocument Spreadsheet 1.3
+  action: convert
+  convert:
+    tool: copy
 fmt/1756:
   name: Opendocument Text 1.3
   reidentify:
@@ -2215,6 +2246,31 @@ fmt/1768:
   ignore:
     template: not-preservable
     reason: Source code written in C. Not preservation-worthy
+fmt/1816:
+  name: Adobe Swatch Exchange
+  description: Adobe Design software such as Photoshop, Illustrator and InDesign use color swatches to assign specific color values to a design. Color Palettes.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Not preservation-worthy
+fmt/1862:
+  name: Adobe Illustrator CC Artwork v. 17-23
+  action: manual
+  manual:
+    reason: We don't own Adobe Illustrator.
+    process: Open in Acrobat Reader and print as pdf.
+fmt/1863:
+  name: Adobe Illustrator CC 2020 Artwork v. 24-24.1
+  action: manual
+  manual:
+    reason: We don't own Adobe Illustrator.
+    process: Open in Acrobat Reader and print as pdf.
+fmt/1864:
+  name: Adobe Illustrator CC 2020 Artwork v. 24.2+
+  action: manual
+  manual:
+    reason: We don't own Adobe Illustrator.
+    process: Open in Acrobat Reader and print as pdf.
 fmt/1879:
   name: vCard
   description: Contact information file. vCards are often attached to e-mail messages,
