@@ -1160,8 +1160,7 @@ fmt/416:
     tool: audio
     output: flac
 fmt/422:
-  name: Adobe Illustrator 6.0
-  description: ok
+  name: Adobe Illustrator 6.0  
   action: convert
   convert:
     tool: pdf
