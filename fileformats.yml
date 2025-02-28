@@ -1159,8 +1159,26 @@ fmt/416:
   convert:
     tool: audio
     output: flac
+fmt/418:
+  name: Adobe Illustrator 3.0 / 3.2
+  action: convert
+  convert:
+    tool: pdf
+    output: pdfa-3
+fmt/421:
+  name: Adobe Illustrator Japan
+  action: convert
+  convert:
+    tool: pdf
+    output: pdfa-3
 fmt/422:
   name: Adobe Illustrator 6.0
+  action: convert
+  convert:
+    tool: pdf
+    output: pdfa-3
+fmt/423:
+  name: Adobe Illustrator 7.0
   action: convert
   convert:
     tool: pdf
@@ -1501,6 +1519,12 @@ fmt/563:
     output: pdfa-3
 fmt/564:
   name: Adobe Illustrator 15.0
+  action: convert
+  convert:
+    tool: pdf
+    output: pdfa-3
+fmt/565:
+  name: Adobe Illustrator 16.0
   action: convert
   convert:
     tool: pdf
@@ -2255,22 +2279,22 @@ fmt/1816:
     reason: Not preservation-worthy
 fmt/1862:
   name: Adobe Illustrator CC Artwork v. 17-23
-  action: manual
-  manual:
-    reason: We don't own Adobe Illustrator.
-    process: Open in Acrobat Reader and print as pdf.
+  action: convert
+  convert:
+    tool: pdf
+    output: pdfa-3
 fmt/1863:
   name: Adobe Illustrator CC 2020 Artwork v. 24-24.1
-  action: manual
-  manual:
-    reason: We don't own Adobe Illustrator.
-    process: Open in Acrobat Reader and print as pdf.
+  action: convert
+  convert:
+    tool: pdf
+    output: pdfa-3
 fmt/1864:
   name: Adobe Illustrator CC 2020 Artwork v. 24.2+
-  action: manual
-  manual:
-    reason: We don't own Adobe Illustrator.
-    process: Open in Acrobat Reader and print as pdf.
+  action: convert
+  convert:
+    tool: pdf
+    output: pdfa-3
 fmt/1879:
   name: vCard
   description: Contact information file. vCards are often attached to e-mail messages,
