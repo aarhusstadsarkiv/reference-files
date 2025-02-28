@@ -1159,20 +1159,9 @@ fmt/416:
   convert:
     tool: audio
     output: flac
-fmt/418:
-  name: Adobe Illustrator 3.0 / 3.2
-  action: convert
-  convert:
-    tool: pdf
-    output: pdfa-3
-fmt/421:
-  name: Adobe Illustrator Japan
-  action: convert
-  convert:
-    tool: pdf
-    output: pdfa-3
 fmt/422:
   name: Adobe Illustrator 6.0
+  description: ok
   action: convert
   convert:
     tool: pdf
@@ -1483,6 +1472,7 @@ fmt/557:
     output: pdfa-3
 fmt/558:
   name: Adobe Illustrator 9.0
+  description: Originally the Adobe Illustrator Format (AI) was based on postscript. With each file having a postscript header. This all changed with Illustrator version 9 moving to PDF as its core, released in the year 2000.
   action: convert
   convert:
     tool: pdf
@@ -2279,6 +2269,7 @@ fmt/1816:
     reason: Not preservation-worthy
 fmt/1862:
   name: Adobe Illustrator CC Artwork v. 17-23
+  description: Originally the Adobe Illustrator Format (AI) was based on postscript. With each file having a postscript header. This all changed with Illustrator version 9 moving to PDF as its core, released in the year 2000.
   action: convert
   convert:
     tool: pdf
