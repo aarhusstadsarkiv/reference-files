@@ -253,6 +253,12 @@ aca-fmt/34:
     reason: File uses a generic ZIP container that should not be unpacked and cannot be opened
     template: not-preservable
 aca-fmt/35:
+  name: Generic CAD Drawing
+  action: convert
+  convert:
+    tool: cad
+    output: dxf
+aca-fmt/36:
   name: XMind Mindmap
   action: convert
   convert:
@@ -260,12 +266,6 @@ aca-fmt/35:
     output: "-"
     options:
       path: Thumbnails/thumbnail.png
-aca-fmt/36:
-  name: Generic CAD Drawing
-  action: convert
-  convert:
-    tool: cad
-    output: dxf
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
@@ -2656,8 +2656,8 @@ x-fmt/263:
     .rcv: aca-fmt/34    # RoofCon file https://www.mitekab.se/software/trusscon-roofcon/?lang=en
     .safx: aca-fmt/34   # ?
     .twbx: aca-fmt/34   # Tableau Packaged Workbook https://help.tableau.com/current/pro/desktop/en-us/environ_filesandfolders.htm
-    .xmind: aca-fmt/35
-    .cdr: aca-fmt/36
+    .cdr: aca-fmt/35
+    .xmind: aca-fmt/36
     .sxw: fmt/128
     .xlsx: fmt/214
     .docx: fmt/412
