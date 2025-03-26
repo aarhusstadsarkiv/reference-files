@@ -246,6 +246,26 @@ aca-fmt/33:
   manual:
     reason: Unable for find converter for .ver files.
     process: Open in latest PTV Visum version and export to png. If open not possible, set ignore and template.
+aca-fmt/34:
+  name: Generic ZIP container
+  action: ignore
+  ignore:
+    reason: File uses a generic ZIP container that should not be unpacked and cannot be opened
+    template: not-preservable
+aca-fmt/35:
+  name: XMind Mindmap
+  action: convert
+  convert:
+    tool: zip
+    output: "-"
+    options:
+      path: Thumbnails/thumbnail.png
+aca-fmt/36:
+  name: Generic CAD Drawing
+  action: convert
+  convert:
+    tool: cad
+    output: dxf
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
@@ -829,6 +849,12 @@ fmt/126:
   convert:
     tool: presentation
     output: odp
+fmt/128:
+  name: OpenOffice Writer
+  action: convert
+  convert:
+    tool: document
+    output: odt
 fmt/132:
   name: Windows Media Audio
   action: convert
@@ -2614,6 +2640,27 @@ x-fmt/258:
 x-fmt/263:
   name: ZIP Format
   alternatives:
+    .odt: aca-fmt/18
+    .ods: aca-fmt/21
+    .bpm: aca-fmt/34    # Bizagi Process Modeler file https://www.bizagi.com/en/platform/modeler
+    .cptx: aca-fmt/34   # Adobe Captivate https://www.adobe.com/products/captivate
+    .egp: aca-fmt/34    # SAS project file
+    .evo: aca-fmt/34    # DIALux project file https://www.dialux.com
+    .layout: aca-fmt/34 # SketchUp project
+    .mmap: aca-fmt/34   # Mindmap
+    .nupkg: aca-fmt/34  # .NET package
+    .pbix: aca-fmt/34   # Power BI report file https://learn.microsoft.com/en-us/power-bi/create-reports/service-export-to-pbix
+    .pkpass: aca-fmt/34 # Digital pass file https://en.wikipedia.org/wiki/PKPASS
+    .pro: aca-fmt/34    # ?
+    .pvprj: aca-fmt/34  # PV*SOL project file https://pvsol.software/en/
+    .rcv: aca-fmt/34    # RoofCon file https://www.mitekab.se/software/trusscon-roofcon/?lang=en
+    .safx: aca-fmt/34   # ?
+    .twbx: aca-fmt/34   # Tableau Packaged Workbook https://help.tableau.com/current/pro/desktop/en-us/environ_filesandfolders.htm
+    .xmind: aca-fmt/35
+    .cdr: aca-fmt/36
+    .sxw: fmt/128
+    .xlsx: fmt/214
+    .docx: fmt/412
     .xps: fmt/657
     .oxps: fmt/657
     .kmz: fmt/724
