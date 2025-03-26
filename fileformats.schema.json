@@ -381,6 +381,11 @@
                 "manual",
                 "ignore"
               ]
+            },
+            "options": {
+              "description": "Options to pass to the converter",
+              "type": "object",
+              "minProperties": 1
             }
           }
         },
