@@ -262,7 +262,7 @@ aca-fmt/36:
   name: XMind Mindmap
   action: convert
   convert:
-    tool: zip
+    tool: zipfile
     output: "-"
     options:
       path: Thumbnails/thumbnail.png
