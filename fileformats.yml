@@ -272,8 +272,7 @@ fmt/3:
     image_pixels_min: 20000
   action: convert
   convert:
-    tool: image
-    output: png
+    tool: copy
 fmt/4:
   name: Graphics Interchange Format 89a
   ignore_if:

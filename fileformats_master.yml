@@ -103,6 +103,13 @@
 
 
 # Global puids
+fmt/3:
+  name: animated gif
+  access:
+    tool: copy
+  statutory:
+    tool: video
+    output: h264-mpg
 fmt/353:
   name: Tagged Image File Format (tif)
   access:
