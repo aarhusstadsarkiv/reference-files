@@ -195,7 +195,7 @@
   bof: (?i)^50545653595354454D202020564953554D2020202020202056657273696F6E
   plain_bof: PTVSYSTEM   VISUM       Version
   extension: .ver
-- puid: aca-fmt/34 
+- puid: aca-fmt/34
   signature: Portable Network Graphics 1.0
   description: fmt/11. Looks after the same bof as normal. For eof do we accept n arbitrary characters after its normal eof.
   bof: (?i)^89504E470D0A1A0A0000000D49484452
