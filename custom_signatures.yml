@@ -244,10 +244,7 @@
   signature: Acrobat PDF 1.7 - Portable Document Format
   description: fmt/276. For 'bof' and 'eof' do we accept n arbitrary characters respectively before and after its normal 'bof' and 'eof'.
   bof: (?i)^.*255044462D312E37
-  eof: (?i)2525454F46.*$
-  operator: AND
   plain_bof: "%PDF-1.7"
-  plain_eof: "%%EOF"
   extension: .pdf
 - puid: fmt/41
   signature: Raw JPEG Stream
