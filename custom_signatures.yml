@@ -1,7 +1,6 @@
-- puid: x-fmt/340
-  signature: Lotus WordPro Document
-  bof: (?i)^576F726450726F0DFB000000000000000005985C8172030040CCC1BFFFBDF970
-  extension: .lwp
+  # ----------------------------------------
+  # aca-fmt
+  # ----------------------------------------
 - puid: aca-fmt/1
   signature: Lotus 1-2-3 Spreadsheet
   bof: (?i)^00001A000(3|4|5)10040000000000
@@ -195,64 +194,53 @@
   bof: (?i)^50545653595354454D202020564953554D2020202020202056657273696F6E
   plain_bof: PTVSYSTEM   VISUM       Version
   extension: .ver
-- puid: fmt/11
+  # aca-fmt/34 is denote in fileformats.yml. Name: Generic ZIP container
+  # aca-fmt/35 is denote in fileformats.yml. Name: Generic CAD Drawing
+  # aca-fmt/36 is denote in fileformats.yml. Name: XMind Mindmap
+- puid: aca-fmt/37
   signature: Portable Network Graphics 1.0
-  description: fmt/11. Looks after the same bof as normal. For eof do we accept n arbitrary characters after its normal eof.
+  description: fmt/11. More relax requirements that Pronom, which only looks at `bof` and not `eof`.
   bof: (?i)^89504E470D0A1A0A0000000D49484452
-  eof: (?i)0000000049454E44AE426082.*$
-  operator: AND
   plain_bof: PNG\n→\nIHDR
-  plain_eof: IEND
   extension: .png
-- puid: fmt/16
+- puid: aca-fmt/38
   signature: Acrobat PDF 1.2 - Portable Document Format
-  description: fmt/16. For 'bof' and 'eof' do we accept n arbitrary characters respectively before and after its normal 'bof' and 'eof'.
+  description: fmt/16. More relax requirements that Pronom, which only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
   bof: (?i)^.*255044462D312E32
-  eof: (?i)2525454F46.*$
-  operator: AND
   plain_bof: "%PDF-1.2"
-  plain_eof: "%%EOF"
   extension: .pdf
-- puid: fmt/17
+- puid: aca-fmt/39
   signature: Acrobat PDF 1.3 - Portable Document Format
-  description: fmt/17. For 'bof' and 'eof' do we accept n arbitrary characters respectively before and after its normal 'bof' and 'eof'.
+  description: fmt/17. More relax requirements that Pronom, which only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
   bof: (?i)^.*255044462D312E33
-  eof: (?i)2525454F46.*$
-  operator: AND
   plain_bof: "%PDF-1.3"
-  plain_eof: "%%EOF"
   extension: .pdf
-- puid: fmt/18
+- puid: aca-fmt/40
   signature: Acrobat PDF 1.4 - Portable Document Format
-  description: fmt/18. For 'bof' and 'eof' do we accept n arbitrary characters respectively before and after its normal 'bof' and 'eof'.
+  description: fmt/18. More relax requirements that Pronom, which only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
   bof: (?i)^.*255044462D312E34
-  eof: (?i)2525454F46.*$
-  operator: AND
   plain_bof: "%PDF-1.4"
-  plain_eof: "%%EOF"
   extension: .pdf
-- puid: fmt/19
+- puid: aca-fmt/41
   signature: Acrobat PDF 1.5 - Portable Document Format
-  description: fmt/19. For 'bof' and 'eof' do we accept n arbitrary characters respectively before and after its normal 'bof' and 'eof'.
+  description: fmt/19. More relax requirements that Pronom, which only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
   bof: (?i)^.*255044462D312E35
-  eof: (?i)2525454F46.*$
-  operator: AND
   plain_bof: "%PDF-1.5"
-  plain_eof: "%%EOF"
   extension: .pdf
-- puid: fmt/276
+- puid: aca-fmt/42
   signature: Acrobat PDF 1.7 - Portable Document Format
-  description: fmt/276. For 'bof' and 'eof' do we accept n arbitrary characters respectively before and after its normal 'bof' and 'eof'.
+  description: fmt/276. More relax requirements that Pronom, which only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
   bof: (?i)^.*255044462D312E37
   plain_bof: "%PDF-1.7"
   extension: .pdf
-- puid: fmt/41
+- puid: aca-fmt/43
   signature: Raw JPEG Stream
-  description: fmt/41. For 'bof' and 'eof' do we accept n arbitrary characters respectively before and after its normal 'bof' and 'eof'.
+  description: fmt/41. More relax requirements that Pronom, which only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
   bof: (?i)^.*FFD8FF
-  eof: (?i)FFD9.*$
-  operator: AND
   extension: .jpe, .jpg, .jpeg, .jif, .jfif & .jfi
+  # ----------------------------------------
+  # fmt
+  # ----------------------------------------
 - puid: fmt/91
   signature: SVG v1.0
   description: SVG signature without starting XML tag ("<?xml...")
@@ -277,3 +265,10 @@
   operator: AND
   plain_bof: ^<svg( +[^>]+)*( )+version="1.2"( +[^>]+)*( )*>
   plain_eof: </svg>( |\n\r?)*$
+  # ----------------------------------------
+  # x-fmt
+  # ----------------------------------------
+- puid: x-fmt/340
+  signature: Lotus WordPro Document
+  bof: (?i)^576F726450726F0DFB000000000000000005985C8172030040CCC1BFFFBDF970
+  extension: .lwp
