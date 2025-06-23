@@ -284,31 +284,36 @@ aca-fmt/38:
     output: pdfa-3
 aca-fmt/39:
   name: Acrobat PDF 1.3 - Portable Document Format
-  description: Same method as fmt/17. More relax requirements for byteheader that Pronom.  action: convert
+  description: Same method as fmt/17. More relax requirements for byteheader that Pronom.
+  action: convert
   convert:
     tool: pdf
     output: pdfa-3
 aca-fmt/40:
   name: Acrobat PDF 1.4 - Portable Document Format
-  description: Same method as fmt/18. More relax requirements for byteheader that Pronom.  action: convert
+  description: Same method as fmt/18. More relax requirements for byteheader that Pronom.
+  action: convert
   convert:
     tool: pdf
     output: pdfa-3
 aca-fmt/41:
   name: Acrobat PDF 1.5 - Portable Document Format
-  description: Same method as fmt/19. More relax requirements for byteheader that Pronom.  action: convert
+  description: Same method as fmt/19. More relax requirements for byteheader that Pronom.
+  action: convert
   convert:
     tool: pdf
     output: pdfa-3
 aca-fmt/42:
   name: Acrobat PDF 1.7 - Portable Document Format 1.7
-  description: Same method as fmt/276. More relax requirements for byteheader that Pronom.  action: convert
+  description: Same method as fmt/276. More relax requirements for byteheader that Pronom.
+  action: convert
   convert:
     tool: pdf
     output: pdfa-3
 aca-fmt/43:
   name: RAR Archive version 2.9
-  description: Same method as fmt/41. More relax requirements for byteheader that Pronom.  action: extract
+  description: Same method as fmt/41. More relax requirements for byteheader that Pronom.
+  action: extract
   extract:
     tool: rar
     extension: .rar
