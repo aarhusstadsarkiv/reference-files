@@ -211,7 +211,6 @@
   signature: Acrobat PDF 1.3 - Portable Document Format
   description: fmt/17. More relax requirements that Pronom, which only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
   bof: (?i)^.*255044462D312E33
-  eof: (?i)2525454F46.*$
   plain_bof: "%PDF-1.3"
   extension: .pdf
 - puid: aca-fmt/37
