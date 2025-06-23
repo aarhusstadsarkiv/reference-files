@@ -1,6 +1,6 @@
-# ----------------------------------------
-# aca-fmt
-# ----------------------------------------
+  # ----------------------------------------
+  # aca-fmt
+  # ----------------------------------------
 - puid: aca-fmt/1
   signature: Lotus 1-2-3 Spreadsheet
   bof: (?i)^00001A000(3|4|5)10040000000000
@@ -194,9 +194,9 @@
   bof: (?i)^50545653595354454D202020564953554D2020202020202056657273696F6E
   plain_bof: PTVSYSTEM   VISUM       Version
   extension: .ver
-# aca-fmt/34 is denote in fileformats.yml. Name: Generic ZIP container
-# aca-fmt/35 is denote in fileformats.yml. Name: Generic CAD Drawing
-# aca-fmt/36 is denote in fileformats.yml. Name: XMind Mindmap
+  # aca-fmt/34 is denote in fileformats.yml. Name: Generic ZIP container
+  # aca-fmt/35 is denote in fileformats.yml. Name: Generic CAD Drawing
+  # aca-fmt/36 is denote in fileformats.yml. Name: XMind Mindmap
 - puid: aca-fmt/37
   signature: Portable Network Graphics 1.0
   description: fmt/11. More relax requirements that Pronom, which only looks at `bof` and not `eof`.
@@ -238,9 +238,9 @@
   description: fmt/41. More relax requirements that Pronom, which only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
   bof: (?i)^.*FFD8FF
   extension: .jpe, .jpg, .jpeg, .jif, .jfif & .jfi
-# ----------------------------------------
-# fmt
-# ----------------------------------------
+  # ----------------------------------------
+  # fmt
+  # ----------------------------------------
 - puid: fmt/92
   signature: SVG v1.1
   description: SVG signature without starting XML tag ("<?xml...")
@@ -257,9 +257,9 @@
   operator: AND
   plain_bof: ^<svg( +[^>]+)*( )+version="1.2"( +[^>]+)*( )*>
   plain_eof: </svg>( |\n\r?)*$
-# ----------------------------------------
-# x-fmt
-# ----------------------------------------
+  # ----------------------------------------
+  # x-fmt
+  # ----------------------------------------
 - puid: x-fmt/340
   signature: Lotus WordPro Document
   bof: (?i)^576F726450726F0DFB000000000000000005985C8172030040CCC1BFFFBDF970
