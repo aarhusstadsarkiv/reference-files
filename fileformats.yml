@@ -311,12 +311,14 @@ aca-fmt/42:
     tool: pdf
     output: pdfa-3
 aca-fmt/43:
-  name: RAR Archive version 2.9
+  name: Raw JPEG Stream
   description: Same method as fmt/41. More relax requirements for byteheader that Pronom.
-  action: extract
-  extract:
-    tool: rar
-    extension: .rar
+  ignore_if:
+    image_pixels_min: 20000
+  action: convert
+  convert:
+    tool: image
+    output: png
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
