@@ -1878,6 +1878,12 @@ fmt/941:
     template: not-preservable
     reason: Back Up File. As the name suggests then bak files are produced by various
       programs. Not preservation-worthy
+fmt/946:
+  name: Ogg Opus Codec Compressed Multimedia File
+  action: convert
+  convert:
+    tool: audio
+    output: flac
 fmt/950:
   name: MIME Email 1.0
   action: convert
