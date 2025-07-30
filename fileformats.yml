@@ -1689,6 +1689,12 @@ fmt/613:
   extract:
     tool: rar
     extension: .rar
+fmt/616:
+  name: Web Open Font Format 1.0
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Web Open Font Format (WOFF) is a font format designed primarily for use on the Web, and can also be used as a container format or "wrapper" for font data in already-existing formats. Not preservation-worthy
 fmt/627:
   name: Microsoft Excel Macro-Enabled Template 2007
   action: ignore
