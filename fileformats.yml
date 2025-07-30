@@ -2390,6 +2390,12 @@ fmt/1768:
   ignore:
     template: not-preservable
     reason: Source code written in C. Not preservation-worthy
+fmt/1812:
+  name: Audio Data Transport Stream
+  action: convert
+  convert:
+    tool: audio
+    output: flac
 fmt/1816:
   name: Adobe Swatch Exchange
   description: Adobe Design software such as Photoshop, Illustrator and InDesign use color swatches to assign specific color values to a design. Color Palettes.
