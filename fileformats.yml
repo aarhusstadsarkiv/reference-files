@@ -1501,7 +1501,6 @@ fmt/532:
   convert:
     tool: cad2d
     output: svg
-
 fmt/548:
   name: Adobe InDesign Document CS2
   description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
@@ -1607,6 +1606,12 @@ fmt/565:
   convert:
     tool: pdf
     output: pdfa-3
+fmt/566:
+  name: WebP (Lossy)
+  action: convert
+  convert:
+    tool: image
+    output: jpg
 fmt/568:
   name: webP
   ignore_if:
