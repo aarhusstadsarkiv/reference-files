@@ -1936,6 +1936,12 @@ fmt/1047:
   convert:
     tool: gis
     output: gml3
+fmt/1055:
+  name: M2TS
+  action: convert
+  convert:
+    tool: video
+    output: h265
 fmt/1079:
   name: Microsoft Program Database 7.00
   action: ignore
