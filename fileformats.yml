@@ -925,6 +925,11 @@ fmt/134:
   convert:
     tool: audio
     output: flac
+fmt/135:
+  name: OpenDocument Format 1.0
+  action: convert
+  convert:
+    tool: copy
 fmt/136:
   name: OpenDocument Text 1.0
   action: convert
