@@ -1814,6 +1814,12 @@ fmt/817:
   action: convert
   convert:
     tool: copy
+fmt/836: 
+  name: Quattro Pro Spreadsheet 7-8
+  action: convert
+  convert:
+    tool: spreadsheet
+    output: ods
 fmt/866:
   name: Apple Safari Webarchive
   action: extract
