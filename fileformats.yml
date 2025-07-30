@@ -997,6 +997,12 @@ fmt/199:
   convert:
     tool: video
     output: h265
+fmt/203:
+  name: Ogg Vorbis Codec Compressed Multimedia File
+  action: convert
+  convert:
+    tool: audio
+    output: flac
 fmt/206:
   name: Structured Query Language Data
   action: convert
