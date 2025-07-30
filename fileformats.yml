@@ -2884,6 +2884,12 @@ x-fmt/398:
   convert:
     tool: image
     output: png
+x-fmt/408:
+  name: PostScript 3.0
+  action: convert
+  convert:
+    tool: pdf
+    output: pdfa-3
 x-fmt/411:
   name: Windows Portable Executable
   action: ignore
