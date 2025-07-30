@@ -1904,6 +1904,14 @@ fmt/979:
     template: not-preservable
     reason: A property list file is a a serialised storage file, usually used by programs
       to store configurations in a more compact form. Not preservation-worthy
+fmt/984:
+  name: Binary Property List
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A property list filestore serialized objects, usually used It is the standard 
+      way to save and load data between the internal representation within the objects 
+      defined in an Objective-C program and disk files. Not preservation-worthy
 fmt/997:
   name: SPSS Portable File
   action: ignore
