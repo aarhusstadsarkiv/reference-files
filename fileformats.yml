@@ -2319,6 +2319,11 @@ fmt/1641:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+fmt/1677:
+  name: Microsoft Office File List
+  action: convert
+  convert:
+    tool: copy
 fmt/1711:
   name: Software602 Printer Configuration File
   action: ignore
