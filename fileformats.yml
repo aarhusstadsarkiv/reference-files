@@ -925,6 +925,11 @@ fmt/134:
   convert:
     tool: audio
     output: flac
+fmt/135:
+  name: OpenDocument Format 1.0
+  action: convert
+  convert:
+    tool: copy
 fmt/136:
   name: OpenDocument Text 1.0
   action: convert
@@ -992,6 +997,12 @@ fmt/199:
   convert:
     tool: video
     output: h265
+fmt/203:
+  name: Ogg Vorbis Codec Compressed Multimedia File
+  action: convert
+  convert:
+    tool: audio
+    output: flac
 fmt/206:
   name: Structured Query Language Data
   action: convert
@@ -1490,7 +1501,6 @@ fmt/532:
   convert:
     tool: cad2d
     output: svg
-
 fmt/548:
   name: Adobe InDesign Document CS2
   description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
@@ -1596,6 +1606,12 @@ fmt/565:
   convert:
     tool: pdf
     output: pdfa-3
+fmt/566:
+  name: WebP (Lossy)
+  action: convert
+  convert:
+    tool: image
+    output: jpg
 fmt/568:
   name: webP
   ignore_if:
@@ -1673,6 +1689,12 @@ fmt/613:
   extract:
     tool: rar
     extension: .rar
+fmt/616:
+  name: Web Open Font Format 1.0
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Web Open Font Format (WOFF) is a font format designed primarily for use on the Web, and can also be used as a container format or "wrapper" for font data in already-existing formats. Not preservation-worthy
 fmt/627:
   name: Microsoft Excel Macro-Enabled Template 2007
   action: ignore
@@ -1792,6 +1814,12 @@ fmt/817:
   action: convert
   convert:
     tool: copy
+fmt/836:
+  name: Quattro Pro Spreadsheet 7-8
+  action: convert
+  convert:
+    tool: spreadsheet
+    output: ods
 fmt/866:
   name: Apple Safari Webarchive
   action: extract
@@ -1850,6 +1878,12 @@ fmt/941:
     template: not-preservable
     reason: Back Up File. As the name suggests then bak files are produced by various
       programs. Not preservation-worthy
+fmt/946:
+  name: Ogg Opus Codec Compressed Multimedia File
+  action: convert
+  convert:
+    tool: audio
+    output: flac
 fmt/950:
   name: MIME Email 1.0
   action: convert
@@ -1870,6 +1904,14 @@ fmt/979:
     template: not-preservable
     reason: A property list file is a a serialised storage file, usually used by programs
       to store configurations in a more compact form. Not preservation-worthy
+fmt/984:
+  name: Binary Property List
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A property list filestore serialized objects, usually used It is the standard
+      way to save and load data between the internal representation within the objects
+      defined in an Objective-C program and disk files. Not preservation-worthy
 fmt/997:
   name: SPSS Portable File
   action: ignore
@@ -1894,6 +1936,12 @@ fmt/1047:
   convert:
     tool: gis
     output: gml3
+fmt/1055:
+  name: M2TS
+  action: convert
+  convert:
+    tool: video
+    output: h265
 fmt/1079:
   name: Microsoft Program Database 7.00
   action: ignore
@@ -2271,6 +2319,11 @@ fmt/1641:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+fmt/1677:
+  name: Microsoft Office File List
+  action: convert
+  convert:
+    tool: copy
 fmt/1711:
   name: Software602 Printer Configuration File
   action: ignore
@@ -2337,6 +2390,12 @@ fmt/1768:
   ignore:
     template: not-preservable
     reason: Source code written in C. Not preservation-worthy
+fmt/1812:
+  name: Audio Data Transport Stream
+  action: convert
+  convert:
+    tool: audio
+    output: flac
 fmt/1816:
   name: Adobe Swatch Exchange
   description: Adobe Design software such as Photoshop, Illustrator and InDesign use color swatches to assign specific color values to a design. Color Palettes.
@@ -2884,6 +2943,12 @@ x-fmt/398:
   convert:
     tool: image
     output: png
+x-fmt/408:
+  name: PostScript 3.0
+  action: convert
+  convert:
+    tool: pdf
+    output: pdfa-3
 x-fmt/411:
   name: Windows Portable Executable
   action: ignore
