@@ -1772,6 +1772,12 @@ fmt/725:
   ignore:
     template: not-preservable
     reason: Project files. Not preservation-worthy
+fmt/729:
+  name: SQLite Database File Format 3
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Database. Not preservation-worthy
 fmt/744:
   name: ClarisWorks/AppleWorks Word Processor 5
   action: convert
@@ -2081,6 +2087,13 @@ fmt/1303:
     template: not-preservable
     reason: Documents created by dragging objects from an Office document to a file
       folder, unsupported as of 2007. Not preservation-worthy
+fmt/1331:
+  name: Avery DesignPro Document 5
+  description: .ZDL is the native format of DesignPro 4, a label design and printing software application marketed by Avery Dennison Corporation. Extension is .zdl
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: We need a special software to open and edit .ZDL. Not not-convertable.
 fmt/1369:
   name: Error File
   action: ignore
