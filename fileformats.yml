@@ -1772,6 +1772,12 @@ fmt/725:
   ignore:
     template: not-preservable
     reason: Project files. Not preservation-worthy
+fmt/729:
+  name: SQLite Database File Format 3
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Database. Not preservation-worthy
 fmt/744:
   name: ClarisWorks/AppleWorks Word Processor 5
   action: convert
