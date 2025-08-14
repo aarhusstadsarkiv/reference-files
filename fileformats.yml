@@ -2081,6 +2081,13 @@ fmt/1303:
     template: not-preservable
     reason: Documents created by dragging objects from an Office document to a file
       folder, unsupported as of 2007. Not preservation-worthy
+fmt/1331:
+  name: Avery DesignPro Document 5
+  description: .ZDL is the native format of DesignPro 4, a label design and printing software application marketed by Avery Dennison Corporation. Extension is .zdl
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A card/label. Not preservation-worthy
 fmt/1369:
   name: Error File
   action: ignore
