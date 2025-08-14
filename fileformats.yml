@@ -2092,8 +2092,8 @@ fmt/1331:
   description: .ZDL is the native format of DesignPro 4, a label design and printing software application marketed by Avery Dennison Corporation. Extension is .zdl
   action: ignore
   ignore:
-    template: not-preservable
-    reason: A card/label. Not preservation-worthy
+    template: not-convertable
+    reason: We need a special software to open and edit .ZDL. Not not-convertable.
 fmt/1369:
   name: Error File
   action: ignore
