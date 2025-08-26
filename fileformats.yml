@@ -2561,8 +2561,10 @@ x-fmt/92:
   name: Adobe Photoshop
   action: convert
   convert:
-    tool: document
-    output: svg
+    tool: image
+    output: png
+    options:
+      layers: true
 x-fmt/103:
   name: AutoCAD Compiled Shape/Font File
   action: ignore
