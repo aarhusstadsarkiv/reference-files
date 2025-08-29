@@ -1839,13 +1839,11 @@ fmt/870:
     template: not-preservable
     reason: A script in Perl. Not preservation-worthy
 fmt/881:
-  name: Microsoft Document Imaging File Format
-  ignore_if:
-    image_pixels_min: 20000
+  name: Microsoft Document Imaging File Format (MDI)
   action: convert
   convert:
-    tool: image
-    output: png
+    tool: mdi
+    output: pdf
 fmt/886:
   name: HTML Components
   action: ignore
