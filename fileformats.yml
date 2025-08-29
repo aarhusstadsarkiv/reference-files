@@ -1843,7 +1843,7 @@ fmt/881:
   action: convert
   convert:
     tool: mdi
-    output: tif
+    output: pdf
 fmt/886:
   name: HTML Components
   action: ignore
