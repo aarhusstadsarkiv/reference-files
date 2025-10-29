@@ -1745,8 +1745,8 @@ fmt/657:
   name: Open XML Paper Specification
   action: convert
   convert:
-    tool: xps
-    output: pdf
+    tool: pdf
+    output: pdfa-3
 fmt/670:
   name: 'PKCS #7 Cryptographic Message File'
   action: ignore
