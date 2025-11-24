@@ -2879,7 +2879,7 @@ x-fmt/375:
   action: convert
   convert:
     tool: document
-    output: svg
+    output: pdf
 x-fmt/382:
   name: Macromedia FLV 1
   action: convert
