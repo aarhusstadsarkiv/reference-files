@@ -907,6 +907,14 @@ fmt/128:
   convert:
     tool: document
     output: odt
+fmt/131:
+  name: Advanced Systems Format
+  extensions:
+    - .asf
+  action: convert
+  convert:
+    tool: audio
+    output: flac
 fmt/132:
   name: Windows Media Audio
   action: convert
