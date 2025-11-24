@@ -909,6 +909,8 @@ fmt/128:
     output: odt
 fmt/131:
   name: Advanced Systems Format
+  extensions:
+    - .asf
   action: convert
   convert:
     tool: audio
