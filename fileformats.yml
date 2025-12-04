@@ -167,6 +167,9 @@ aca-fmt/21:
 aca-fmt/22:
   name: Windows Compressed Enhanced Metafile
   action: convert
+  description: The Enhanced Metafile format is a 32-bit format that can contain both vector information and bitmap information.
+  extensions:
+    - .emz
   convert:
     tool: document
     output: jpg
@@ -180,10 +183,10 @@ aca-fmt/23:
 aca-fmt/24:
   name: vCard
   action: ignore
+  description: Extension is .vcf
   ignore:
     template: not-preservable
     reason: Virtual business card. Not preservation-worthy
-  description: Extension is .vcf
 aca-fmt/25:
   name: Microsoft Windows URL
   action: ignore
@@ -268,7 +271,7 @@ aca-fmt/36:
       path: Thumbnails/thumbnail.png
 aca-fmt/37:
   name: Portable Network Graphics 1.0
-  description: Same method as fmt/11. More relax requirements for byteheader that Pronom.
+  description: Like fmt/11 but more relaxed requirements for byteheader that Pronom.
   ignore_if:
     image_pixels_min: 20000
   action: convert
@@ -277,47 +280,47 @@ aca-fmt/37:
     output: png
 aca-fmt/38:
   name: Acrobat PDF 1.2 - Portable Document Format
-  description: Same method as fmt/16. More relax requirements for byteheader that Pronom.
+  description: Like fmt/16 but more relaxed requirements for byteheader that Pronom.
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
 aca-fmt/39:
   name: Acrobat PDF 1.3 - Portable Document Format
-  description: Same method as fmt/17. More relax requirements for byteheader that Pronom.
+  description: Like fmt/17 but more relaxed requirements for byteheader that Pronom.
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
 aca-fmt/40:
   name: Acrobat PDF 1.4 - Portable Document Format
-  description: Same method as fmt/18. More relax requirements for byteheader that Pronom.
+  description: Like fmt/18 but more relaxed requirements for byteheader that Pronom.
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
 aca-fmt/41:
   name: Acrobat PDF 1.5 - Portable Document Format
-  description: Same method as fmt/19. More relax requirements for byteheader that Pronom.
+  description: Like fmt/19 but more relaxed requirements for byteheader that Pronom.
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
 aca-fmt/42:
   name: Acrobat PDF 1.7 - Portable Document Format 1.7
-  description: Same method as fmt/276. More relax requirements for byteheader that Pronom.
+  description: Like fmt/276 but more relaxed requirements for byteheader that Pronom.
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
 aca-fmt/43:
   name: Raw JPEG Stream
-  description: Same method as fmt/41. More relax requirements for byteheader that Pronom.
+  description: Like fmt/41 but more relaxed requirements for byteheader that Pronom.
   ignore_if:
     image_pixels_min: 20000
   action: convert
   convert:
-    tool: image
+    tool: document
     output: png
 fmt/3:
   name: Graphics Interchange Format 87a
