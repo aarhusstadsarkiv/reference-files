@@ -101,6 +101,12 @@
     },
     "!iname=[^A-Z ]+( +[^A-Z ]+)*": {
       "$ref": "#/definitions/action"
+    },
+    "!regex=.+": {
+      "$ref": "#/definitions/action"
+    },
+    "!iregex=.+": {
+      "$ref": "#/definitions/action"
     }
   },
   "definitions": {
