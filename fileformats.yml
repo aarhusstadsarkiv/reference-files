@@ -31,12 +31,12 @@
   action: ignore
   ignore:
     template: temporary-file
-'!iname=LogivaXML_0.xml':
-  name: XML
-  description: Signature files attached to emails
-  action: ignore
-  ignore:
-    template: temporary-file
+# '!iname=LogivaXML_0.xml':
+#   name: XML
+#   description: Signature files attached to emails
+#   action: ignore
+#   ignore:
+#     template: temporary-file
 '!iname=tunnel_marking.txt':
   name: txt
   description: Signature files attached to emails
