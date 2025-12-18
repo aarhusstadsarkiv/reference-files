@@ -99,7 +99,7 @@
     "!name=\\S+( +\\S+)*": {
       "$ref": "#/definitions/action"
     },
-    "!iname=([a-z]|[^a-zA-Z\\s])+( +([a-z]|[^a-zA-Z\\s])+)*": {
+    "!iname=\\S+( +\\S+)*": {
       "$ref": "#/definitions/action"
     }
   },
