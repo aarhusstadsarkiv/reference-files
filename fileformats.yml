@@ -31,12 +31,12 @@
   action: ignore
   ignore:
     template: temporary-file
-# '!iname=LogivaXML_0.xml':
-#   name: XML
-#   description: Signature files attached to emails
-#   action: ignore
-#   ignore:
-#     template: temporary-file
+'!iname=LogivaXML_*.xml':
+  name: XML
+  description: Signature files attached to emails
+  action: ignore
+  ignore:
+    template: temporary-file
 '!iname=tunnel_marking.txt':
   name: txt
   description: Signature files attached to emails
@@ -61,12 +61,12 @@
   action: ignore
   ignore:
     template: temporary-file
-# '!iname=signature-*.txt':
-#   name: txt
-#   description: Signature files attached to emails
-#   action: ignore
-#   ignore:
-#     template: temporary-file
+'!iname=signature-*.txt':
+  name: txt
+  description: Signature files attached to emails
+  action: ignore
+  ignore:
+    template: temporary-file
 aca-fmt/1:
   name: Lotus 1-2-3 Worksheet
   action: convert
