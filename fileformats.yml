@@ -25,13 +25,13 @@
   action: ignore
   ignore:
     template: temporary-file
-'!iname=LogivaXML.xml':
+'!regex=LogivaXML.xml':
   name: XML
   description: Signature files attached to emails
   action: ignore
   ignore:
     template: temporary-file
-'!iname=LogivaXML_*.xml':
+'!regex=LogivaXML_*.xml':
   name: XML
   description: Signature files attached to emails
   action: ignore
@@ -43,13 +43,13 @@
   action: ignore
   ignore:
     template: temporary-file
-'!iname=tunnel marking.txt':
+'!iregex=tunnel marking.txt':
   name: txt
   description: Signature files attached to emails
   action: ignore
   ignore:
     template: temporary-file
-'!iname=fesdPacket.xml':
+'!name=fesdPacket.xml':
   name: XML
   description: Signature files attached to emails
   action: ignore
@@ -61,7 +61,7 @@
   action: ignore
   ignore:
     template: temporary-file
-'!iname=signature-*.txt':
+'!iregex=signature-*.txt':
   name: txt
   description: Signature files attached to emails
   action: ignore
