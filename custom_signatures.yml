@@ -238,6 +238,13 @@
   description: fmt/41. More relax requirements that Pronom, which only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
   bof: (?i)^.*FFD8FF
   extension: .jpe, .jpg, .jpeg, .jif, .jfif & .jfi
+- puid: aca-fmt/44
+  signature: SCP Data file
+  bof: (?i)^.{0,64}534350454347
+  plain_bof: SCPECG
+  extension: .scp
+  description: SCP-ECG (Standard Communications Protocol for Computer-Assisted Electrocardiography) is a file format for ECG traces, annotations and metadata.
+
   # ----------------------------------------
   # fmt
   # ----------------------------------------

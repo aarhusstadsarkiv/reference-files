@@ -18,13 +18,55 @@
   description: Signature files attached to emails
   action: ignore
   ignore:
-    template: not-preservable
+    template: temporary-file
 '!iname=dkalmetadata.xml':
   name: XML
   description: Signature files attached to emails
   action: ignore
   ignore:
-    template: not-preservable
+    template: temporary-file
+'!regex=LogivaXML.xml':
+  name: XML
+  description: Signature files attached to emails
+  action: ignore
+  ignore:
+    template: temporary-file
+'!regex=LogivaXML_*.xml':
+  name: XML
+  description: Signature files attached to emails
+  action: ignore
+  ignore:
+    template: temporary-file
+'!iname=tunnel_marking.txt':
+  name: txt
+  description: Signature files attached to emails
+  action: ignore
+  ignore:
+    template: temporary-file
+'!iregex=tunnel marking.txt':
+  name: txt
+  description: Signature files attached to emails
+  action: ignore
+  ignore:
+    template: temporary-file
+'!name=fesdPacket.xml':
+  name: XML
+  description: Signature files attached to emails
+  action: ignore
+  ignore:
+    template: temporary-file
+'!iname=smime.p7m':
+  name: p7m
+  description: Signature files attached to emails
+  action: ignore
+  ignore:
+    template: temporary-file
+'!iregex=signature-*.txt':
+  name: txt
+  description: Signature files attached to emails
+  action: ignore
+  ignore:
+    template: temporary-file
 aca-fmt/1:
   name: Lotus 1-2-3 Worksheet
   action: convert
@@ -322,6 +364,13 @@ aca-fmt/43:
   convert:
     tool: document
     output: png
+aca-fmt/44:
+  name: SCP Data file
+  description: SCP-ECG (Standard Communications Protocol for Computer-Assisted Electrocardiography) is a binary file format for ECG traces, annotations and metadata.
+  action: ignore
+  ignore:
+    reason: Unable to find software that renders .scp-files
+    template: not-convertable
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
