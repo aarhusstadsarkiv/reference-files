@@ -381,8 +381,8 @@ aca-fmt/46:
   name: SAS Software 9.1 xml
   action: convert
   convert:
-    tool: spreadsheet
-    output: ods
+    tool: browser
+    output: pdf
 aca-fmt/47:
   name: Microsoft Excel 11 xml
   action: convert
