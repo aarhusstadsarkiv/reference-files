@@ -250,6 +250,17 @@
   plain_bof: <?mso-applicationprogid="Word.Document"?>
   extension: .doc
   description: Microsoft Word xml which are identified as a xml, but can be view as a Microsoft Word and can be converted with the tool `document`.
+- puid: aca-fmt/46
+  signature: SAS Software 9.1 xml
+  bof: (?i)^.*3c6d657461206e616d653d2247656e657261746f722220636f6e74656e743d2253415320536f6674776172652c20736565207777772e7361732e636f6d222073617376657273696f6e3d22392e31223e
+  plain_bof: <meta name="Generator" content="SAS Software, see www.sas.com" sasversion="9.1">
+  extension: .xls
+  description: SAS Software 9.1 xml, but can be view as a spreadsheet and can be converted with the tool `spreadsheet`.
+- puid: aca-fmt/47
+  signature: Microsoft Excel 11 xml
+  bof: (?i)^.*3c6d657461206e616d653d2247656e657261746f722220636f6e74656e743d224d6963726f736f667420457863656c203922202f3e
+  extension: .xls
+  description: Microsoft Excel xml which are identified as a xml, but can be view as a Microsoft Excel and can be converted with the tool `spreadsheet`.
   # ----------------------------------------
   # fmt
   # ----------------------------------------
