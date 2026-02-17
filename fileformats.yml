@@ -371,6 +371,12 @@ aca-fmt/44:
   ignore:
     reason: Unable to find software that renders .scp-files
     template: not-convertable
+aca-fmt/45:
+  name: Microsoft Word
+  action: convert
+  convert:
+    tool: document
+    output: pdf
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:

@@ -244,7 +244,12 @@
   plain_bof: SCPECG
   extension: .scp
   description: SCP-ECG (Standard Communications Protocol for Computer-Assisted Electrocardiography) is a file format for ECG traces, annotations and metadata.
-
+- puid: aca-fmt/45
+  signature: Microsoft Word
+  bof: (?i)^.*3c3f6d736f2d6170706c69636174696f6e70726f6769643d22576f72642e446f63756d656e74223f3e
+  plain_bof: <?mso-applicationprogid="Word.Document"?>
+  extension: .doc
+  description: Microsoft Word
   # ----------------------------------------
   # fmt
   # ----------------------------------------
