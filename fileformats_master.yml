@@ -110,6 +110,34 @@ fmt/3:
   statutory:
     tool: video
     output: h264-mpg
+fmt/96:
+  name: Hypertext Markup Language
+  access:
+    tool: copy
+  statutory:
+    tool: html
+    output: tif
+fmt/98:
+  name: Hypertext Markup Language
+  access:
+    tool: copy
+  statutory:
+    tool: html
+    output: tif
+fmt/99:
+  name: Hypertext Markup Language
+  access:
+    tool: copy
+  statutory:
+    tool: html
+    output: tif
+fmt/100:
+  name: Hypertext Markup Language
+  access:
+    tool: copy
+  statutory:
+    tool: html
+    output: tif
 fmt/353:
   name: Tagged Image File Format (tif)
   access:

@@ -256,11 +256,6 @@
   plain_bof: <meta name="Generator" content="SAS Software, see www.sas.com" sasversion="9.1">
   extension: .xls, .htm & .html
   description: SAS Software 9.1 xml is a xml file. The file can be open as browser or spreadsheet. For best result we open it as a browser.
-- puid: aca-fmt/47
-  signature: Microsoft Excel 11 xml
-  bof: (?i)^.*3c6d657461206e616d653d2247656e657261746f722220636f6e74656e743d224d6963726f736f667420457863656c203922202f3e
-  extension: .xls
-  description: Microsoft Excel xml which are identified as a xml, but can be view as a Microsoft Excel and can be converted with the tool `spreadsheet`.
 # ----------------------------------------
 # fmt
 # ----------------------------------------
