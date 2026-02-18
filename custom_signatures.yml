@@ -254,7 +254,7 @@
   signature: SAS Software 9.1 xml
   bof: (?i)^.*3c6d657461206e616d653d2247656e657261746f722220636f6e74656e743d2253415320536f6674776172652c20736565207777772e7361732e636f6d222073617376657273696f6e3d22392e31223e
   plain_bof: <meta name="Generator" content="SAS Software, see www.sas.com" sasversion="9.1">
-  extension: .xls, .htm & .html
+  extension: htm & .html
   description: SAS Software 9.1 xml is a xml file. The file can be open as browser or spreadsheet. For best result we open it as a browser.
 # ----------------------------------------
 # fmt
