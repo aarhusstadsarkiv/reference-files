@@ -41,7 +41,8 @@
   access:
     tool: copy
   statutory:
-    tool: copy
+    tool: audio
+    output: mp3
 '!video':
   access:
     tool: video
