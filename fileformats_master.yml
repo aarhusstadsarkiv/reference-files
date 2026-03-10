@@ -37,7 +37,7 @@
     tool: document
     output: tif
 '!audio':
-  name: .mp3 and .wav files
+  name: .mp3 files
   access:
     tool: copy
   statutory:
@@ -100,7 +100,13 @@
   statutory:
     tool: text
     output: tif
-
+'!ext=.flac':
+  access:
+    tool: audio
+    output: mp3
+  statutory:
+    tool: audio
+    output: wav
 
 # Global puids
 fmt/3:

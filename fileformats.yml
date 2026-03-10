@@ -984,7 +984,7 @@ fmt/134:
   action: convert
   convert:
     tool: audio
-    output: flac
+    output: mp3
 fmt/135:
   name: OpenDocument Format 1.0
   action: convert
