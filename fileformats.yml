@@ -1732,7 +1732,7 @@ fmt/599:
     template: not-preservable
     reason: A template document file. Not preservation-worthy
 fmt/607:
-  name: Statistical Analysis System Data (Windows)
+  name: Statistical Analysis System Data (Windows) 9.1
   action: convert
   convert:
     tool: sas
@@ -1985,6 +1985,12 @@ fmt/997:
       stores exported data from the software in a plain text format, which is easily
       readable by other applications; used for sharing data between programs and computer
       systems.. Not preservation-worthy
+fmt/1017:
+  name: Statistical Analysis System Data (Windows) 8.2
+  action: convert
+  convert:
+    tool: sas
+    output: ods
 fmt/1045:
   name: Q&A Word Processor Document
   action: ignore
