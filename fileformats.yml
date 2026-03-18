@@ -371,6 +371,18 @@ aca-fmt/44:
   ignore:
     reason: Unable to find software that renders .scp-files
     template: not-convertable
+aca-fmt/45:
+  name: Microsoft Word xml
+  action: convert
+  convert:
+    tool: document
+    output: odt
+aca-fmt/46:
+  name: SAS Software 9.1 xml
+  action: convert
+  convert:
+    tool: browser
+    output: pdf
 fmt/3:
   name: Graphics Interchange Format 87a
   ignore_if:
@@ -842,6 +854,9 @@ fmt/95:
 fmt/96:
   name: Hypertext Markup Language
   action: convert
+  reidentify:
+    reason: Some applications allow saving documents as XML and can re-open them
+    on_fail: action
   convert:
     tool: copy
 fmt/98:
@@ -856,6 +871,9 @@ fmt/99:
     tool: copy
 fmt/100:
   name: Hypertext Markup Language 4.01
+  reidentify:
+    reason: Some applications allow saving documents as XML and can re-open them
+    on_fail: action
   action: convert
   convert:
     tool: copy
@@ -1688,6 +1706,9 @@ fmt/573:
     output: h265
 fmt/583:
   name: Vector Markup Language
+  reidentify:
+    reason: Some applications allow saving documents as XML and can re-open them
+    on_fail: action
   extensions:
     - .html
     - .htm
