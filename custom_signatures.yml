@@ -1,6 +1,6 @@
-  # ----------------------------------------
-  # aca-fmt
-  # ----------------------------------------
+# ----------------------------------------
+# aca-fmt
+# ----------------------------------------
 - puid: aca-fmt/1
   signature: Lotus 1-2-3 Spreadsheet
   bof: (?i)^00001A000(3|4|5)10040000000000
@@ -194,9 +194,9 @@
   bof: (?i)^50545653595354454D202020564953554D2020202020202056657273696F6E
   plain_bof: PTVSYSTEM   VISUM       Version
   extension: .ver
-  # aca-fmt/34 is denote in fileformats.yml. Name: Generic ZIP container
-  # aca-fmt/35 is denote in fileformats.yml. Name: Generic CAD Drawing
-  # aca-fmt/36 is denote in fileformats.yml. Name: XMind Mindmap
+# aca-fmt/34 is denote in fileformats.yml. Name: Generic ZIP container
+# aca-fmt/35 is denote in fileformats.yml. Name: Generic CAD Drawing
+# aca-fmt/36 is denote in fileformats.yml. Name: XMind Mindmap
 - puid: aca-fmt/37
   signature: Portable Network Graphics 1.0
   description: fmt/11. More relax requirements that Pronom, which only looks at `bof` and not `eof`.
@@ -244,10 +244,21 @@
   plain_bof: SCPECG
   extension: .scp
   description: SCP-ECG (Standard Communications Protocol for Computer-Assisted Electrocardiography) is a file format for ECG traces, annotations and metadata.
-
-  # ----------------------------------------
-  # fmt
-  # ----------------------------------------
+- puid: aca-fmt/45
+  signature: Microsoft Word xml
+  bof: (?i)^.*3c3f6d736f2d6170706c69636174696f6e70726f6769643d22576f72642e446f63756d656e74223f3e
+  plain_bof: <?mso-applicationprogid="Word.Document"?>
+  extension: .doc
+  description: Microsoft Word xml which are identified as a xml, but can be view as a Microsoft Word and can be converted with the tool `document`.
+- puid: aca-fmt/46
+  signature: SAS Software 9.1 xml
+  bof: (?i)^.*3c6d657461206e616d653d2247656e657261746f722220636f6e74656e743d2253415320536f6674776172652c20736565207777772e7361732e636f6d222073617376657273696f6e3d22392e31223e
+  plain_bof: <meta name="Generator" content="SAS Software, see www.sas.com" sasversion="9.1">
+  extension: htm & .html
+  description: SAS Software 9.1 xml is a xml file. The file can be open as browser or spreadsheet. For best result we open it as a browser.
+# ----------------------------------------
+# fmt
+# ----------------------------------------
 - puid: fmt/91
   signature: SVG v1.0
   description: SVG signature without starting XML tag ("<?xml...")
@@ -272,9 +283,9 @@
   operator: AND
   plain_bof: ^<svg( +[^>]+)*( )+version="1.2"( +[^>]+)*( )*>
   plain_eof: </svg>( |\n\r?)*$
-  # ----------------------------------------
-  # x-fmt
-  # ----------------------------------------
+# ----------------------------------------
+# x-fmt
+# ----------------------------------------
 - puid: x-fmt/340
   signature: Lotus WordPro Document
   bof: (?i)^576F726450726F0DFB000000000000000005985C8172030040CCC1BFFFBDF970
