@@ -152,14 +152,13 @@ fmt/353:
   statutory:
     tool: image
     output: tif
-
 x-fmt/111:
+  name: Plain Text File
   access:
     tool: copy
   statutory:
     tool: text
     output: tif
-
 
 # Custom puids
 aca-fmt/29:
