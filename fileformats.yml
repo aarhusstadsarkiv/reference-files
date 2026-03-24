@@ -414,8 +414,7 @@ fmt/4:
     image_pixels_min: 20000
   action: convert
   convert:
-    tool: image
-    output: png
+    tool: copy
 fmt/5:
   name: Audio/Video Interleaved Format
   action: convert
@@ -2525,6 +2524,13 @@ fmt/1816:
   ignore:
     template: not-preservable
     reason: Not preservation-worthy
+fmt/1827:
+  name: DOCX Strict OOXML Document
+  description: DOCX Strict is the implementation of the Office Open XML word processor document format that strictly conforms to the ISO 29500-1 (2008-2016 standard).
+  action: convert
+  convert:
+    tool: document
+    output: odt
 fmt/1862:
   name: Adobe Illustrator CC Artwork v. 17-23
   description: Originally the Adobe Illustrator Format (AI) was based on postscript. With each file having a postscript header. This all changed with Illustrator version 9 moving to PDF as its core, released in the year 2000.
@@ -2576,6 +2582,10 @@ fmt/1934:
   convert:
     tool: cad2d
     output: svg
+
+#################
+# x-fmt formats #
+#################
 x-fmt/9:
   name: dBASE Database III
   action: convert
