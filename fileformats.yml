@@ -1942,7 +1942,7 @@ fmt/881:
   action: convert
   convert:
     tool: mdi
-    output: pdf
+    output: tif
 fmt/886:
   name: HTML Components
   action: ignore
