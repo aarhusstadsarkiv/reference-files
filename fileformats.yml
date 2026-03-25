@@ -1236,7 +1236,7 @@ fmt/111:
     reason: We don't know what to do with this format.
     process: Find out what we can do with this format.
   extensions:
-    - without-extensions
+    - .missing
 fmt/115:
   name: Windows Bitmap 2.0
   ignore_if:
@@ -1364,7 +1364,7 @@ fmt/135:
   convert:
     tool: copy
   extensions:
-    - without-extensions
+    - .missing
 fmt/136:
   name: OpenDocument Text 1.0
   action: convert
@@ -1452,7 +1452,7 @@ fmt/189:
     tool: spreadsheet
     output: ods
   extensions:
-    - without-extensions
+    - .missing
 fmt/199:
   name: MPEG-4 Media File
   action: convert
@@ -2065,7 +2065,7 @@ fmt/503:
       of ._<filename resource fork belongs to>. It might not be preservation-worthy,
       but either way we don't know how to handle it"
   extensions:
-    - without-extensions
+    - .missing
 fmt/505:
   name: Adobe Flash 8
   action: ignore
@@ -2823,7 +2823,7 @@ fmt/1045:
       age, Q&A files may lack an extensions.. It might not be preservation-worthy,
       but either way we don't know how to handle it
   extensions:
-    - without-extensions
+    - .missing
 fmt/1047:
   name: Geography Markup Language
   action: convert
