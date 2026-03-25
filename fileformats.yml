@@ -83,7 +83,8 @@ aca-fmt/1:
 aca-fmt/2:
   name: Microsoft Word Markup
   action: convert
-  description: Microsoft Word Markup xml. Libre often converts incorrectly xml saved in MS Word.
+  description: Microsoft Word Markup xml. Libre often converts incorrectly xml saved
+    in MS Word.
   convert:
     tool: msword
     output: pdfa
@@ -92,9 +93,11 @@ aca-fmt/3:
   action: manual
   manual:
     reason: Cannot be recognized by LibreOffice.
-    process: |
-      1. Open with Microsoft Excel
+    process: '1. Open with Microsoft Excel
+
       2. Save as ODS
+
+      '
 aca-fmt/4:
   name: MindManager Mind Map
   action: ignore
@@ -216,9 +219,10 @@ aca-fmt/21:
 aca-fmt/22:
   name: Windows Compressed Enhanced Metafile
   action: convert
-  description: The Enhanced Metafile format is a 32-bit format that can contain both vector information and bitmap information.
+  description: The Enhanced Metafile format is a 32-bit format that can contain both
+    vector information and bitmap information.
   extensions:
-    - .emz
+  - .emz
   convert:
     tool: document
     output: jpg
@@ -297,12 +301,14 @@ aca-fmt/33:
   action: manual
   manual:
     reason: Unable for find converter for .ver files.
-    process: Open in latest PTV Visum version and export to png. If open not possible, set ignore and template.
+    process: Open in latest PTV Visum version and export to png. If open not possible,
+      set ignore and template.
 aca-fmt/34:
   name: Generic ZIP container
   action: ignore
   ignore:
-    reason: File uses a generic ZIP container that should not be unpacked and cannot be opened
+    reason: File uses a generic ZIP container that should not be unpacked and cannot
+      be opened
     template: not-preservable
 aca-fmt/35:
   name: Generic CAD Drawing
@@ -315,7 +321,7 @@ aca-fmt/36:
   action: convert
   convert:
     tool: zipfile
-    output: "-"
+    output: '-'
     options:
       path: Thumbnails/thumbnail.png
 aca-fmt/37:
@@ -373,7 +379,8 @@ aca-fmt/43:
     output: png
 aca-fmt/44:
   name: SCP Data file
-  description: SCP-ECG (Standard Communications Protocol for Computer-Assisted Electrocardiography) is a binary file format for ECG traces, annotations and metadata.
+  description: SCP-ECG (Standard Communications Protocol for Computer-Assisted Electrocardiography)
+    is a binary file format for ECG traces, annotations and metadata.
   action: ignore
   ignore:
     reason: Unable to find software that renders .scp-files
@@ -392,7 +399,8 @@ aca-fmt/46:
     output: pdf
 aca-fmt/47:
   name: CMAP - CmapTools Concept Map File
-  description: Diagram file created by IHMC CmapTools used for drawing concept maps; stores a visual diagram using blocks, arrows and text.
+  description: Diagram file created by IHMC CmapTools used for drawing concept maps;
+    stores a visual diagram using blocks, arrows and text.
   action: ignore
   ignore:
     reason: Unable to find software that renders .cmap-files
@@ -408,6 +416,8 @@ fmt/3:
   action: convert
   convert:
     tool: copy
+  extension:
+  - .gif
 fmt/4:
   name: Graphics Interchange Format 89a
   ignore_if:
@@ -415,12 +425,16 @@ fmt/4:
   action: convert
   convert:
     tool: copy
+  extension:
+  - .gif
 fmt/5:
   name: Audio/Video Interleaved Format
   action: convert
   convert:
     tool: video
     output: h265
+  extension:
+  - .avi
 fmt/11:
   name: Portable Network Graphics 1.0
   ignore_if:
@@ -429,6 +443,8 @@ fmt/11:
   convert:
     tool: image
     output: png
+  extension:
+  - .png
 fmt/12:
   name: Portable Network Graphics 1.1
   ignore_if:
@@ -437,6 +453,8 @@ fmt/12:
   convert:
     tool: image
     output: png
+  extension:
+  - .png
 fmt/13:
   name: Portable Network Graphics 1.2
   ignore_if:
@@ -444,170 +462,227 @@ fmt/13:
   action: convert
   convert:
     tool: copy
+  extension:
+  - .png
 fmt/14:
   name: Acrobat PDF 1.0 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/15:
   name: Acrobat PDF 1.1 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/16:
   name: Acrobat PDF 1.2 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/17:
   name: Acrobat PDF 1.3 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/18:
   name: Acrobat PDF 1.4 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/19:
   name: Acrobat PDF 1.5 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/20:
   name: Acrobat PDF 1.6 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/21:
   name: AutoCAD Drawing 1.0
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/22:
   name: AutoCAD Drawing 1.2
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/23:
   name: AutoCAD Drawing 1.3
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/24:
   name: AutoCAD Drawing 1.4
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/25:
   name: AutoCAD Drawing 2.0
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/26:
   name: AutoCAD Drawing 2.1
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/27:
   name: AutoCAD Drawing 2.2
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/28:
   name: AutoCAD Drawing 2.5
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/29:
   name: AutoCAD Drawing 2.6
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/30:
   name: AutoCAD Drawing R9
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/31:
   name: AutoCAD Drawing R10
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/32:
   name: AutoCAD Drawing R11/12
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/33:
   name: AutoCAD Drawing R13
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/34:
   name: AutoCAD Drawing R14
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/35:
   name: AutoCAD Drawing 2000-2002
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/36:
   name: AutoCAD Drawing 2004-2005
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/37:
   name: Microsoft Word for Windows Document 1.0
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .doc
 fmt/38:
   name: Microsoft Word for Windows Document 2.0
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .doc
 fmt/39:
   name: Microsoft Word Document 95
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .doc
 fmt/40:
   name: Microsoft Word Document 97-2003
   extensions:
-    - .doc
+  - .doc
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .doc
+  - .wbk
 fmt/41:
   name: Raw JPEG Stream
   ignore_if:
@@ -616,6 +691,13 @@ fmt/41:
   convert:
     tool: image
     output: png
+  extension:
+  - .jpe
+  - .jpg
+  - .jpeg
+  - .jif
+  - .jfif
+  - .jfi
 fmt/42:
   name: JPEG File Interchange Format 1.00
   ignore_if:
@@ -624,6 +706,13 @@ fmt/42:
   convert:
     tool: image
     output: png
+  extension:
+  - .jpeg
+  - .jpe
+  - .jpg
+  - .jif
+  - .jfif
+  - .jfi
 fmt/43:
   name: JPEG File Interchange Format 1.01
   ignore_if:
@@ -632,6 +721,13 @@ fmt/43:
   convert:
     tool: image
     output: png
+  extension:
+  - .jpg
+  - .jpe
+  - .jpeg
+  - .jif
+  - .jfif
+  - .jfi
 fmt/44:
   name: JPEG File Interchange Format 1.02
   ignore_if:
@@ -640,204 +736,279 @@ fmt/44:
   convert:
     tool: image
     output: png
+  extension:
+  - .jpg
+  - .jpe
+  - .jpeg
+  - .jif
+  - .jfif
+  - .jfi
 fmt/45:
   name: Rich Text Format 1.0-1.4
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .rtf
 fmt/50:
   name: Rich Text Format 1.5-1.6
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .rtf
 fmt/52:
   name: Rich Text Format 1.7
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .rtf
 fmt/53:
   name: Rich Text Format 1.8
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .rtf
 fmt/55:
   name: Microsoft Excel 2.x Worksheet (xls)
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .xls
 fmt/56:
   name: Microsoft Excel 3.0 Worksheet (xls)
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .xls
 fmt/57:
   name: Microsoft Excel 4.0 Worksheet (xls) 4S
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .xls
 fmt/58:
   name: Microsoft Excel 4.0 Workbook (xls) 4W
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .xlw
 fmt/59:
   name: Microsoft Excel 5.0/95 Workbook (xls)
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .xlw
+  - .xls
 fmt/61:
   name: Microsoft Excel 97 Workbook (xls) 8
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .xls
+  - .xlw
 fmt/63:
   name: Drawing Interchange File Format (ASCII)
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/64:
   name: Drawing Interchange File Format (ASCII) 1.0
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/65:
   name: Drawing Interchange File Format (ASCII) 1.2
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/66:
   name: Drawing Interchange File Format (ASCII) 1.3
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/67:
   name: Drawing Interchange File Format (ASCII) 1.4
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/68:
   name: Drawing Interchange File Format (ASCII) 2.0
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/69:
   name: Drawing Interchange File Format (ASCII) 2.1
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/70:
   name: Drawing Interchange File Format (ASCII) 2.2
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/71:
   name: Drawing Interchange File Format (ASCII) 2.5
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/72:
   name: Drawing Interchange File Format (ASCII) 2.6
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/73:
   name: Drawing Interchange File Format (ASCII) R9
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/74:
   name: Drawing Interchange File Format (ASCII) R10
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/75:
   name: Drawing Interchange File Format (ASCII) R11/12
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/76:
   name: Drawing Interchange File Format (ASCII) R13
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/77:
   name: Drawing Interchange File Format (ASCII) R14
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/78:
   name: Drawing Interchange File Format (ASCII) 2000-2002
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/79:
   name: Drawing Interchange File Format (ASCII) 2004/2005/2006
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/80:
   name: Drawing Interchange File Format (Binary) R10
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/81:
   name: Drawing Interchange File Format (Binary) R11/12
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/82:
   name: Drawing Interchange File Format (Binary) R13
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/83:
   name: Drawing Interchange File Format (Binary) R14
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/84:
   name: Drawing Interchange File Format (Binary) 2000-2002
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/85:
   name: Drawing Interchange File Format (Binary) 2004-2006
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/90:
   name: PCX 5
   ignore_if:
@@ -846,28 +1017,37 @@ fmt/90:
   convert:
     tool: image
     output: png
+  extension:
+  - .pcx
+  - .pcc
 fmt/91:
   name: Scalable Vector Graphics 1.0
   extensions:
-    - .svg
+  - .svg
   action: convert
   convert:
     tool: browser
     output: pdf
+  extension:
+  - .svg
 fmt/92:
   name: Scalable Vector Graphics 1.1
   extensions:
-    - .svg
+  - .svg
   action: convert
   convert:
     tool: browser
     output: pdf
+  extension:
+  - .svg
 fmt/95:
   name: Acrobat PDF/A - Portable Document Format 1a
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/96:
   name: Hypertext Markup Language
   action: convert
@@ -876,16 +1056,25 @@ fmt/96:
     on_fail: action
   convert:
     tool: copy
+  extension:
+  - .htm
+  - .html
 fmt/98:
   name: Hypertext Markup Language 3.2
   action: convert
   convert:
     tool: copy
+  extension:
+  - .htm
+  - .html
 fmt/99:
   name: Hypertext Markup Language 4.0
   action: convert
   convert:
     tool: copy
+  extension:
+  - .htm
+  - .html
 fmt/100:
   name: Hypertext Markup Language 4.01
   reidentify:
@@ -894,6 +1083,9 @@ fmt/100:
   action: convert
   convert:
     tool: copy
+  extension:
+  - .htm
+  - .html
 fmt/101:
   name: Extensible Markup Language 1.0
   reidentify:
@@ -902,11 +1094,16 @@ fmt/101:
   action: convert
   convert:
     tool: copy
+  extension:
+  - .xml
 fmt/102:
   name: Extensible Hypertext Markup Language 1.0
   action: convert
   convert:
     tool: copy
+  extension:
+  - .html
+  - .htm
 fmt/109:
   name: Macromedia Flash 6
   action: ignore
@@ -915,6 +1112,8 @@ fmt/109:
     reason: Flash is no longer supported, and it is in a very messy format - The file
       can be a image, video or interactive game. It might not be preservation-worthy,
       but either way we don't know how to handle it
+  extension:
+  - .swf
 fmt/110:
   name: Macromedia Flash 7
   action: ignore
@@ -923,6 +1122,8 @@ fmt/110:
     reason: Flash is no longer supported, and it is in a very messy format - The file
       can be a image, video or interactive game. It might not be preservation-worthy,
       but either way we don't know how to handle it
+  extension:
+  - .swf
 fmt/111:
   name: OLE2 Compound Document Format
   reidentify:
@@ -932,6 +1133,8 @@ fmt/111:
   manual:
     reason: We don't know what to do with this format.
     process: Find out what we can do with this format.
+  extension:
+  - without-extension
 fmt/115:
   name: Windows Bitmap 2.0
   ignore_if:
@@ -940,6 +1143,9 @@ fmt/115:
   convert:
     tool: image
     output: png
+  extension:
+  - .bmp
+  - .dib
 fmt/116:
   name: Windows Bitmap 3.0
   ignore_if:
@@ -948,6 +1154,9 @@ fmt/116:
   convert:
     tool: image
     output: png
+  extension:
+  - .dib
+  - .bmp
 fmt/117:
   name: Windows Bitmap 3.0 NT
   ignore_if:
@@ -956,18 +1165,27 @@ fmt/117:
   convert:
     tool: image
     output: png
+  extension:
+  - .dib
+  - .bmp
 fmt/122:
   name: Encapsulated PostScript File Format 1.2
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .eps
+  - .epsf
 fmt/123:
   name: Encapsulated PostScript File Format 2.0
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .eps
+  - .epsf
 fmt/124:
   name: Encapsulated PostScript File Format 3
   ignore_if:
@@ -976,106 +1194,152 @@ fmt/124:
   convert:
     tool: document
     output: pdf
+  extension:
+  - .eps
+  - .epsf
+  - .ps
 fmt/125:
   name: Microsoft Powerpoint Presentation 95
   action: convert
   convert:
     tool: presentation
     output: odp
+  extension:
+  - .ppt
 fmt/126:
   name: Microsoft Powerpoint Presentation 97-2003
   action: convert
   convert:
     tool: presentation
     output: odp
+  extension:
+  - .ppt
 fmt/128:
   name: OpenOffice Writer
   action: convert
   convert:
     tool: document
     output: odt
+  extension:
+  - .sxw
 fmt/131:
   name: Advanced Systems Format
   extensions:
-    - .asf
+  - .asf
   action: convert
   convert:
     tool: audio
     output: flac
+  extension:
+  - .asf
 fmt/132:
   name: Windows Media Audio
   action: convert
   convert:
     tool: audio
     output: flac
+  extension:
+  - .wma
+  - .asf
 fmt/133:
   name: Windows Media Video
   action: convert
   convert:
     tool: video
     output: h265
+  extension:
+  - .asf
+  - .wmv
 fmt/134:
   name: MPEG 1/2 Audio Layer 3
   action: convert
   convert:
     tool: audio
     output: mp3
+  extension:
+  - .mp3
 fmt/135:
   name: OpenDocument Format 1.0
   action: convert
   convert:
     tool: copy
+  extension:
+  - without-extension
 fmt/136:
   name: OpenDocument Text 1.0
   action: convert
   convert:
     tool: copy
+  extension:
+  - .odt
+  - .ott
 fmt/137:
   name: OpenDocument Spreadsheet 1.0
   action: convert
   convert:
     tool: copy
+  extension:
+  - .ods
+  - .ots
 fmt/141:
   name: Waveform Audio (PCMWAVEFORMAT)
   action: convert
   convert:
     tool: audio
     output: flac
+  extension:
+  - .wav
+  - .wave
 fmt/142:
   name: Waveform Audio (WAVEFORMATEX)
   action: convert
   convert:
     tool: audio
     output: flac
+  extension:
+  - .wav
+  - .wave
 fmt/146:
   name: Acrobat PDF/X - Portable Document Format - Exchange 1a:2003
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/155:
   name: Geographic Tagged Image File Format (GeoTIFF)
   action: convert
   convert:
     tool: copy
+  extension:
+  - .tif
+  - .tiff
+  - .cog
 fmt/157:
   name: Acrobat PDF/X - Portable Document Format - Exchange 1a:2001
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/158:
   name: Acrobat PDF/X - Portable Document Format - Exchange 3:2002
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/163:
   name: Microsoft Works Word Processor 1-3 for DOS and 2 for Windows
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .wps
 fmt/189:
   name: Microsoft Office Open XML
   action: convert
@@ -1086,47 +1350,67 @@ fmt/189:
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - without-extension
 fmt/199:
   name: MPEG-4 Media File
   action: convert
   convert:
     tool: video
     output: h265
+  extension:
+  - .mp4
+  - .m4v
+  - .m4a
+  - .f4v
+  - .f4a
 fmt/203:
   name: Ogg Vorbis Codec Compressed Multimedia File
   action: convert
   convert:
     tool: audio
     output: flac
+  extension:
+  - .ogg
 fmt/206:
   name: Structured Query Language Data
   action: convert
   convert:
     tool: copy
+  extension:
+  - .sql
 fmt/208:
   name: Binary File
   action: ignore
   ignore:
     template: not-preservable
     reason: Binary File. Not preservation-worthy
+  extension:
+  - .bin
 fmt/212:
   name: Information or Setup File
   action: ignore
   ignore:
     template: not-preservable
     reason: unknown. Not preservation-worthy
+  extension:
+  - '.inf'
 fmt/214:
   name: Microsoft Excel for Windows 2007 onwards
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .xlsx
 fmt/215:
   name: Microsoft Powerpoint for Windows 2007 onwards
   action: convert
   convert:
     tool: presentation
     output: odp
+  extension:
+  - .pptx
 fmt/217:
   name: PaintShop Pro Browser Cache File
   action: ignore
@@ -1134,19 +1418,26 @@ fmt/217:
     template: not-preservable
     reason: PaintShop Pro Browser Cache is a thumbnail image format associated with
       PaintShop Pro. Not preservation-worthy
+  extension:
+  - .jbf
 fmt/233:
   name: Microsoft Works Word Processor 3-4 for Windows
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .wps
 fmt/243:
   name: GPS Exchange Format 1.0
-  description: GPX is an XML schema used by various software applications and websites to show and describe
-    GPS data such as routes, tracks, projecting GPS data onto maps and annotating maps. Extension is .pgx.
+  description: GPX is an XML schema used by various software applications and websites
+    to show and describe GPS data such as routes, tracks, projecting GPS data onto
+    maps and annotating maps. Extension is .pgx.
   action: convert
   convert:
     tool: copy
+  extension:
+  - .gpx
 fmt/244:
   name: Keyhole Markup Language (XML)
   description: "KML is an open standard officially named the OpenGIS\xAE KML Encoding\
@@ -1155,80 +1446,117 @@ fmt/244:
   convert:
     tool: gis
     output: gml3
+  extension:
+  - .kml
 fmt/258:
   name: Microsoft Works Word Processor 5-6
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .wps
 fmt/276:
   name: Acrobat PDF 1.7 - Portable Document Format 1.7
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/277:
   name: ESRI Arc/View Shapefile Index
   action: ignore
   ignore:
     template: not-preservable
     reason: Index file for gis project. Picked up and used by the GIS-processor
+  extension:
+  - .shx
 fmt/279:
   name: FLAC (Free Lossless Audio Codec)
   action: convert
   convert:
     tool: audio
     output: flac
+  extension:
+  - .flac
 fmt/290:
   name: OpenDocument Text 1.1
   action: convert
   convert:
     tool: document
     output: odt
+  extension:
+  - .odt
+  - .ott
 fmt/291:
   name: OpenDocument Text 1.2
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .odt
+  - .ott
 fmt/292:
   name: OpenDocument Presentation 1.1
   action: convert
   convert:
     tool: copy
+  extension:
+  - .odp
+  - .otp
 fmt/293:
   name: OpenDocument Presentation 1.2
   action: convert
   convert:
     tool: copy
+  extension:
+  - .odp
+  - .otp
 fmt/294:
   name: OpenDocument Spreadsheet 1.1
   action: convert
   convert:
     tool: copy
+  extension:
+  - .ods
+  - .ots
 fmt/295:
   name: OpenDocument Spreadsheet 1.2
   action: convert
   convert:
     tool: copy
+  extension:
+  - .ods
+  - .ots
 fmt/296:
   name: OpenDocument Graphics 1.1
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .odg
+  - .otg
 fmt/297:
   name: OpenDocument Graphics 1.2
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .odg
+  - .otg
 fmt/319:
   name: ESRI Spatial Index File
   action: ignore
   ignore:
     template: not-preservable
     reason: A 2 part indexing file for spatial data. Picked up and used by the GIS-processor
+  extension:
+  - .sbn
+  - .sbx
 fmt/320:
   name: ESRI Shapefile Projection (Well-Known Text) Format
   action: ignore
@@ -1236,6 +1564,8 @@ fmt/320:
     template: not-preservable
     reason: Projections Definition file; stores coordinate system information.. Picked
       up and used by the GIS-processor
+  extension:
+  - .prj
 fmt/331:
   name: Autorun Configuration File
   action: ignore
@@ -1243,18 +1573,25 @@ fmt/331:
     template: not-preservable
     reason: A Windows file usually found on CDs or DVDs or Blu-rays, telling the OS
       what executable to run when the disc is played. Not preservation-worthy
+  extension:
+  - '.inf'
 fmt/332:
   name: ESRI Arc/View Project (3.x)
   action: ignore
   ignore:
     template: not-preservable
     reason: An ESRI GIS project file. Not preservation-worthy
+  extension:
+  - .apr
+  - .def
 fmt/340:
   name: ''
   action: convert
   convert:
     tool: symphovert
     output: odt
+  extension:
+  - .lwp
 fmt/345:
   name: Microsoft Windows Enhanced Metafile 3.0
   ignore_if:
@@ -1263,6 +1600,8 @@ fmt/345:
   convert:
     tool: image
     output: png
+  extension:
+  - .emf
 fmt/353:
   name: Tagged Image File Format
   ignore_if:
@@ -1270,35 +1609,49 @@ fmt/353:
   action: convert
   convert:
     tool: copy
+  extension:
+  - .tif
+  - .tiff
 fmt/354:
   name: Acrobat PDF/A - Portable Document Format 1b
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/355:
   name: Rich Text Format 1.9
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .rtf
 fmt/356:
   name: Adaptive Multi-Rate Audio
   action: convert
   convert:
     tool: audio
     output: flac
+  extension:
+  - .amr
 fmt/357:
   name: 3GPP Audio/Video File
   action: convert
   convert:
     tool: video
     output: h265
+  extension:
+  - .3gp
+  - .3gpp
 fmt/388:
   name: Internet Calendar and Scheduling format
   action: convert
   convert:
     tool: copy
+  extension:
+  - .ics
 fmt/394:
   name: DS_store file (MAC)
   action: ignore
@@ -1306,6 +1659,8 @@ fmt/394:
     template: not-preservable
     reason: A macOS file used by the operating system to store folder metadata, like
       icon position and bg image. Not preservation-worthy
+  extension:
+  - .ds_store
 fmt/395:
   name: vCard
   action: ignore
@@ -1313,78 +1668,108 @@ fmt/395:
     template: not-preservable
     reason: Windows native contact files. Not preservation-worthy
   description: Extension is .vcf
+  extension:
+  - .vcf
+  - .vcard
 fmt/411:
   name: RAR Archive version 2.9
   action: extract
   extract:
     tool: rar
     extension: .rar
+  extension:
+  - .rar
 fmt/412:
   name: Microsoft Word for Windows 2007 onwards
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .docx
+  - .wbk
 fmt/413:
   name: Scalable Vector Graphics Tiny 1.2
   action: convert
   convert:
     tool: browser
     output: pdf
+  extension:
+  - .svg
 fmt/414:
   name: Audio Interchange File Format
   action: convert
   convert:
     tool: audio
     output: flac
+  extension:
+  - .aif
+  - .aiff
 fmt/416:
   name: Apple Core Audio Format
   action: convert
   convert:
     tool: audio
     output: flac
+  extension:
+  - .caf
 fmt/422:
   name: Adobe Illustrator 6.0
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
+  - .eps
 fmt/423:
   name: Adobe Illustrator 7.0
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
 fmt/428:
   name: CorelDraw Drawing
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .cdr
 fmt/433:
   name: Drawing Interchange File Format (ASCII) 2007/2008/2009
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/434:
   name: AutoCAD Drawing 2010/2011/2012
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/435:
   name: Drawing Interchange File Format (ASCII) 2010/2012/2014
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/440:
   name: Microsoft Project 2007
   action: ignore
   ignore:
     template: not-preservable
     reason: Project files. Not preservation-worthy
+  extension:
+  - .mpp
 fmt/441:
   name: Windows Media Video
   description: Windows Media Video 9 Advanced Profile or WVC1 is a fuly compliant
@@ -1393,38 +1778,55 @@ fmt/441:
   convert:
     tool: video
     output: h265
+  extension:
+  - .wmv
 fmt/442:
   name: Microsoft Visio (generic)
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .vsd
 fmt/443:
   name: Microsoft Visio Drawing 2003-2010
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .vsd
 fmt/445:
   name: Microsoft Excel Macro-Enabled 2007
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .xlsm
 fmt/468:
   name: ISO 9660 Disk Image File
   action: extract
   extract:
     tool: iso
     extension: .iso
+  extension:
+  - .iso
+  - .toast
+  - .cdr
+  - .dmg
+  - .bin
 fmt/471:
   name: Hypertext Markup Language 5
   extensions:
-    - .html
+  - .html
   action: convert
   convert:
     tool: browser
     output: pdf
+  extension:
+  - .htm
+  - .html
 fmt/473:
   name: Microsoft Office Owner File
   action: ignore
@@ -1432,6 +1834,9 @@ fmt/473:
     template: not-preservable
     reason: A temporary file created by Windows Office when a document is open, containing
       account logon info. Not preservation-worthy
+  extension:
+  - .doc
+  - .docx
 fmt/474:
   name: Windows Help File
   action: ignore
@@ -1439,78 +1844,106 @@ fmt/474:
     template: not-preservable
     reason: Microsoft WinHelp is a proprietary format for online help files that can
       be displayed by the Microsoft Help browse. Not preservation-worthy
+  extension:
+  - .hlp
 fmt/475:
   name: Microsoft Management Console Snap-in Control file
   action: ignore
   ignore:
     template: not-preservable
     reason: Related to Microsoft administrative file control. Not preservation-worthy
+  extension:
+  - .msc
 fmt/476:
   name: Acrobat PDF/A - Portable Document Format (2a)
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/477:
   name: Acrobat PDF/A - Portable Document Format
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/478:
   name: Acrobat PDF/A - Portable Document Format (2u)
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/479:
   name: Acrobat PDF/A - Portable Document Format (3a)
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/480:
   name: Acrobat PDF/A - Portable Document Format (3b)
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/484:
   name: 7Zip format
   action: extract
   extract:
     tool: 7z
     extension: .7z
+  extension:
+  - .7z
 fmt/487:
   name: Macro Enabled Microsoft Powerpoint 2007 Onwards
   action: convert
   convert:
     tool: presentation
     output: odp
+  extension:
+  - .pptm
 fmt/488:
   name: Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/493:
   name: Acrobat PDF/E - Portable Document Format for Engineering PDF/E-1
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/494:
   name: Microsoft Office Encrypted Document (2007 Onwards)
   action: ignore
   ignore:
     template: not-preservable
     reason: A password protected office document. Password protected
+  extension:
+  - .xlsx
+  - .pptx
+  - .docx
 fmt/500:
   name: Internet Explorer for Mac cache file
   action: ignore
   ignore:
     template: not-preservable
     reason: An Internet Explorer cache file. Not preservation-worthy
+  extension:
+  - .waf
 fmt/503:
   name: AppleDouble Resource Fork 2
   action: ignore
@@ -1522,6 +1955,8 @@ fmt/503:
       The format lacks an extension, and is instead represented by a file name consisting
       of ._<filename resource fork belongs to>. It might not be preservation-worthy,
       but either way we don''t know how to handle it'
+  extension:
+  - without-extension
 fmt/505:
   name: Adobe Flash 8
   action: ignore
@@ -1530,6 +1965,8 @@ fmt/505:
     reason: Flash is no longer supported, and it is in a very messy format - The file
       can be a image, video or interactive game. It might not be preservation-worthy,
       but either way we don't know how to handle it
+  extension:
+  - .swf
 fmt/507:
   name: Adobe Flash 10
   action: ignore
@@ -1538,6 +1975,8 @@ fmt/507:
     reason: Flash is no longer supported, and it is in a very messy format - The file
       can be a image, video or interactive game. It might not be preservation-worthy,
       but either way we don't know how to handle it
+  extension:
+  - .swf
 fmt/509:
   name: Adobe PostScript Font Metrics file
   action: ignore
@@ -1548,18 +1987,24 @@ fmt/509:
       Font Metrics (.PFM) file. (Some very old Type 1 fonts may ship with a .PFB,
       .AFM, and .INF file. Installing such fonts will create a .PFM file from the
       .AFM and .INF files.). Not preservation-worthy
+  extension:
+  - .pfm
 fmt/520:
   name: OpenType Font File
   action: ignore
   ignore:
     template: not-preservable
     reason: A font file. Not preservation-worthy
+  extension:
+  - .otf
 fmt/523:
   name: Macro enabled Microsoft Word Document OOXML 2007 Onwards
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .docm
 fmt/524:
   name: Microsoft Office Theme
   action: ignore
@@ -1567,6 +2012,8 @@ fmt/524:
     template: not-preservable
     reason: Exclusively contains font, color, layout, etc. template settings for a
       Microsoft Office document. Not preservation-worthy
+  extension:
+  - .thmx
 fmt/525:
   name: Adobe Printer Font Binary
   action: ignore
@@ -1577,6 +2024,8 @@ fmt/525:
       Font Metrics (.PFM) file. (Some very old Type 1 fonts may ship with a .PFB,
       .AFM, and .INF file. Installing such fonts will create a .PFM file from the
       .AFM and .INF files.). Not preservation-worthy
+  extension:
+  - .pfb
 fmt/526:
   name: Adobe Font List
   action: ignore
@@ -1584,129 +2033,191 @@ fmt/526:
     template: not-preservable
     reason: A cache of font files installed for Adobe products, created by the programs
       themselves. Not preservation-worthy
+  extension:
+  - .lst
 fmt/531:
   name: AutoCAD Drawing 2013/2014
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 fmt/532:
   name: Drawing Interchange File Format (ASCII) 2013/2014/2015/2016/2017
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/548:
   name: Adobe InDesign Document CS2
-  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
-    brochures, magazines, newspapers, presentations and books. Extension is .indd.
+  description: Adobe InDesign Document can be used to produce a number of works such
+    as posters, flyers, brochures, magazines, newspapers, presentations and books.
+    Extension is .indd.
   action: ignore
   ignore:
     template: not-preservable
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .ind
+  - .indd
+  - .indt
 fmt/549:
   name: Adobe InDesign Document CS3
-  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
-    brochures, magazines, newspapers, presentations and books. Extension is .indd.
+  description: Adobe InDesign Document can be used to produce a number of works such
+    as posters, flyers, brochures, magazines, newspapers, presentations and books.
+    Extension is .indd.
   action: ignore
   ignore:
     template: not-preservable
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .ind
+  - .indd
+  - .indt
 fmt/550:
   name: Adobe InDesign Document CS4
-  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
-    brochures, magazines, newspapers, presentations and books. Extension is .indd.
+  description: Adobe InDesign Document can be used to produce a number of works such
+    as posters, flyers, brochures, magazines, newspapers, presentations and books.
+    Extension is .indd.
   action: ignore
   ignore:
     template: not-preservable
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .ind
+  - .indd
+  - .indt
 fmt/551:
   name: Adobe InDesign Document CS5
-  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
-    brochures, magazines, newspapers, presentations and books. Extension is .indd.
+  description: Adobe InDesign Document can be used to produce a number of works such
+    as posters, flyers, brochures, magazines, newspapers, presentations and books.
+    Extension is .indd.
   action: ignore
   ignore:
     template: not-preservable
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .ind
+  - .indd
+  - .indt
 fmt/552:
   name: Adobe InDesign Document CS6
-  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
-    brochures, magazines, newspapers, presentations and books. Extension is .indd.
+  description: Adobe InDesign Document can be used to produce a number of works such
+    as posters, flyers, brochures, magazines, newspapers, presentations and books.
+    Extension is .indd.
   action: ignore
   ignore:
     template: not-preservable
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .ind
+  - .indd
+  - .indt
 fmt/557:
   name: Adobe Illustrator 8.0
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
+  - .eps
 fmt/558:
   name: Adobe Illustrator 9.0
-  description: Originally the Adobe Illustrator Format (AI) was based on postscript. With each file having a postscript header. This all changed with Illustrator version 9 moving to PDF as its core, released in the year 2000.
+  description: Originally the Adobe Illustrator Format (AI) was based on postscript.
+    With each file having a postscript header. This all changed with Illustrator version
+    9 moving to PDF as its core, released in the year 2000.
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
+  - .pdf
 fmt/559:
   name: Adobe Illustrator 10.0
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
+  - .pdf
 fmt/560:
   name: Adobe Illustrator 11.0
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
+  - .pdf
 fmt/561:
   name: Adobe Illustrator 12.0
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
+  - .pdf
 fmt/562:
   name: Adobe Illustrator 13.0
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
+  - .pdf
 fmt/563:
   name: Adobe Illustrator 14.0
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
+  - .pdf
 fmt/564:
   name: Adobe Illustrator 15.0
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
+  - .pdf
 fmt/565:
   name: Adobe Illustrator 16.0
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
+  - .pdf
 fmt/566:
   name: WebP (Lossy)
   action: convert
   convert:
     tool: image
     output: jpg
+  extension:
+  - .webp
 fmt/568:
   name: webP
   ignore_if:
@@ -1715,29 +2226,42 @@ fmt/568:
   convert:
     tool: image
     output: png
+  extension:
+  - .webp
 fmt/573:
   name: WebM video
   action: convert
   convert:
     tool: video
     output: h265
+  extension:
+  - .webm
 fmt/583:
   name: Vector Markup Language
   reidentify:
     reason: Some applications allow saving documents as XML and can re-open them
     on_fail: action
   extensions:
-    - .html
-    - .htm
+  - .html
+  - .htm
   action: convert
   convert:
     tool: browser
     output: pdf
+  extension:
+  - .vml
+  - .html
+  - .htm
 fmt/584:
   name: Windows Media Metafile
   action: convert
   convert:
     tool: copy
+  extension:
+  - .wmx
+  - .wax
+  - .wvx
+  - .asx
 fmt/589:
   name: Windows Media Playlist
   action: ignore
@@ -1745,92 +2269,127 @@ fmt/589:
     template: not-preservable
     reason: A structured, XML-like file containing a sequence of music files that
       makes up a given playlist. Not preservation-worthy
+  extension:
+  - .wpl
 fmt/595:
   name: Microsoft Excel Non-XML Binary Workbook 2007 onwards
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .xlsb
 fmt/597:
   name: Microsoft Word Template 2007 onwards
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .dotx
 fmt/598:
   name: Microsoft Excel Template 2007 onwards
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .xltx
 fmt/599:
   name: Microsoft Word Macro-Enabled Document Template 2007 onwards
   action: ignore
   ignore:
     template: not-preservable
     reason: A template document file. Not preservation-worthy
+  extension:
+  - .dotm
 fmt/607:
   name: Statistical Analysis System Data (Windows) 9.1
   action: convert
   convert:
     tool: sas
     output: ods
+  extension:
+  - .sas7bdat
+  - .sd7
 fmt/609:
   name: Microsoft Word (Generic) 6.0-2003
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .doc
 fmt/613:
   name: RAR Archive version 5
   action: extract
   extract:
     tool: rar
     extension: .rar
+  extension:
+  - .rar
 fmt/616:
   name: Web Open Font Format 1.0
   action: ignore
   ignore:
     template: not-preservable
-    reason: Web Open Font Format (WOFF) is a font format designed primarily for use on the Web, and can also be used as a container format or "wrapper" for font data in already-existing formats. Not preservation-worthy
+    reason: Web Open Font Format (WOFF) is a font format designed primarily for use
+      on the Web, and can also be used as a container format or "wrapper" for font
+      data in already-existing formats. Not preservation-worthy
+  extension:
+  - .woff
 fmt/627:
   name: Microsoft Excel Macro-Enabled Template 2007
   action: ignore
   ignore:
     template: not-preservable
     reason: A Microsoft Excel template file with macros enabled. Not preservation-worthy
+  extension:
+  - .xltm
 fmt/629:
   name: Microsoft PowerPoint Show 2007
   action: convert
   convert:
     tool: presentation
     output: odp
+  extension:
+  - .ppsx
 fmt/631:
   name: Microsoft PowerPoint Template 2007
   action: convert
   convert:
     tool: presentation
     output: odp
+  extension:
+  - .potx
 fmt/634:
   name: Microsoft Compiled HTML Help
   action: ignore
   ignore:
     template: not-preservable
     reason: A Microsoft Compiled HTML Help file. Not preservation-worthy
+  extension:
+  - .chm
+  - .chw
 fmt/637:
   name: Microsoft Onenote
   action: ignore
   ignore:
     template: not-preservable
     reason: An Onenote note file. Not preservation-worthy / not convertable
+  extension:
+  - .one
 fmt/638:
   name: SPSS Data File
-  description: SPSS (Statistical Package for the Social Sciences) is a software package used for
-    statistical analysis in the social sciences.
+  description: SPSS (Statistical Package for the Social Sciences) is a software package
+    used for statistical analysis in the social sciences.
   action: manual
   manual:
     reason: Not converable.
-    process: Open in GNU PSPP. gnu.org/software/pspp/pspp.html. Export BOTH data and variables to csv.
+    process: Open in GNU PSPP. gnu.org/software/pspp/pspp.html. Export BOTH data and
+      variables to csv.
+  extension:
+  - .sav
 fmt/645:
   name: Exchangeable Image File Format (Compressed) 2.2.1
   ignore_if:
@@ -1839,24 +2398,36 @@ fmt/645:
   convert:
     tool: image
     output: png
+  extension:
+  - .jpg
+  - .jpeg
 fmt/657:
   name: Open XML Paper Specification
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .xps
+  - .oxps
 fmt/670:
   name: 'PKCS #7 Cryptographic Message File'
   action: ignore
   ignore:
     template: not-preservable
     reason: Cryptographic message file which follows email files. Not preservation-worthy
+  extension:
+  - .p7m
+  - .p7b
+  - .p7s
 fmt/682:
   name: Thumbs DB File XP
   action: ignore
   ignore:
     template: not-preservable
     reason: Windows OS file, contains folder metadata. Not preservation-worthy
+  extension:
+  - .db
 fmt/724:
   name: Keyhole Markup Language (Container)
   description: kmz file. There will be data loss if kmz file contains 3d model.
@@ -1864,36 +2435,52 @@ fmt/724:
   convert:
     tool: gis
     output: gml3
+  extension:
+  - .kmz
 fmt/725:
   name: Microsoft Project 2010
   action: ignore
   ignore:
     template: not-preservable
     reason: Project files. Not preservation-worthy
+  extension:
+  - .mpp
 fmt/729:
   name: SQLite Database File Format 3
   action: ignore
   ignore:
     template: not-preservable
     reason: Database. Not preservation-worthy
+  extension:
+  - .sqlite
+  - .db
+  - .db3
+  - .sqlite3
 fmt/744:
   name: ClarisWorks/AppleWorks Word Processor 5
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .cwk
 fmt/749:
   name: AppleWorks Word Processor 6
   action: convert
   convert:
     tool: document
     output: odt
+  extension:
+  - .cwk
 fmt/754:
   name: Microsoft Word Document (Password Protected) 97-2003
   action: ignore
   ignore:
     template: not-preservable
     reason: A password protected word document. Password protected
+  extension:
+  - .wbk
+  - .doc
 fmt/761:
   name: Adobe Flash 15
   action: ignore
@@ -1902,46 +2489,62 @@ fmt/761:
     reason: Flash is no longer supported, and it is in a very messy format - The file
       can be a image, video or interactive game. It might not be preservation-worthy,
       but either way we don't know how to handle it
+  extension:
+  - .swf
 fmt/796:
   name: Adobe After Effects
-  description: Adobe After Effects is a digital visual effects, motion graphics, and compositing application developed
-    by Adobe Systems and used in the post-production process of filmmaking and television production. Among other things,
-    After Effects can be used for keying, tracking, rotoscoping, compositing and animation. Extension is .aep
+  description: Adobe After Effects is a digital visual effects, motion graphics, and
+    compositing application developed by Adobe Systems and used in the post-production
+    process of filmmaking and television production. Among other things, After Effects
+    can be used for keying, tracking, rotoscoping, compositing and animation. Extension
+    is .aep
   action: ignore
   ignore:
     template: not-preservable
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .aep
 fmt/817:
   name: JSON Data Interchange Format
   action: convert
   convert:
     tool: copy
+  extension:
+  - .json
 fmt/836:
   name: Quattro Pro Spreadsheet 7-8
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .wb3
 fmt/866:
   name: Apple Safari Webarchive
   action: extract
   extract:
     tool: webarchive
     extension: .webarchive
+  extension:
+  - .webarchive
 fmt/870:
   name: Perl Script
   action: ignore
   ignore:
     template: not-preservable
     reason: A script in Perl. Not preservation-worthy
+  extension:
+  - .pl
 fmt/881:
   name: Microsoft Document Imaging File Format (MDI)
   action: convert
   convert:
     tool: mdi
     output: tif
+  extension:
+  - .mdi
 fmt/886:
   name: HTML Components
   action: ignore
@@ -1949,30 +2552,44 @@ fmt/886:
     template: not-preservable
     reason: A web script file, usually Javascript, meant to be integrated with other
       HTML files. Not preservation-worthy
+  extension:
+  - .htc
 fmt/899:
   name: Windows Portable Executable 32 bit
   action: ignore
   ignore:
     template: not-preservable
     reason: A Windows executable file. Not preservation-worthy
+  extension:
+  - .exe
+  - .dll
+  - .sys
 fmt/900:
   name: Windows Portable Executable 64 bit
   action: ignore
   ignore:
     template: not-preservable
     reason: A Windows executable file. Not preservation-worthy
+  extension:
+  - .exe
+  - .dll
+  - .sys
 fmt/901:
   name: Microsoft Works Spreadsheet 6-9
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .xlr
 fmt/938:
   name: Python Script File
   action: ignore
   ignore:
     template: not-preservable
     reason: A script in Python. Not preservation-worthy
+  extension:
+  - .py
 fmt/941:
   name: Back Up File
   action: ignore
@@ -1980,23 +2597,32 @@ fmt/941:
     template: not-preservable
     reason: Back Up File. As the name suggests then bak files are produced by various
       programs. Not preservation-worthy
+  extension:
+  - .bak
 fmt/946:
   name: Ogg Opus Codec Compressed Multimedia File
   action: convert
   convert:
     tool: audio
     output: flac
+  extension:
+  - .ogg
+  - .opus
 fmt/950:
   name: MIME Email 1.0
   action: convert
   convert:
     tool: copy
+  extension:
+  - .eml
 fmt/968:
   name: AppleSingle 2.0
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .as
 fmt/979:
   name: XML Property List
   alternatives:
@@ -2006,6 +2632,8 @@ fmt/979:
     template: not-preservable
     reason: A property list file is a a serialised storage file, usually used by programs
       to store configurations in a more compact form. Not preservation-worthy
+  extension:
+  - .plist
 fmt/984:
   name: Binary Property List
   action: ignore
@@ -2014,6 +2642,12 @@ fmt/984:
     reason: A property list filestore serialized objects, usually used It is the standard
       way to save and load data between the internal representation within the objects
       defined in an Objective-C program and disk files. Not preservation-worthy
+  extension:
+  - .plist
+  - .nib
+  - .aae
+  - .iMovieProj
+  - .ezdraw
 fmt/997:
   name: SPSS Portable File
   action: ignore
@@ -2023,18 +2657,26 @@ fmt/997:
       stores exported data from the software in a plain text format, which is easily
       readable by other applications; used for sharing data between programs and computer
       systems.. Not preservation-worthy
+  extension:
+  - .por
 fmt/1016:
   name: Statistical Analysis System Data (Unix)
   action: convert
   convert:
     tool: sas
     output: ods
+  extension:
+  - .sas7bdat
+  - .sd7
 fmt/1017:
   name: Statistical Analysis System Data (Windows) 8.2
   action: convert
   convert:
     tool: sas
     output: ods
+  extension:
+  - .sas7bdat
+  - .sd7
 fmt/1045:
   name: Q&A Word Processor Document
   action: ignore
@@ -2044,18 +2686,25 @@ fmt/1045:
       computers published by Symantec and partners from 1985 to 1998. Due to their
       age, Q&A files may lack an extension.. It might not be preservation-worthy,
       but either way we don't know how to handle it
+  extension:
+  - without-extension
 fmt/1047:
   name: Geography Markup Language
   action: convert
   convert:
     tool: gis
     output: gml3
+  extension:
+  - .gml
 fmt/1055:
   name: M2TS
   action: convert
   convert:
     tool: video
     output: h265
+  extension:
+  - .mts
+  - .m2ts
 fmt/1079:
   name: Microsoft Program Database 7.00
   action: ignore
@@ -2063,18 +2712,24 @@ fmt/1079:
     template: not-preservable
     reason: A Program Database File stores debugging information about a compiled
       executable, usually created at compile-time.. Not preservation-worthy
+  extension:
+  - .pdb
 fmt/1082:
   name: ASP WebService Directive File
   action: ignore
   ignore:
     template: not-preservable
     reason: Defines XML Web service attributes for Active Server Pages. Not preservation-worthy
+  extension:
+  - .asmx
 fmt/1089:
   name: VBScript (VBS) File
   action: ignore
   ignore:
     template: not-preservable
     reason: A VBScript file contains code. Not preservation-worthy
+  extension:
+  - .vbs
 fmt/1103:
   name: AutoCAD Hatch Pattern
   action: ignore
@@ -2084,32 +2739,43 @@ fmt/1103:
       of lines, dashes, and dots, and is used within AutoCAD to represent materials
       to be used within the manufacture of the object defined in the CAD drawing.
       Not preservation-worthy
+  extension:
+  - .pat
 fmt/1129:
   name: PDF 2.0 - Portable Document Format
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/1132:
   name: Netscape Bookmark File Format
   action: ignore
   ignore:
     template: not-preservable
     reason: A bookmark in the Netscape web browser. Not preservation-worthy
+  extension:
+  - .htm
+  - .html
 fmt/1134:
   name: GPS Exchange Format 1.1
-  description: GPX is an XML schema used by various software applications and
-    websites to show and describe GPS data such as routes, tracks, projecting GPS
-    data onto maps and annotating maps. Extension is .gp
+  description: GPX is an XML schema used by various software applications and websites
+    to show and describe GPS data such as routes, tracks, projecting GPS data onto
+    maps and annotating maps. Extension is .gp
   action: convert
   convert:
     tool: copy
+  extension:
+  - .gpx
 fmt/1216:
   name: ''
   action: convert
   convert:
     tool: symphovert
     output: odp
+  extension:
+  - .prz
 fmt/1256:
   name: MapInfo Workspace File
   action: ignore
@@ -2118,6 +2784,8 @@ fmt/1256:
     reason: MapInfo Workspace files, produced by MapInfo GIS software, are text files
       containing the MapInfo commands required to re-create a MapInfo session. Not
       preservation-worthy
+  extension:
+  - .wor
 fmt/1258:
   name: Microsoft Access Workgroup Information File
   action: ignore
@@ -2125,6 +2793,8 @@ fmt/1258:
     template: not-preservable
     reason: A file containing usernames and passwords for users and groups that require
       access to a specific Microsoft Access database. Not preservation-worthy
+  extension:
+  - .mdw
 fmt/1260:
   name: SketchUp Document version 2
   action: manual
@@ -2132,6 +2802,9 @@ fmt/1260:
   manual:
     reason: gis conversion does not preserve 3d model in kmz file.
     process: Open in SketchUp 8.0.15158 or SketchUp Viewer 22 and save as PDF.
+  extension:
+  - .skp
+  - .skb
 fmt/1263:
   name: SketchUp Document version 5
   action: manual
@@ -2139,6 +2812,9 @@ fmt/1263:
   manual:
     reason: gis conversion does not preserve 3d model in kmz file.
     process: Open in SketchUp 8.0.15158 or SketchUp Viewer 22 and save as PDF.
+  extension:
+  - .skp
+  - .skb
 fmt/1264:
   name: SketchUp Document version 6
   action: manual
@@ -2146,6 +2822,9 @@ fmt/1264:
   manual:
     reason: gis conversion does not preserve 3d model in kmz file.
     process: Open in SketchUp 8.0.15158 or SketchUp Viewer 22 and save as PDF.
+  extension:
+  - .skp
+  - .skb
 fmt/1265:
   name: SketchUp Document version 7
   action: manual
@@ -2153,6 +2832,9 @@ fmt/1265:
   manual:
     reason: gis conversion does not preserve 3d model in kmz file.
     process: Open in SketchUp 8.0.15158 or SketchUp Viewer 22 and save as PDF.
+  extension:
+  - .skp
+  - .skb
 fmt/1266:
   name: SketchUp Document version 8
   action: manual
@@ -2160,6 +2842,9 @@ fmt/1266:
   manual:
     reason: gis conversion does not preserve 3d model in kmz file.
     process: Open in SketchUp 8.0.15158 or SketchUp Viewer 22 and save as PDF.
+  extension:
+  - .skp
+  - .skb
 fmt/1270:
   name: SketchUp Document version 16
   action: manual
@@ -2167,6 +2852,9 @@ fmt/1270:
   manual:
     reason: no software for conversion.
     process: Open in SketchUp Viewer 22 as save as PDF.
+  extension:
+  - .skp
+  - .skb
 fmt/1271:
   name: SketchUp Document version 17
   action: manual
@@ -2174,6 +2862,9 @@ fmt/1271:
   manual:
     reason: no software for conversion.
     process: Open in SketchUp Viewer 22 as save as PDF.
+  extension:
+  - .skp
+  - .skb
 fmt/1272:
   name: SketchUp Document version 18
   action: manual
@@ -2181,6 +2872,9 @@ fmt/1272:
   manual:
     reason: no software for conversion.
     process: Open in SketchUp Viewer 22 as save as PDF.
+  extension:
+  - .skp
+  - .skb
 fmt/1273:
   name: SketchUp Document version 19
   action: manual
@@ -2188,6 +2882,9 @@ fmt/1273:
   manual:
     reason: no software for conversion.
     process: Open in SketchUp Viewer 22 as save as PDF.
+  extension:
+  - .skp
+  - .skb
 fmt/1303:
   name: Microsoft Shell Scrap Object File
   action: ignore
@@ -2195,79 +2892,110 @@ fmt/1303:
     template: not-preservable
     reason: Documents created by dragging objects from an Office document to a file
       folder, unsupported as of 2007. Not preservation-worthy
+  extension:
+  - .shs
 fmt/1331:
   name: Avery DesignPro Document 5
-  description: .ZDL is the native format of DesignPro 4, a label design and printing software application marketed by Avery Dennison Corporation. Extension is .zdl
+  description: .ZDL is the native format of DesignPro 4, a label design and printing
+    software application marketed by Avery Dennison Corporation. Extension is .zdl
   action: ignore
   ignore:
     template: not-convertable
     reason: We need a special software to open and edit .ZDL. Not not-convertable.
+  extension:
+  - .zdl
 fmt/1369:
   name: Error File
   action: ignore
   ignore:
     template: not-preservable
     reason: An error log file.. Not preservation-worthy
+  extension:
+  - .err
 fmt/1389:
   name: Drawing Interchange Format (ASCII) 2018/2019/2020
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/1390:
   name: Drawing Interchange Format (Binary) 2007-2009
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/1391:
   name: Drawing Interchange Format (Binary) 2010-2012
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/1392:
   name: Drawing Interchange Format (Binary) 2013-2017
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/1393:
   name: Drawing Interchange Format (Binary) 2018-2021
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dxf
 fmt/1439:
   name: Apple iWork Pages 09
   action: convert
   convert:
     tool: document
     output: odt
+  extension:
+  - .pages
 fmt/1441:
   name: Apple iWork Pages 14
   action: manual
   manual:
     process: Convert using Pages on a macOS device
     reason: Libreoffice cannot open this format
+  extension:
+  - .iwa
+  - .key
+  - .pages
+  - .numbers
+  - .template
 fmt/1451:
   name: PDF Portfolio 1.7
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 fmt/1452:
   name: Lotus 1-2-3 Worksheet (97)
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - '.123'
 fmt/1453:
   name: Lotus 1-2-3 Worksheet (9.8 Millennium)
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - '.123'
 fmt/1482:
   name: Access Report Snapshot
   action: ignore
@@ -2275,6 +3003,8 @@ fmt/1482:
     template: not-preservable
     reason: An export of a microsoft access database as a report, was supporten until
       2010. Can be viewed using an proprietary viewer. Not preservation-worthy
+  extension:
+  - .snp
 fmt/1507:
   name: Exchangeable Image File Format (Compressed) 2.3.x
   ignore_if:
@@ -2283,51 +3013,68 @@ fmt/1507:
   convert:
     tool: image
     output: png
+  extension:
+  - .jpg
+  - .jpeg
 fmt/1511:
   name: Microsoft Publisher 1
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .pub
 fmt/1512:
   name: Microsoft Publisher 2003
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .pub
 fmt/1513:
   name: Microsoft Publisher 2007
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .pub
 fmt/1514:
   name: Microsoft Publisher 2010
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .pub
 fmt/1515:
   name: Microsoft Publisher 2013
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .pub
 fmt/1516:
   name: Microsoft Publisher 2016-2019
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .pub
 fmt/1566:
   name: ColdFusion Markup Language
   action: ignore
   ignore:
     template: not-preservable
-    reason: ColdFusion Markup Language, more commonly known as CFML, is a scripting language
-     for web development that runs on the Java virtual machine (JVM), the .NET framework,
-     and Google App Engine. Not preservation-worthy
+    reason: ColdFusion Markup Language, more commonly known as CFML, is a scripting
+      language for web development that runs on the Java virtual machine (JVM), the
+      .NET framework, and Google App Engine. Not preservation-worthy
   description: Extension is .cfm
+  extension:
+  - .cfm
 fmt/1600:
   name: ESRI ArcInfo DAT File (Internal)
   reidentify:
@@ -2340,6 +3087,8 @@ fmt/1600:
     process: Find out what we can do with this format. You can try and see, if there
       is a mismatch between our bit-header and the bit-header for the fil with the
       repository "byteheader".
+  extension:
+  - .dat
 fmt/1628:
   name: Adobe InDesign Document 1.0
   description: Extension is .indd
@@ -2349,6 +3098,9 @@ fmt/1628:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .indd
+  - .ind
 fmt/1631:
   name: Adobe InDesign Document CS5.5
   description: Extension is .indd
@@ -2358,6 +3110,10 @@ fmt/1631:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .indd
+  - .ind
+  - .indt
 fmt/1632:
   name: Adobe InDesign Document CC
   description: Extension is .indd
@@ -2367,6 +3123,10 @@ fmt/1632:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .indd
+  - .ind
+  - .indt
 fmt/1633:
   name: Adobe InDesign Document CC 2014
   description: Extension is .indd
@@ -2376,6 +3136,10 @@ fmt/1633:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .indd
+  - .ind
+  - .indt
 fmt/1634:
   name: Adobe InDesign Document CC 2015
   description: Extension is .indd
@@ -2385,6 +3149,10 @@ fmt/1634:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .indd
+  - .ind
+  - .indt
 fmt/1635:
   name: Adobe InDesign Document CC 2017
   description: Extension is .indd
@@ -2394,6 +3162,10 @@ fmt/1635:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .indd
+  - .ind
+  - .indt
 fmt/1636:
   name: Adobe InDesign Document CC 2018
   description: Extension is .indd
@@ -2403,6 +3175,10 @@ fmt/1636:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .indd
+  - .ind
+  - .indt
 fmt/1637:
   name: Adobe InDesign Document CC 2019
   description: Extension is .indd
@@ -2412,6 +3188,10 @@ fmt/1637:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .indd
+  - .ind
+  - .indt
 fmt/1638:
   name: Adobe InDesign Document CC 2020
   description: Extension is .indd
@@ -2421,6 +3201,10 @@ fmt/1638:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .indd
+  - .ind
+  - .indt
 fmt/1639:
   name: Adobe InDesign Document CC 2021
   description: Extension is .indd
@@ -2430,21 +3214,30 @@ fmt/1639:
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .indd
+  - .ind
+  - .indt
 fmt/1641:
   name: Adobe InDesign Interchange Document
-  description: Adobe InDesign Document can be used to produce a number of works such as posters, flyers,
-    brochures, magazines, newspapers, presentations and books. Extension is .indd.
+  description: Adobe InDesign Document can be used to produce a number of works such
+    as posters, flyers, brochures, magazines, newspapers, presentations and books.
+    Extension is .indd.
   action: ignore
   ignore:
     template: not-preservable
     reason: File used by adobe software for image editing and manipulation. Not preservable,
       we are unable to open and convert this format without and photoshop license.
       The files also rarely if ever contains preservable info.
+  extension:
+  - .inx
 fmt/1677:
   name: Microsoft Office File List
   action: convert
   convert:
     tool: copy
+  extension:
+  - .xml
 fmt/1711:
   name: Software602 Printer Configuration File
   action: ignore
@@ -2452,12 +3245,16 @@ fmt/1711:
     template: not-preservable
     reason: Binary format for configuration, containing paths to printers and/ or
       dictionaries, used by Software602 programmes.
+  extension:
+  - .cfg
 fmt/1729:
   name: Esri Shapefile Geospatial Metadata File
   action: convert
   convert:
     tool: gis
     output: gml3
+  extension:
+  - .xml
 fmt/1730:
   name: ''
   reidentify:
@@ -2470,22 +3267,30 @@ fmt/1730:
     process: Find out what we can do with this format. You can try and see, if there
       is a mismatch between our bit-header and the bit-header for the fil with the
       repository "byteheader".
+  extension:
+  - .dat
 fmt/1753:
   name: OpenDocument Graphics 1.3
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .odg
 fmt/1754:
   name: OpenDocument Presentation 1.3
   action: convert
   convert:
     tool: copy
+  extension:
+  - .odp
 fmt/1755:
   name: OpenDocument Spreadsheet 1.3
   action: convert
   convert:
     tool: copy
+  extension:
+  - .ods
 fmt/1756:
   name: Opendocument Text 1.3
   reidentify:
@@ -2497,6 +3302,8 @@ fmt/1756:
     process: Find out what we can do with this format. You can try and see, if there
       is a mismatch between our bit-header and the bit-header for the fil with the
       repository "byteheader".
+  extension:
+  - .odt
 fmt/1763:
   name: MacBinary
   action: manual
@@ -2505,51 +3312,75 @@ fmt/1763:
     process: Open on Mac and save as pdf, rename to .bin file and use macutils in
       Linux, ex. macunpack input.bin and rename output file to correct format and
       save as pdf. manpages.debian.org/buster/macutils/macutil.1.en.html
+  extension:
+  - .bin
 fmt/1768:
   name: C Source Code file
   action: ignore
   ignore:
     template: not-preservable
     reason: Source code written in C. Not preservation-worthy
+  extension:
+  - .c
 fmt/1812:
   name: Audio Data Transport Stream
   action: convert
   convert:
     tool: audio
     output: flac
+  extension:
+  - .aac
+  - .adts
 fmt/1816:
   name: Adobe Swatch Exchange
-  description: Adobe Design software such as Photoshop, Illustrator and InDesign use color swatches to assign specific color values to a design. Color Palettes.
+  description: Adobe Design software such as Photoshop, Illustrator and InDesign use
+    color swatches to assign specific color values to a design. Color Palettes.
   action: ignore
   ignore:
     template: not-preservable
     reason: Not preservation-worthy
+  extension:
+  - .ase
 fmt/1827:
   name: DOCX Strict OOXML Document
-  description: DOCX Strict is the implementation of the Office Open XML word processor document format that strictly conforms to the ISO 29500-1 (2008-2016 standard).
+  description: DOCX Strict is the implementation of the Office Open XML word processor
+    document format that strictly conforms to the ISO 29500-1 (2008-2016 standard).
   action: convert
   convert:
     tool: document
     output: odt
+  extension:
+  - .docx
 fmt/1862:
   name: Adobe Illustrator CC Artwork v. 17-23
-  description: Originally the Adobe Illustrator Format (AI) was based on postscript. With each file having a postscript header. This all changed with Illustrator version 9 moving to PDF as its core, released in the year 2000.
+  description: Originally the Adobe Illustrator Format (AI) was based on postscript.
+    With each file having a postscript header. This all changed with Illustrator version
+    9 moving to PDF as its core, released in the year 2000.
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
+  - .ait
 fmt/1863:
   name: Adobe Illustrator CC 2020 Artwork v. 24-24.1
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
+  - .ait
 fmt/1864:
   name: Adobe Illustrator CC 2020 Artwork v. 24.2+
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ai
+  - .ait
 fmt/1879:
   name: vCard
   description: Contact information file. vCards are often attached to e-mail messages,
@@ -2559,6 +3390,9 @@ fmt/1879:
   ignore:
     template: not-preservable
     reason: Not preservation-worthy
+  extension:
+  - .vcf
+  - .vcard
 fmt/1880:
   name: vCard 3
   description: Contact information file. vCards are often attached to e-mail messages,
@@ -2568,6 +3402,9 @@ fmt/1880:
   ignore:
     template: not-preservable
     reason: Not preservation-worthy
+  extension:
+  - .vcf
+  - .vcard
 fmt/1915:
   name: ActiveMime Object
   description: ActiveMime Object, or mso, are attached to e-mail messages as a way
@@ -2576,12 +3413,16 @@ fmt/1915:
   ignore:
     template: not-preservable
     reason: Not preservation-worthy
+  extension:
+  - .mso
 fmt/1934:
   name: Drawing Interchange Format (Binary)
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .cdr
 
 #################
 # x-fmt formats #
@@ -2592,12 +3433,16 @@ x-fmt/9:
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .dbf
 x-fmt/10:
   name: dBASE Database IV
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .dbf
 x-fmt/13:
   name: Tab-separated values
   reidentify:
@@ -2606,47 +3451,70 @@ x-fmt/13:
   action: convert
   convert:
     tool: copy
+  extension:
+  - .tsv
+  - .tab
 x-fmt/17:
   name: Microsoft Excel Template 97-2003
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .xlt
 x-fmt/18:
   name: Comma Separated Values
   action: convert
   convert:
     tool: copy
+  extension:
+  - .csv
 x-fmt/37:
   name: AutoCAD Colour-Dependant Plot Style Table
   action: ignore
   ignore:
     template: not-preservable
     reason: Contains plotting settings. Not preservation-worthy
+  extension:
+  - .ctb
 x-fmt/44:
   name: WordPerfect for MS-DOS/Windows Document 6.0
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .doc
+  - .wpd
+  - .wp6
+  - .wp
+  - .w60
+  - .w61
+  - .w62
 x-fmt/45:
   name: Microsoft Word Document Template 97-2003
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .dot
 x-fmt/49:
   name: AutoCAD Design Web Format 6.0
   action: convert
   convert:
     tool: cad
     output: pdf
+  extension:
+  - .dwf
 x-fmt/54:
   name: AutoCAD Font Mapping Table
   action: ignore
   ignore:
     template: not-preservable
     reason: Contains info for fonts used while designing. Not preservation-worthy
+  extension:
+  - .fmp
 x-fmt/58:
   name: Microsoft Excel Web Query
   action: ignore
@@ -2654,28 +3522,38 @@ x-fmt/58:
     template: not-preservable
     reason: An Excel web server query, which can be used in an Excel file to retrieve
       data from a web server. Not preservation-worthy
+  extension:
+  - .iqy
 x-fmt/62:
   name: Log File
   action: convert
   convert:
     tool: copy
+  extension:
+  - .log
 x-fmt/64:
   name: Microsoft Word for Macintosh Document
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .mcw
 x-fmt/78:
   name: AutoCAD Plot Configuration File (2000)
   action: ignore
   ignore:
     template: not-preservable
     reason: An configuration file for AutoCAD. Not preservation-worthy
+  extension:
+  - .pc3
 x-fmt/90:
   name: Microsoft Print File
   action: convert
   convert:
     tool: copy
+  extension:
+  - .prn
 x-fmt/92:
   name: Adobe Photoshop
   action: convert
@@ -2684,6 +3562,9 @@ x-fmt/92:
     output: png
     options:
       layers: true
+  extension:
+  - .psd
+  - .pdd
 x-fmt/103:
   name: AutoCAD Compiled Shape/Font File
   action: ignore
@@ -2695,12 +3576,16 @@ x-fmt/103:
       save smaller building blocks and fonts that are frequently inserted in drawings.
       This allows users to save time and not have to re-create often-used shapes and
       fonts.. Not preservation-worthy
+  extension:
+  - .shx
 x-fmt/107:
   name: AutoCAD name plot style table
   action: ignore
   ignore:
     template: not-preservable
     reason: An configuration file for AutoCAD used while designing. Not preservation-worthy
+  extension:
+  - .stb
 x-fmt/111:
   name: Plain Text File
   reidentify:
@@ -2709,30 +3594,41 @@ x-fmt/111:
   action: convert
   convert:
     tool: copy
+  extension:
+  - .txt
 x-fmt/114:
   name: Lotus 1-2-3 Worksheet (2.0)
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .wk1
+  - .wk2
 x-fmt/115:
   name: Lotus 1-2-3 Worksheet (3.0)
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .wk3
 x-fmt/116:
   name: Lotus 1-2-3 Worksheet (4-5)
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .wk4
 x-fmt/117:
   name: Lotus 1-2-3 Worksheet (1.0)
   action: convert
   convert:
     tool: spreadsheet
     output: ods
+  extension:
+  - .wks
 x-fmt/119:
   name: Windows Metafile Image
   ignore_if:
@@ -2741,6 +3637,8 @@ x-fmt/119:
   convert:
     tool: image
     output: png
+  extension:
+  - .wmf
 x-fmt/128:
   name: Microsoft Excel Workspace
   action: ignore
@@ -2748,12 +3646,16 @@ x-fmt/128:
     template: not-preservable
     reason: Contains context information for workbook projects, such as which ones
       are part of the project, the position of the window, etc.. Not preservation-worthy
+  extension:
+  - .xlw
 x-fmt/138:
   name: Active Server Page
   action: ignore
   ignore:
     template: not-preservable
     reason: A website / server code file. Not preservation-worthy
+  extension:
+  - .asp
 x-fmt/148:
   name: IBM DisplayWrite DCA Text File
   action: ignore
@@ -2763,6 +3665,8 @@ x-fmt/148:
       that has been discontinued; saves document text and basic formatting; can be
       converted to more recent word processing formats using WordPort.. It might not
       be preservation-worthy, but either way we don't know how to handle it
+  extension:
+  - .dca
 x-fmt/153:
   name: Microsoft Windows Enhanced Metafile 1.0
   ignore_if:
@@ -2771,12 +3675,16 @@ x-fmt/153:
   convert:
     tool: image
     output: png
+  extension:
+  - .emf
 x-fmt/169:
   name: PHP Script Page
   action: ignore
   ignore:
     template: not-preservable
     reason: A script in PHP. Not preservation-worthy
+  extension:
+  - .php
 x-fmt/181:
   name: PageMaker PC document (6.5-7.0)
   action: manual
@@ -2786,41 +3694,58 @@ x-fmt/181:
     process: Open the file on the test machine and open it in PageMaker 7.0. From
       there, you can export it as an HTML document. Note that it might take several
       tries to open the file.
+  extension:
+  - .p65
+  - .t65
+  - .pmd
+  - .pmt
 x-fmt/191:
   name: AMI Professional Document
   action: ignore
   ignore:
     template: not-preservable
     reason: A file from the AMI wordprocessor. Not preservation-worthy / not convertable
+  extension:
+  - .sam
 x-fmt/224:
   name: Cascading Style Sheet
   action: convert
   convert:
     tool: copy
+  extension:
+  - .css
 x-fmt/225:
   name: ESRI MapInfo Data File
   action: ignore
   ignore:
     template: not-preservable
     reason: A helper file for .mid GIS files. Will be picked up by the gis-processor
+  extension:
+  - .mid
 x-fmt/227:
   name: Geography Markup Language
   action: convert
   convert:
     tool: gis
     output: gml3
+  extension:
+  - .gml
 x-fmt/231:
   name: ESRI MapInfo Export File
   action: convert
   convert:
     tool: gis
     output: gml3
+  extension:
+  - .mif
 x-fmt/235:
   name: ESRI Arc/View ShapeFile
   action: convert
   convert:
     tool: gis
     output: gml3
+  extension:
+  - .shp
 x-fmt/240:
   name: Microsoft Acces Database File (2000)
   action: ignore
@@ -2828,79 +3753,102 @@ x-fmt/240:
     template: not-preservable
     reason: A microsoft access database. Not preservable, we are unable to convert
       it to a format we can handle as of now
+  extension:
+  - .mdb
+  - .mde
 x-fmt/245:
   name: Microsoft Project 98
   action: ignore
   ignore:
     template: not-preservable
     reason: Project files. Not preservation-worthy
+  extension:
+  - .mpp
 x-fmt/247:
   name: Microsoft Project 2000-2003
   action: ignore
   ignore:
     template: not-preservable
     reason: Project files. Not preservation-worthy
+  extension:
+  - .mpp
 x-fmt/252:
   name: Microsoft Publisher 2.0
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .pub
 x-fmt/253:
   name: Microsoft Publisher 95
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .pub
 x-fmt/254:
   name: Microsoft Publisher 97
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .pub
 x-fmt/255:
   name: Microsoft Publisher 98
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .pub
 x-fmt/256:
   name: Microsoft Publisher 2000
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .pub
 x-fmt/257:
   name: Microsoft Publisher 2002
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .pub
 x-fmt/258:
   name: Microsoft Visio Drawing 2000
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .vsd
+  - .vss
+  - .vst
 x-fmt/263:
   name: ZIP Format
   alternatives:
     .odt: aca-fmt/18
     .ods: aca-fmt/21
-    .bpm: aca-fmt/34    # Bizagi Process Modeler file https://www.bizagi.com/en/platform/modeler
-    .cptx: aca-fmt/34   # Adobe Captivate https://www.adobe.com/products/captivate
-    .egp: aca-fmt/34    # SAS project file
-    .evo: aca-fmt/34    # DIALux project file https://www.dialux.com
-    .layout: aca-fmt/34 # SketchUp project
-    .mmap: aca-fmt/34   # Mindmap
-    .nupkg: aca-fmt/34  # .NET package
-    .pbix: aca-fmt/34   # Power BI report file https://learn.microsoft.com/en-us/power-bi/create-reports/service-export-to-pbix
-    .pkpass: aca-fmt/34 # Digital pass file https://en.wikipedia.org/wiki/PKPASS
-    .pro: aca-fmt/34    # ?
-    .pvprj: aca-fmt/34  # PV*SOL project file https://pvsol.software/en/
-    .rcv: aca-fmt/34    # RoofCon file https://www.mitekab.se/software/trusscon-roofcon/?lang=en
-    .safx: aca-fmt/34   # ?
-    .twbx: aca-fmt/34   # Tableau Packaged Workbook https://help.tableau.com/current/pro/desktop/en-us/environ_filesandfolders.htm
+    .bpm: aca-fmt/34
+    .cptx: aca-fmt/34
+    .egp: aca-fmt/34
+    .evo: aca-fmt/34
+    .layout: aca-fmt/34
+    .mmap: aca-fmt/34
+    .nupkg: aca-fmt/34
+    .pbix: aca-fmt/34
+    .pkpass: aca-fmt/34
+    .pro: aca-fmt/34
+    .pvprj: aca-fmt/34
+    .rcv: aca-fmt/34
+    .safx: aca-fmt/34
+    .twbx: aca-fmt/34
     .cdr: aca-fmt/35
     .xmind: aca-fmt/36
     .sxw: fmt/128
@@ -2914,18 +3862,24 @@ x-fmt/263:
   extract:
     tool: zip
     extension: .zip
+  extension:
+  - .zip
 x-fmt/264:
   name: RAR Archive version
   action: extract
   extract:
     tool: rar
     extension: .rar
+  extension:
+  - .rar
 x-fmt/265:
   name: Tape Archive Format
   action: extract
   extract:
     tool: tar
     extension: .tar
+  extension:
+  - .tar
 x-fmt/266:
   name: GZIP Format
   action: extract
@@ -2936,6 +3890,9 @@ x-fmt/266:
     .emz: aca-fmt/22
     .emz.gz: aca-fmt/22
     .wmz: aca-fmt/27
+  extension:
+  - .gz
+  - .z
 x-fmt/280:
   name: XML Schema Definition
   reidentify:
@@ -2946,11 +3903,15 @@ x-fmt/280:
     template: not-preservable
     reason: A prescriptive XML template, for validating XML files with. Not preservation-worthy
       if not with a GML file.
+  extension:
+  - .xsd
 x-fmt/315:
   name: Document Type Definition
   action: convert
   convert:
     tool: copy
+  extension:
+  - .dtd
 x-fmt/328:
   name: InterBase Database file
   action: ignore
@@ -2958,6 +3919,8 @@ x-fmt/328:
     template: not-preservable
     reason: A database file in the interbase format. Not preservable, we are unable
       to convert it to a format we can handle as of now
+  extension:
+  - .gdb
 x-fmt/332:
   name: Lotus 1-2-3 Spreadsheet Formatting File 3.0
   action: ignore
@@ -2965,18 +3928,24 @@ x-fmt/332:
     template: not-preservable
     reason: It's a file containing formatting information for Lotus spreadsheets.
       Not preservation-worthy
+  extension:
+  - .fm3
 x-fmt/340:
   name: Lotus WordPro Document
   action: convert
   convert:
     tool: symphovert
     output: odt
+  extension:
+  - .lwp
 x-fmt/345:
   name: Microsoft Works Document
   action: convert
   convert:
     tool: document
     output: odt
+  extension:
+  - .bps
 x-fmt/346:
   name: Microstation CAD Drawing
   reidentify:
@@ -2987,36 +3956,52 @@ x-fmt/346:
   ignore:
     template: not-convertable
     reason: At the moment the file can't be converted with the current tools for CAD-files.
+  extension:
+  - .dgn
 x-fmt/375:
   name: CorelDraw Drawing
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .cdr
 x-fmt/382:
   name: Macromedia FLV 1
   action: convert
   convert:
     tool: video
     output: h265
+  extension:
+  - .flv
 x-fmt/384:
   name: Quicktime
   action: convert
   convert:
     tool: video
     output: h265
+  extension:
+  - .mov
+  - .qtm
 x-fmt/385:
   name: MPEG-1 Program Stream
   action: convert
   convert:
     tool: video
     output: h265
+  extension:
+  - .mpeg
+  - .mpg
 x-fmt/386:
   name: MPEG-2 Program Stream
   action: convert
   convert:
     tool: video
     output: h265
+  extension:
+  - .mpeg
+  - .mpg
+  - .mod
 x-fmt/387:
   name: Exchangeable Image File Format (Uncompressed) 2.2
   ignore_if:
@@ -3025,6 +4010,9 @@ x-fmt/387:
   convert:
     tool: image
     output: png
+  extension:
+  - .tif
+  - .tiff
 x-fmt/388:
   name: Exchangeable Image File Format (Uncompressed) 2.1
   ignore_if:
@@ -3033,6 +4021,9 @@ x-fmt/388:
   convert:
     tool: image
     output: png
+  extension:
+  - .tif
+  - .tiff
 x-fmt/390:
   name: Exchangeable Image File Format (Compressed) 2.1
   ignore_if:
@@ -3041,6 +4032,9 @@ x-fmt/390:
   convert:
     tool: image
     output: png
+  extension:
+  - .jpg
+  - .jpeg
 x-fmt/391:
   name: Exchangeable Image File Format (Compressed) 2.2
   ignore_if:
@@ -3049,6 +4043,9 @@ x-fmt/391:
   convert:
     tool: image
     output: png
+  extension:
+  - .jpg
+  - .jpeg
 x-fmt/392:
   name: JP2 (JPEG 2000 part 1)
   ignore_if:
@@ -3057,18 +4054,32 @@ x-fmt/392:
   convert:
     tool: image
     output: png
+  extension:
+  - .jp2
 x-fmt/393:
   name: WordPerfect for MS-DOS Document 5.0
   action: convert
   convert:
     tool: document
     output: odt
+  extension:
+  - .wp
+  - .wp5
+  - .wpd
+  - .w50
+  - .doc
 x-fmt/394:
   name: WordPerfect for MS-DOS/Windows Document 5.1
   action: convert
   convert:
     tool: document
     output: odt
+  extension:
+  - .wp5
+  - .wpd
+  - .w51
+  - .wp
+  - .doc
 x-fmt/398:
   name: Exchangeable Image File Format (Compressed) 2.0
   ignore_if:
@@ -3077,30 +4088,43 @@ x-fmt/398:
   convert:
     tool: image
     output: png
+  extension:
+  - .jpg
+  - .jpeg
 x-fmt/408:
   name: PostScript 3.0
   action: convert
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .ps
 x-fmt/411:
   name: Windows Portable Executable
   action: ignore
   ignore:
     template: not-preservable
     reason: A Windows executable file. Not preservation-worthy
+  extension:
+  - .exe
+  - .dll
+  - .sys
 x-fmt/412:
   name: Java Archive Format
   action: ignore
   ignore:
     template: not-preservable
     reason: A Java archive file containing a Java project. Not preservation-worthy
+  extension:
+  - .jar
 x-fmt/413:
   name: Batch file (executable)
   action: ignore
   ignore:
     template: not-preservable
     reason: An executable non-binary .bat-file. Not preservation-worthy
+  extension:
+  - .bat
 x-fmt/414:
   name: Windows Cabinet File
   action: manual
@@ -3110,12 +4134,16 @@ x-fmt/414:
       dir as the .cab file with the uuid of the .cab file as name. Open the .cab file
       with windows. Copy everything into the subdir. Make sure that it is just like
       'digiarch extract'
+  extension:
+  - .cab
 x-fmt/415:
   name: Java Compiled Object Code
   action: ignore
   ignore:
     template: not-preservable
     reason: Java byte code - not human readable. Not preservation-worthy
+  extension:
+  - .class
 x-fmt/416:
   name: BinHex Binary Text
   action: ignore
@@ -3125,6 +4153,8 @@ x-fmt/416:
       encoding system that was used on the classic Mac OS for sending binary files
       through e-mail.. It might not be preservation-worthy, but either way we don't
       know how to handle it
+  extension:
+  - .hqx
 x-fmt/418:
   name: Icon file format
   ignore_if:
@@ -3137,43 +4167,58 @@ x-fmt/418:
     template: not-preservable
     reason: An ICO file contains an icon, which is typically used to represent a Windows
       program, file, or folder. Not preservation-worthy
+  extension:
+  - .ico
 x-fmt/420:
   name: Windows Setup File
   action: ignore
   ignore:
     template: not-preservable
     reason: Windows Setup File or Installer Script. Not preservation-worthy
+  extension:
+  - '.inf'
 x-fmt/421:
   name: Text Configuration file
   action: ignore
   ignore:
     template: not-preservable
     reason: A text config file. Not preservation-worthy
+  extension:
+  - .ini
 x-fmt/423:
   name: JavaScript file
   action: ignore
   ignore:
     template: not-preservable
     reason: A script in JavaScript. Not preservation-worthy
+  extension:
+  - .js
 x-fmt/426:
   name: License file
   action: convert
   convert:
     tool: copy
+  extension:
+  - .lic
 x-fmt/428:
   name: Microsoft Windows Shortcut
   action: ignore
   ignore:
     template: not-preservable
     reason: A pointer to a different file. Not preservation-worthy
+  extension:
+  - .lnk
 x-fmt/429:
   name: MHTML
   extensions:
-    - .mhtml
+  - .mhtml
   action: convert
   convert:
     tool: browser
     output: pdf
+  extension:
+  - .mht
+  - .mhtml
 x-fmt/430:
   name: MSG file
   action: extract
@@ -3183,6 +4228,9 @@ x-fmt/430:
     on_success: convert
   convert:
     tool: copy
+  extension:
+  - .msg
+  - .oft
 x-fmt/441:
   name: AutoCAD Database File Locking Information
   action: ignore
@@ -3190,24 +4238,32 @@ x-fmt/441:
     template: not-preservable
     reason: A temporary file created by AutoCAD when a file is opened for editing,
       detailing when and by who the file was edited. Not preservation-worthy
+  extension:
+  - .dwl
 x-fmt/453:
   name: TrueType Font
   action: ignore
   ignore:
     template: not-preservable
     reason: A font file. Not preservation-worthy
+  extension:
+  - .ttf
 x-fmt/454:
   name: Microsoft Internet Shortcut
   action: ignore
   ignore:
     template: not-preservable
     reason: A link to a website. Not preservation-worthy
+  extension:
+  - .url
 x-fmt/455:
   name: AutoCAD Drawing 2007-2008
   action: convert
   convert:
     tool: cad2d
     output: svg
+  extension:
+  - .dwg
 xfmt/157:
   name: Microsoft Windows Enhanced Metafile 1.0
   ignore_if:
@@ -3226,9 +4282,13 @@ fmt/1549:
   manual:
     reason: Never able to find this type of file.
     process: Try to open in Bentley View or AB Viewer.
+  extension:
+  - .hln
 fmt/502:
   name: Bentley V8 DGN
   action: manual
   manual:
     reason: Unable to convert automatically.
     process: Open in Bentley View, save as pdf.
+  extension:
+  - .dgn
