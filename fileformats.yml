@@ -148,7 +148,7 @@ aca-fmt/9:
   action: extract
   extract:
     tool: tnef
-    extensions: .dat
+    extension: .dat
     on_success: convert
   convert:
     tool: tnef
@@ -1783,7 +1783,7 @@ fmt/411:
   action: extract
   extract:
     tool: rar
-    extensions: .rar
+    extension: .rar
   extensions:
     - .rar
 fmt/412:
@@ -1917,7 +1917,7 @@ fmt/468:
   action: extract
   extract:
     tool: iso
-    extensions: .iso
+    extension: .iso
   extensions:
     - .iso
     - .toast
@@ -2007,7 +2007,7 @@ fmt/484:
   action: extract
   extract:
     tool: 7z
-    extensions: .7z
+    extension: .7z
   extensions:
     - .7z
 fmt/487:
@@ -2449,7 +2449,7 @@ fmt/613:
   action: extract
   extract:
     tool: rar
-    extensions: .rar
+    extension: .rar
   extensions:
     - .rar
 fmt/616:
@@ -2656,7 +2656,7 @@ fmt/866:
   action: extract
   extract:
     tool: webarchive
-    extensions: .webarchive
+    extension: .webarchive
   extensions:
     - .webarchive
 fmt/870:
@@ -4038,7 +4038,7 @@ x-fmt/263:
   action: extract
   extract:
     tool: zip
-    extensions: .zip
+    extension: .zip
   extensions:
     - .zip
 x-fmt/264:
@@ -4046,7 +4046,7 @@ x-fmt/264:
   action: extract
   extract:
     tool: rar
-    extensions: .rar
+    extension: .rar
   extensions:
     - .rar
 x-fmt/265:
@@ -4054,7 +4054,7 @@ x-fmt/265:
   action: extract
   extract:
     tool: tar
-    extensions: .tar
+    extension: .tar
   extensions:
     - .tar
 x-fmt/266:
@@ -4405,7 +4405,7 @@ x-fmt/430:
   action: extract
   extract:
     tool: msg
-    extensions: .msg
+    extension: .msg
     on_success: convert
   convert:
     tool: copy

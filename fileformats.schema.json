@@ -232,7 +232,7 @@
           "type": "array",
           "items": {
             "type": "string",
-            "pattern": "\\.\\w+"
+            "pattern": "\\.\\*+"
           }
         },
         "alternatives": {
