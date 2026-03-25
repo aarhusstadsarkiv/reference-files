@@ -81,7 +81,7 @@ aca-fmt/1:
     tool: symphovert
     output: ods
   extensions:
-    - .123
+    - ".123"
 aca-fmt/2:
   name: Microsoft Word Markup
   action: convert
@@ -4062,7 +4062,7 @@ x-fmt/266:
   action: extract
   extract:
     tool: gzip
-    extensions: .gz
+    extension: .gz
   alternatives:
     .emz: aca-fmt/22
     .emz.gz: aca-fmt/22
