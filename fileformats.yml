@@ -80,6 +80,8 @@ aca-fmt/1:
   convert:
     tool: symphovert
     output: ods
+  extension:
+  - .123
 aca-fmt/2:
   name: Microsoft Word Markup
   action: convert
@@ -88,6 +90,8 @@ aca-fmt/2:
   convert:
     tool: msword
     output: pdfa
+  extension:
+  - .xml
 aca-fmt/3:
   name: Microsoft Excel Markup
   action: manual
@@ -98,24 +102,32 @@ aca-fmt/3:
       2. Save as ODS
 
       '
+  extension:
+  - .xml
 aca-fmt/4:
   name: MindManager Mind Map
   action: ignore
   ignore:
     template: not-preservable
     reason: Proprietary mind map file. Not preservation-worthy
+  extension:
+  - .mmap
 aca-fmt/5:
   name: Lotus Notes Template
   action: ignore
   ignore:
     template: not-preservable
     reason: A database template. Not preservation-worthy
+  extension:
+  - .ntf
 aca-fmt/6:
   name: Lotus Approach Index File
   action: ignore
   ignore:
     template: not-preservable
     reason: A file exclusively containing database indexing. Not preservation-worthy
+  extension:
+  - .adx
 aca-fmt/7:
   name: ID File
   action: ignore
@@ -139,6 +151,8 @@ aca-fmt/9:
   convert:
     tool: tnef
     output: html
+  extension:
+  - .dat
 aca-fmt/10:
   name: MS Access 95
   action: manual
@@ -146,6 +160,8 @@ aca-fmt/10:
     reason: Unable to convert automatically.
     process: Open with Microsoft Access. For each table in the database, save the
       table as .xlsx. Reidentify with digiarch.
+  extension:
+  - .mdb
 aca-fmt/11:
   name: MS Access 97
   action: manual
@@ -153,6 +169,8 @@ aca-fmt/11:
     reason: Unable to convert automatically.
     process: Open with Microsoft Access. For each table in the database, save the
       table as .xlsx. Reidentify with digiarch.
+  extension:
+  - .mdb
 aca-fmt/12:
   name: MS Access 2000
   action: manual
@@ -160,6 +178,8 @@ aca-fmt/12:
     reason: Unable to convert automatically.
     process: Open with Microsoft Access. For each table in the database, save the
       table as .xlsx. Reidentify with digiarch.
+  extension:
+  - .mdb
 aca-fmt/13:
   name: MS Access 2002/3
   action: manual
@@ -167,6 +187,8 @@ aca-fmt/13:
     reason: Unable to convert automatically.
     process: Open with Microsoft Access. For each table in the database, save the
       table as .xlsx. Reidentify with digiarch.
+  extension:
+  - .mdb
 aca-fmt/14:
   name: MS Access database unspecified version (Jet 3 DB)
   action: manual
@@ -174,6 +196,8 @@ aca-fmt/14:
     reason: Unable to convert automatically.
     process: Open with Microsoft Access. For each table in the database, save the
       table as .xlsx. Reidentify with digiarch.
+  extension:
+  - .mdb
 aca-fmt/15:
   name: MS Access database unspecified version (Jet 4 DB)
   action: manual
@@ -181,6 +205,8 @@ aca-fmt/15:
     reason: Unable to convert automatically.
     process: Open with Microsoft Access. For each table in the database, save the
       table as .xlsx. Reidentify with digiarch.
+  extension:
+  - .mdb
 aca-fmt/16:
   name: MS Access database unspecified version (ACE DB)
   action: manual
@@ -188,6 +214,8 @@ aca-fmt/16:
     reason: Unable to convert automatically.
     process: Open with Microsoft Access. For each table in the database, save the
       table as .xlsx. Reidentify with digiarch.
+  extension:
+  - .accdbb
 aca-fmt/17:
   name: MapInfo MAP file
   action: ignore
@@ -199,6 +227,8 @@ aca-fmt/18:
   convert:
     tool: document
     output: pdf
+  extension:
+  - .odt
 aca-fmt/19:
   name: Lotus Approach View File
   action: ignore
@@ -210,12 +240,16 @@ aca-fmt/20:
   convert:
     tool: gis
     output: tab
+  extension:
+  - .tab
 aca-fmt/21:
   name: OpenDocument Spreadsheet (unspecified version)
   action: convert
   convert:
     tool: document
     output: pdf
+  extension:
+  - .ods
 aca-fmt/22:
   name: Windows Compressed Enhanced Metafile
   action: convert
@@ -233,6 +267,8 @@ aca-fmt/23:
   convert:
     tool: document
     output: odt
+  extension:
+  - .xml
 aca-fmt/24:
   name: vCard
   action: ignore
@@ -240,12 +276,17 @@ aca-fmt/24:
   ignore:
     template: not-preservable
     reason: Virtual business card. Not preservation-worthy
+  extension:
+  - .vcd
+  - .vcard
 aca-fmt/25:
   name: Microsoft Windows URL
   action: ignore
   ignore:
     template: not-preservable
     reason: Website shortcut file. Not preservation-worthy
+  extension:
+  - .url
 aca-fmt/26:
   name: Lotus Notes Doclink File
   action: ignore
@@ -270,11 +311,15 @@ aca-fmt/28:
   manual:
     reason: Unable to convert automatically.
     process: Open in Bentley View, save as pdf.
+  extension:
+  - .dgn
 aca-fmt/29:
   name: XML Schema Definition (Aarhus Stadsarkivs custom XSD)
   action: convert
   convert:
     tool: copy
+  extension:
+  - .xsd
 aca-fmt/30:
   name: PTV Visum Graphics Parameters file
   action: ignore
@@ -290,6 +335,8 @@ aca-fmt/31:
     process: Open in eDrawings Viewer and save as pdf. www.edrawingsviewer.com/download-edrawings
   description: An EASM file is a CAD drawing created by Dassault Systemes eDrawings
     Publisher, a plug-in used to export designs from CAD applications.
+  extension:
+  - .easm
 aca-fmt/32:
   name: Calculux Road Project File
   action: ignore
@@ -303,6 +350,8 @@ aca-fmt/33:
     reason: Unable for find converter for .ver files.
     process: Open in latest PTV Visum version and export to png. If open not possible,
       set ignore and template.
+  extension:
+  - .ver
 aca-fmt/34:
   name: Generic ZIP container
   action: ignore
@@ -316,6 +365,8 @@ aca-fmt/35:
   convert:
     tool: cad
     output: dxf
+  extension:
+  - .dwg
 aca-fmt/36:
   name: XMind Mindmap
   action: convert
@@ -324,6 +375,8 @@ aca-fmt/36:
     output: '-'
     options:
       path: Thumbnails/thumbnail.png
+  extension:
+  - .xmind
 aca-fmt/37:
   name: Portable Network Graphics 1.0
   description: Like fmt/11 but more relaxed requirements for byteheader that Pronom.
@@ -333,6 +386,8 @@ aca-fmt/37:
   convert:
     tool: image
     output: png
+  extension:
+  - .png
 aca-fmt/38:
   name: Acrobat PDF 1.2 - Portable Document Format
   description: Like fmt/16 but more relaxed requirements for byteheader that Pronom.
@@ -340,6 +395,8 @@ aca-fmt/38:
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 aca-fmt/39:
   name: Acrobat PDF 1.3 - Portable Document Format
   description: Like fmt/17 but more relaxed requirements for byteheader that Pronom.
@@ -347,6 +404,8 @@ aca-fmt/39:
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 aca-fmt/40:
   name: Acrobat PDF 1.4 - Portable Document Format
   description: Like fmt/18 but more relaxed requirements for byteheader that Pronom.
@@ -354,6 +413,8 @@ aca-fmt/40:
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 aca-fmt/41:
   name: Acrobat PDF 1.5 - Portable Document Format
   description: Like fmt/19 but more relaxed requirements for byteheader that Pronom.
@@ -361,6 +422,8 @@ aca-fmt/41:
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 aca-fmt/42:
   name: Acrobat PDF 1.7 - Portable Document Format 1.7
   description: Like fmt/276 but more relaxed requirements for byteheader that Pronom.
@@ -368,6 +431,8 @@ aca-fmt/42:
   convert:
     tool: pdf
     output: pdfa-3
+  extension:
+  - .pdf
 aca-fmt/43:
   name: Raw JPEG Stream
   description: Like fmt/41 but more relaxed requirements for byteheader that Pronom.
@@ -377,6 +442,9 @@ aca-fmt/43:
   convert:
     tool: document
     output: png
+  extension:
+  - .jpg
+  - .jpeg
 aca-fmt/44:
   name: SCP Data file
   description: SCP-ECG (Standard Communications Protocol for Computer-Assisted Electrocardiography)
@@ -385,18 +453,24 @@ aca-fmt/44:
   ignore:
     reason: Unable to find software that renders .scp-files
     template: not-convertable
+  extension:
+  - .scp
 aca-fmt/45:
   name: Microsoft Word xml
   action: convert
   convert:
     tool: document
     output: odt
+  extension:
+  - .xml
 aca-fmt/46:
   name: SAS Software 9.1 xml
   action: convert
   convert:
     tool: browser
     output: pdf
+  extension:
+  - .xml
 aca-fmt/47:
   name: CMAP - CmapTools Concept Map File
   description: Diagram file created by IHMC CmapTools used for drawing concept maps;
