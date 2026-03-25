@@ -277,7 +277,7 @@ aca-fmt/24:
     template: not-preservable
     reason: Virtual business card. Not preservation-worthy
   extension:
-  - .vcd
+  - .vcf
   - .vcard
 aca-fmt/25:
   name: Microsoft Windows URL
