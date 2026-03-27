@@ -98,11 +98,8 @@ aca-fmt/3:
   action: manual
   manual:
     reason: Cannot be recognized by LibreOffice.
-    process: "1. Open with Microsoft Excel
-
+    process: 1. Open with Microsoft Excel
       2. Save as ODS
-
-      "
   extensions:
     - .xml
 aca-fmt/4:
