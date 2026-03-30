@@ -1485,6 +1485,16 @@ fmt/208:
     reason: Binary File. Not preservation-worthy
   extensions:
     - .bin
+fmt/210:
+  name: Statistica Report File
+  action: manual
+  manual:
+    reason: There is no convertable tools other than opening it with TIBCO Statistica.
+    process:
+      Open TIBCO Statistica and then open the report file.
+      From there, you can save as .rtf or PDF.
+  extensions:
+    - .str
 fmt/212:
   name: Information or Setup File
   action: ignore
@@ -1748,6 +1758,26 @@ fmt/357:
   extensions:
     - .3gp
     - .3gpp
+fmt/367:
+  name: ESRI World File Format
+  description: 
+    A plain text data file used by geographic information systems 
+    to georeference raster map images.
+  action: convert
+  convert:
+    tool: copy
+  extensions:
+    - .tfw
+    - .jgw
+    - .pgw
+    - .bpw
+    - .tifw
+    - .blw
+    - .bilw
+    - .jpgw
+    - .rasterw
+    - .btw
+    - .sdw
 fmt/388:
   name: Internet Calendar and Scheduling format
   action: convert
@@ -1834,6 +1864,15 @@ fmt/423:
     output: pdfa-3
   extensions:
     - .ai
+fmt/425:
+  name: Video Object File (MPEG-2 subset)
+  action: convert
+  convert:
+    tool: video
+    output: h265
+  extensions:
+    - .vob
+    - .mp4
 fmt/428:
   name: CorelDraw Drawing
   action: convert
@@ -2534,6 +2573,15 @@ fmt/657:
   extensions:
     - .xps
     - .oxps
+fmt/667:
+  name: Photoshop Curve File
+  description: File that can be loaded as a preset for curves in Adobe Photoshop.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Not preservation-worthy
+  extensions:
+    - .acv
 fmt/670:
   name: "PKCS #7 Cryptographic Message File"
   action: ignore
@@ -2552,6 +2600,14 @@ fmt/682:
     reason: Windows OS file, contains folder metadata. Not preservation-worthy
   extensions:
     - .db
+fmt/704:
+  name: Broadcast WAVE
+  action: convert
+  convert:
+    tool: audio
+    output: mp3
+  extensions:
+    - .wav
 fmt/724:
   name: Keyhole Markup Language (Container)
   description: kmz file. There will be data loss if kmz file contains 3d model.
@@ -2672,6 +2728,14 @@ fmt/881:
     output: tif
   extensions:
     - .mdi
+fmt/885:
+  name: BASIC File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A BASIC file only contains code. Not preservation-worthy
+  extensions:
+    - .bas
 fmt/886:
   name: HTML Components
   action: ignore
@@ -2856,6 +2920,14 @@ fmt/1082:
     reason: Defines XML Web service attributes for Active Server Pages. Not preservation-worthy
   extensions:
     - .asmx
+fmt/1088:
+  name: Visual Basic (VB) File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A Visual Basic file contains code. Not preservation-worthy
+  extensions:
+    - .vb
 fmt/1089:
   name: VBScript (VBS) File
   action: ignore
@@ -2876,6 +2948,14 @@ fmt/1103:
       Not preservation-worthy
   extensions:
     - .pat
+fmt/1119:
+  name: Jupyter Python Notebook
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A Jupyter Notebook contains code. Not preservable-worthy
+  extensions:
+    - .ipynb
 fmt/1129:
   name: PDF 2.0 - Portable Document Format
   action: convert
@@ -2904,6 +2984,16 @@ fmt/1134:
     tool: copy
   extensions:
     - .gpx
+fmt/1138:
+  name: MiniCAD/VectorWorks
+  action: convert
+  convert:
+    tool: cad2d
+    output: svg
+  extensions:
+    - .mcd
+    - .vwx
+    - .rdl
 fmt/1216:
   name: ""
   action: convert
@@ -2912,6 +3002,16 @@ fmt/1216:
     output: odp
   extensions:
     - .prz
+fmt/1253:
+  name: ESRI Code Page File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: 
+      ESRI Code Page files are optional files that can be used to specify the code page 
+      for identifying the character set to be used. Not preservation-worthy
+  extensions:
+    - .cpg
 fmt/1256:
   name: MapInfo Workspace File
   action: ignore
@@ -3044,6 +3144,13 @@ fmt/1331:
     reason: We need a special software to open and edit .ZDL. Not not-convertable.
   extensions:
     - .zdl
+fmt/1367:
+  name: GeoJSON
+  description: GeoJSON is designed for representing geographical features.
+  convert:
+    tool: copy
+  extensions:
+    - .json
 fmt/1369:
   name: Error File
   action: ignore
@@ -3092,6 +3199,14 @@ fmt/1393:
     output: svg
   extensions:
     - .dxf
+fmt/1395:
+  name: AutoCAD Drawing
+  action: convert
+  convert:
+    tool: cad2d
+    output: svg
+  extensions:
+    - .dwg
 fmt/1439:
   name: Apple iWork Pages 09
   action: convert
@@ -3636,6 +3751,18 @@ x-fmt/18:
     tool: copy
   extensions:
     - .csv
+x-fmt/30:
+  name: CorelDraw Template
+  description: 
+    A CorelDraw Template is a document blueprint that maintains
+    structure, styles and placeholders. It is not the final product,
+    but can still be converted to a pdf. 
+  action: convert
+  convert:
+    tool: document
+    output: pdf
+  extensions:
+    - .cdt
 x-fmt/37:
   name: AutoCAD Colour-Dependant Plot Style Table
   action: ignore
@@ -3707,6 +3834,17 @@ x-fmt/64:
     output: pdf
   extensions:
     - .mcw
+x-fmt/76:
+  name: CorelDraw Pattern
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: 
+      A CorelDraw Pattern File refers to reusable fills or textures 
+      inside CorelDRAW. Not preservation-worthy, as they are usually 
+      embedded in .cdr 
+  extensions:
+    - .pat
 x-fmt/78:
   name: AutoCAD Plot Configuration File (2000)
   action: ignore
@@ -3715,6 +3853,25 @@ x-fmt/78:
     reason: An configuration file for AutoCAD. Not preservation-worthy
   extensions:
     - .pc3
+x-fmt/79:
+  name: AutoCAD Plot Configuration File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: An configuration file for AutoCAD. Not preservation-worthy
+  extensions:
+    - .pcp
+x-fmt/89:
+  name: Freelance File 1.0-2.1
+  description: A presentation document.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: 
+      There is no software that can preserve this file and no native 
+      support on modern tools.
+  extensions:
+    - .pre 
 x-fmt/90:
   name: Microsoft Print File
   action: convert
@@ -3733,6 +3890,18 @@ x-fmt/92:
   extensions:
     - .psd
     - .pdd
+x-fmt/98:
+  name: AutoCAD ACIS Export File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: 
+      ACIS is a modelling engine used to represent precise 3D geometry.
+      It stores 3D solids, edges, faces, topology and exact geometric definitions.
+      An ACIS Export file can include any of those mentioned and is used for
+      data exchange without sending full native files (.dwg). Not preservation-worthy
+  extensions:
+    - .sat
 x-fmt/103:
   name: AutoCAD Compiled Shape/Font File
   action: ignore
@@ -3880,6 +4049,25 @@ x-fmt/191:
     reason: A file from the AMI wordprocessor. Not preservation-worthy / not convertable
   extensions:
     - .sam
+x-fmt/197:
+  name: DataFlex Query Tag Name
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Not preservable-worthy
+  extensions:
+    - .tag
+x-fmt/198:
+  name: Pagemaker TableEditor Graphics
+  action: manual
+  manual:
+    reason:
+      There exists no third-party applications to convert it, and must therefore be done manually.
+    process:
+      Open the file on the test machine and open it in PageMaker. From
+      there, you can export it as an PDF file.
+  extensions:
+    - .tbl
 x-fmt/224:
   name: Cascading Style Sheet
   action: convert
@@ -4080,6 +4268,14 @@ x-fmt/280:
       if not with a GML file.
   extensions:
     - .xsd
+x-fmt/311:
+  name: dBASE Text Memo
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A file that stores memos for records. Not preservable-worthy.
+  extensions: 
+    - .dbt
 x-fmt/315:
   name: Document Type Definition
   action: convert
@@ -4087,6 +4283,18 @@ x-fmt/315:
     tool: copy
   extensions:
     - .dtd
+x-fmt/321:
+  name: Framework Database II
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason:
+      Framework Database II is a legacy, proprietary database format used by 
+      Lotus Framework II for storing structured tables and associated metadata. 
+      Not preservable, we are unable to convert it to a format we can handle as of now
+  extensions:
+    - .fw
+    - .fw2
 x-fmt/328:
   name: InterBase Database file
   action: ignore
@@ -4276,6 +4484,14 @@ x-fmt/408:
     output: pdfa-3
   extensions:
     - .ps
+x-fmt/410:
+  name: Windows New Executable
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A Windows executable file. Not preservation-worthy
+  extensions:
+    - .exe
 x-fmt/411:
   name: Windows Portable Executable
   action: ignore
@@ -4373,6 +4589,14 @@ x-fmt/423:
     reason: A script in JavaScript. Not preservation-worthy
   extensions:
     - .js
+x-fmt/425:
+  name: Generic Library File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A container for reusable data or resources. Can contain a lot of different things. Not preservation-worthy.
+  extensions:
+    - .lib
 x-fmt/426:
   name: License file
   action: convert
@@ -4380,6 +4604,16 @@ x-fmt/426:
     tool: copy
   extensions:
     - .lic
+x-fmt/427:
+  name: Acrobat Language definition file
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: 
+      Acrobat Language Plugin that adds support for additional languages 
+      in Adobe Acrobat. Not preservation-worthy
+  extensions:
+    - .lng
 x-fmt/428:
   name: Microsoft Windows Shortcut
   action: ignore
