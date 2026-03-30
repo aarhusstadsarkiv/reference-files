@@ -1491,7 +1491,7 @@ fmt/210:
   manual:
     reason: There is no convertable tools other than opening it with TIBCO Statistica.
     process: Open TIBCO Statistica and then open the report file.
-      From there, you can save as .rtf or PDF.
+      From there, you can save as HTML, XML or PDF.
   extensions:
     - .str
 fmt/212:
