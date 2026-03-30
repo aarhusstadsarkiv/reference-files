@@ -1490,8 +1490,7 @@ fmt/210:
   action: manual
   manual:
     reason: There is no convertable tools other than opening it with TIBCO Statistica.
-    process:
-      Open TIBCO Statistica and then open the report file.
+    process: Open TIBCO Statistica and then open the report file.
       From there, you can save as .rtf or PDF.
   extensions:
     - .str
@@ -1760,8 +1759,7 @@ fmt/357:
     - .3gpp
 fmt/367:
   name: ESRI World File Format
-  description: 
-    A plain text data file used by geographic information systems 
+  description: A plain text data file used by geographic information systems
     to georeference raster map images.
   action: convert
   convert:
@@ -3007,8 +3005,8 @@ fmt/1253:
   action: ignore
   ignore:
     template: not-preservable
-    reason: 
-      ESRI Code Page files are optional files that can be used to specify the code page 
+    reason:
+      ESRI Code Page files are optional files that can be used to specify the code page
       for identifying the character set to be used. Not preservation-worthy
   extensions:
     - .cpg
@@ -3753,10 +3751,9 @@ x-fmt/18:
     - .csv
 x-fmt/30:
   name: CorelDraw Template
-  description: 
-    A CorelDraw Template is a document blueprint that maintains
+  description: A CorelDraw Template is a document blueprint that maintains
     structure, styles and placeholders. It is not the final product,
-    but can still be converted to a pdf. 
+    but can still be converted to a pdf.
   action: convert
   convert:
     tool: document
@@ -3839,10 +3836,9 @@ x-fmt/76:
   action: ignore
   ignore:
     template: not-preservable
-    reason: 
-      A CorelDraw Pattern File refers to reusable fills or textures 
-      inside CorelDRAW. Not preservation-worthy, as they are usually 
-      embedded in .cdr 
+    reason: A CorelDraw Pattern File refers to reusable fills or textures
+      inside CorelDRAW. Not preservation-worthy, as they are usually
+      embedded in .cdr
   extensions:
     - .pat
 x-fmt/78:
@@ -3867,11 +3863,10 @@ x-fmt/89:
   action: ignore
   ignore:
     template: not-preservable
-    reason: 
-      There is no software that can preserve this file and no native 
+    reason: There is no software that can preserve this file and no native
       support on modern tools.
   extensions:
-    - .pre 
+    - .pre
 x-fmt/90:
   name: Microsoft Print File
   action: convert
@@ -3895,8 +3890,7 @@ x-fmt/98:
   action: ignore
   ignore:
     template: not-preservable
-    reason: 
-      ACIS is a modelling engine used to represent precise 3D geometry.
+    reason: ACIS is a modelling engine used to represent precise 3D geometry.
       It stores 3D solids, edges, faces, topology and exact geometric definitions.
       An ACIS Export file can include any of those mentioned and is used for
       data exchange without sending full native files (.dwg). Not preservation-worthy
@@ -4061,10 +4055,8 @@ x-fmt/198:
   name: Pagemaker TableEditor Graphics
   action: manual
   manual:
-    reason:
-      There exists no third-party applications to convert it, and must therefore be done manually.
-    process:
-      Open the file on the test machine and open it in PageMaker. From
+    reason: There exists no third-party applications to convert it, and must therefore be done manually.
+    process: Open the file on the test machine and open it in PageMaker. From
       there, you can export it as an PDF file.
   extensions:
     - .tbl
@@ -4274,7 +4266,7 @@ x-fmt/311:
   ignore:
     template: not-preservable
     reason: A file that stores memos for records. Not preservable-worthy.
-  extensions: 
+  extensions:
     - .dbt
 x-fmt/315:
   name: Document Type Definition
@@ -4289,8 +4281,8 @@ x-fmt/321:
   ignore:
     template: not-preservable
     reason:
-      Framework Database II is a legacy, proprietary database format used by 
-      Lotus Framework II for storing structured tables and associated metadata. 
+      Framework Database II is a legacy, proprietary database format used by
+      Lotus Framework II for storing structured tables and associated metadata.
       Not preservable, we are unable to convert it to a format we can handle as of now
   extensions:
     - .fw
@@ -4609,8 +4601,7 @@ x-fmt/427:
   action: ignore
   ignore:
     template: not-preservable
-    reason: 
-      Acrobat Language Plugin that adds support for additional languages 
+    reason: Acrobat Language Plugin that adds support for additional languages
       in Adobe Acrobat. Not preservation-worthy
   extensions:
     - .lng
