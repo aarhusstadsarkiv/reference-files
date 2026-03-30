@@ -3145,6 +3145,7 @@ fmt/1331:
 fmt/1367:
   name: GeoJSON
   description: GeoJSON is designed for representing geographical features.
+  action: convert
   convert:
     tool: copy
   extensions:
