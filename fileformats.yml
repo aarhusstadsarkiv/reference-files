@@ -517,7 +517,7 @@ aca-fmt/48:
     tool: text
     output: txt
     options:
-      stripnull: true 
+      stripnull: true
   extensions:
     - .vmg
 
