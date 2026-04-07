@@ -324,7 +324,7 @@
   description: Plain text format used for storing SMS text messages on Nokia cell phones. Contains header information such as the sender, date, and time, as well as the actual message. Saved in a null byte-separated text format.
   bof: (?i)^42004500470049004e003a0056004d0053004700
   plain_bof: BEGIN:VMSG (null bytes stripped)
-  eof: (?i)45004e0044003a0056004d00530047000a00{10}*$
+  eof: (?i)45004e0044003a0056004d00530047000a00(10)*$
   plain_eof: END:VMSG (null bytes stripped)
   operator: AND
   extension: .vmg
