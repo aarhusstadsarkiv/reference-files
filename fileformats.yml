@@ -508,6 +508,18 @@ aca-fmt/47:
   ignore:
     reason: Unable to find software that renders .cmap-files
     template: not-convertable
+aca-fmt/48:
+  name: Nokia Text Message
+  description:
+    Plain text format used for storing SMS text messages on Nokia cell phones. Contains header information such as the sender, date, and time, as well as the actual message. Saved in a null byte-separated text format.
+  action: convert
+  convert:
+    tool: text
+    output: txt
+    options:
+      stripnull: true 
+  extensions:
+    - .vmg
 
 ##################
 # Pronom formats #
