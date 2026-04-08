@@ -406,6 +406,11 @@
   signature: Microsoft OneNote Table of Contents
   bof: (?i)^a12fff43d9ef764c9ee210ea5722765f
   extension: .onetoc2
+
+- puid: aca-fmt/62
+  signature: ICO File
+  bof: (?i)^00000100
+  extension: .ico
   
 ##################
 # Pronom formats #

@@ -644,6 +644,22 @@ aca-fmt/61:
       the notebooks structure, including order of sections, section names and colors. Not preservation-worthy.
   extensions:
     .onetoc2
+    
+aca-fmt/62:
+  name: ICO File
+  ignore_if:
+    image_pixels_min: 20000
+  action: ignore
+  convert:
+    tool: image
+    output: png
+  ignore:
+    template: not-preservable
+    reason:
+      An ICO file contains an icon, which is typically used to represent a Windows
+      program, file, or folder. Not preservation-worthy
+  extensions:
+    - .ico
 
 ##################
 # Pronom formats #
