@@ -3889,7 +3889,7 @@ x-fmt/98:
   description: ACIS is a modelling engine used to represent precise 3D geometry.
     It stores 3D solids, edges, faces, topology and exact geometric definitions.
     An ACIS Export file can include any of those mentioned and is used for
-    data exchange without sending full native files (.dwg). 
+    data exchange without sending full native files (.dwg).
   action: convert
   convert:
     tool: cad
