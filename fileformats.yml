@@ -1487,10 +1487,10 @@ fmt/208:
     - .bin
 fmt/210:
   name: Statistica Report File
-  action: ignore
-  manual:
-    template: not-preservable
-    reason: To be determined.
+  action: convert
+  convert:
+    tool: text
+    output: txt
   extensions:
     - .str
 fmt/212:
