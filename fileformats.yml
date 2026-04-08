@@ -3886,13 +3886,14 @@ x-fmt/92:
     - .pdd
 x-fmt/98:
   name: AutoCAD ACIS Export File
-  action: ignore
-  ignore:
-    template: not-preservable
-    reason: ACIS is a modelling engine used to represent precise 3D geometry.
-      It stores 3D solids, edges, faces, topology and exact geometric definitions.
-      An ACIS Export file can include any of those mentioned and is used for
-      data exchange without sending full native files (.dwg). Not preservation-worthy
+  description: ACIS is a modelling engine used to represent precise 3D geometry.
+    It stores 3D solids, edges, faces, topology and exact geometric definitions.
+    An ACIS Export file can include any of those mentioned and is used for
+    data exchange without sending full native files (.dwg). 
+  action: convert
+  convert:
+    tool: cad
+    output: pdf
   extensions:
     - .sat
 x-fmt/103:
