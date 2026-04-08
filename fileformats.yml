@@ -2888,6 +2888,15 @@ fmt/1103:
       Not preservation-worthy
   extensions:
     - .pat
+fmt/1119:
+  name: Jupyter Python Notebook
+  description: Identifies on extension only as it is a json-file
+  action: convert
+  convert:
+    tool: ipynb
+    output: html
+  extensions:
+    - .ipynb
 fmt/1129:
   name: PDF 2.0 - Portable Document Format
   action: convert
