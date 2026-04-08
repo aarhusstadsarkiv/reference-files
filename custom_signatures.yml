@@ -329,6 +329,79 @@
   operator: AND
   extension: .vmg
 
+- puid: aca-fmt/49
+  signature: LogData Product Data File
+  bof: (?i)^4c6f675461672050726f6475637420446174612046696c65
+  plain_bof: LogTag Product Data File
+  extension: .ltd
+  
+- puid: aca-fmt/50
+  signature: Line Style Library
+  bof: (?i)^4c696e65205374796c65204c696272617279
+  plain_bof: Line Style Library
+  extension: .rsc
+
+- puid: aca-fmt/51
+  signature: VMware Virutal Machine Disk
+  bof: (?i)^4b444d56
+  plain_bof: KDMV
+  extension: .vmdk
+
+- puid: aca-fmt/52
+  signature: Java Keystore
+  bof: (?i)^feedfeed
+  extension: .jks
+
+- puid: aca-fmt/53
+  signature: JMobile Binary Project
+  bof: (?i)^33583052
+  extension: .jmxb
+
+- puid: aca-fmt/54
+  signature: PKCS#12
+  bof: (?i)^3082.{2,6}02010330.{2,6}06092a864886f70d0107
+  extension: .pfx
+
+- puid: aca-fmt/55
+  signature: SevenCs Hamburg
+  bof: (?i)^536576656e43732048616d62757267
+  plain_bof: SevenCs Hamburg
+  extension: 
+    - .7cc
+    - .7cr
+    - .7cb
+
+- puid: aca-fmt/56
+  signature: Clarion TopSpeed Data File
+  bof: (?i)^.{28}744f7053
+  extension: 
+    - .tps
+    - .tpr
+    - .tp1
+
+- puid: aca-fmt/57
+  signature: Microsoft Shim Database File
+  bof: (?i)^.*d707060f0f1d3501
+  extension: .sdb
+
+- puid: aca-fmt/58
+  signature: SnagIt Capture Project File
+  bof: (?i)^.545343534e41474e
+  plain_bof: TSCSNAGN
+  extension: .snag
+
+- puid: aca-fmt/59
+  signature: Tripod Data Systems Job File 
+  bof: (?i)^547269706f6420446174612053797374656d73204a6f622046696c65
+  plain_bof: Tripod Data Systems Job File
+  extension: .spj
+
+- puid: aca-fmt/60
+  signature: Acrobat PDF 1.6 - Portable Document Format 1.6
+  bof: (?i)^255044462D312E36
+  plain_bof: "%PDF-1.6"
+  extension: .pdf
+  
 ##################
 # Pronom formats #
 ##################
