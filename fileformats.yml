@@ -779,7 +779,7 @@ fmt/21:
   name: AutoCAD Drawing 1.0
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -787,7 +787,7 @@ fmt/22:
   name: AutoCAD Drawing 1.2
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -795,7 +795,7 @@ fmt/23:
   name: AutoCAD Drawing 1.3
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -803,7 +803,7 @@ fmt/24:
   name: AutoCAD Drawing 1.4
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -811,7 +811,7 @@ fmt/25:
   name: AutoCAD Drawing 2.0
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -819,7 +819,7 @@ fmt/26:
   name: AutoCAD Drawing 2.1
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -827,7 +827,7 @@ fmt/27:
   name: AutoCAD Drawing 2.2
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -835,7 +835,7 @@ fmt/28:
   name: AutoCAD Drawing 2.5
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -843,7 +843,7 @@ fmt/29:
   name: AutoCAD Drawing 2.6
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -851,7 +851,7 @@ fmt/30:
   name: AutoCAD Drawing R9
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -859,7 +859,7 @@ fmt/31:
   name: AutoCAD Drawing R10
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -867,7 +867,7 @@ fmt/32:
   name: AutoCAD Drawing R11/12
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -875,7 +875,7 @@ fmt/33:
   name: AutoCAD Drawing R13
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -883,7 +883,7 @@ fmt/34:
   name: AutoCAD Drawing R14
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -891,7 +891,7 @@ fmt/35:
   name: AutoCAD Drawing 2000-2002
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -899,7 +899,7 @@ fmt/36:
   name: AutoCAD Drawing 2004-2005
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -1082,7 +1082,7 @@ fmt/63:
   name: Drawing Interchange File Format (ASCII)
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1090,7 +1090,7 @@ fmt/64:
   name: Drawing Interchange File Format (ASCII) 1.0
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1098,7 +1098,7 @@ fmt/65:
   name: Drawing Interchange File Format (ASCII) 1.2
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1106,7 +1106,7 @@ fmt/66:
   name: Drawing Interchange File Format (ASCII) 1.3
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1114,7 +1114,7 @@ fmt/67:
   name: Drawing Interchange File Format (ASCII) 1.4
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1122,7 +1122,7 @@ fmt/68:
   name: Drawing Interchange File Format (ASCII) 2.0
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1130,7 +1130,7 @@ fmt/69:
   name: Drawing Interchange File Format (ASCII) 2.1
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1138,7 +1138,7 @@ fmt/70:
   name: Drawing Interchange File Format (ASCII) 2.2
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1146,7 +1146,7 @@ fmt/71:
   name: Drawing Interchange File Format (ASCII) 2.5
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1154,7 +1154,7 @@ fmt/72:
   name: Drawing Interchange File Format (ASCII) 2.6
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1162,7 +1162,7 @@ fmt/73:
   name: Drawing Interchange File Format (ASCII) R9
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1170,7 +1170,7 @@ fmt/74:
   name: Drawing Interchange File Format (ASCII) R10
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1178,7 +1178,7 @@ fmt/75:
   name: Drawing Interchange File Format (ASCII) R11/12
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1186,7 +1186,7 @@ fmt/76:
   name: Drawing Interchange File Format (ASCII) R13
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1194,7 +1194,7 @@ fmt/77:
   name: Drawing Interchange File Format (ASCII) R14
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1202,7 +1202,7 @@ fmt/78:
   name: Drawing Interchange File Format (ASCII) 2000-2002
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1210,7 +1210,7 @@ fmt/79:
   name: Drawing Interchange File Format (ASCII) 2004/2005/2006
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1218,7 +1218,7 @@ fmt/80:
   name: Drawing Interchange File Format (Binary) R10
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1226,7 +1226,7 @@ fmt/81:
   name: Drawing Interchange File Format (Binary) R11/12
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1234,7 +1234,7 @@ fmt/82:
   name: Drawing Interchange File Format (Binary) R13
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1242,7 +1242,7 @@ fmt/83:
   name: Drawing Interchange File Format (Binary) R14
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1250,7 +1250,7 @@ fmt/84:
   name: Drawing Interchange File Format (Binary) 2000-2002
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1258,7 +1258,7 @@ fmt/85:
   name: Drawing Interchange File Format (Binary) 2004-2006
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -1639,11 +1639,10 @@ fmt/208:
     - .bin
 fmt/210:
   name: Statistica Report File
-  action: manual
-  manual:
-    reason: There is no convertable tools other than opening it with TIBCO Statistica.
-    process: Open TIBCO Statistica and then open the report file.
-      From there, you can save as HTML, XML or PDF.
+  action: convert
+  convert:
+    tool: text
+    output: txt
   extensions:
     - .str
 fmt/212:
@@ -2021,8 +2020,8 @@ fmt/425:
     tool: video
     output: h265
   extensions:
-    - .vob
     - .mp4
+    - .vob
 fmt/428:
   name: CorelDraw Drawing
   action: convert
@@ -2035,7 +2034,7 @@ fmt/433:
   name: Drawing Interchange File Format (ASCII) 2007/2008/2009
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -2043,7 +2042,7 @@ fmt/434:
   name: AutoCAD Drawing 2010/2011/2012
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -2051,7 +2050,7 @@ fmt/435:
   name: Drawing Interchange File Format (ASCII) 2010/2012/2014
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -2340,7 +2339,7 @@ fmt/531:
   name: AutoCAD Drawing 2013/2014
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -2348,7 +2347,7 @@ fmt/532:
   name: Drawing Interchange File Format (ASCII) 2013/2014/2015/2016/2017
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -2754,8 +2753,7 @@ fmt/704:
   name: Broadcast WAVE
   action: convert
   convert:
-    tool: audio
-    output: mp3
+    tool: copy
   extensions:
     - .wav
 fmt/724:
@@ -3138,7 +3136,7 @@ fmt/1138:
   name: MiniCAD/VectorWorks
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .mcd
@@ -3314,7 +3312,7 @@ fmt/1389:
   name: Drawing Interchange Format (ASCII) 2018/2019/2020
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -3322,7 +3320,7 @@ fmt/1390:
   name: Drawing Interchange Format (Binary) 2007-2009
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -3330,7 +3328,7 @@ fmt/1391:
   name: Drawing Interchange Format (Binary) 2010-2012
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -3338,7 +3336,7 @@ fmt/1392:
   name: Drawing Interchange Format (Binary) 2013-2017
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
@@ -3346,15 +3344,15 @@ fmt/1393:
   name: Drawing Interchange Format (Binary) 2018-2021
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dxf
 fmt/1395:
-  name: AutoCAD Drawing
+  name: AutoCAD Drawing 2018/2019/2020/2021
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
@@ -3852,7 +3850,7 @@ fmt/1934:
   name: Drawing Interchange Format (Binary)
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .cdr
@@ -4015,7 +4013,7 @@ x-fmt/89:
   description: A presentation document.
   action: ignore
   ignore:
-    template: not-preservable
+    template: not-convertable
     reason: There is no software that can preserve this file and no native
       support on modern tools.
   extensions:
@@ -4040,13 +4038,14 @@ x-fmt/92:
     - .pdd
 x-fmt/98:
   name: AutoCAD ACIS Export File
-  action: ignore
-  ignore:
-    template: not-preservable
-    reason: ACIS is a modelling engine used to represent precise 3D geometry.
-      It stores 3D solids, edges, faces, topology and exact geometric definitions.
-      An ACIS Export file can include any of those mentioned and is used for
-      data exchange without sending full native files (.dwg). Not preservation-worthy
+  description: ACIS is a modelling engine used to represent precise 3D geometry.
+    It stores 3D solids, edges, faces, topology and exact geometric definitions.
+    An ACIS Export file can include any of those mentioned and is used for
+    data exchange without sending full native files (.dwg).
+  action: convert
+  convert:
+    tool: cad
+    output: pdf
   extensions:
     - .sat
 x-fmt/103:
@@ -4196,14 +4195,6 @@ x-fmt/191:
     reason: A file from the AMI wordprocessor. Not preservation-worthy / not convertable
   extensions:
     - .sam
-x-fmt/197:
-  name: DataFlex Query Tag Name
-  action: ignore
-  ignore:
-    template: not-preservable
-    reason: Not preservable-worthy
-  extensions:
-    - .tag
 x-fmt/198:
   name: Pagemaker TableEditor Graphics
   action: manual
@@ -4432,11 +4423,11 @@ x-fmt/321:
   name: Framework Database II
   action: ignore
   ignore:
-    template: not-preservable
+    template: not-convertable
     reason:
       Framework Database II is a legacy, proprietary database format used by
       Lotus Framework II for storing structured tables and associated metadata.
-      Not preservable, we are unable to convert it to a format we can handle as of now
+      We are unable to convert it to a format we can handle as of now
   extensions:
     - .fw
     - .fw2
@@ -4817,7 +4808,7 @@ x-fmt/455:
   name: AutoCAD Drawing 2007-2008
   action: convert
   convert:
-    tool: cad2d
+    tool: cad
     output: svg
   extensions:
     - .dwg
