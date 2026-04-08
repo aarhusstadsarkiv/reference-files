@@ -634,6 +634,17 @@ aca-fmt/60:
   extensions:
     - .pdf
 
+aca-fmt/61:
+  name: Microsoft OneNote Table of Contents
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: 
+      The .onetoc2 file acts as an indexing file for a OneNote notebook. It contains metadata about 
+      the notebooks structure, including order of sections, section names and colors. Not preservation-worthy.
+  extensions:
+    .onetoc2
+
 ##################
 # Pronom formats #
 ##################

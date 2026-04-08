@@ -401,6 +401,11 @@
   bof: (?i)^255044462D312E36
   plain_bof: "%PDF-1.6"
   extension: .pdf
+
+- puid: aca-fmt/61
+  signature: Microsoft OneNote Table of Contents
+  bof: (?i)^a12fff43d9ef764c9ee210ea5722765f
+  extension: .onetoc2
   
 ##################
 # Pronom formats #
