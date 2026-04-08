@@ -4042,14 +4042,6 @@ x-fmt/191:
     reason: A file from the AMI wordprocessor. Not preservation-worthy / not convertable
   extensions:
     - .sam
-x-fmt/197:
-  name: DataFlex Query Tag Name
-  action: ignore
-  ignore:
-    template: not-preservable
-    reason: Not preservable-worthy
-  extensions:
-    - .tag
 x-fmt/198:
   name: Pagemaker TableEditor Graphics
   action: manual
