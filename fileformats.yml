@@ -641,7 +641,8 @@ aca-fmt/61:
     reason:
       The .onetoc2 file acts as an indexing file for a OneNote notebook. It contains metadata about
       the notebooks structure, including order of sections, section names and colors. Not preservation-worthy.
-  extensions: .onetoc2
+  extensions: 
+    - .onetoc2
 
 aca-fmt/62:
   name: InstallShield Cabinets
