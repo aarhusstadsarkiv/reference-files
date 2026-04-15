@@ -3098,10 +3098,11 @@ fmt/1103:
     - .pat
 fmt/1119:
   name: Jupyter Python Notebook
-  action: ignore
-  ignore:
-    template: not-preservable
-    reason: A Jupyter Notebook contains code. Not preservable-worthy
+  description: Identification on ext only, as it is a json-file.
+  action: convert
+  convert:
+    tool: ipynb
+    output: html
   extensions:
     - .ipynb
 fmt/1129:
