@@ -4,7 +4,7 @@
 - puid: aca-fmt/1
   signature: Lotus 1-2-3 Spreadsheet
   bof: (?i)^00001A000(3|4|5)10040000000000
-  extension: '.123'
+  extension: ".123"
 
 - puid: aca-fmt/2
   signature: Microsoft Word Markup
@@ -132,17 +132,19 @@
 
 - puid: aca-fmt/22
   signature: Windows Compressed Enhanced Metafile, usually image file
-  description: .emz files are actually .gz files, which are identified with a 10-byte
+  description:
+    .emz files are actually .gz files, which are identified with a 10-byte
     header, containing a magic number (1f 8b), a compression ID (08 for DEFLATE which
     is normal), and a variety of timestamps and flags. .emz files are compressed image
     files that we can convert directly with libreoffice.
   bof: (?i)^1F8B08
-  plain_bof: ''
+  plain_bof: ""
   extension: .emz
 
 - puid: aca-fmt/23
   signature: Microsoft Word XML Document
-  description: Microsoft Word allows exporting document as standalone XML files, which
+  description:
+    Microsoft Word allows exporting document as standalone XML files, which
     PRONOM incorrectly identifies as plain XML (fmt/101)
   bof: (?i)^3c3f786d6c(3[^e]|[^3].)*3e((0d)?0a|20)*3c3f6d736f2d6170706c69636174696f6e2070726f6769643d22576f72642e446f63756d656e74223f3e
   plain_bof: '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -153,17 +155,18 @@
 
 - puid: aca-fmt/24
   signature: vCard (Unspecified version)
-  description: Only looks for BEGIN:VCARD and END:VCARD, as Pronom assumes VERSION
+  description:
+    Only looks for BEGIN:VCARD and END:VCARD, as Pronom assumes VERSION
     declaration must come directly after BEGIN:VCARD, which is not always the case
     in the wild.
   bof: (?i)(42|62)(45|65)(47|67)(49|69)(4e|6e)3a(56|76)(43|63)(41|61)(52|72)(44|64)
-  plain_bof: 'BEGIN:VCARD
+  plain_bof: "BEGIN:VCARD
 
     *
 
     END:VCARD
 
-    '
+    "
   eof: (?i)(45|65)(4e|6e)(44|64)3a(56|76)(43|63)(41|61)(52|72)(44|64)((0d)?0a)*
   operator: AND
   extension: .vcf
@@ -172,26 +175,27 @@
   signature: URL file
   description: Internet shortcut file. Looks for the tag "[InternetShortcut]\nURL="
   bof: (?i)5B496E7465726E657453686F72746375745D0D0A55524C3D
-  plain_bof: '[InternetShortcut]
+  plain_bof: "[InternetShortcut]
 
     URL=
 
-    '
+    "
   extension: .url
 
 - puid: aca-fmt/26
   signature: Lotus Notes Doclink File
-  description: Link file used by Lotus Notes, a business productivity and collaboration
+  description:
+    Link file used by Lotus Notes, a business productivity and collaboration
     application suite; saved in an XML format and contains a reference to a Lotus
     Notes document; used for sharing links to documents over email and in Web pages.
   bof: (?i)3c4e444c3e.*3c2f4e444c3e
-  plain_bof: '<NDL>
+  plain_bof: "<NDL>
 
     *
 
     </NDL>
 
-    '
+    "
   extension: .ndl
 
 - puid: aca-fmt/28
@@ -334,7 +338,7 @@
   bof: (?i)^4c6f675461672050726f6475637420446174612046696c65
   plain_bof: LogTag Product Data File
   extension: .ltd
-  
+
 - puid: aca-fmt/50
   signature: Line Style Library
   bof: (?i)^4c696e65205374796c65204c696272617279
@@ -366,7 +370,7 @@
   signature: SevenCs Hamburg
   bof: (?i)^536576656e43732048616d62757267
   plain_bof: SevenCs Hamburg
-  extension: 
+  extension:
     - .7cc
     - .7cr
     - .7cb
@@ -374,7 +378,7 @@
 - puid: aca-fmt/56
   signature: Clarion TopSpeed Data File
   bof: (?i)^.{28}744f7053
-  extension: 
+  extension:
     - .tps
     - .tpr
     - .tp1
@@ -391,7 +395,7 @@
   extension: .snag
 
 - puid: aca-fmt/59
-  signature: Tripod Data Systems Job File 
+  signature: Tripod Data Systems Job File
   bof: (?i)^547269706f6420446174612053797374656d73204a6f622046696c65
   plain_bof: Tripod Data Systems Job File
   extension: .spj
@@ -411,7 +415,7 @@
   signature: InstallShield Cabinets
   bof: (?i)^49536328
   extension: .cab
-  
+
 - puid: aca-fmt/63
   signature: Rhino 3D Model File
   bof: (?i)^33442047656f6d657472792046696c6520466f726d6174
@@ -433,7 +437,7 @@
   signature: SourceSafe Source Code Control File
   bof: (?i)^34120100
   extension: .scc
-  
+
 ##################
 # Pronom formats #
 ##################
