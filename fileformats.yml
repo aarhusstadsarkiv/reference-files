@@ -510,8 +510,7 @@ aca-fmt/47:
     template: not-convertable
 aca-fmt/48:
   name: Nokia Text Message
-  description:
-    Plain text format used for storing SMS text messages on Nokia cell phones. Contains header information such as the sender, date, and time, as well as the actual message. Saved in a null byte-separated text format.
+  description: Plain text format used for storing SMS text messages on Nokia cell phones. Contains header information such as the sender, date, and time, as well as the actual message. Saved in a null byte-separated text format.
   action: convert
   convert:
     tool: text
@@ -547,7 +546,7 @@ aca-fmt/51:
     process: Use digiarch
   extensions:
     - .vmdk
-  
+
 aca-fmt/52:
   name: Java Keystore
   action: ignore
@@ -563,7 +562,7 @@ aca-fmt/53:
   manual:
     reason: No known converting tools
     process: Open the binary project in JMobile Studio and export the project as .jmx
-  extensions: 
+  extensions:
     - .jmx
 
 aca-fmt/54:
@@ -578,7 +577,7 @@ aca-fmt/54:
 aca-fmt/55:
   name: SevenCs directENC Files
   action: ignore
-  ignore: 
+  ignore:
     template: not-preservable
     reason: SevenCs directENC Files are cell files, including references, SENC and catalogues. Not preservation-worthy
   extensions:
@@ -589,7 +588,7 @@ aca-fmt/55:
 aca-fmt/56:
   name: Clarion TopSpeed Data File
   action: ignore
-  ignore: 
+  ignore:
     template: not-convertable
     reason: We do not have any tools to convert a .tps file to CSV. Not convertable
   extensions:
@@ -616,12 +615,12 @@ aca-fmt/58:
     - .snag
 
 aca-fmt/59:
-  name: Tripod Data Systems Job File 
+  name: Tripod Data Systems Job File
   action: ignore
   ignore:
-    template: not-preservable
-    reason: kig tilbage på
-  extensions: 
+    template: not-convertable
+    reason: A Tripod Data Systems Job File can only be converted using their paid software. There exists no free reliable alternative.
+  extensions:
     - .spj
 
 aca-fmt/60:
@@ -639,27 +638,59 @@ aca-fmt/61:
   action: ignore
   ignore:
     template: not-preservable
-    reason: 
-      The .onetoc2 file acts as an indexing file for a OneNote notebook. It contains metadata about 
+    reason:
+      The .onetoc2 file acts as an indexing file for a OneNote notebook. It contains metadata about
       the notebooks structure, including order of sections, section names and colors. Not preservation-worthy.
-  extensions:
-    .onetoc2
-    
+  extensions: .onetoc2
+
 aca-fmt/62:
-  name: ICO File
-  ignore_if:
-    image_pixels_min: 20000
+  name: InstallShield Cabinets
+  description:
+    InstallShield Cabinets is a proprietary archive format used by the InstallShield
+    installation engine to package software for distribution.
   action: ignore
-  convert:
-    tool: image
-    output: png
   ignore:
     template: not-preservable
-    reason:
-      An ICO file contains an icon, which is typically used to represent a Windows
-      program, file, or folder. Not preservation-worthy
+    reason: Archive file containing executable file. Not preservation-worthy
   extensions:
-    - .ico
+    - .cab
+
+aca-fmt/63:
+  name: Rhino 3D Model File
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: A Rhino 3D Model File requires an expensive license to view and export the file as other formats.
+  extensions:
+    - .3dm
+
+aca-fmt/64:
+  name: eXtended Triton File Format
+  description: A XTF format is used for recording hydrographic survey data.
+  action: manual
+  manual:
+    reason: Not enough information known to convert.
+    process: Find a converter (pyxtf).
+  extensions:
+    - .xtf
+
+aca-fmt/65:
+  name: Nokia Device Bookmark File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A .bmk includes only a name, a link and an icon. None of which is preservation-worthy.
+  extensions:
+    - .bmk
+
+aca-fmt/66:
+  name: SourceSafe Source Code Control File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A .SCC file is not a used file format and there exists only one valid file with it - "verscc.scc" or "verscc2.scc". Not preservation-worthy.
+  extensions:
+    - .scc
 
 ##################
 # Pronom formats #

@@ -408,9 +408,31 @@
   extension: .onetoc2
 
 - puid: aca-fmt/62
-  signature: ICO File
-  bof: (?i)^00000100
-  extension: .ico
+  signature: InstallShield Cabinets
+  bof: (?i)^49536328
+  extension: .cab
+  
+- puid: aca-fmt/63
+  signature: Rhino 3D Model File
+  bof: (?i)^33442047656f6d657472792046696c6520466f726d6174
+  plain_bof: 3D Geometry File Format
+  extension: .3dm
+
+- puid: aca-fmt/64
+  signature: eXtended Triton File Format
+  bof: (?i)^7b..536f6e6172577a..3731303032
+  plain_bof: "{ SonarWz 71002"
+  extension: .xtf
+
+- puid: aca-fmt/65
+  signature: Nokia Device Bookmark File
+  bof: (?i)^03016a00
+  extension: .bmk
+
+- puid: aca-fmt/66
+  signature: SourceSafe Source Code Control File
+  bof: (?i)^34120100
+  extension: .scc
   
 ##################
 # Pronom formats #
