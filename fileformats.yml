@@ -1957,6 +1957,13 @@ fmt/445:
     output: ods
   extensions:
     - .xlsm
+fmt/462:
+  name: MS-DOS Compression Format (SZDD Variant)
+  description: The MS-DOS compression format uses the SZDD algorithm to compress a single file into another single file, replacing the last character in the filename with an underscore. It is implemented via the MS-DOS commands COMPRESS.EXE and EXPAND.EXE. A DOS compressed file will be named file.**_, so a DOS compressed .exe will be named 'file'.ex_, a DOS compressed .jpg will be named 'file'.jp_.
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: Unable to run the `EXPAND.EXE` command correctly.
 fmt/468:
   name: ISO 9660 Disk Image File
   action: extract
@@ -2097,6 +2104,14 @@ fmt/500:
     reason: An Internet Explorer cache file. Not preservation-worthy
   extensions:
     - .waf
+fmt/502:
+  name: Bentley V8 DGN
+  action: manual
+  manual:
+    reason: Unable to convert automatically.
+    process: Open in Bentley View, save as pdf.
+  extensions:
+    - .dgn
 fmt/503:
   name: AppleDouble Resource Fork 2
   action: ignore
@@ -2944,6 +2959,13 @@ fmt/1089:
     reason: A VBScript file contains code. Not preservation-worthy
   extensions:
     - .vbs
+fmt/1101:
+  name: High Efficiency Image File Format (HEIC)
+  description: The High Efficiency Image File Format (HEIF) is an image format standard defined in ISO/IEC 23008-12 - MPEG-H Part 12. HEIF can store images, image properties, thumbnails and other derivatives, plus image metadata. It can support individual images and image sequences. At this time the PRONOM identification signature does not distinguish between individual images and image sequences although this may be desirable.
+  action: convert
+  convert:
+    tool: image
+    output: tif
 fmt/1103:
   name: AutoCAD Hatch Pattern
   action: ignore
@@ -3003,6 +3025,14 @@ fmt/1138:
     - .mcd
     - .vwx
     - .rdl
+fmt/1172:
+  name: Web Open Font Format
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Font file
+  extensions:
+    - .woff2
 fmt/1216:
   name: ""
   action: convert
@@ -3330,6 +3360,19 @@ fmt/1516:
     output: pdf
   extensions:
     - .pub
+fmt/1549:
+  name: Bentley Microstation Hidden Line File
+  reidentify:
+    reason:
+      Pronom sometimes wrongly identifies .dgn as .hln due to small byteheader
+      definition
+    on_fail: action
+  action: manual
+  manual:
+    reason: Never able to find this type of file.
+    process: Try to open in Bentley View or AB Viewer.
+  extensions:
+    - .hln
 fmt/1566:
   name: ColdFusion Markup Language
   action: ignore
@@ -4024,6 +4067,14 @@ x-fmt/153:
     output: png
   extensions:
     - .emf
+x-fmt/157:
+  name: Microsoft Windows Enhanced Metafile 1.0
+  ignore_if:
+    image_pixels_min: 20000
+  action: convert
+  convert:
+    tool: image
+    output: png
 x-fmt/169:
   name: PHP Script Page
   action: ignore
@@ -4115,6 +4166,17 @@ x-fmt/240:
   extensions:
     - .mdb
     - .mde
+x-fmt/241:
+  name: Microsoft Acces Database File (2002)
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason:
+      A microsoft access database. Not preservable, we are unable to convert
+      it to a format we can handle as of now
+  extensions:
+    - .mdb
+    - .mde
 x-fmt/245:
   name: Microsoft Project 98
   action: ignore
@@ -4131,6 +4193,15 @@ x-fmt/247:
     reason: Project files. Not preservation-worthy
   extensions:
     - .mpp
+x-fmt/249:
+  name: Microsoft Outlook Personal Folders (Unicode) (2003-2007)
+  description: The Personal Folders File or PST (Personal Storage Table) is an open proprietary data file format used to store local copies of messages, calendar events, and other items within Microsoft software including Microsoft Office Outlook. PST files are used to store archived items and to maintain offline availability of the items. PST is a stand-alone, self-contained, structured binary file format that does not require any external dependencies. Each PST file represents a message store that contains an arbitrary hierarchy of Folder objects, which contains Message objects, which can contain Attachment objects. Information about Folder objects, Message objects, and Attachment objects are stored in properties, which collectively contain all of the information about the particular item. PST_Unicode is the default format used by Office Outlook versions starting with Outlook 2003 and includes Outlook 2007, Outlook 2010 and Outlook 2013. It employs the Unicode character set. 
+  action: extract
+  extract:
+    tool: pst
+    extension: .pst
+  extensions:
+    - .pst
 x-fmt/252:
   name: Microsoft Publisher 2.0
   action: convert
@@ -4208,6 +4279,7 @@ x-fmt/263:
     .rcv: aca-fmt/34
     .safx: aca-fmt/34
     .twbx: aca-fmt/34
+    .lbx: aca-fmt/34 # P-touch Editor Label file (what we have) OR FoxPro Label File. Not preservable
     .cdr: aca-fmt/35
     .xmind: aca-fmt/36
     .sxw: fmt/128
@@ -4649,6 +4721,23 @@ x-fmt/441:
       detailing when and by who the file was edited. Not preservation-worthy
   extensions:
     - .dwl
+x-fmt/450:
+  name: Adobe InDesign Document (Generic)
+  description:
+    Adobe InDesign Document can be used to produce a number of works such
+    as posters, flyers, brochures, magazines, newspapers, presentations and books.
+    extensions is .indd.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason:
+      File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
+  extensions:
+    - .ind
+    - .indd
+    - .indt
 x-fmt/453:
   name: TrueType Font
   action: ignore
@@ -4673,32 +4762,3 @@ x-fmt/455:
     output: svg
   extensions:
     - .dwg
-xfmt/157:
-  name: Microsoft Windows Enhanced Metafile 1.0
-  ignore_if:
-    image_pixels_min: 20000
-  action: convert
-  convert:
-    tool: image
-    output: png
-fmt/1549:
-  name: Bentley Microstation Hidden Line File
-  reidentify:
-    reason:
-      Pronom sometimes wrongly identifies .dgn as .hln due to small byteheader
-      definition
-    on_fail: action
-  action: manual
-  manual:
-    reason: Never able to find this type of file.
-    process: Try to open in Bentley View or AB Viewer.
-  extensions:
-    - .hln
-fmt/502:
-  name: Bentley V8 DGN
-  action: manual
-  manual:
-    reason: Unable to convert automatically.
-    process: Open in Bentley View, save as pdf.
-  extensions:
-    - .dgn
