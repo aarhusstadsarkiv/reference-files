@@ -152,6 +152,14 @@ fmt/353:
   statutory:
     tool: image
     output: tif
+fmt/950:
+  name: MIME Email 1.0
+  access:
+    tool: eml
+    output: html
+  statutory:
+    tool: eml
+    output: tif
 x-fmt/111:
   name: Plain Text File
   access:

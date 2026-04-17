@@ -2923,9 +2923,13 @@ fmt/946:
     - .opus
 fmt/950:
   name: MIME Email 1.0
-  action: convert
+  action: extract
   convert:
     tool: copy
+  extract:
+    tool: eml
+    extension: .eml
+    on_success: convert
   extensions:
     - .eml
 fmt/968:
