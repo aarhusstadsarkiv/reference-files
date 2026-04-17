@@ -640,7 +640,7 @@ fmt/21:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/22:
@@ -648,7 +648,7 @@ fmt/22:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/23:
@@ -656,7 +656,7 @@ fmt/23:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/24:
@@ -664,7 +664,7 @@ fmt/24:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/25:
@@ -672,7 +672,7 @@ fmt/25:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/26:
@@ -680,7 +680,7 @@ fmt/26:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/27:
@@ -688,7 +688,7 @@ fmt/27:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/28:
@@ -696,7 +696,7 @@ fmt/28:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/29:
@@ -704,7 +704,7 @@ fmt/29:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/30:
@@ -712,7 +712,7 @@ fmt/30:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/31:
@@ -720,7 +720,7 @@ fmt/31:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/32:
@@ -728,7 +728,7 @@ fmt/32:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/33:
@@ -736,7 +736,7 @@ fmt/33:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/34:
@@ -744,7 +744,7 @@ fmt/34:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/35:
@@ -752,7 +752,7 @@ fmt/35:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/36:
@@ -760,7 +760,7 @@ fmt/36:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/37:
@@ -942,184 +942,161 @@ fmt/63:
   name: Drawing Interchange File Format (ASCII)
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/64:
   name: Drawing Interchange File Format (ASCII) 1.0
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/65:
   name: Drawing Interchange File Format (ASCII) 1.2
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/66:
   name: Drawing Interchange File Format (ASCII) 1.3
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/67:
   name: Drawing Interchange File Format (ASCII) 1.4
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/68:
   name: Drawing Interchange File Format (ASCII) 2.0
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/69:
   name: Drawing Interchange File Format (ASCII) 2.1
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/70:
   name: Drawing Interchange File Format (ASCII) 2.2
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/71:
   name: Drawing Interchange File Format (ASCII) 2.5
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/72:
   name: Drawing Interchange File Format (ASCII) 2.6
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/73:
   name: Drawing Interchange File Format (ASCII) R9
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/74:
   name: Drawing Interchange File Format (ASCII) R10
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/75:
   name: Drawing Interchange File Format (ASCII) R11/12
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/76:
   name: Drawing Interchange File Format (ASCII) R13
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/77:
   name: Drawing Interchange File Format (ASCII) R14
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/78:
   name: Drawing Interchange File Format (ASCII) 2000-2002
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/79:
   name: Drawing Interchange File Format (ASCII) 2004/2005/2006
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/80:
   name: Drawing Interchange File Format (Binary) R10
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/81:
   name: Drawing Interchange File Format (Binary) R11/12
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/82:
   name: Drawing Interchange File Format (Binary) R13
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/83:
   name: Drawing Interchange File Format (Binary) R14
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/84:
   name: Drawing Interchange File Format (Binary) 2000-2002
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/85:
   name: Drawing Interchange File Format (Binary) 2004-2006
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/90:
@@ -1577,6 +1554,16 @@ fmt/258:
     output: pdf
   extensions:
     - .wps
+fmt/275:
+  name: Microsoft Access Database File (2007)
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason:
+      A microsoft access database. Not preservable, we are unable to convert
+      it to a format we can handle as of now
+  extensions:
+    - .accdb
 fmt/276:
   name: Acrobat PDF 1.7 - Portable Document Format 1.7
   action: convert
@@ -1787,6 +1774,17 @@ fmt/367:
     - .rasterw
     - .btw
     - .sdw
+fmt/387:
+  name: VCalendar format
+  description: Text file containing events set in a calendar.
+  action: convert
+  convert:
+    tool: text
+    output: txt
+    options:
+      stripnull: true
+  extensions:
+    - .vcs
 fmt/388:
   name: Internet Calendar and Scheduling format
   action: convert
@@ -1883,7 +1881,7 @@ fmt/425:
     - .mp4
     - .vob
 fmt/428:
-  name: CorelDraw Drawing
+  name: CorelDraw Drawing (X3)
   action: convert
   convert:
     tool: document
@@ -1894,8 +1892,7 @@ fmt/433:
   name: Drawing Interchange File Format (ASCII) 2007/2008/2009
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/434:
@@ -1903,15 +1900,14 @@ fmt/434:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/435:
   name: Drawing Interchange File Format (ASCII) 2010/2012/2014
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/440:
@@ -2048,6 +2044,14 @@ fmt/479:
     - .pdf
 fmt/480:
   name: Acrobat PDF/A - Portable Document Format (3b)
+  action: convert
+  convert:
+    tool: pdf
+    output: pdfa-3
+  extensions:
+    - .pdf
+fmt/481:
+  name: Acrobat PDF/A - Portable Document Format (3u)
   action: convert
   convert:
     tool: pdf
@@ -2215,15 +2219,14 @@ fmt/531:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/532:
   name: Drawing Interchange File Format (ASCII) 2013/2014/2015/2016/2017
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/548:
@@ -2414,6 +2417,20 @@ fmt/568:
     output: png
   extensions:
     - .webp
+fmt/569:
+  name: Matroska (1-4)
+  description:
+    A Matroska Multimedia Container varies in what it actually is, based on the extension. .MKV is for video, 
+    .MK3D is for steroscopic video, .MKA is for audio-only files and .MKS for subtitles only.
+  action: convert
+  convert:
+    tool: video
+    output: h265
+  extensions:
+    - .mkv
+    - .mk3d
+    - .mka
+    - .mks
 fmt/573:
   name: WebM video
   action: convert
@@ -2445,6 +2462,16 @@ fmt/584:
     - .wax
     - .wvx
     - .asx
+fmt/585:
+  name: MPEG-2 Transport Stream
+  action: convert
+  convert:
+    tool: video
+    output: h265
+  extensions:
+    - .ts
+    - .m2t
+    - .m2ts
 fmt/589:
   name: Windows Media Playlist
   action: ignore
@@ -2455,6 +2482,14 @@ fmt/589:
       makes up a given playlist. Not preservation-worthy
   extensions:
     - .wpl
+fmt/592:
+  name: Canon RAW (2.0)
+  action: convert
+  convert:
+    tool: image
+    output: png
+  extensions:
+    - .cr2
 fmt/595:
   name: Microsoft Excel Non-XML Binary Workbook 2007 onwards
   action: convert
@@ -2523,6 +2558,14 @@ fmt/616:
       data in already-existing formats. Not preservation-worthy
   extensions:
     - .woff
+fmt/623:
+  name: SmartDraw
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: A SmartDraw can only be reliably be exported as a PDF. You're only allowed to export it as an PDF, if you have a license.
+  extensions:
+    - .sdr
 fmt/627:
   name: Microsoft Excel Macro-Enabled Template 2007
   action: ignore
@@ -2624,6 +2667,23 @@ fmt/682:
     reason: Windows OS file, contains folder metadata. Not preservation-worthy
   extensions:
     - .db
+fmt/698:
+  name: Standard for the Exchange of Product model data
+  action: convert
+  convert:
+    tool: cad
+    output: dxf
+  extensions:
+    - .step
+    - .stp
+    - .p21
+fmt/699:
+  name: Industry Foundation Classes (2x3)
+  action: convert
+  convert:
+    tool: copy
+  extensions:
+    - .ifc
 fmt/704:
   name: Broadcast WAVE
   action: convert
@@ -2712,6 +2772,16 @@ fmt/796:
       The files also rarely if ever contains preservable info.
   extensions:
     - .aep
+fmt/806:
+  name: MATLAB Mat File (Level 5)
+  description: A MATLAB Mat File is a binary data container to store variables from a workspace. Ranges from numeric arrays, strings, magic numbers, cell arrays, and so on.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Only stores variables. Not preservation-worthy
+  extensions:
+    - .mag
+    - .fig
 fmt/817:
   name: JSON Data Interchange Format
   action: convert
@@ -2727,6 +2797,18 @@ fmt/836:
     output: ods
   extensions:
     - .wb3
+fmt/857:
+  name: Navisworks Document
+  description: Navisworks Document is a 3D design review package, developed and maintained by Autodesk. 
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason:
+      Since this a NAvisworks Document is a snapshot of the Navisworks Working file (nwf), 
+      it's most commonly used to share project updates and reviewing. Not preservation-worthy
+  extensions:
+    - .nwd
+    - .nwc
 fmt/866:
   name: Apple Safari Webarchive
   action: extract
@@ -2797,6 +2879,22 @@ fmt/901:
     output: ods
   extensions:
     - .xlr
+fmt/924:
+  name: Microsoft Visio Drawing
+  action: convert
+  convert:
+    tool: document
+    output: pdf
+  extensions:
+    - .vsdx
+fmt/932:
+  name: Mathcad Document (XML)
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: It requires a licensed software to handle, which we do not have.
+  extensions:
+    - .xmcd
 fmt/938:
   name: Python Script File
   action: ignore
@@ -2839,6 +2937,23 @@ fmt/968:
     output: pdfa-3
   extensions:
     - .as
+fmt/977:
+  name: AutoCad Design Web Format (DWFx)
+  action: convert
+  convert:
+    tool: cad # er ikke helt sikker, for abviewer understøtter ikke dwf**x**
+    output: pdf
+  extensions:
+    - .dwfx
+fmt/978:
+  name: 3DS Max
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: To convert a MAX file to .dxf, you need the 3DS Max licensed software, which we do not have.
+  extensions:
+    - .max
+    - .chr
 fmt/979:
   name: XML Property List
   alternatives:
@@ -2866,6 +2981,15 @@ fmt/984:
     - .aae
     - .iMovieProj
     - .ezdraw
+fmt/986:
+  name: Extensible Metadata Platform Format
+  description: XMP is an file labeling technology that lets you embed metadata (authors, copyright, titles, ...) into files during the creation process.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Not preservation-worthy
+  extensions:
+    - .xmp
 fmt/997:
   name: SPSS Portable File
   action: ignore
@@ -2960,12 +3084,14 @@ fmt/1089:
   extensions:
     - .vbs
 fmt/1101:
-  name: High Efficiency Image File Format (HEIC)
+  name: High Efficiency Image File Format
   description: The High Efficiency Image File Format (HEIF) is an image format standard defined in ISO/IEC 23008-12 - MPEG-H Part 12. HEIF can store images, image properties, thumbnails and other derivatives, plus image metadata. It can support individual images and image sequences. At this time the PRONOM identification signature does not distinguish between individual images and image sequences although this may be desirable.
   action: convert
   convert:
     tool: image
-    output: tif
+    output: png
+  extensions:
+    - .heic
 fmt/1103:
   name: AutoCAD Hatch Pattern
   action: ignore
@@ -3020,7 +3146,7 @@ fmt/1138:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .mcd
     - .vwx
@@ -3033,6 +3159,24 @@ fmt/1172:
     reason: Font file
   extensions:
     - .woff2
+fmt/1184:
+  name: InDesign Markup Language Package
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason:
+      File used by adobe software for image editing and manipulation. Not preservable,
+      we are unable to open and convert this format without and photoshop license.
+      The files also rarely if ever contains preservable info.
+  extensions:
+    - .idml
+fmt/1210:
+  name: Wavefront OBJ File
+  action: convert
+  convert:
+    tool: copy
+  extensions:
+    - .obj
 fmt/1216:
   name: ""
   action: convert
@@ -3183,6 +3327,27 @@ fmt/1331:
     reason: We need a special software to open and edit .ZDL. Not not-convertable.
   extensions:
     - .zdl
+fmt/1346:
+  name: Autodesk Revit Project File (ver 4)
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: To convert a Autodesk Revit Project File, you need the expensive licensed software, which we do not have.
+  extensions:
+    - .rvt
+    - .rfa
+    - .rte
+    - .rtf
+fmt/1347:
+  name: Autodesk Revit Project File (2008)
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: To convert a Autodesk Revit Project File, you need the expensive licensed software, which we do not have.
+  extensions:
+    - .rvt
+    - .rte
+    - .rtf
 fmt/1367:
   name: GeoJSON
   description: GeoJSON is designed for representing geographical features.
@@ -3203,40 +3368,35 @@ fmt/1389:
   name: Drawing Interchange Format (ASCII) 2018/2019/2020
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/1390:
   name: Drawing Interchange Format (Binary) 2007-2009
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/1391:
   name: Drawing Interchange Format (Binary) 2010-2012
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/1392:
   name: Drawing Interchange Format (Binary) 2013-2017
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/1393:
   name: Drawing Interchange Format (Binary) 2018-2021
   action: convert
   convert:
-    tool: cad
-    output: svg
+    tool: copy
   extensions:
     - .dxf
 fmt/1395:
@@ -3244,7 +3404,7 @@ fmt/1395:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
 fmt/1439:
@@ -3291,6 +3451,14 @@ fmt/1453:
     output: ods
   extensions:
     - ".123"
+fmt/1466:
+  name: InstallShield Executable
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A InstallShield Executable file includes a "_INST23I.EX_" file, which is used for many Windows software distrubutions that use the InstallShield installation software. Not preservation-worthy
+  extensions:
+    - .ex_
 fmt/1482:
   name: Access Report Snapshot
   action: ignore
@@ -3301,6 +3469,14 @@ fmt/1482:
       2010. Can be viewed using an proprietary viewer. Not preservation-worthy
   extensions:
     - .snp
+fmt/1496:
+  name: ZoomBrowser Ex Thumbnail Cache
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A binary cache file for displaying thumbnail images within ZoomBrowser. Not preservation-worthy 
+  extensions:
+    - .info
 fmt/1507:
   name: Exchangeable Image File Format (Compressed) 2.3.x
   ignore_if:
@@ -3555,6 +3731,14 @@ fmt/1641:
       The files also rarely if ever contains preservable info.
   extensions:
     - .inx
+fmt/1656:
+  name: Microsoft Help Contents File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Microsoft Help Content Files only store topics for a corresponding help document. Not preservation-worthy
+  extensions:
+    - .cnt
 fmt/1677:
   name: Microsoft Office File List
   action: convert
@@ -3682,6 +3866,14 @@ fmt/1827:
     output: odt
   extensions:
     - .docx
+fmt/1828:
+  name: XLSX Strict OOXML Spreadsheet (2007 onwards)
+  action: convert
+  convert:
+    tool: document
+    output: odt
+  extensions:
+    - .xlsx
 fmt/1862:
   name: Adobe Illustrator CC Artwork v. 17-23
   description:
@@ -3739,6 +3931,15 @@ fmt/1880:
   extensions:
     - .vcf
     - .vcard
+fmt/1886:
+  name: Resource Interchange File Format (RIFF)
+  description: RIFF is a structured framework for multimedia files. 
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: File format is too ambiguous.
+  extensions:
+    - .missing
 fmt/1915:
   name: ActiveMime Object
   description:
@@ -3750,12 +3951,22 @@ fmt/1915:
     reason: Not preservation-worthy
   extensions:
     - .mso
+fmt/1917:
+  name: BigTIFF
+  action: convert
+  convert:
+    tool: image
+    output: png
+  extensions:
+    - .tif
+    - .tf8
+    - .btf
 fmt/1934:
-  name: Drawing Interchange Format (Binary)
+  name: CorelDraw Drawing (2023)
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf # TODO: find ud af hvad det skal konverteres til
   extensions:
     - .cdr
 
@@ -3809,10 +4020,10 @@ x-fmt/30:
   description: A CorelDraw Template is a document blueprint that maintains
     structure, styles and placeholders. It is not the final product,
     but can still be converted to a pdf.
-  action: convert
-  convert:
-    tool: document
-    output: pdf
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Not the final product.
   extensions:
     - .cdt
 x-fmt/37:
@@ -4075,6 +4286,15 @@ x-fmt/157:
   convert:
     tool: image
     output: png
+x-fmt/158:
+  name: Initial Graphics Exchange Specification (IGES)
+  action: convert
+  convert:
+    tool: cad
+    output: dxf
+  extensions:
+    - .iges
+    - .igs
 x-fmt/169:
   name: PHP Script Page
   action: ignore
@@ -4177,6 +4397,14 @@ x-fmt/241:
   extensions:
     - .mdb
     - .mde
+x-fmt/243:
+  name: Microsoft Project (4.0)
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Project files. Not preservation-worthy
+  extensions:
+    - .mpp
 x-fmt/245:
   name: Microsoft Project 98
   action: ignore
@@ -4265,21 +4493,21 @@ x-fmt/263:
   alternatives:
     .odt: aca-fmt/18
     .ods: aca-fmt/21
-    .bpm: aca-fmt/34
-    .cptx: aca-fmt/34
-    .egp: aca-fmt/34
-    .evo: aca-fmt/34
-    .layout: aca-fmt/34
-    .mmap: aca-fmt/34
-    .nupkg: aca-fmt/34
-    .pbix: aca-fmt/34
-    .pkpass: aca-fmt/34
-    .pro: aca-fmt/34
-    .pvprj: aca-fmt/34
-    .rcv: aca-fmt/34
-    .safx: aca-fmt/34
-    .twbx: aca-fmt/34
-    .lbx: aca-fmt/34 # P-touch Editor Label file (what we have) OR FoxPro Label File. Not preservable
+    .bpm: aca-fmt/34    # Bizagi Process Modeler file https://www.bizagi.com/en/platform/modeler
+    .cptx: aca-fmt/34   # Adobe Captivate https://www.adobe.com/products/captivate
+    .egp: aca-fmt/34    # SAS project file
+    .evo: aca-fmt/34    # DIALux project file https://www.dialux.com
+    .layout: aca-fmt/34 # SketchUp project
+    .mmap: aca-fmt/34   # Mindmap
+    .nupkg: aca-fmt/34  # .NET package
+    .pbix: aca-fmt/34   # Power BI report file https://learn.microsoft.com/en-us/power-bi/create-reports/service-export-to-pbix
+    .pkpass: aca-fmt/34 # Digital pass file https://en.wikipedia.org/wiki/PKPASS
+    .pro: aca-fmt/34    # ?
+    .pvprj: aca-fmt/34  # PV*SOL project file https://pvsol.software/en/
+    .rcv: aca-fmt/34    # RoofCon file https://www.mitekab.se/software/trusscon-roofcon/?lang=en
+    .safx: aca-fmt/34   # ?
+    .twbx: aca-fmt/34   # Tableau Packaged Workbook https://help.tableau.com/current/pro/desktop/en-us/environ_filesandfolders.htm
+    .lbx: aca-fmt/34    # P-touch Editor Label file (what we have) OR FoxPro Label File. Not preservable
     .cdr: aca-fmt/35
     .xmind: aca-fmt/36
     .sxw: fmt/128
@@ -4337,6 +4565,14 @@ x-fmt/280:
       if not with a GML file.
   extensions:
     - .xsd
+x-fmt/294:
+  name: Micrografx Draw
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: No available tools to convert a Micrografx Drawing.
+  extensions:
+    - .drw
 x-fmt/311:
   name: dBASE Text Memo
   action: ignore
@@ -4413,7 +4649,7 @@ x-fmt/346:
   extensions:
     - .dgn
 x-fmt/375:
-  name: CorelDraw Drawing
+  name: CorelDraw Drawing (10.0)
   action: convert
   convert:
     tool: document
@@ -4634,6 +4870,16 @@ x-fmt/418:
       program, file, or folder. Not preservation-worthy
   extensions:
     - .ico
+x-fmt/419:
+  name: DVD data file and backup data file
+  description: IFO files contain DVD-Video Disc Information including headers that tell the DVD player what screen to show at startup, where each chapter starts, where audio tracks are located on the disc, etc. IFO files are accompanied by BUP files which are backups of the IFO files and therefore completely identical.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Backup file. Not preservation-worthy
+  extensions:
+    - .ifo
+    - .bup
 x-fmt/420:
   name: Windows Setup File
   action: ignore
@@ -4722,7 +4968,7 @@ x-fmt/441:
   extensions:
     - .dwl
 x-fmt/450:
-  name: Adobe InDesign Document (Generic)
+  name: Adobe InDesign Document
   description:
     Adobe InDesign Document can be used to produce a number of works such
     as posters, flyers, brochures, magazines, newspapers, presentations and books.
@@ -4759,6 +5005,6 @@ x-fmt/455:
   action: convert
   convert:
     tool: cad
-    output: svg
+    output: dxf
   extensions:
     - .dwg
