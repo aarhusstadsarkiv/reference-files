@@ -520,6 +520,179 @@ aca-fmt/48:
   extensions:
     - .vmg
 
+aca-fmt/49:
+  name: LogData Product Data File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Not preservable-worthy
+  extensions:
+    - .ltd
+
+aca-fmt/50:
+  name: Line Style Library
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Library that allows users to create, import and manage line styles in CAD.
+  extensions:
+    - .rsc
+
+aca-fmt/51:
+  name: VMware Virtual Machine Disk
+  action: manual
+  manual:
+    reason: ...
+    process: Use digiarch
+  extensions:
+    - .vmdk
+
+aca-fmt/52:
+  name: Java Keystore
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Certification file. Not preservation-worthy
+  extensions:
+    - .jks
+
+aca-fmt/53:
+  name: JMobile Binary Project
+  action: manual
+  manual:
+    reason: No known converting tools
+    process: Open the binary project in JMobile Studio and export the project as .jmx
+  extensions:
+    - .jmx
+
+aca-fmt/54:
+  name: PKCS#12
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Password protected certificate. Not preservation-worthy
+  extensions:
+    - .pfx
+
+aca-fmt/55:
+  name: SevenCs directENC Files
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: SevenCs directENC Files are cell files, including references, SENC and catalogues. Not preservation-worthy
+  extensions:
+    - .7cc
+    - .7cr
+    - .7cb
+
+aca-fmt/56:
+  name: Clarion TopSpeed Data File
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: We do not have any tools to convert a .tps file to CSV. Not convertable
+  extensions:
+    - .tps
+    - .tpr
+
+aca-fmt/57:
+  name: Microsoft Shim Database File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A database file that is used to apply patches to application. Not preservation-worthy
+  extensions:
+    - .sdb
+
+aca-fmt/58:
+  name: SnagIt Capture Project File
+  description: Image project file, similar to a .psd file
+  action: manual
+  manual:
+    reason: No current tool to convert this project to a .jpg
+    process: Open the file with SnagIt and export to a .jpg, .pdf or .png
+  extensions:
+    - .snag
+
+aca-fmt/59:
+  name: Tripod Data Systems Job File
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: A Tripod Data Systems Job File can only be converted using their paid software. There exists no free reliable alternative.
+  extensions:
+    - .spj
+
+aca-fmt/60:
+  name: Acrobat PDF 1.6 - Portable Document Format
+  description: Like fmt/20 but more relaxed requirements for byteheader that Pronom.
+  action: convert
+  convert:
+    tool: pdf
+    output: pdfa-3
+  extensions:
+    - .pdf
+
+aca-fmt/61:
+  name: Microsoft OneNote Table of Contents
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason:
+      The .onetoc2 file acts as an indexing file for a OneNote notebook. It contains metadata about
+      the notebooks structure, including order of sections, section names and colors. Not preservation-worthy.
+  extensions:
+    - .onetoc2
+
+aca-fmt/62:
+  name: InstallShield Cabinets
+  description:
+    InstallShield Cabinets is a proprietary archive format used by the InstallShield
+    installation engine to package software for distribution.
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Archive file containing executable file. Not preservation-worthy
+  extensions:
+    - .cab
+
+aca-fmt/63:
+  name: Rhino 3D Model File
+  action: ignore
+  ignore:
+    template: not-convertable
+    reason: A Rhino 3D Model File requires an expensive license to view and export the file as other formats.
+  extensions:
+    - .3dm
+
+aca-fmt/64:
+  name: eXtended Triton File Format
+  description: A XTF format is used for recording hydrographic survey data.
+  action: manual
+  manual:
+    reason: Not enough information known to convert.
+    process: Find a converter (pyxtf).
+  extensions:
+    - .xtf
+
+aca-fmt/65:
+  name: Nokia Device Bookmark File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A .bmk includes only a name, a link and an icon. None of which is preservation-worthy.
+  extensions:
+    - .bmk
+
+aca-fmt/66:
+  name: SourceSafe Source Code Control File
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: A .SCC file is not a used file format and there exists only one valid file with it - "verscc.scc" or "verscc2.scc". Not preservation-worthy.
+  extensions:
+    - .scc
+
 ##################
 # Pronom formats #
 ##################
