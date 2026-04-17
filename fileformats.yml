@@ -510,8 +510,7 @@ aca-fmt/47:
     template: not-convertable
 aca-fmt/48:
   name: Nokia Text Message
-  description:
-    Plain text format used for storing SMS text messages on Nokia cell phones. Contains header information such as the sender, date, and time, as well as the actual message. Saved in a null byte-separated text format.
+  description: Plain text format used for storing SMS text messages on Nokia cell phones. Contains header information such as the sender, date, and time, as well as the actual message. Saved in a null byte-separated text format.
   action: convert
   convert:
     tool: text
@@ -2420,7 +2419,7 @@ fmt/568:
 fmt/569:
   name: Matroska (1-4)
   description:
-    A Matroska Multimedia Container varies in what it actually is, based on the extension. .MKV is for video, 
+    A Matroska Multimedia Container varies in what it actually is, based on the extension. .MKV is for video,
     .MK3D is for steroscopic video, .MKA is for audio-only files and .MKS for subtitles only.
   action: convert
   convert:
@@ -2799,12 +2798,12 @@ fmt/836:
     - .wb3
 fmt/857:
   name: Navisworks Document
-  description: Navisworks Document is a 3D design review package, developed and maintained by Autodesk. 
+  description: Navisworks Document is a 3D design review package, developed and maintained by Autodesk.
   action: ignore
   ignore:
     template: not-preservable
     reason:
-      Since this a NAvisworks Document is a snapshot of the Navisworks Working file (nwf), 
+      Since this a NAvisworks Document is a snapshot of the Navisworks Working file (nwf),
       it's most commonly used to share project updates and reviewing. Not preservation-worthy
   extensions:
     - .nwd
@@ -3474,7 +3473,7 @@ fmt/1496:
   action: ignore
   ignore:
     template: not-preservable
-    reason: A binary cache file for displaying thumbnail images within ZoomBrowser. Not preservation-worthy 
+    reason: A binary cache file for displaying thumbnail images within ZoomBrowser. Not preservation-worthy
   extensions:
     - .info
 fmt/1507:
@@ -3933,7 +3932,7 @@ fmt/1880:
     - .vcard
 fmt/1886:
   name: Resource Interchange File Format (RIFF)
-  description: RIFF is a structured framework for multimedia files. 
+  description: RIFF is a structured framework for multimedia files.
   action: ignore
   ignore:
     template: not-convertable
@@ -4493,21 +4492,21 @@ x-fmt/263:
   alternatives:
     .odt: aca-fmt/18
     .ods: aca-fmt/21
-    .bpm: aca-fmt/34    # Bizagi Process Modeler file https://www.bizagi.com/en/platform/modeler
-    .cptx: aca-fmt/34   # Adobe Captivate https://www.adobe.com/products/captivate
-    .egp: aca-fmt/34    # SAS project file
-    .evo: aca-fmt/34    # DIALux project file https://www.dialux.com
+    .bpm: aca-fmt/34 # Bizagi Process Modeler file https://www.bizagi.com/en/platform/modeler
+    .cptx: aca-fmt/34 # Adobe Captivate https://www.adobe.com/products/captivate
+    .egp: aca-fmt/34 # SAS project file
+    .evo: aca-fmt/34 # DIALux project file https://www.dialux.com
     .layout: aca-fmt/34 # SketchUp project
-    .mmap: aca-fmt/34   # Mindmap
-    .nupkg: aca-fmt/34  # .NET package
-    .pbix: aca-fmt/34   # Power BI report file https://learn.microsoft.com/en-us/power-bi/create-reports/service-export-to-pbix
+    .mmap: aca-fmt/34 # Mindmap
+    .nupkg: aca-fmt/34 # .NET package
+    .pbix: aca-fmt/34 # Power BI report file https://learn.microsoft.com/en-us/power-bi/create-reports/service-export-to-pbix
     .pkpass: aca-fmt/34 # Digital pass file https://en.wikipedia.org/wiki/PKPASS
-    .pro: aca-fmt/34    # ?
-    .pvprj: aca-fmt/34  # PV*SOL project file https://pvsol.software/en/
-    .rcv: aca-fmt/34    # RoofCon file https://www.mitekab.se/software/trusscon-roofcon/?lang=en
-    .safx: aca-fmt/34   # ?
-    .twbx: aca-fmt/34   # Tableau Packaged Workbook https://help.tableau.com/current/pro/desktop/en-us/environ_filesandfolders.htm
-    .lbx: aca-fmt/34    # P-touch Editor Label file (what we have) OR FoxPro Label File. Not preservable
+    .pro: aca-fmt/34 # ?
+    .pvprj: aca-fmt/34 # PV*SOL project file https://pvsol.software/en/
+    .rcv: aca-fmt/34 # RoofCon file https://www.mitekab.se/software/trusscon-roofcon/?lang=en
+    .safx: aca-fmt/34 # ?
+    .twbx: aca-fmt/34 # Tableau Packaged Workbook https://help.tableau.com/current/pro/desktop/en-us/environ_filesandfolders.htm
+    .lbx: aca-fmt/34 # P-touch Editor Label file (what we have) OR FoxPro Label File. Not preservable
     .cdr: aca-fmt/35
     .xmind: aca-fmt/36
     .sxw: fmt/128
