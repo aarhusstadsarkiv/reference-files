@@ -121,7 +121,7 @@
 - puid: aca-fmt/20
   signature: MapInfo TAB file
   description: https://www.loc.gov/preservation/digital/formats/fdd/fdd000300.shtml
-  bof: (?i)^217461626C650D0A2176657273696F6E.{20,512}446566696E6974696F6E205461626C65
+  bof: (?i)^217461626C65(0D)?0A2176657273696F6E.{20,512}446566696E6974696F6E205461626C65
   extension: .tab
 
 - puid: aca-fmt/21
@@ -171,7 +171,7 @@
 - puid: aca-fmt/25
   signature: URL file
   description: Internet shortcut file. Looks for the tag "[InternetShortcut]\nURL="
-  bof: (?i)5B496E7465726E657453686F72746375745D0D0A55524C3D
+  bof: (?i)5B496E7465726E657453686F72746375745D(0D)?0A55524C3D
   plain_bof: '[InternetShortcut]
 
     URL=
