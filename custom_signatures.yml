@@ -70,22 +70,22 @@
 
 - puid: aca-fmt/10
   signature: MS Access 95
-  bof: (?i)41636365737356657273696F6E.{0,1024}30362E
+  bof: (?i)41636365737356657273696F6E(..){0,1024}30362E
   extension: .mdb
 
 - puid: aca-fmt/11
   signature: MS Access 97
-  bof: (?i)41636365737356657273696F6E.{0,1024}30372E
+  bof: (?i)41636365737356657273696F6E(..){0,1024}30372E
   extension: .mdb
 
 - puid: aca-fmt/12
   signature: MS Access 2000
-  bof: (?i)410063006300650073007300560065007200730069006F006E.{0,2048}300038002E00
+  bof: (?i)410063006300650073007300560065007200730069006F006E(..){0,2048}300038002E00
   extension: .mdb
 
 - puid: aca-fmt/13
   signature: MS Access 2002/3
-  bof: (?i)410063006300650073007300560065007200730069006F006E.{0,2048}300039002E00
+  bof: (?i)410063006300650073007300560065007200730069006F006E(..){0,2048}300039002E00
   extension: .mdb
 
 - puid: aca-fmt/14
@@ -110,7 +110,7 @@
 
 - puid: aca-fmt/18
   signature: OpenDocument Text (unspecified version)
-  bof: (?i)^504B0304.{52}6D696D65747970656170706C69636174696F6E2F766E642E6F617369732E6F70656E646F63756D656E742E74657874
+  bof: (?i)^504B0304(..){52}6D696D65747970656170706C69636174696F6E2F766E642E6F617369732E6F70656E646F63756D656E742E74657874
   extension: .odt
 
 - puid: aca-fmt/19
@@ -121,7 +121,7 @@
 - puid: aca-fmt/20
   signature: MapInfo TAB file
   description: https://www.loc.gov/preservation/digital/formats/fdd/fdd000300.shtml
-  bof: (?i)^217461626C65(0D)?0A2176657273696F6E.{20,512}446566696E6974696F6E205461626C65
+  bof: (?i)^217461626C65(0D)?0A2176657273696F6E(..){20,512}446566696E6974696F6E205461626C65
   extension: .tab
 
 - puid: aca-fmt/21
@@ -184,7 +184,7 @@
   description: Link file used by Lotus Notes, a business productivity and collaboration
     application suite; saved in an XML format and contains a reference to a Lotus
     Notes document; used for sharing links to documents over email and in Web pages.
-  bof: (?i)3c4e444c3e.*3c2f4e444c3e
+  bof: (?i)3c4e444c3e(..)*3c2f4e444c3e
   plain_bof: '<NDL>
 
     *
@@ -244,42 +244,42 @@
 - puid: aca-fmt/38
   signature: Acrobat PDF 1.2 - Portable Document Format
   description: fmt/16. More relaxed requirements that Pronom, that only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
-  bof: (?i)^.*255044462D312E32
+  bof: (?i)^(..)*255044462D312E32
   plain_bof: "%PDF-1.2"
   extension: .pdf
 
 - puid: aca-fmt/39
   signature: Acrobat PDF 1.3 - Portable Document Format
   description: fmt/17. More relaxed requirements that Pronom, that only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
-  bof: (?i)^.*255044462D312E33
+  bof: (?i)^(..)*255044462D312E33
   plain_bof: "%PDF-1.3"
   extension: .pdf
 
 - puid: aca-fmt/40
   signature: Acrobat PDF 1.4 - Portable Document Format
   description: fmt/18. More relaxed requirements that Pronom, that only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
-  bof: (?i)^.*255044462D312E34
+  bof: (?i)^(..)*255044462D312E34
   plain_bof: "%PDF-1.4"
   extension: .pdf
 
 - puid: aca-fmt/41
   signature: Acrobat PDF 1.5 - Portable Document Format
   description: fmt/19. More relaxed requirements that Pronom, that only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
-  bof: (?i)^.*255044462D312E35
+  bof: (?i)^(..)*255044462D312E35
   plain_bof: "%PDF-1.5"
   extension: .pdf
 
 - puid: aca-fmt/42
   signature: Acrobat PDF 1.7 - Portable Document Format
   description: fmt/276. More relaxed requirements that Pronom, that only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
-  bof: (?i)^.*255044462D312E37
+  bof: (?i)^(..)*255044462D312E37
   plain_bof: "%PDF-1.7"
   extension: .pdf
 
 - puid: aca-fmt/43
   signature: Raw JPEG Stream
   description: fmt/41. More relaxed requirements that Pronom, that only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
-  bof: (?i)^.*FFD8FF
+  bof: (?i)^(..)*FFD8FF
   extension:
     - .jpe
     - .jpg
@@ -290,21 +290,21 @@
 
 - puid: aca-fmt/44
   signature: SCP Data file
-  bof: (?i)^.{0,64}534350454347
+  bof: (?i)^(..){0,64}534350454347
   plain_bof: SCPECG
   extension: .scp
   description: SCP-ECG (Standard Communications Protocol for Computer-Assisted Electrocardiography) is a file format for ECG traces, annotations and metadata.
 
 - puid: aca-fmt/45
   signature: Microsoft Word xml
-  bof: (?i)^.*3c3f6d736f2d6170706c69636174696f6e70726f6769643d22576f72642e446f63756d656e74223f3e
+  bof: (?i)^(..)*3c3f6d736f2d6170706c69636174696f6e70726f6769643d22576f72642e446f63756d656e74223f3e
   plain_bof: <?mso-applicationprogid="Word.Document"?>
   extension: .doc
   description: Microsoft Word xml export format. Can be viewed as a Microsoft Word and converted with the tool `document`.
 
 - puid: aca-fmt/46
   signature: SAS Software 9.1 xml
-  bof: (?i)^.*3c6d657461206e616d653d2247656e657261746f722220636f6e74656e743d2253415320536f6674776172652c20736565207777772e7361732e636f6d222073617376657273696f6e3d22392e31223e
+  bof: (?i)^(..)*3c6d657461206e616d653d2247656e657261746f722220636f6e74656e743d2253415320536f6674776172652c20736565207777772e7361732e636f6d222073617376657273696f6e3d22392e31223e
   plain_bof: <meta name="Generator" content="SAS Software, see www.sas.com" sasversion="9.1">
   extension: htm & .html
   description: SAS Software 9.1 xml is a xml file. The file can be opened as browser or spreadsheet. For best result we open it as a browser.
