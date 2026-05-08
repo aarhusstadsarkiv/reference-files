@@ -175,7 +175,7 @@
   signature: URL file
   description: Internet shortcut file. Looks for the tag "[InternetShortcut]\nURL="
   bof: (?i)5B496E7465726E657453686F72746375745D(0D)?0A55524C3D
-  plain_bof: '[InternetShortcut]
+  plain_bof: "[InternetShortcut]
 
     URL=
 
@@ -189,7 +189,7 @@
     application suite; saved in an XML format and contains a reference to a Lotus
     Notes document; used for sharing links to documents over email and in Web pages.
   bof: (?i)3c4e444c3e(..)*3c2f4e444c3e
-  plain_bof: '<NDL>
+  plain_bof: "<NDL>
 
     *
 
@@ -472,3 +472,4 @@
   signature: Lotus WordPro Document
   bof: (?i)^576F726450726F0DFB000000000000000005985C8172030040CCC1BFFFBDF970
   extension: .lwp
+  
