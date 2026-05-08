@@ -88,6 +88,9 @@
           }
         ]
       },
+      "extension_required": {
+        "type": "boolean"
+      },
       "description": {
         "type": "string"
       }
