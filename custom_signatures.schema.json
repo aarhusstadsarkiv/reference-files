@@ -77,13 +77,13 @@
         "oneOf": [
           {
             "type": "string",
-            "pattern": "(\\.\\w+)+"
+            "pattern": "^(\\.\\w+)+$"
           },
           {
             "type": "array",
             "items": {
               "type": "string",
-              "pattern": "(\\.\\w+)+"
+              "pattern": "^(\\.\\w+)+$"
             }
           }
         ]
