@@ -543,7 +543,7 @@ aca-fmt/51:
   action: ignore
   ignore:
     template: not-preservable
-    reason: Not preservable.  
+    reason: Not preservable.
   extensions:
     - .vmdk
 
