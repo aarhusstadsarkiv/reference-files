@@ -540,10 +540,10 @@ aca-fmt/50:
 
 aca-fmt/51:
   name: VMware Virtual Machine Disk
-  action: manual
-  manual:
-    reason: ...
-    process: Use digiarch
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason: Not preservable.  
   extensions:
     - .vmdk
 
