@@ -70,22 +70,22 @@
 
 - puid: aca-fmt/10
   signature: MS Access 95
-  bof: (?i)41636365737356657273696F6E.{0,1024}30362E
+  bof: (?i)41636365737356657273696F6E(..){0,1024}30362E
   extension: .mdb
 
 - puid: aca-fmt/11
   signature: MS Access 97
-  bof: (?i)41636365737356657273696F6E.{0,1024}30372E
+  bof: (?i)41636365737356657273696F6E(..){0,1024}30372E
   extension: .mdb
 
 - puid: aca-fmt/12
   signature: MS Access 2000
-  bof: (?i)410063006300650073007300560065007200730069006F006E.{0,2048}300038002E00
+  bof: (?i)410063006300650073007300560065007200730069006F006E(..){0,2048}300038002E00
   extension: .mdb
 
 - puid: aca-fmt/13
   signature: MS Access 2002/3
-  bof: (?i)410063006300650073007300560065007200730069006F006E.{0,2048}300039002E00
+  bof: (?i)410063006300650073007300560065007200730069006F006E(..){0,2048}300039002E00
   extension: .mdb
 
 - puid: aca-fmt/14
@@ -110,7 +110,7 @@
 
 - puid: aca-fmt/18
   signature: OpenDocument Text (unspecified version)
-  bof: (?i)^504B0304.{52}6D696D65747970656170706C69636174696F6E2F766E642E6F617369732E6F70656E646F63756D656E742E74657874
+  bof: (?i)^504B0304(..){52}6D696D65747970656170706C69636174696F6E2F766E642E6F617369732E6F70656E646F63756D656E742E74657874
   extension: .odt
 
 - puid: aca-fmt/19
@@ -121,7 +121,7 @@
 - puid: aca-fmt/20
   signature: MapInfo TAB file
   description: https://www.loc.gov/preservation/digital/formats/fdd/fdd000300.shtml
-  bof: (?i)^217461626C650D0A2176657273696F6E.{20,512}446566696E6974696F6E205461626C65
+  bof: (?i)^217461626C65(0D)?0A2176657273696F6E(..){20,512}446566696E6974696F6E205461626C65
   extension: .tab
 
 - puid: aca-fmt/21
@@ -174,8 +174,8 @@
 - puid: aca-fmt/25
   signature: URL file
   description: Internet shortcut file. Looks for the tag "[InternetShortcut]\nURL="
-  bof: (?i)5B496E7465726E657453686F72746375745D0D0A55524C3D
-  plain_bof: "[InternetShortcut]
+  bof: (?i)5B496E7465726E657453686F72746375745D(0D)?0A55524C3D
+  plain_bof: '[InternetShortcut]
 
     URL=
 
@@ -188,8 +188,8 @@
     Link file used by Lotus Notes, a business productivity and collaboration
     application suite; saved in an XML format and contains a reference to a Lotus
     Notes document; used for sharing links to documents over email and in Web pages.
-  bof: (?i)3c4e444c3e.*3c2f4e444c3e
-  plain_bof: "<NDL>
+  bof: (?i)3c4e444c3e(..)*3c2f4e444c3e
+  plain_bof: '<NDL>
 
     *
 
