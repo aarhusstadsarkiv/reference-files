@@ -1,3 +1,4 @@
+---
 ################
 # Global rules #
 ################
@@ -3117,7 +3118,7 @@ fmt/977:
   name: AutoCad Design Web Format (DWFx)
   action: convert
   convert:
-    tool: cad # er ikke helt sikker, for abviewer understøtter ikke dwf**x**
+    tool: cad  # er ikke helt sikker, for abviewer understøtter ikke dwf**x**
     output: pdf
   extensions:
     - .dwfx
@@ -4142,7 +4143,7 @@ fmt/1934:
   action: convert
   convert:
     tool: cad
-    output: dxf # TODO: find ud af hvad det skal konverteres til
+    output: dxf  # TODO: find ud af hvad det skal konverteres til
   extensions:
     - .cdr
 
@@ -4669,21 +4670,21 @@ x-fmt/263:
   alternatives:
     .odt: aca-fmt/18
     .ods: aca-fmt/21
-    .bpm: aca-fmt/34 # Bizagi Process Modeler file https://www.bizagi.com/en/platform/modeler
-    .cptx: aca-fmt/34 # Adobe Captivate https://www.adobe.com/products/captivate
-    .egp: aca-fmt/34 # SAS project file
-    .evo: aca-fmt/34 # DIALux project file https://www.dialux.com
-    .layout: aca-fmt/34 # SketchUp project
-    .mmap: aca-fmt/34 # Mindmap
-    .nupkg: aca-fmt/34 # .NET package
-    .pbix: aca-fmt/34 # Power BI report file https://learn.microsoft.com/en-us/power-bi/create-reports/service-export-to-pbix
-    .pkpass: aca-fmt/34 # Digital pass file https://en.wikipedia.org/wiki/PKPASS
-    .pro: aca-fmt/34 # ?
-    .pvprj: aca-fmt/34 # PV*SOL project file https://pvsol.software/en/
-    .rcv: aca-fmt/34 # RoofCon file https://www.mitekab.se/software/trusscon-roofcon/?lang=en
-    .safx: aca-fmt/34 # ?
-    .twbx: aca-fmt/34 # Tableau Packaged Workbook https://help.tableau.com/current/pro/desktop/en-us/environ_filesandfolders.htm
-    .lbx: aca-fmt/34 # P-touch Editor Label file (what we have) OR FoxPro Label File. Not preservable
+    .bpm: aca-fmt/34  # Bizagi Process Modeler file https://www.bizagi.com/en/platform/modeler
+    .cptx: aca-fmt/34  # Adobe Captivate https://www.adobe.com/products/captivate
+    .egp: aca-fmt/34  # SAS project file
+    .evo: aca-fmt/34  # DIALux project file https://www.dialux.com
+    .layout: aca-fmt/34  # SketchUp project
+    .mmap: aca-fmt/34  # Mindmap
+    .nupkg: aca-fmt/34  # .NET package
+    .pbix: aca-fmt/34  # Power BI report file https://learn.microsoft.com/en-us/power-bi/create-reports/service-export-to-pbix
+    .pkpass: aca-fmt/34  # Digital pass file https://en.wikipedia.org/wiki/PKPASS
+    .pro: aca-fmt/34  # ?
+    .pvprj: aca-fmt/34  # PV*SOL project file https://pvsol.software/en/
+    .rcv: aca-fmt/34  # RoofCon file https://www.mitekab.se/software/trusscon-roofcon/?lang=en
+    .safx: aca-fmt/34  # ?
+    .twbx: aca-fmt/34  # Tableau Packaged Workbook https://help.tableau.com/current/pro/desktop/en-us/environ_filesandfolders.htm
+    .lbx: aca-fmt/34  # P-touch Editor Label file (what we have) OR FoxPro Label File. Not preservable
     .cdr: aca-fmt/35
     .xmind: aca-fmt/36
     .sxw: fmt/128
