@@ -448,7 +448,7 @@
   description: PDF 1.0 signature with zero-padded EOF
   operator: AND
   bof: (?i)^255044462D312E30
-  eof: (?i)2525454F46(00)*$
+  eof: (?i)2525454F46(..)*$
   plain_bof: %PDF-1.0
   plain_eof: %%EOF
   bytes: 10000
@@ -458,7 +458,7 @@
   description: PDF 1.1 signature with zero-padded EOF
   operator: AND
   bof: (?i)^255044462D312E31
-  eof: (?i)2525454F46(00)*$
+  eof: (?i)2525454F46(..)*$
   plain_bof: %PDF-1.1
   plain_eof: %%EOF
   bytes: 10000
@@ -468,7 +468,7 @@
   description: PDF 1.2 signature with zero-padded EOF
   operator: AND
   bof: (?i)^255044462D312E32
-  eof: (?i)2525454F46(00)*$
+  eof: (?i)2525454F46(..)*$
   plain_bof: %PDF-1.2
   plain_eof: %%EOF
   bytes: 10000
@@ -478,7 +478,7 @@
   description: PDF 1.3 signature with zero-padded EOF
   operator: AND
   bof: (?i)^255044462D312E33
-  eof: (?i)2525454F46(00)*$
+  eof: (?i)2525454F46(..)*$
   plain_bof: %PDF-1.3
   plain_eof: %%EOF
   bytes: 10000
@@ -488,7 +488,7 @@
   description: PDF 1.4 signature with zero-padded EOF
   operator: AND
   bof: (?i)^255044462D312E34
-  eof: (?i)2525454F46(00)*$
+  eof: (?i)2525454F46(..)*$
   plain_bof: %PDF-1.4
   plain_eof: %%EOF
   bytes: 10000
@@ -498,7 +498,7 @@
   description: PDF 1.5 signature with zero-padded EOF
   operator: AND
   bof: (?i)^255044462D312E35
-  eof: (?i)2525454F46(00)*$
+  eof: (?i)2525454F46(..)*$
   plain_bof: %PDF-1.5
   plain_eof: %%EOF
   bytes: 10000
@@ -508,7 +508,7 @@
   description: PDF 1.6 signature with zero-padded EOF
   operator: AND
   bof: (?i)^255044462D312E36
-  eof: (?i)2525454F46(00)*$
+  eof: (?i)2525454F46(..)*$
   plain_bof: %PDF-1.6
   plain_eof: %%EOF
   bytes: 10000
@@ -518,7 +518,7 @@
   description: PDF 1.7 signature with zero-padded EOF
   operator: AND
   bof: (?i)^255044462D312E37
-  eof: (?i)2525454F(46|460A|460D|460D0A|460D00)(00)*$
+  eof: (?i)2525454F(46|460A|460D|460D0A|460D00)(..)*$
   plain_bof: %PDF-1.7
   plain_eof: %%EOFF(.|F.|F..|F..)
   bytes: 10000
