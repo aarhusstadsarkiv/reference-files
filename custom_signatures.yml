@@ -285,6 +285,7 @@
   signature: Raw JPEG Stream
   description: fmt/41. More relaxed requirements that Pronom, that only looks at `bof` and not `eof`. We accept the normal `bof` within the first 1024 bytes. The 1024 bytes comes from `digiarch`.
   bof: (?i)^(..)*FFD8FF
+  extension_required: true
   extension:
     - .jpe
     - .jpg
