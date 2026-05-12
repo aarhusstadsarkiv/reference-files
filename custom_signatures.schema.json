@@ -91,6 +91,10 @@
       "extension_required": {
         "type": "boolean"
       },
+      "bytes": {
+        "types": "integer",
+        "description": "Size of BOF and EOF to be used."
+      },
       "description": {
         "type": "string"
       }
