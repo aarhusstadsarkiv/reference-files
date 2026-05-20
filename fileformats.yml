@@ -1449,8 +1449,6 @@ fmt/123:
     - .epsf
 fmt/124:
   name: Encapsulated PostScript File Format 3
-  ignore_if:
-    image_pixels_min: 20000
   action: convert
   convert:
     tool: document
