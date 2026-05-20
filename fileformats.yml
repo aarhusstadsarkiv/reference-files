@@ -2991,7 +2991,7 @@ fmt/864:
   convert:
     tool: copy
   extensions:
-    -  .3dm
+    - .3dm
 fmt/866:
   name: Apple Safari Webarchive
   action: extract
@@ -4166,7 +4166,7 @@ fmt/2082:
   convert:
     tool: copy
   extensions:
-    -  .3dm
+    - .3dm
 #################
 # x-fmt formats #
 #################
