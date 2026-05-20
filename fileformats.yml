@@ -657,14 +657,14 @@ aca-fmt/62:
   extensions:
     - .cab
 
-aca-fmt/63:
-  name: Rhino 3D Model File
-  action: ignore
-  ignore:
-    template: not-convertable
-    reason: A Rhino 3D Model File requires an expensive license to view and export the file as other formats.
-  extensions:
-    - .3dm
+# aca-fmt/63:
+#   name: Rhino 3D Model File
+#   action: ignore
+#   ignore:
+#     template: not-convertable
+#     reason: A Rhino 3D Model File requires an expensive license to view and export the file as other formats.
+#   extensions:
+#     - .3dm
 
 aca-fmt/64:
   name: eXtended Triton File Format
@@ -2982,6 +2982,16 @@ fmt/857:
   extensions:
     - .nwd
     - .nwc
+fmt/864:
+  name: 3DM (openNURBS)
+  description:
+    3D model representation based on non-uniform rational B-Splines (NURBS). The file format is defined by an open source C++ toolkit that reads and writes
+    openNURBS models. Same as fmt/2082
+  action: convert
+  convert:
+    tool: copy
+  extensions:
+    -  .3dm
 fmt/866:
   name: Apple Safari Webarchive
   action: extract
@@ -3935,10 +3945,11 @@ fmt/1711:
     - .cfg
 fmt/1729:
   name: Esri Shapefile Geospatial Metadata File
-  action: convert
-  convert:
-    tool: gis
-    output: gml3
+  action: ignore
+  ignore:
+    template: not-preservable
+    reason:
+      Stores metadata on a Shapefile-project. Picked up and used by the `digiarch gis` processing
   extensions:
     - .xml
 fmt/1730:
@@ -4146,7 +4157,16 @@ fmt/1934:
     output: dxf  # TODO: find ud af hvad det skal konverteres til
   extensions:
     - .cdr
-
+fmt/2082:
+  name: 3DM (openNURBS)
+  description:
+    3D model representation based on non-uniform rational B-Splines (NURBS). The file format is defined by an open source C++ toolkit that reads and writes
+    openNURBS models
+  action: convert
+  convert:
+    tool: copy
+  extensions:
+    -  .3dm
 #################
 # x-fmt formats #
 #################
@@ -5143,6 +5163,46 @@ x-fmt/430:
   extensions:
     - .msg
     - .oft
+x-fmt/432:
+  name: 3DM (version 4)
+  description:
+    3D model representation based on non-uniform rational B-Splines (NURBS). The file format is defined by an open source C++ toolkit that reads and writes
+    openNURBS models.
+  action: convert
+  convert:
+    tool: copy
+  extensions:
+    - .3dm
+x-fmt/433:
+  name: 3DM (version 1)
+  description:
+    3D model representation based on non-uniform rational B-Splines (NURBS). The file format is defined by an open source C++ toolkit that reads and writes
+    openNURBS models.
+  action: convert
+  convert:
+    tool: copy
+  extensions:
+    - .3dm
+x-fmt/434:
+  name: 3DM (version 2)
+  description:
+    3D model representation based on non-uniform rational B-Splines (NURBS). The file format is defined by an open source C++ toolkit that reads and writes
+    openNURBS models.
+  action: convert
+  convert:
+    tool: copy
+  extensions:
+    - .3dm
+x-fmt/435:
+  name: 3DM (version 3)
+  description:
+    3D model representation based on non-uniform rational B-Splines (NURBS). The file format is defined by an open source C++ toolkit that reads and writes
+    openNURBS models.
+  action: convert
+  convert:
+    tool: copy
+  extensions:
+    - .3dm
 x-fmt/441:
   name: AutoCAD Database File Locking Information
   action: ignore
