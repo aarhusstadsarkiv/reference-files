@@ -420,11 +420,12 @@
   bof: (?i)^49536328
   extension: .cab
 
-- puid: aca-fmt/63
-  signature: Rhino 3D Model File
-  bof: (?i)^33442047656f6d657472792046696c6520466f726d6174
-  plain_bof: 3D Geometry File Format
-  extension: .3dm
+# Is identified with the usual Pronom puids, so no need for this
+# - puid: aca-fmt/63
+#   signature: Rhino 3D Model File
+#   bof: (?i)^33442047656f6d657472792046696c6520466f726d6174
+#   plain_bof: 3D Geometry File Format
+#   extension: .3dm
 
 - puid: aca-fmt/64
   signature: eXtended Triton File Format
