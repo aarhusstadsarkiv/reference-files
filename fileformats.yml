@@ -250,7 +250,7 @@ aca-fmt/20:
   action: convert
   convert:
     tool: gis
-    output: tab
+    output: gml
   extensions:
     - .tab
 aca-fmt/21:
@@ -1714,7 +1714,7 @@ fmt/244:
   action: convert
   convert:
     tool: gis
-    output: gml3
+    output: gml
   extensions:
     - .kml
 fmt/258:
@@ -2868,7 +2868,7 @@ fmt/724:
   action: convert
   convert:
     tool: gis
-    output: gml3
+    output: gml
   extensions:
     - .kmz
 fmt/725:
@@ -3222,7 +3222,7 @@ fmt/1047:
   action: convert
   convert:
     tool: gis
-    output: gml3
+    output: gml
   extensions:
     - .gml
 fmt/1055:
@@ -4551,7 +4551,7 @@ x-fmt/227:
   action: convert
   convert:
     tool: gis
-    output: gml3
+    output: gml
   extensions:
     - .gml
 x-fmt/231:
@@ -4559,7 +4559,7 @@ x-fmt/231:
   action: convert
   convert:
     tool: gis
-    output: gml3
+    output: gml
   extensions:
     - .mif
 x-fmt/235:
@@ -4567,7 +4567,7 @@ x-fmt/235:
   action: convert
   convert:
     tool: gis
-    output: gml3
+    output: gml
   extensions:
     - .shp
 x-fmt/240:
