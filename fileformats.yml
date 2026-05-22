@@ -1287,16 +1287,14 @@ fmt/91:
   name: Scalable Vector Graphics 1.0
   action: convert
   convert:
-    tool: browser
-    output: pdf
+    tool: copy
   extensions:
     - .svg
 fmt/92:
   name: Scalable Vector Graphics 1.1
   action: convert
   convert:
-    tool: browser
-    output: pdf
+    tool: copy
   extensions:
     - .svg
 fmt/95:
