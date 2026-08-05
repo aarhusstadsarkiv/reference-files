@@ -12,7 +12,7 @@
   access:
     tool: copy
   statutory:
-    tool: vector
+    tool: image
     output: tif
 '!page description':
   name: PDF files
