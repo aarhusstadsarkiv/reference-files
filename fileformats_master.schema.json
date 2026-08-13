@@ -149,7 +149,7 @@
           }
         },
         "via": {
-          "description": "The steps that must be present in the conversion path.",
+          "description": "The steps required in the conversion path.",
           "type": "array",
           "items": {
             "oneOf": [
