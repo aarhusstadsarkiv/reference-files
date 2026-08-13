@@ -357,27 +357,30 @@
               "type": "array",
               "items": {
                 "oneOf": [
+              {
+                "type": "string",
+                "pattern": ".*\\w+.*"
+              },
+              {
+                "type": "array",
+                "items": false,
+                "minItems": 2,
+                "maxItems": 2,
+                "prefixItems": [
                   {
-                    "type": "string"
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "pattern": ".*\\w+.*"
                   },
                   {
-                    "type": "array",
-                    "items": false,
-                    "minItems": 2,
-                    "maxItems": 2,
-                    "prefixItems": [
-                      {
-                        "type": [
-                          "string",
-                          "null"
-                        ]
-                      },
-                      {
-                        "type": "string"
-                      }
-                    ]
+                    "type": "string",
+                    "pattern": ".*\\w+.*"
                   }
                 ]
+              }
+            ]
               }
             }
           }

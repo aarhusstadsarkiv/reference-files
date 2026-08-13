@@ -154,7 +154,8 @@
           "items": {
             "oneOf": [
               {
-                "type": "string"
+                "type": "string",
+                "pattern": ".*\\w+.*"
               },
               {
                 "type": "array",
@@ -166,10 +167,12 @@
                     "type": [
                       "string",
                       "null"
-                    ]
+                    ],
+                    "pattern": ".*\\w+.*"
                   },
                   {
-                    "type": "string"
+                    "type": "string",
+                    "pattern": ".*\\w+.*"
                   }
                 ]
               }
