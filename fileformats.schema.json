@@ -328,24 +328,9 @@
           "description": "Instructions to convert the file.",
           "type": "object",
           "required": [
-            "tool"
+            "tool",
+            "output"
           ],
-          "if": {
-            "properties": {
-              "tool": {
-                "not": {
-                  "enum": [
-                    "copy"
-                  ]
-                }
-              }
-            }
-          },
-          "then": {
-            "required": [
-              "output"
-            ]
-          },
           "properties": {
             "tool": {
               "description": "The converter tool to use.",
@@ -357,9 +342,46 @@
               "pattern": "^[a-z0-9-]+$"
             },
             "options": {
-              "description": "Options to pass to the converter",
+              "description": "Options to pass to the converters",
               "type": "object",
-              "minProperties": 1
+              "minProperties": 1,
+              "patternProperties": {
+                ".*": {
+                  "type": "object",
+                  "minProperties": 1
+                }
+              }
+            },
+            "via": {
+              "description": "The steps required in the conversion path.",
+              "type": "array",
+              "items": {
+                "oneOf": [
+              {
+                "type": "string",
+                "pattern": ".*\\w+.*"
+              },
+              {
+                "type": "array",
+                "items": false,
+                "minItems": 2,
+                "maxItems": 2,
+                "prefixItems": [
+                  {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "pattern": ".*\\w+.*"
+                  },
+                  {
+                    "type": "string",
+                    "pattern": ".*\\w+.*"
+                  }
+                ]
+              }
+            ]
+              }
             }
           }
         },

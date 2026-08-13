@@ -11,6 +11,7 @@
   name: Svg files
   access:
     tool: copy
+    output: copy
   statutory:
     tool: html
     output: tif
@@ -18,6 +19,7 @@
   name: PDF files
   access:
     tool: copy
+    output: copy
   statutory:
     tool: pdf
     output: tif
@@ -41,8 +43,10 @@
   name: .mp3 files
   access:
     tool: copy
+    output: copy
   statutory:
     tool: copy
+    output: copy
 '!video':
   access:
     tool: video
@@ -66,9 +70,11 @@
     output: tif
 '!gis':
   access:
-    tool: copy  # GeoJson - one day :)
+    tool: copy
+    output: copy  # GeoJson - one day :)
   statutory:
     tool: copy
+    output: copy
 '!model':
   access:
     tool: cad
@@ -86,18 +92,21 @@
 '!text (mark-up)':
   access:
     tool: copy
+    output: copy
   statutory:
     tool: text
     output: tif
 '!text (structured)':
   access:
     tool: copy
+    output: copy
   statutory:
     tool: text
     output: tif
 '!text (unstructured)':
   access:
     tool: copy
+    output: copy
   statutory:
     tool: text
     output: tif
@@ -114,6 +123,7 @@ fmt/3:
   name: animated gif
   access:
     tool: copy
+    output: copy
   statutory:
     tool: video
     output: h264-mpg
@@ -121,6 +131,7 @@ fmt/96:
   name: Hypertext Markup Language
   access:
     tool: copy
+    output: copy
   statutory:
     tool: html
     output: tif
@@ -128,6 +139,7 @@ fmt/98:
   name: Hypertext Markup Language
   access:
     tool: copy
+    output: copy
   statutory:
     tool: html
     output: tif
@@ -135,6 +147,7 @@ fmt/99:
   name: Hypertext Markup Language
   access:
     tool: copy
+    output: copy
   statutory:
     tool: html
     output: tif
@@ -142,6 +155,7 @@ fmt/100:
   name: Hypertext Markup Language
   access:
     tool: copy
+    output: copy
   statutory:
     tool: html
     output: tif
@@ -165,6 +179,7 @@ x-fmt/111:
   name: Plain Text File
   access:
     tool: copy
+    output: copy
   statutory:
     tool: text
     output: tif
@@ -175,5 +190,7 @@ aca-fmt/29:
   name: XML Schema Definition (Aarhus Stadsarkivs custom XSD)
   access:
     tool: copy
+    output: copy
   statutory:
     tool: copy
+    output: copy

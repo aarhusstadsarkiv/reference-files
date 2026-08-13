@@ -334,6 +334,7 @@ aca-fmt/29:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .xsd
 aca-fmt/30:
@@ -395,9 +396,10 @@ aca-fmt/36:
   action: convert
   convert:
     tool: zipfile
-    output: "-"
+    output: zipfile
     options:
-      path: Thumbnails/thumbnail.png
+      zipfile:
+        path: Thumbnails/thumbnail.png
   extensions:
     - .xmind
 aca-fmt/37:
@@ -517,7 +519,8 @@ aca-fmt/48:
     tool: text
     output: txt
     options:
-      stripnull: true
+      text:
+        stripnull: true
   extensions:
     - .vmg
 
@@ -704,6 +707,7 @@ fmt/3:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .gif
 fmt/4:
@@ -713,6 +717,7 @@ fmt/4:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .gif
 fmt/5:
@@ -750,6 +755,7 @@ fmt/13:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .png
 fmt/14:
@@ -1116,6 +1122,7 @@ fmt/63:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/64:
@@ -1123,6 +1130,7 @@ fmt/64:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/65:
@@ -1130,6 +1138,7 @@ fmt/65:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/66:
@@ -1137,6 +1146,7 @@ fmt/66:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/67:
@@ -1144,6 +1154,7 @@ fmt/67:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/68:
@@ -1151,6 +1162,7 @@ fmt/68:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/69:
@@ -1158,6 +1170,7 @@ fmt/69:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/70:
@@ -1165,6 +1178,7 @@ fmt/70:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/71:
@@ -1172,6 +1186,7 @@ fmt/71:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/72:
@@ -1179,6 +1194,7 @@ fmt/72:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/73:
@@ -1186,6 +1202,7 @@ fmt/73:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/74:
@@ -1193,6 +1210,7 @@ fmt/74:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/75:
@@ -1200,6 +1218,7 @@ fmt/75:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/76:
@@ -1207,6 +1226,7 @@ fmt/76:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/77:
@@ -1214,6 +1234,7 @@ fmt/77:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/78:
@@ -1221,6 +1242,7 @@ fmt/78:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/79:
@@ -1228,6 +1250,7 @@ fmt/79:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/80:
@@ -1235,6 +1258,7 @@ fmt/80:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/81:
@@ -1242,6 +1266,7 @@ fmt/81:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/82:
@@ -1249,6 +1274,7 @@ fmt/82:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/83:
@@ -1256,6 +1282,7 @@ fmt/83:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/84:
@@ -1263,6 +1290,7 @@ fmt/84:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/85:
@@ -1270,6 +1298,7 @@ fmt/85:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/90:
@@ -1288,6 +1317,7 @@ fmt/91:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .svg
 fmt/92:
@@ -1295,6 +1325,7 @@ fmt/92:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .svg
 fmt/95:
@@ -1313,6 +1344,7 @@ fmt/96:
     on_fail: action
   convert:
     tool: copy
+    output: copy
   extensions:
     - .htm
     - .html
@@ -1321,6 +1353,7 @@ fmt/98:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .htm
     - .html
@@ -1329,6 +1362,7 @@ fmt/99:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .htm
     - .html
@@ -1340,6 +1374,7 @@ fmt/100:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .htm
     - .html
@@ -1351,6 +1386,7 @@ fmt/101:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .xml
 fmt/102:
@@ -1358,6 +1394,7 @@ fmt/102:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .html
     - .htm
@@ -1518,6 +1555,7 @@ fmt/135:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .missing
 fmt/136:
@@ -1525,6 +1563,7 @@ fmt/136:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .odt
     - .ott
@@ -1533,6 +1572,7 @@ fmt/137:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .ods
     - .ots
@@ -1567,6 +1607,7 @@ fmt/155:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .tif
     - .tiff
@@ -1633,6 +1674,7 @@ fmt/206:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .sql
 fmt/208:
@@ -1702,6 +1744,7 @@ fmt/243:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .gpx
 fmt/244:
@@ -1780,6 +1823,7 @@ fmt/292:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .odp
     - .otp
@@ -1788,6 +1832,7 @@ fmt/293:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .odp
     - .otp
@@ -1796,6 +1841,7 @@ fmt/294:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .ods
     - .ots
@@ -1804,6 +1850,7 @@ fmt/295:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .ods
     - .ots
@@ -1888,6 +1935,7 @@ fmt/353:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .tif
     - .tiff
@@ -1931,6 +1979,7 @@ fmt/367:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .tfw
     - .jgw
@@ -1951,7 +2000,8 @@ fmt/387:
     tool: text
     output: txt
     options:
-      stripnull: true
+      text:
+        stripnull: true
   extensions:
     - .vcs
 fmt/388:
@@ -1959,6 +2009,7 @@ fmt/388:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .ics
 fmt/394:
@@ -2062,6 +2113,7 @@ fmt/433:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/434:
@@ -2077,6 +2129,7 @@ fmt/435:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/440:
@@ -2396,6 +2449,7 @@ fmt/532:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/548:
@@ -2626,6 +2680,7 @@ fmt/584:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .wmx
     - .wax
@@ -2851,6 +2906,7 @@ fmt/699:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .ifc
 fmt/704:
@@ -2858,6 +2914,7 @@ fmt/704:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .wav
 fmt/724:
@@ -2956,6 +3013,7 @@ fmt/817:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .json
 fmt/836:
@@ -2986,6 +3044,7 @@ fmt/864:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .3dm
 fmt/866:
@@ -3106,6 +3165,7 @@ fmt/950:
   action: extract
   convert:
     tool: copy
+    output: copy
   extract:
     tool: eml
     extension: .eml
@@ -3322,6 +3382,7 @@ fmt/1134:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .gpx
 fmt/1138:
@@ -3358,6 +3419,7 @@ fmt/1210:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .obj
 fmt/1216:
@@ -3537,6 +3599,7 @@ fmt/1367:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .json
 fmt/1369:
@@ -3552,6 +3615,7 @@ fmt/1389:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/1390:
@@ -3559,6 +3623,7 @@ fmt/1390:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/1391:
@@ -3566,6 +3631,7 @@ fmt/1391:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/1392:
@@ -3573,6 +3639,7 @@ fmt/1392:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/1393:
@@ -3580,6 +3647,7 @@ fmt/1393:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dxf
 fmt/1395:
@@ -3927,6 +3995,7 @@ fmt/1677:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .xml
 fmt/1711:
@@ -3977,6 +4046,7 @@ fmt/1754:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .odp
 fmt/1755:
@@ -3984,6 +4054,7 @@ fmt/1755:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .ods
 fmt/1756:
@@ -4161,6 +4232,7 @@ fmt/2082:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .3dm
 #################
@@ -4190,6 +4262,7 @@ x-fmt/13:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .tsv
     - .tab
@@ -4206,6 +4279,7 @@ x-fmt/18:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .csv
 x-fmt/30:
@@ -4280,6 +4354,7 @@ x-fmt/62:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .log
 x-fmt/64:
@@ -4331,6 +4406,7 @@ x-fmt/90:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .prn
 x-fmt/92:
@@ -4340,7 +4416,8 @@ x-fmt/92:
     tool: image
     output: png
     options:
-      layers: true
+      image:
+        layers: true
   extensions:
     - .psd
     - .pdd
@@ -4386,6 +4463,7 @@ x-fmt/111:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .txt
 x-fmt/114:
@@ -4534,6 +4612,7 @@ x-fmt/224:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .css
 x-fmt/225:
@@ -4788,6 +4867,7 @@ x-fmt/315:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .dtd
 x-fmt/321:
@@ -5119,6 +5199,7 @@ x-fmt/426:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .lic
 x-fmt/427:
@@ -5156,6 +5237,7 @@ x-fmt/430:
     on_success: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .msg
     - .oft
@@ -5167,6 +5249,7 @@ x-fmt/432:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .3dm
 x-fmt/433:
@@ -5177,6 +5260,7 @@ x-fmt/433:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .3dm
 x-fmt/434:
@@ -5187,6 +5271,7 @@ x-fmt/434:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .3dm
 x-fmt/435:
@@ -5197,6 +5282,7 @@ x-fmt/435:
   action: convert
   convert:
     tool: copy
+    output: copy
   extensions:
     - .3dm
 x-fmt/441:
