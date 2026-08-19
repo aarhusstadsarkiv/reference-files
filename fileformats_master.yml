@@ -67,6 +67,9 @@
     output: html
   statutory:
     tool: msg
+    via:
+      - - html
+        - pdf
     output: tif
 '!gis':
   access:
