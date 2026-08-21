@@ -3068,7 +3068,7 @@ fmt/881:
   action: convert
   convert:
     tool: mdi
-    output: tif
+    output: tiff
   extensions:
     - .mdi
 fmt/885:

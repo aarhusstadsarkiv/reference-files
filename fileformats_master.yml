@@ -6,7 +6,7 @@
     output: jpg
   statutory:
     tool: image
-    output: tif
+    output: tiff
 '!image (vector)':
   name: Svg files
   access:
@@ -14,7 +14,7 @@
     output: copy
   statutory:
     tool: html
-    output: tif
+    output: tiff
 '!page description':
   name: PDF files
   access:
@@ -22,7 +22,7 @@
     output: copy
   statutory:
     tool: pdf
-    output: tif
+    output: tiff
 '!word processor':
   name: odt
   access:
@@ -30,7 +30,7 @@
     output: pdf
   statutory:
     tool: document
-    output: tif
+    output: tiff
 '!spreadsheet':
   name: Open Document Spreadsheet
   access:
@@ -38,7 +38,7 @@
     output: html
   statutory:
     tool: document
-    output: tif
+    output: tiff
 '!audio':
   name: .mp3 files
   access:
@@ -60,7 +60,7 @@
     output: html
   statutory:
     tool: document
-    output: tif
+    output: tiff
 '!email':
   access:
     tool: msg
@@ -70,7 +70,7 @@
     via:
       - - html
         - pdf
-    output: tif
+    output: tiff
 '!gis':
   access:
     tool: copy
@@ -84,35 +84,35 @@
     output: svg
   statutory:
     tool: cad
-    output: tif
+    output: tiff
 '!presentation':
   access:
     tool: document
     output: pdf
   statutory:
     tool: document
-    output: tif
+    output: tiff
 '!text (mark-up)':
   access:
     tool: copy
     output: copy
   statutory:
     tool: text
-    output: tif
+    output: tiff
 '!text (structured)':
   access:
     tool: copy
     output: copy
   statutory:
     tool: text
-    output: tif
+    output: tiff
 '!text (unstructured)':
   access:
     tool: copy
     output: copy
   statutory:
     tool: text
-    output: tif
+    output: tiff
 '!ext=.flac':
   access:
     tool: audio
@@ -137,7 +137,7 @@ fmt/96:
     output: copy
   statutory:
     tool: html
-    output: tif
+    output: tiff
 fmt/98:
   name: Hypertext Markup Language
   access:
@@ -145,7 +145,7 @@ fmt/98:
     output: copy
   statutory:
     tool: html
-    output: tif
+    output: tiff
 fmt/99:
   name: Hypertext Markup Language
   access:
@@ -153,7 +153,7 @@ fmt/99:
     output: copy
   statutory:
     tool: html
-    output: tif
+    output: tiff
 fmt/100:
   name: Hypertext Markup Language
   access:
@@ -161,7 +161,7 @@ fmt/100:
     output: copy
   statutory:
     tool: html
-    output: tif
+    output: tiff
 fmt/353:
   name: Tagged Image File Format (tif)
   access:
@@ -169,7 +169,7 @@ fmt/353:
     output: pdf
   statutory:
     tool: image
-    output: tif
+    output: tiff
 fmt/950:
   name: MIME Email 1.0
   access:
@@ -180,7 +180,7 @@ fmt/950:
     via:
       - - eml
         - html
-    output: tif
+    output: tiff
 x-fmt/111:
   name: Plain Text File
   access:
@@ -188,7 +188,7 @@ x-fmt/111:
     output: copy
   statutory:
     tool: text
-    output: tif
+    output: tiff
 
 # Custom puids
 aca-fmt/29:
