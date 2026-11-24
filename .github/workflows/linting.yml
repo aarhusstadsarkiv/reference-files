@@ -3,9 +3,9 @@ name: Linting
 on:
   push:
     paths:
-      - '**.json'
-      - '**.yml'
-      - '**.yaml'
+      - "**.json"
+      - "**.yml"
+      - "**.yaml"
 
 env:
   PYTHON_VERSION: 3.13.14
